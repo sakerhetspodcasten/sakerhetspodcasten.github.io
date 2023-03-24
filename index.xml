@@ -1,0 +1,94 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/</link>
+        <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Mar 2023 09:55:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Säkerhetspodcasten #236 - Ostrukturerat V.12</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_236_ostrukturerat_v_12/</link>
+    <pubDate>Mon, 20 Mar 2023 09:55:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_236_ostrukturerat_v_12/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 53:58 Innehåll I dagens avsnitt diskuterar vi följande ämnen:
+Vi är hackade! Chat Control, bl.a. Mullvad artikel Aging Circuits TPM 2.0 sårbarheter - Read out of bounds, write out of bounds Off topic: meme-metallen Tungsten Länkar Chat Control
+Mullvad: Stoppa Chat control Aging Circuits
+Semiconductor Engineering: Uneven Circuit Aging Becoming A Bigger Problem Halvar Flake om att detta är kul TPM
+Quarkslab: Vulnerabilities in the TPM 2.0 reference implementation code Serious Security: TPM 2.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #235 - Ostrukturerat V.9</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_235_ostrukturerat_v_9/</link>
+    <pubDate>Mon, 27 Feb 2023 13:29:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_235_ostrukturerat_v_9/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:03:25 Innehåll Panelen diskuterar den senaste tidens nyheter, både säkerhetsrelaterat och lite off-topic.
+Off-Topic Kina, Ballonger, Sidewinder Legal Eagle, Chinese Spy Balloon: Legal To Shoot Down? POV: Sidewinder missile has locked on to you South-West Travel Codex: The Southwest Airlines Meltdown, What Really Happened blancolirio: The Largest Airline Meltdown in Aviation History! 29 Dec 2022 Mentour Now!: This Caused the Southwest Airlines Christmas Meltdown NoTAM blancolirio: FAA NOTAM Outage!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #234 - Nyår 2022</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</link>
+    <pubDate>Mon, 06 Feb 2023 10:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:07:48 Innehåll I årets traditionsenliga Nyårsavsnitt går vi igenom förra årets spaningar och hittar på nya spådomar för det kommande året.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #233 - Ostrukturerat V.3</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_233_ostrukturerat_v_3/</link>
+    <pubDate>Sat, 21 Jan 2023 13:54:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_233_ostrukturerat_v_3/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:10:16 Innehåll Panelen pratar om att CircleCI är ägt och tappat bort sina hemligheter - men även LastPass roar sig med sådant! AWS Elastic Container Registry Public (ECR Public) läckte privata containers men problemet tros hittats av vitmössor innan svarhattarna var framme. Auth0 jsonwebtoken rättar massa buggar och rapporteringen om det är komplett kaos i flera olika forum med flera sammanblandningar. RSA kan knäckas av en &ldquo;liten&rdquo; kvantdator som kör Schnorrs algoritm.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #232 - Jul 2022</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_232_jul_2022/</link>
+    <pubDate>Mon, 09 Jan 2023 09:38:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_232_jul_2022/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 31:27 Innehåll I dagens något försenade avsnitt diskuterar vi allt lite allt möjligt. Bland annat vilka planer vi har för mellandagarna, tips på läsning och annat kul.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #231 - Ostrukturerat V.51</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_231_ostrukturerat_v_51/</link>
+    <pubDate>Mon, 19 Dec 2022 13:23:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_231_ostrukturerat_v_51/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:08 Innehåll I dagens luciaavsnitt går vi igenom den senaste tidens nyheter. Bland annat diskuteras angrepp mot franska sjukhus och svenska folkhälsomyndigheten samt Softronic, en snygg WAF bypass och en tråkig sårbarhet i Fortinets brandväggar.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #230 - Testa nya saker</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_230_testa_nya_saker/</link>
+    <pubDate>Mon, 28 Nov 2022 11:37:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_230_testa_nya_saker/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:10:03 Innehåll I dagens avsnitt diskuterar panelen hur man bör tänka när man ska angripa ett nytt och okänt mål. Vilka penteststandarder kan vara till hjälp? Hur ska man lägga upp sin metodik? Vad är viktigt att tänka på så att man inte missar något? Detta och mycket mer.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #229 - Ostrukturerat V.46</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_229_ostrukturerat_v_46/</link>
+    <pubDate>Mon, 14 Nov 2022 09:41:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_229_ostrukturerat_v_46/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:16:48 Innehåll Vi firar tio år! Det gör vi som sig bör med både öl och champagne (tack Onevinn!) och en genomgång av den senaste tidens säkerhetsnyheter.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #228 - Sec-T Community Night 2022</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_228_sec_t_community_night_2022/</link>
+    <pubDate>Mon, 31 Oct 2022 09:49:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_228_sec_t_community_night_2022/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:04 Innehåll I dagens avsnitt släpper vi ett gäng intervjuer inspelade under Sec-Ts community night 2022.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #227 - Ostrukturerat V.42</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_227_ostrukturerat_v_42/</link>
+    <pubDate>Mon, 17 Oct 2022 11:48:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_227_ostrukturerat_v_42/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:07 Innehåll Vi är tillbaka! I dagens avsnitt diskuterar vi Sec-T 2022 och går igenom den senaste tidens nyheter, bland annat problem för Uber och Toyota, hur två italienare cache-poisonade Akamai, varför CIA driver fotbolls-sajter och mycket mer.]]></description>
+</item>
+</channel>
+</rss>

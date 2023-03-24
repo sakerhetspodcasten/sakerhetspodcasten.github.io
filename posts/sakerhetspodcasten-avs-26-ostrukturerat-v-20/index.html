@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Säkerhetspodcasten avs.26 - Ostrukturerat V.20 - Säkerhetspodcasten</title><meta name="Description" content="Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet"><meta property="og:title" content="Säkerhetspodcasten avs.26 - Ostrukturerat V.20" />
+<meta property="og:description" content="Lyssna iTunes | mp3
+Innehåll Detta är det tjugosjätte avsnittet av Säkerhetspodcasten, i vilket panelen diskuterar Heartbleed, den senaste IE buggen, hur man stänger ned flygtrafiken med en integer overflow och mycket mer.
+Inspelat: 2014-05-07. Längd: 49:33.
+Länkar Ballmer Peak
+Heartbleed
+OpenSSL&#39;s nyårscommit med heartbeat sårbarheten
+Förklaring av malloc, heap och sådant
+Revocation Still Doesn&#39;t Work
+FireEye om IE9-11 exploit (uppdaterades senare med info om Windows XP variant )
+Krisinformation om IE exploitet" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-26-ostrukturerat-v-20/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-05-15T19:40:51+00:00" />
+<meta property="article:modified_time" content="2018-09-26T08:31:21+00:00" /><meta property="og:site_name" content="Säkerhetspodcasten" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Säkerhetspodcasten avs.26 - Ostrukturerat V.20"/>
+<meta name="twitter:description" content="Lyssna iTunes | mp3
+Innehåll Detta är det tjugosjätte avsnittet av Säkerhetspodcasten, i vilket panelen diskuterar Heartbleed, den senaste IE buggen, hur man stänger ned flygtrafiken med en integer overflow och mycket mer.
+Inspelat: 2014-05-07. Längd: 49:33.
+Länkar Ballmer Peak
+Heartbleed
+OpenSSL&#39;s nyårscommit med heartbeat sårbarheten
+Förklaring av malloc, heap och sådant
+Revocation Still Doesn&#39;t Work
+FireEye om IE9-11 exploit (uppdaterades senare med info om Windows XP variant )
+Krisinformation om IE exploitet"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-26-ostrukturerat-v-20/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-25-bodrum-turkiet/" /><link rel="next" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-27-hackergrupper/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Säkerhetspodcasten avs.26 - Ostrukturerat V.20",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten-avs-26-ostrukturerat-v-20\/"
+        },"genre": "posts","wordcount":  163 ,
+        "url": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten-avs-26-ostrukturerat-v-20\/","datePublished": "2014-05-15T19:40:51+00:00","dateModified": "2018-09-26T08:31:21+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Pods </a><a class="menu-item" href="/pages/lyssna" title="Lyssna"> Lyssna! </a><a class="menu-item" href="/pages/kontakt" title="kontakt"> Kontakt </a><a class="menu-item" href="/pages/panelen" title="panelen"> Panelen </a><a class="menu-item" href="/pages/supportersida-2" title="supporters"> Supporters </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Pods</a><a class="menu-item" href="/pages/lyssna" title="Lyssna">Lyssna!</a><a class="menu-item" href="/pages/kontakt" title="kontakt">Kontakt</a><a class="menu-item" href="/pages/panelen" title="panelen">Panelen</a><a class="menu-item" href="/pages/supportersida-2" title="supporters">Supporters</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Säkerhetspodcasten avs.26 - Ostrukturerat V.20</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2014-05-15">2014-05-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;163 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lyssna">Lyssna</a></li>
+    <li><a href="#innehåll">Innehåll</a></li>
+    <li><a href="#länkar">Länkar</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="lyssna">Lyssna</h2>
+<p>iTunes | <a href="http://traffic.libsyn.com/sakerhetspodcasten/SakerhetspodcastenOstrukturerad20140507-mix2-3.mp3" target="_blank" rel="noopener noreffer ">mp3</a></p>
+<h2 id="innehåll">Innehåll</h2>
+<p>Detta är det tjugosjätte avsnittet av Säkerhetspodcasten, i vilket panelen diskuterar
+Heartbleed, den senaste IE buggen, hur man stänger ned flygtrafiken med en integer
+overflow och mycket mer.</p>
+<p>Inspelat: 2014-05-07. Längd: 49:33.</p>
+<h2 id="länkar">Länkar</h2>
+<ul>
+<li>
+<p><a href="http://xkcd.com/323/" target="_blank" rel="noopener noreffer ">Ballmer Peak</a></p>
+</li>
+<li>
+<p><a href="http://heartbleed.com/" target="_blank" rel="noopener noreffer ">Heartbleed</a></p>
+</li>
+<li>
+<p><a href="https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=4817504d069b4c5082161b02a22116ad75f822b1" target="_blank" rel="noopener noreffer ">OpenSSL's nyårscommit med heartbeat sårbarheten</a></p>
+</li>
+<li>
+<p><a href="http://en.wikipedia.org/wiki/C_dynamic_memory_allocation" target="_blank" rel="noopener noreffer ">Förklaring av malloc, heap och sådant</a></p>
+</li>
+<li>
+<p><a href="https://www.imperialviolet.org/2014/04/29/revocationagain.html" target="_blank" rel="noopener noreffer ">Revocation Still Doesn't Work</a></p>
+</li>
+<li>
+<p><a href="http://www.fireeye.com/blog/uncategorized/2014/04/new-zero-day-exploit-targeting-internet-explorer-versions-9-through-11-identified-in-targeted-attacks.html" target="_blank" rel="noopener noreffer ">FireEye om IE9-11 exploit</a>  (uppdaterades senare med info om <a href="http://www.fireeye.com/blog/technical/targeted-attack/2014/05/operation-clandestine-fox-now-attacking-windows-xp-using-recently-discovered-ie-vulnerability.html" target="_blank" rel="noopener noreffer ">Windows XP variant</a> )</p>
+</li>
+<li>
+<p><a href="http://www.krisinformation.se/web/Pages/NewsPage____75419.aspx" target="_blank" rel="noopener noreffer ">Krisinformation om IE exploitet</a></p>
+</li>
+<li>
+<p><a href="http://www.nbcnews.com/news/investigations/spy-plane-fries-air-traffic-control-computers-shuts-down-lax-n95886" target="_blank" rel="noopener noreffer ">U2 Spionflygplan på nästan 70.000 fot stänger ner LA luftutrymmet</a> .</p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=7691583" target="_blank" rel="noopener noreffer ">65536 for teorin och en alternativ 62000 fot teori diskuteras här</a> .</p>
+</li>
+<li>
+<p><a href="http://www.pwntester.com/blog/2014/04/24/struts2-0day-in-the-wild/" target="_blank" rel="noopener noreffer ">Bloggpost om den trasiga Struts fixen mot classloader exploits</a></p>
+</li>
+<li>
+<p>Exempel på hur Stackoverflow och dylika forum diskuterar <a href="http://stackoverflow.com/questions/25570391/turning-off-ognl-warnings-in-struts2" target="_blank" rel="noopener noreffer ">hur man ändrar Struts2 vitlistorna, utan att verka ha en aníng om vad de gör</a> .</p>
+</li>
+<li>
+<p><a href="http://www.forbes.com/sites/clareoconnor/2014/05/05/target-ceo-gregg-steinhafel-resigns-in-wake-of-data-breach-fallout/" target="_blank" rel="noopener noreffer ">Target CEO lämnar bolaget</a> .</p>
+</li>
+<li>
+<p><a href="http://www.libressl.org/" target="_blank" rel="noopener noreffer ">libressl</a>  (aka libress the best a man can get), <a href="http://opensslrampage.org/" target="_blank" rel="noopener noreffer ">Valhalla Rampage</a> , <a href="https://twitter.com/OpenSSLFact" target="_blank" rel="noopener noreffer ">OpenSSLFacts</a></p>
+</li>
+<li>
+<p><a href="http://kodsnack.se/46/" target="_blank" rel="noopener noreffer ">Kodsnack 46 - Korthuset vinglar</a></p>
+</li>
+<li>
+<p><a href="http://kodsnack.se/48/" target="_blank" rel="noopener noreffer ">Kodsnack 48 - Ragefork</a></p>
+</li>
+<li>
+<p><a href="http://support.microsoft.com/kb/2458544" target="_blank" rel="noopener noreffer ">EMET The Enhanced Exploit Mitigation Experience Toolkit</a></p>
+</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2018-09-26</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/sakerhetspodcasten-avs-25-bodrum-turkiet/" class="prev" rel="prev" title="Säkerhetspodcasten avs.25 - Bodrum, Turkiet"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Säkerhetspodcasten avs.25 - Bodrum, Turkiet</a>
+            <a href="/posts/sakerhetspodcasten-avs-27-hackergrupper/" class="next" rel="next" title="Säkerhetspodcasten avs.27 - Hackergrupper">Säkerhetspodcasten avs.27 - Hackergrupper<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
