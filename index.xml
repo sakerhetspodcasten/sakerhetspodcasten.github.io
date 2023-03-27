@@ -3,19 +3,24 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Mar 2023 09:55:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Mar 2023 11:34:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #237 - Jobba i säkerhetsbranschen</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_237_jobba_i_sakerhetsbranschen/</link>
+    <pubDate>Mon, 27 Mar 2023 11:34:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_237_jobba_i_sakerhetsbranschen/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:17 Innehåll I dagens podcast diskuterar panelen hur man kan göra för att slå sig in i säkerhetsbranschen. ]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #236 - Ostrukturerat V.12</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_236_ostrukturerat_v_12/</link>
     <pubDate>Mon, 20 Mar 2023 09:55:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_236_ostrukturerat_v_12/</guid>
     <description><![CDATA[Lyssna mp3, längd: 53:58 Innehåll I dagens avsnitt diskuterar vi följande ämnen:
-Vi är hackade! Chat Control, bl.a. Mullvad artikel Aging Circuits TPM 2.0 sårbarheter - Read out of bounds, write out of bounds Off topic: meme-metallen Tungsten Länkar Chat Control
-Mullvad: Stoppa Chat control Aging Circuits
-Semiconductor Engineering: Uneven Circuit Aging Becoming A Bigger Problem Halvar Flake om att detta är kul TPM
-Quarkslab: Vulnerabilities in the TPM 2.0 reference implementation code Serious Security: TPM 2.]]></description>
+Vi är hackade! Chat Control, bl.a. Mullvad artikel Aging Circuits TPM 2.0 sårbarheter - Read out of bounds, write out of bounds Off topic: meme-metallen Tungsten Chat Control Mullvad: Stoppa Chat control Aging Circuits Semiconductor Engineering: Uneven Circuit Aging Becoming A Bigger Problem Halvar Flake om att detta är kul TPM Quarkslab: Vulnerabilities in the TPM 2.0 reference implementation code Serious Security: TPM 2.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #235 - Ostrukturerat V.9</title>
@@ -56,7 +61,8 @@ Off-Topic Kina, Ballonger, Sidewinder Legal Eagle, Chinese Spy Balloon: Legal To
     <pubDate>Mon, 19 Dec 2022 13:23:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_231_ostrukturerat_v_51/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:08 Innehåll I dagens luciaavsnitt går vi igenom den senaste tidens nyheter. Bland annat diskuteras angrepp mot franska sjukhus och svenska folkhälsomyndigheten samt Softronic, en snygg WAF bypass och en tråkig sårbarhet i Fortinets brandväggar.]]></description>
+    <description><![CDATA[Lyssna mp3, längd: 46:08 Innehåll I dagens luciaavsnitt går vi igenom den senaste tidens nyheter. Bland annat diskuteras angrepp mot franska sjukhus och svenska folkhälsomyndigheten samt Softronic, en snygg WAF bypass och en tråkig sårbarhet i Fortinets brandväggar.
+Memcached UDP DDoS Cloudflare: What is a memcached DDoS attack? JSON SQL Injection PortSwigger: JSON syntax hack allowed SQL injection payloads to be smuggled past WAFs Folkhälsomyndigheten Sminet Dagens Nyheter: Folkhälsomyndigheten hackades – falsk covidpatient lades till i smittodatabas Linus Larsson: Trusec - 1.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #230 - Testa nya saker</title>
@@ -81,14 +87,6 @@ Off-Topic Kina, Ballonger, Sidewinder Legal Eagle, Chinese Spy Balloon: Legal To
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_228_sec_t_community_night_2022/</guid>
     <description><![CDATA[Lyssna mp3, längd: 46:04 Innehåll I dagens avsnitt släpper vi ett gäng intervjuer inspelade under Sec-Ts community night 2022.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #227 - Ostrukturerat V.42</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_227_ostrukturerat_v_42/</link>
-    <pubDate>Mon, 17 Oct 2022 11:48:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_227_ostrukturerat_v_42/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:12:07 Innehåll Vi är tillbaka! I dagens avsnitt diskuterar vi Sec-T 2022 och går igenom den senaste tidens nyheter, bland annat problem för Uber och Toyota, hur två italienare cache-poisonade Akamai, varför CIA driver fotbolls-sajter och mycket mer.]]></description>
 </item>
 </channel>
 </rss>
