@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Apr 2023 09:39:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 14:35:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #239 - Protokoll</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_239_protokoll/</link>
+    <pubDate>Mon, 01 May 2023 14:35:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_239_protokoll/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:01:05 Innehåll I dagens avsnitt diskuterar vi såna där protokoll som andra poddar sällan pratar om.
+Plugs SecurityFest Tillitis / TKey Inspiration LiveOverflows video som var en av inspirationskällorna till detta avsnitt.
+LiveOverflow: What is a Protocol? (Deepdive) Meta samt off-topic OSI modellen IPv4 från 1980 IMParna! från 1975 Det klasslösa samhället (CIDR) Galileo Saturnus Anagram Tang Homomorphic encryption Dining philosophers Protokollen vi pratade om RNRP Redundant Networking Protocol ABB: Redundant Network Routing Protocol RNRP Blinding protocols Blinding Blind signatur Kryptografer som skall äta mat David Chaum APOP POP3 med APOP MD5 trasigt 1996 HMAC - bygga säkrare och nycklade hashar utifrån en vanlig hash HTTP Digest Authentication - när man tänkt lite längre!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #238 - Ostrukturerat V.16</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_238_ostrukturerat_v_16/</link>
     <pubDate>Mon, 17 Apr 2023 09:39:00 &#43;0000</pubDate>
@@ -82,14 +92,6 @@ Memcached UDP DDoS Cloudflare: What is a memcached DDoS attack? JSON SQL Injecti
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_230_testa_nya_saker/</guid>
     <description><![CDATA[Lyssna mp3, längd: 01:10:03 Innehåll I dagens avsnitt diskuterar panelen hur man bör tänka när man ska angripa ett nytt och okänt mål. Vilka penteststandarder kan vara till hjälp? Hur ska man lägga upp sin metodik? Vad är viktigt att tänka på så att man inte missar något? Detta och mycket mer.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #229 - Ostrukturerat V.46</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_229_ostrukturerat_v_46/</link>
-    <pubDate>Mon, 14 Nov 2022 09:41:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_229_ostrukturerat_v_46/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:16:48 Innehåll Vi firar tio år! Det gör vi som sig bör med både öl och champagne (tack Onevinn!) och en genomgång av den senaste tidens säkerhetsnyheter.]]></description>
 </item>
 </channel>
 </rss>
