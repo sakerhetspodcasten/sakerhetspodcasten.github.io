@@ -3,7 +3,16 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 14:35:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 May 2023 15:15:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #240 - Ostrukturerat V.21</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_240_ostrukturerat_v_21/</link>
+    <pubDate>Tue, 23 May 2023 15:15:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_240_ostrukturerat_v_21/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 48:21 Innehåll I dagens avsnitt diskuterar vi följande ämnen:
+Rickard dementerar Hotmodeller Apple Rapid Security Response Skolplatformen LLM Backdoors Off-topic: Glitchtoken Equifax skandalen lever vidare ]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #239 - Protokoll</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_239_protokoll/</link>
     <pubDate>Mon, 01 May 2023 14:35:00 &#43;0000</pubDate>
@@ -84,14 +93,6 @@ Off-Topic Kina, Ballonger, Sidewinder Legal Eagle, Chinese Spy Balloon: Legal To
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_231_ostrukturerat_v_51/</guid>
     <description><![CDATA[Lyssna mp3, längd: 46:08 Innehåll I dagens luciaavsnitt går vi igenom den senaste tidens nyheter. Bland annat diskuteras angrepp mot franska sjukhus och svenska folkhälsomyndigheten samt Softronic, en snygg WAF bypass och en tråkig sårbarhet i Fortinets brandväggar.
 Memcached UDP DDoS Cloudflare: What is a memcached DDoS attack? JSON SQL Injection PortSwigger: JSON syntax hack allowed SQL injection payloads to be smuggled past WAFs Folkhälsomyndigheten Sminet Dagens Nyheter: Folkhälsomyndigheten hackades – falsk covidpatient lades till i smittodatabas Linus Larsson: Trusec - 1.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #230 - Testa nya saker</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_230_testa_nya_saker/</link>
-    <pubDate>Mon, 28 Nov 2022 11:37:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_230_testa_nya_saker/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:10:03 Innehåll I dagens avsnitt diskuterar panelen hur man bör tänka när man ska angripa ett nytt och okänt mål. Vilka penteststandarder kan vara till hjälp? Hur ska man lägga upp sin metodik? Vad är viktigt att tänka på så att man inte missar något? Detta och mycket mer.]]></description>
 </item>
 </channel>
 </rss>
