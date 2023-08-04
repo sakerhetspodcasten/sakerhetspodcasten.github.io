@@ -3,7 +3,15 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Jun 2023 09:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2023 08:15:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #244 - Ostrukturerat V.31</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_244_ostrukturerat_v_31/</link>
+    <pubDate>Mon, 31 Jul 2023 08:15:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_244_ostrukturerat_v_31/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 55:39 Rolling shutter video cryptoanalys Ben Nassi: Video-based Cryptanalysis Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device’s Power LED - akademiskt papper arstechnica: Hackers can steal cryptographic keys by video-recording power LEDs 60 feet away Ny ios rapid security response Naked Security: Apple silently pulls its latest zero-day update – what now? Microsoft revokar exploit / malware drivers Sophos: Microsoft Revokes Malicious Drivers in Patch Tuesday Culling Microsoft KB5029033: Notice of additions to the Windows Driver.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #243 - SecurityFest 2023</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_243_securityfest_2023/</link>
     <pubDate>Wed, 28 Jun 2023 09:45:00 &#43;0000</pubDate>
@@ -87,14 +95,6 @@ Vi är hackade! Chat Control, bl.a. Mullvad artikel Aging Circuits TPM 2.0 sårb
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_235_ostrukturerat_v_9/</guid>
     <description><![CDATA[Lyssna mp3, längd: 01:03:25 Innehåll Panelen diskuterar den senaste tidens nyheter, både säkerhetsrelaterat och lite off-topic.
 Off-Topic Kina, Ballonger, Sidewinder Legal Eagle, Chinese Spy Balloon: Legal To Shoot Down? POV: Sidewinder missile has locked on to you South-West Travel Codex: The Southwest Airlines Meltdown, What Really Happened blancolirio: The Largest Airline Meltdown in Aviation History! 29 Dec 2022 Mentour Now!: This Caused the Southwest Airlines Christmas Meltdown NoTAM blancolirio: FAA NOTAM Outage!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #234 - Nyår 2022</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</link>
-    <pubDate>Mon, 06 Feb 2023 10:07:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:07:48 Innehåll I årets traditionsenliga Nyårsavsnitt går vi igenom förra årets spaningar och hittar på nya spådomar för det kommande året.]]></description>
 </item>
 </channel>
 </rss>
