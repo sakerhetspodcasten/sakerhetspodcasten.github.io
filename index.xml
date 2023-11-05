@@ -3,20 +3,21 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Oct 2023 12:41:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Oct 2023 13:41:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Säkerhetspodcasten #249 - Ostrukturerat V.43</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</link>
-    <pubDate>Mon, 23 Oct 2023 12:41:00 &#43;0000</pubDate>
+    <pubDate>Mon, 23 Oct 2023 13:41:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 36:37 Innehåll I dagens avsnitt går vi igenom den senaste tidens nyheter.]]></description>
+    <description><![CDATA[Lyssna mp3, längd: 36:37 Innehåll I dagens avsnitt går vi igenom den senaste tidens nyheter:
+Curl: Massa nyheter! CVE-2020-19909 is everything that is wrong with CVEs CVE-2023-38545 SOCKS5 heap buffer overflow Bard AI fabuleringar ChatControl förseningar .cue filer exploiterar libcue säkerhetshål i Ubuntu och GNOME Inbillade säkerhetshål i Signal Cisco IOS XE under attack, implantat över allt! D-Link command injection, SSID Olaf's Network bryter sig ut till sh shell&hellip; Massa nyheter om Curl!]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
-    <pubDate>Mon, 16 Oct 2023 08:28:00 &#43;0000</pubDate>
+    <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</guid>
     <description><![CDATA[Lyssna mp3, längd: 01:44:56 Innehåll I dagens avsnitt bjuder vi på intervjuer med talare från årets upplaga av Sec-T!
