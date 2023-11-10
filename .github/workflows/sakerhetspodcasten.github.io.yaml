@@ -1,4 +1,4 @@
-name: Regenerate Public (using Hugo)
+name: hugo at sakerhetspodcasten.github.io
 on:
   workflow_dispatch:
   schedule:
@@ -38,7 +38,7 @@ jobs:
          run: |
             set -e
             rm -rf -- self/*
-            cp -r ../www-hugo/public/* self/
+            cp -r -- www-hugo/public/* self/
             cd self
             if [[ -z `git status --porcelain=v2` ]]
             then
