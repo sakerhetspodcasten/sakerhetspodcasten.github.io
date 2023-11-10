@@ -1,0 +1,52 @@
+name: Regenerate Public (using Hugo)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 13 * * WED" # 13:37
+
+permissions:
+  contents: write
+
+env:
+  HUGO_VERSION: 0.110.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -  name: Clone myself into self
+         uses: actions/checkout@v3
+         with:
+           path: self
+      -  name: Clone www-hugo
+         run: git clone https://github.com/sakerhetspodcasten/www-hugo.git
+      -  name: Clone LoveIt Hugo theme
+         run: mkdir -p www-hugo/themes; git clone https://github.com/sakerhetspodcasten/www-hugo-theme-LoveIt.git www-hugo/themes/LoveIt
+      -  name: Clone www-migrate
+         run: git clone https://github.com/sakerhetspodcasten/www-migrate.git
+      -  name: migrate latest from lib-syn
+         run: |
+            pip3 install -r www-migrate/requirements.txt
+            python3 www-migrate/rss/import.rss.py --dir www-hugo/content/posts --url https://sakerhetspodcasten.libsyn.com/rss
+      -  name: Download Hugo
+         run: wget https://github.com/gohugoio/hugo/releases/download/v${{env.HUGO_VERSION}}/hugo_extended_${{env.HUGO_VERSION}}_linux-amd64.deb
+      -  name: install hugo
+         run: sudo apt install ./hugo_extended_${{env.HUGO_VERSION}}_linux-amd64.deb
+      -  name: run hugo
+         run: cd www-hugo; hugo
+      -  name: Commit and push
+         run: |
+            set -e
+            rm -rf -- self/*
+            cp -r ../www-hugo/public/* self/
+            cd self
+            if [[ -z `git status --porcelain=v2` ]]
+            then
+              echo "Branch is clean, nothing to push"
+            else
+              git config user.name github-actions
+              git config user.email github-actions@github.com
+              git add .
+              git commit -m "Generated commit"
+              git push
+            fi
