@@ -3,7 +3,16 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Nov 2023 13:27:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 09:35:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #251 - Ostrukturerat V.46</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/</link>
+    <pubDate>Mon, 13 Nov 2023 09:35:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 37:15 Innehåll I dagens avsnitt går panelen igenom den senaste tidens nyheter.
+Plugs SecurityFest CFP - skicka in ett förslag för vad du pratar om Maj 30-31, 2024. hack.gbgay.com - Queer / LGBTQIA+ träff om säkerhet, 2:a Mars 2024. Meetup.com OWASP Gothenburg: OAuth2 and Offensive Security - December 6, 2023 How to f*ck up at OAuth2 while following BCPs, Pontus Hanssen, Tobias Ahnoff. Pentesting War Stories, Emilie Barse.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #250 - DevSecOps</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</link>
     <pubDate>Mon, 06 Nov 2023 13:27:00 &#43;0000</pubDate>
@@ -89,15 +98,6 @@ How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_242_ostrukturerat_v_24/</guid>
     <description><![CDATA[Lyssna mp3, längd: 56:38 Innehåll I dagens ostrukurerade avsnitt diskuterar vi lite ransomware-attacker, massiva fuckups hos Toyota, hur angripare drar nytta av ChatGPTs hallucinationer och mycket mer.
 Malware: Operation Triangulation SecureList Operation Triangulation: iOS devices targeted with previously unknown malware Brickar iOS förmåga att ta hem nya säkerhetsuppdateringar iMessage ZeroClick installationsvektor Riktade attacker mot bl.a. Kaspersky management Texter i domänaddresser m.m. känns NSA-iga Utvecklat av Weebs, det finns anime-referenser i malwaret!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #241 - Chat Control</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_241_chat_control/</link>
-    <pubDate>Thu, 08 Jun 2023 08:49:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_241_chat_control/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:20:20 Innehåll I dagens avsnitt diskuterar panelen det nya lagförslaget Chat Control.
-Länkar Femtejuji podden - avsnitt om chatcontrol Många bra länkar om du vill höra vad förespråkarna och kritikerna själva säger. Femtejuli podden - länkar om chatcontrol Lagförslaget eur-lex.europa.eu Statement from Attorney General William P. Barr on Introduction of Lawful Access Bill in Senate USA&rsquo;s föreslag från 2020 att avskaffa kryptering / säker kommunikation. Crypto Wars wikipedias index över olika länder, regeringar och myndigheter som förslår att avskaffa kryptering / säker kommunikation.]]></description>
 </item>
 </channel>
 </rss>
