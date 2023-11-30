@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Säkerhetspodcasten #252 - CVSS 4.0 - Säkerhetspodcasten</title><meta name="Description" content="Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet"><meta property="og:title" content="Säkerhetspodcasten #252 - CVSS 4.0" />
+<meta property="og:description" content="Lyssna mp3, längd: 55:39 Innehåll I dagens avsnitt diskuterar vi den nya versionen av Common Vulnerability Scoring System (CVSS), vad är nytt, vad har försvunnit, vad är bra, vad är dåligt?
+Plugs securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA&#43;&rdquo;. Länkar CVSS 4.0 Released: The king is dead, long live the king! - Peter bloggar om CVSS. CVSS 4.0 Specification (first.org) CVSS 3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-29T14:49:00+00:00" />
+<meta property="article:modified_time" content="2023-11-29T14:49:00+00:00" /><meta property="og:site_name" content="Säkerhetspodcasten" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Säkerhetspodcasten #252 - CVSS 4.0"/>
+<meta name="twitter:description" content="Lyssna mp3, längd: 55:39 Innehåll I dagens avsnitt diskuterar vi den nya versionen av Common Vulnerability Scoring System (CVSS), vad är nytt, vad har försvunnit, vad är bra, vad är dåligt?
+Plugs securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA&#43;&rdquo;. Länkar CVSS 4.0 Released: The king is dead, long live the king! - Peter bloggar om CVSS. CVSS 4.0 Specification (first.org) CVSS 3."/>
+<meta name="application-name" content="Säkerhetspodcasten">
+<meta name="apple-mobile-web-app-title" content="Säkerhetspodcasten"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Säkerhetspodcasten #252 - CVSS 4.0",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_252_cvss_4_0\/"
+        },"genre": "posts","wordcount":  317 ,
+        "url": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_252_cvss_4_0\/","datePublished": "2023-11-29T14:49:00+00:00","dateModified": "2023-11-29T14:49:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Pods </a><a class="menu-item" href="/pages/lyssna" title="Lyssna"> Lyssna! </a><a class="menu-item" href="/pages/kontakt" title="kontakt"> Kontakt </a><a class="menu-item" href="/pages/panelen" title="panelen"> Panelen </a><a class="menu-item" href="/pages/supportersida-2" title="supporters"> Supporters </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Pods</a><a class="menu-item" href="/pages/lyssna" title="Lyssna">Lyssna!</a><a class="menu-item" href="/pages/kontakt" title="kontakt">Kontakt</a><a class="menu-item" href="/pages/panelen" title="panelen">Panelen</a><a class="menu-item" href="/pages/supportersida-2" title="supporters">Supporters</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Säkerhetspodcasten #252 - CVSS 4.0</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-29">2023-11-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;317 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lyssna">Lyssna</a></li>
+    <li><a href="#innehåll">Innehåll</a></li>
+    <li><a href="#plugs">Plugs</a></li>
+    <li><a href="#länkar">Länkar</a></li>
+    <li><a href="#ämnen-vi-ordar-om">Ämnen vi ordar om</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="lyssna">Lyssna</h2>
+<ul>
+<li><a href="https://traffic.libsyn.com/secure/sakerhetspodcasten/2023-11-08_cvss40.mp3?dest-id=117848" target="_blank" rel="noopener noreffer ">mp3</a>, längd: 55:39</li>
+</ul>
+<h2 id="innehåll">Innehåll</h2>
+<p>I dagens avsnitt diskuterar vi den nya versionen av Common Vulnerability Scoring System (CVSS),
+vad är nytt, vad har försvunnit, vad är bra, vad är dåligt?</p>
+<h2 id="plugs">Plugs</h2>
+<ul>
+<li><a href="https://securityfest.com/cfp/" target="_blank" rel="noopener noreffer ">securityfest.com/cfp/</a> - Security Fest - Call For Papers.</li>
+<li><a href="http://hack.gbgay.com/" target="_blank" rel="noopener noreffer ">hack.gbgay.com</a> - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA+&rdquo;.</li>
+</ul>
+<h2 id="länkar">Länkar</h2>
+<ul>
+<li><a href="https://www.assured.se/posts/cvss40" target="_blank" rel="noopener noreffer ">CVSS 4.0 Released: The king is dead, long live the king!</a> - Peter bloggar om CVSS.</li>
+<li><a href="https://www.first.org/cvss/v4.0/specification-document" target="_blank" rel="noopener noreffer ">CVSS 4.0 Specification (first.org)</a></li>
+<li><a href="https://www.first.org/cvss/v3.1/specification-document" target="_blank" rel="noopener noreffer ">CVSS 3.1 Specification (first.org)</a></li>
+<li><a href="https://www.first.org/epss/" target="_blank" rel="noopener noreffer ">EPSS Exploit Prediction Scoring System (first.org)</a></li>
+<li><a href="https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc" target="_blank" rel="noopener noreffer ">SSVC Stakeholder-Specific Vulnerability Categorization (cisa.gov)</a></li>
+<li><a href="https://security.apache.org/blog/severityrating/" target="_blank" rel="noopener noreffer ">Apache vulnerability severity rating system</a></li>
+</ul>
+<h2 id="ämnen-vi-ordar-om">Ämnen vi ordar om</h2>
+<ul>
+<li>Attack Complexity vs Attack Requirements</li>
+<li>Scope är dött</li>
+<li>Subsequent System Impact Metrics ersätter Scope. Tydligare!</li>
+<li>Bra exempelguider!</li>
+<li>CVSS blir så himla stort, ingen har tid för att göra det riktigt bra</li>
+<li>Environmental&hellip;</li>
+<li>Supplemental Metrics&hellip; errr&hellip;. hrrm?
+<ul>
+<li>Bra exempel</li>
+<li>Vad är base-metric vs Environmental i pentest rapporter för specifika kundfall?</li>
+<li>Supplemental Metrics base metric beskrivningen i spec:en&hellip; låter inte riktigt som en base-metric?</li>
+</ul>
+</li>
+<li>CVSS suger för vissa fall
+<ul>
+<li>Bedömma Curl, log4j, osv går dåligt</li>
+<li>Metoden hanterar dåligt att nätverksvektorn är okänd, oklar, klienter styrda av användare, inte lyssnade servers!</li>
+<li>&ldquo;Reasonably worst&rdquo;</li>
+</ul>
+</li>
+<li>&ldquo;CVSS base score inte är en risk&rdquo; - En PR-release är Mattias tes!</li>
+<li>Mattias och Peter missförstår varandra om Environmental
+<ul>
+<li>Peter pratar om Modified C/I/A-värden</li>
+<li>Mattias pratar om C/I/A-Requirements</li>
+<li>(Vi fortsatte orda efter inspelningen, leka runt med räknaren ger kul / förvirrande slutsatser&hellip;)</li>
+</ul>
+</li>
+<li>EPSS Exploit Prediction Scoring System
+<ul>
+<li>Bara 5% av CVE:er exploiteras</li>
+<li>Metadata analys kan gissa vilka CVE:er som kommer exploiteras.</li>
+<li>Funkar bara om det finns mycket metadata om en finding.</li>
+<li>Mattias: CVE-er är mängdproblemet, bra findings på kund-unika hål är ett lyx problem där testerna kan svara om prio.</li>
+</ul>
+</li>
+<li>Alternativ till CVSS
+<ul>
+<li>Bedöm enligt sunt förnuft, det ursprungliga sakerna.</li>
+<li>Apache/Microsoft metoderna för att bedömma sårbarheter, som alternativ till CVSS. Varför de inte skalar väl.</li>
+<li>(OWASP Risk Rating: Informal Method, OWASP Risk Rating: Repeatable Method - vi hann inte riktigt med dem)</li>
+</ul>
+</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-11-29</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/sakerhetspodcasten_251_ostrukturerat_v_46/" class="prev" rel="prev" title="Säkerhetspodcasten #251 - Ostrukturerat V.46"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Säkerhetspodcasten #251 - Ostrukturerat V.46</a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

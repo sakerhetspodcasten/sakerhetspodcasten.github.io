@@ -3,7 +3,16 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 09:35:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 29 Nov 2023 14:49:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #252 - CVSS 4.0</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/</link>
+    <pubDate>Wed, 29 Nov 2023 14:49:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 55:39 Innehåll I dagens avsnitt diskuterar vi den nya versionen av Common Vulnerability Scoring System (CVSS), vad är nytt, vad har försvunnit, vad är bra, vad är dåligt?
+Plugs securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA+&rdquo;. Länkar CVSS 4.0 Released: The king is dead, long live the king! - Peter bloggar om CVSS. CVSS 4.0 Specification (first.org) CVSS 3.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #251 - Ostrukturerat V.46</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/</link>
     <pubDate>Mon, 13 Nov 2023 09:35:00 &#43;0000</pubDate>
@@ -89,15 +98,6 @@ Dependabot reporting on deleted files Rickard Netatmo Fortigate Mattias Home Ass
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_243_securityfest_2023/</guid>
     <description><![CDATA[Lyssna mp3, längd: 48:27 Innehåll I dagens avsnitt går vi igenom årets SecurityFest.
 How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen https://oauth.net/2.1/ https://openid.net/wg/fapi/ Best Current Practice&rsquo;s vi ordar om i poddens: IETF Draft: OAuth 2.0 for Browser-Based Apps IETF Draft: OAuth 2.0 Security Best Current Practice Keynote: Red Notice - Pros And Cons - Alethe Denis Keynote: Red Notice - Pros And Cons - Alethe Denis The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal OopsSec - The bad, the worst and the ugly of APT’s operations security - Tomer Bar OopsSec - The bad, the worst and the ugly of APT’s operations security- Tomer Bar SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro When the Red Team Goes Passwordless - Hasain Alshakarti When the Red Team Goes Passwordless - Hasain Alshakarti Lightning talk: Badge challenge - Abhinav Pandagale Lightning talk: Badge challenge - Abhinav Pandagale Architecting for security: the old ways - Dan Tentler Architecting for security: the old ways - Dan Tentler How to: Hack the company, before someone else does it for you - STÖK How to: Hack the company, before someone else does it for you - STÖK Tales from the %TEMP% - Jonas Vestberg Tales from the %TEMP% - Jonas Vestberg Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair ]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #242 - Ostrukturerat V.24</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_242_ostrukturerat_v_24/</link>
-    <pubDate>Mon, 12 Jun 2023 09:25:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_242_ostrukturerat_v_24/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 56:38 Innehåll I dagens ostrukurerade avsnitt diskuterar vi lite ransomware-attacker, massiva fuckups hos Toyota, hur angripare drar nytta av ChatGPTs hallucinationer och mycket mer.
-Malware: Operation Triangulation SecureList Operation Triangulation: iOS devices targeted with previously unknown malware Brickar iOS förmåga att ta hem nya säkerhetsuppdateringar iMessage ZeroClick installationsvektor Riktade attacker mot bl.a. Kaspersky management Texter i domänaddresser m.m. känns NSA-iga Utvecklat av Weebs, det finns anime-referenser i malwaret!]]></description>
 </item>
 </channel>
 </rss>
