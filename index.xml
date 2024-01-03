@@ -3,9 +3,17 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Dec 2023 09:43:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #254 - Cyberpocalypse Now</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</link>
+    <pubDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:42 Innehåll God jul och gott nytt år önskar Säkerhetspodcasten!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #253 - Ostrukturerat V.50</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_253_ostrukturerat_v_50/</link>
     <pubDate>Mon, 11 Dec 2023 09:43:00 &#43;0000</pubDate>
@@ -94,14 +102,6 @@ Osäkra kameror med mera Threatpost: Cybercriminals Are Selling Access to Chines
 Peter Minolta SR-T 101
 Wikipedia: Minolta SR-T 101 Sam Perry: #04 Minolta SRT101 Hanging Mirror Dependabot buggen
 Dependabot reporting on deleted files Rickard Netatmo Fortigate Mattias Home Assistant RTL-SDR SDR distros Vad rekommenderar lyssnarna? google sökning Reddit r/RTLSDR: Best Linux Distro for SDR these days? DRAGONOS GORIZONT sigintos ]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #244 - Ostrukturerat V.31</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_244_ostrukturerat_v_31/</link>
-    <pubDate>Mon, 31 Jul 2023 08:15:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_244_ostrukturerat_v_31/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 55:39 Rolling shutter video cryptoanalys Ben Nassi: Video-based Cryptanalysis Video-Based Cryptanalysis: Extracting Cryptographic Keys from Video Footage of a Device’s Power LED - akademiskt papper arstechnica: Hackers can steal cryptographic keys by video-recording power LEDs 60 feet away Ny ios rapid security response Naked Security: Apple silently pulls its latest zero-day update – what now? Microsoft revokar exploit / malware drivers Sophos: Microsoft Revokes Malicious Drivers in Patch Tuesday Culling Microsoft KB5029033: Notice of additions to the Windows Driver.]]></description>
 </item>
 </channel>
 </rss>
