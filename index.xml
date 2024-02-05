@@ -3,9 +3,17 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Feb 2024 15:55:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #255 - Ostrukturerat V.6</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_255_ostrukturerat_v_6/</link>
+    <pubDate>Mon, 05 Feb 2024 15:55:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_255_ostrukturerat_v_6/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 59:52 Innehåll Panelen diskuterar den senaste tidens nyheter.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #254 - Cyberpocalypse Now</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</link>
     <pubDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</pubDate>
@@ -91,17 +99,6 @@ Gäst Emil Lundberg från Yubico / Stockholm besöker Säkerhetespodcasten ena s
 Off-topic sakerhetspodcasten.github.io Vår top-hemliga backup-sajt när Jespers servers står och brinner!
 NPAPI API:et Rickards kina-kamera körde&hellip;
 Osäkra kameror med mera Threatpost: Cybercriminals Are Selling Access to Chinese Surveillance Cameras SecurityWeek: 2,000 Citrix NetScaler Instances Backdoored via Recent Vulnerability Linux + AMD: TPM slumpfunktion dödar prestanda på vissa platformar phoronix: Linus Torvalds - Let&rsquo;s Just Disable The Stupid [AMD] fTPM HWRND Thing Brodie Robertson: Linus Torvalds Is Sick Of AMD&rsquo;s fTPM Nonsense Google Dilithium: PQC (&ldquo;kvantsäkra&rdquo;) tokens, med hybrid (gammel-säkerhet + PQC-säkerhet) Google Security Blog: Toward Quantum Resilient Security Keys iacr: Hybrid Post-Quantum Signatures in Hardware Security Keys NIST Computer Security Resource Center: Post-Quantum Cryptography (PQC) PyPi tar bort PGP stöd pypi.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #245 - Sommar 2023</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_245_sommar_2023/</link>
-    <pubDate>Wed, 16 Aug 2023 11:28:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_245_sommar_2023/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 48:06 Innehåll Lagom till att semestern är slut släpper vi idag årets sommartema. Mycket nöje!
-Peter Minolta SR-T 101
-Wikipedia: Minolta SR-T 101 Sam Perry: #04 Minolta SRT101 Hanging Mirror Dependabot buggen
-Dependabot reporting on deleted files Rickard Netatmo Fortigate Mattias Home Assistant RTL-SDR SDR distros Vad rekommenderar lyssnarna? google sökning Reddit r/RTLSDR: Best Linux Distro for SDR these days? DRAGONOS GORIZONT sigintos ]]></description>
 </item>
 </channel>
 </rss>
