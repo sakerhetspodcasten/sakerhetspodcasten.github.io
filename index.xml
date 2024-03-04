@@ -3,9 +3,20 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Feb 2024 14:22:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Mar 2024 15:22:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #257 - Ostrukturerat V.10</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</link>
+    <pubDate>Mon, 04 Mar 2024 15:22:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 52:21 Innehåll Panelen diskuterar den senaste tidens nyheter och svarar på lite lyssnarfrågor.
+Plugs SecurityFest, Maj 30-31 2024. SEC-T, 10-13 September 2024. Lyssnarbrev från Jonathan Johnsson Jonathan hittade till kontakt@sakerhetspodcasten.se! Tre lyssnarfrågor från honom!
+Tieto - vad tycker ni om deras uttalande? Jag läste precis den här artikeln på DN och skulle vilja höra era tankar om Tietoevrys Sverigechefs uttalanden där: www.dn.se/sverige/tietoevry-efter-attacken-inga-brister-i-var-it-sakerhet
+Vad har blivit bättre inom säkerhet?]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #256 - Nyår 2023</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</link>
     <pubDate>Mon, 26 Feb 2024 14:22:00 &#43;0000</pubDate>
@@ -91,15 +102,6 @@ Curl: Massa nyheter! CVE-2020-19909 is everything that is wrong with CVEs CVE-20
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</guid>
     <description><![CDATA[Lyssna mp3, längd: 01:44:56 Innehåll I dagens avsnitt bjuder vi på intervjuer med talare från årets upplaga av Sec-T!
 0:00 Edwin van Andel 14:50 Igor Andriushchenko 34:38 Julia Zdunczyk 47:00 Rami McCarthy 1:03:00 STÖK 1:27:00 Vesa Virta Edwin van Andel: Mer än bara pentest Du behöver mer än enbart pentest Säkerhetstekniker har mer makt än de tror - svara ledning om vad som behövs. Sätt &ldquo;scope&rdquo; bra för tester, bug bounties Hollands myndigheter ger en t-shirt för säkerhetshål.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #247 - Passkeys</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
-    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
-Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
 </item>
 </channel>
 </rss>
