@@ -3,7 +3,16 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Mar 2024 15:22:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #258 - Opsec Fails</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</link>
+    <pubDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 33:21 Innehåll I dagens avsnitt diskuterar vi det här med opsec, vad är det, och hur går det snett för angripare?
+Fails Tomer Bar: OopsSec - The bad, the worst and the ugly of APT’s operations security (SecurityFest2023) Dark Reading: Global Law Enforcement Disrupts LockBit Ransomware Gang - &ldquo;The vulnerability used to compromise LockBit is tracked as CVE-2023-3824, a flaw present in PHP version 8.0 before 8.0.30, 8.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #257 - Ostrukturerat V.10</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</link>
     <pubDate>Mon, 04 Mar 2024 15:22:00 &#43;0000</pubDate>
@@ -91,15 +100,6 @@ DevSecOps devsecops.org Stora drakar om DevSecOps Red Hat: DevSecOps VMWare: Dev
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</guid>
     <description><![CDATA[Lyssna mp3, längd: 36:37 Innehåll I dagens avsnitt går vi igenom den senaste tidens nyheter:
 Curl: Massa nyheter! CVE-2020-19909 is everything that is wrong with CVEs CVE-2023-38545 SOCKS5 heap buffer overflow Bard AI fabuleringar ChatControl förseningar .cue filer exploiterar libcue säkerhetshål i Ubuntu och GNOME Inbillade säkerhetshål i Signal Cisco IOS XE under attack, implantat över allt! D-Link command injection, SSID Olaf's Network bryter sig ut till sh shell&hellip; Massa nyheter om Curl!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
-    <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:44:56 Innehåll I dagens avsnitt bjuder vi på intervjuer med talare från årets upplaga av Sec-T!
-0:00 Edwin van Andel 14:50 Igor Andriushchenko 34:38 Julia Zdunczyk 47:00 Rami McCarthy 1:03:00 STÖK 1:27:00 Vesa Virta Edwin van Andel: Mer än bara pentest Du behöver mer än enbart pentest Säkerhetstekniker har mer makt än de tror - svara ledning om vad som behövs. Sätt &ldquo;scope&rdquo; bra för tester, bug bounties Hollands myndigheter ger en t-shirt för säkerhetshål.]]></description>
 </item>
 </channel>
 </rss>
