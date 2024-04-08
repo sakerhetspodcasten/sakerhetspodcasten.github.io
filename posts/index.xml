@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #259 - XZ-bakdörren</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</link>
+    <pubDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 51:41 Innehåll sshd är bakdörrat via xz/liblzma. En påverkansoperation, kanske från en underrättelsetjänst, har skett helt öppet i en mailinglista.
+Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!
+Andres Freund: backdoor in upstream xz/liblzma leading to ssh server compromise Podcast: Risky Business #743 &ndash; A chat about the xz backdoor with the guy who found it Teknisk fokusfokus github.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #258 - Opsec Fails</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</link>
     <pubDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</pubDate>
@@ -91,15 +101,6 @@ Plugs SecurityFest CFP - skicka in ett förslag för vad du pratar om Maj 30-31,
 Säkerhetspodcasten slog nytt världsrekord i Buzz Words, termer, produktnamn, referenser.
 &hellip;vad f-n hände egentligen? Jag tror dom andra gjorde full denial of service attack mot min förmåga att skriva show-notes!
 DevSecOps devsecops.org Stora drakar om DevSecOps Red Hat: DevSecOps VMWare: DevSecOps IBM: DevSecOps Dev Ops, Continous Delivery med mera Adlibris: The Phoenix Project; Gene Kim, Kevin Behr, George Spafford]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #249 - Ostrukturerat V.43</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</link>
-    <pubDate>Mon, 23 Oct 2023 13:41:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 36:37 Innehåll I dagens avsnitt går vi igenom den senaste tidens nyheter:
-Curl: Massa nyheter! CVE-2020-19909 is everything that is wrong with CVEs CVE-2023-38545 SOCKS5 heap buffer overflow Bard AI fabuleringar ChatControl förseningar .cue filer exploiterar libcue säkerhetshål i Ubuntu och GNOME Inbillade säkerhetshål i Signal Cisco IOS XE under attack, implantat över allt! D-Link command injection, SSID Olaf's Network bryter sig ut till sh shell&hellip; Massa nyheter om Curl!]]></description>
 </item>
 </channel>
 </rss>
