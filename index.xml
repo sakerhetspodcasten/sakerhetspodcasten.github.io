@@ -12,8 +12,7 @@
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</guid>
     <description><![CDATA[Lyssna mp3, längd: 51:41 Innehåll sshd är bakdörrat via xz/liblzma. En påverkansoperation, kanske från en underrättelsetjänst, har skett helt öppet i en mailinglista.
-Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!
-Andres Freund: backdoor in upstream xz/liblzma leading to ssh server compromise Podcast: Risky Business #743 &ndash; A chat about the xz backdoor with the guy who found it Teknisk fokusfokus github.]]></description>
+Kodsnack parallell Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - Peter gästar Kodnsack. Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #258 - Opsec Fails</title>
