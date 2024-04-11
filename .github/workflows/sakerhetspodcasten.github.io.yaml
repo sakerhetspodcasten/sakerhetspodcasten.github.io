@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -  name: Clone myself into self
-         uses: actions/checkout@v3
+         uses: actions/checkout@v4
          with:
            path: self
       -  name: Clone www-hugo
