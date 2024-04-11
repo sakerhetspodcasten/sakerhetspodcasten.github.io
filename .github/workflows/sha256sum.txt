@@ -1,0 +1,1 @@
+969eeabb570e9d674d374de37a9d4c8799edf91a9a4dd9115dd714d559b5ad46  hugo_extended_0.110.0_linux-amd64.deb
