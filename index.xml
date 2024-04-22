@@ -3,9 +3,18 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #260 - Ostrukturerat V.17</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</link>
+    <pubDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
+Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #259 - XZ-bakdörren</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</link>
     <pubDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</pubDate>
@@ -91,17 +100,6 @@ Plugs securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - 
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/</guid>
     <description><![CDATA[Lyssna mp3, längd: 37:15 Innehåll I dagens avsnitt går panelen igenom den senaste tidens nyheter.
 Plugs SecurityFest CFP - skicka in ett förslag för vad du pratar om Maj 30-31, 2024. hack.gbgay.com - Queer / LGBTQIA+ träff om säkerhet, 2:a Mars 2024. Meetup.com OWASP Gothenburg: OAuth2 and Offensive Security - December 6, 2023 How to f*ck up at OAuth2 while following BCPs, Pontus Hanssen, Tobias Ahnoff. Pentesting War Stories, Emilie Barse.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #250 - DevSecOps</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</link>
-    <pubDate>Mon, 06 Nov 2023 13:27:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 50:45 Innehåll I dagens avsnitt diskuterar vi DevSecOps. Vad är det, hur funkar det i teorin och hur kan man införa det i en modern organisation.
-Säkerhetspodcasten slog nytt världsrekord i Buzz Words, termer, produktnamn, referenser.
-&hellip;vad f-n hände egentligen? Jag tror dom andra gjorde full denial of service attack mot min förmåga att skriva show-notes!
-DevSecOps devsecops.org Stora drakar om DevSecOps Red Hat: DevSecOps VMWare: DevSecOps IBM: DevSecOps Dev Ops, Continous Delivery med mera Adlibris: The Phoenix Project; Gene Kim, Kevin Behr, George Spafford]]></description>
 </item>
 </channel>
 </rss>
