@@ -3,9 +3,19 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 14:07:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
+    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
+Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
+Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #260 - Ostrukturerat V.17</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</link>
     <pubDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</pubDate>
@@ -91,15 +101,6 @@ Kubernetes Pen Testing, with Jesper Larsson Kubernetes Podcast from Google. Om b
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/</guid>
     <description><![CDATA[Lyssna mp3, längd: 55:39 Innehåll I dagens avsnitt diskuterar vi den nya versionen av Common Vulnerability Scoring System (CVSS), vad är nytt, vad har försvunnit, vad är bra, vad är dåligt?
 Plugs securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA+&rdquo;. Länkar CVSS 4.0 Released: The king is dead, long live the king! - Peter bloggar om CVSS. CVSS 4.0 Specification (first.org) CVSS 3.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #251 - Ostrukturerat V.46</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/</link>
-    <pubDate>Mon, 13 Nov 2023 09:35:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_251_ostrukturerat_v_46/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 37:15 Innehåll I dagens avsnitt går panelen igenom den senaste tidens nyheter.
-Plugs SecurityFest CFP - skicka in ett förslag för vad du pratar om Maj 30-31, 2024. hack.gbgay.com - Queer / LGBTQIA+ träff om säkerhet, 2:a Mars 2024. Meetup.com OWASP Gothenburg: OAuth2 and Offensive Security - December 6, 2023 How to f*ck up at OAuth2 while following BCPs, Pontus Hanssen, Tobias Ahnoff. Pentesting War Stories, Emilie Barse.]]></description>
 </item>
 </channel>
 </rss>
