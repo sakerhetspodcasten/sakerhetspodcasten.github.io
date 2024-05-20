@@ -3,9 +3,18 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 14:07:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2024 13:56:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #262 - Ostrukturerat V.21</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</link>
+    <pubDate>Mon, 20 May 2024 13:56:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:05:46 Plugs Konferenser:
+Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Kvantkrypto Prata säkerhet med oss 2024-05-02 kvantkrypto Tomas Gustavsson, Keyfactor och Joachim Strömbergson, Assured AB. video Säkerhetspodcasten #256 - Nyår 2023 - ser dåligt ut för Peters spaning&hellip; Avrunding XZ Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - shameless self plug, 90 minuter med Peter &amp; Kodsnack!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #261 - CI/CD Security</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
     <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
@@ -92,15 +101,6 @@ Malwarebytes: “The mother of all breaches” - 26 billion records found online
 Plugs Diverse:
 securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA+&rdquo;. Konkurrensanalys:
 Kubernetes Pen Testing, with Jesper Larsson Kubernetes Podcast from Google. Om bedrägerier Säkerhetssnack / Olle Segerdahl och Christoffer Jerkeby pratar om hur bedrägerier går till. NEWAG Impuls EMUs logic bomb Logik bomb / bakdörr i ett tåg ?]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #252 - CVSS 4.0</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/</link>
-    <pubDate>Wed, 29 Nov 2023 14:49:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_252_cvss_4_0/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 55:39 Innehåll I dagens avsnitt diskuterar vi den nya versionen av Common Vulnerability Scoring System (CVSS), vad är nytt, vad har försvunnit, vad är bra, vad är dåligt?
-Plugs securityfest.com/cfp/ - Security Fest - Call For Papers. hack.gbgay.com - Andra Mars 2024, säkerhetsträff för &ldquo;queer&rdquo;, &ldquo;LGBTQIA+&rdquo;. Länkar CVSS 4.0 Released: The king is dead, long live the king! - Peter bloggar om CVSS. CVSS 4.0 Specification (first.org) CVSS 3.]]></description>
 </item>
 </channel>
 </rss>
