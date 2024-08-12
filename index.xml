@@ -3,9 +3,20 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Jun 2024 15:39:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #264 - Tips till en 18-åring</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</link>
+    <pubDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 53:29 Tema: Vad skall man lära sig som 18 åring? Temaförslag från Love:
+Om du fått ge dig själv råd i vad du borde lära dig som 18 åring, vad hade du sagt?
+Jag tänker att det antagligen finns en del föräldrar med lite vilse tonåringar som kan behöva något vettigt att göra. Jag själv var nog typ 15-16 när jag börja lyssna (kan det stämma?).
+Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarna att lära sig?]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #263 - Ostrukturerat V.25</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</link>
     <pubDate>Mon, 17 Jun 2024 15:39:00 &#43;0000</pubDate>
@@ -93,14 +104,6 @@ Men nu till dagens återblick!
     <description><![CDATA[Lyssna mp3, längd: 59:52 Innehåll Panelen diskuterar den senaste tidens nyheter.
 Mother of all breaches - Alla moders intrång? Rickard med flera tycker det är lite hype:at.
 Malwarebytes: “The mother of all breaches” - 26 billion records found online cybernews: Mother of all breaches reveals 26 billion records - what we know so far Troy Hunt: Inside the Massive Naz.API Credential Stuffing List Mercedes-Benz github token problem redhuntlabs: Mercedes-Benz Source Code at Risk - GitHub Token Mishap Sparks Major Security Concerns Post/Horizon Continous Delivery: Developers Blamed For The Post Office Horizon Scandal?]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #254 - Cyberpocalypse Now</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</link>
-    <pubDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:42 Innehåll God jul och gott nytt år önskar Säkerhetspodcasten!]]></description>
 </item>
 </channel>
 </rss>
