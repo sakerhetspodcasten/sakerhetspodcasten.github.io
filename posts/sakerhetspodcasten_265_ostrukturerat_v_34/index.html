@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Säkerhetspodcasten #265 - Ostrukturerat V.34 - Säkerhetspodcasten</title><meta name="Description" content="Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet"><meta property="og:title" content="Säkerhetspodcasten #265 - Ostrukturerat V.34" />
+<meta property="og:description" content="Lyssna mp3, längd: 01:10:58 CrowdStrike 8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.
+Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.
+Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
+Officiella svar från CrowdStrike:
+Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-19T08:54:00+00:00" />
+<meta property="article:modified_time" content="2024-08-19T08:54:00+00:00" /><meta property="og:site_name" content="Säkerhetspodcasten" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Säkerhetspodcasten #265 - Ostrukturerat V.34"/>
+<meta name="twitter:description" content="Lyssna mp3, längd: 01:10:58 CrowdStrike 8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.
+Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.
+Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
+Officiella svar från CrowdStrike:
+Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:"/>
+<meta name="application-name" content="Säkerhetspodcasten">
+<meta name="apple-mobile-web-app-title" content="Säkerhetspodcasten"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Säkerhetspodcasten #265 - Ostrukturerat V.34",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_265_ostrukturerat_v_34\/"
+        },"genre": "posts","wordcount":  1101 ,
+        "url": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_265_ostrukturerat_v_34\/","datePublished": "2024-08-19T08:54:00+00:00","dateModified": "2024-08-19T08:54:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Pods </a><a class="menu-item" href="/pages/lyssna" title="Lyssna"> Lyssna! </a><a class="menu-item" href="/pages/kontakt" title="kontakt"> Kontakt </a><a class="menu-item" href="/pages/panelen" title="panelen"> Panelen </a><a class="menu-item" href="/pages/supportersida-2" title="supporters"> Supporters </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Pods</a><a class="menu-item" href="/pages/lyssna" title="Lyssna">Lyssna!</a><a class="menu-item" href="/pages/kontakt" title="kontakt">Kontakt</a><a class="menu-item" href="/pages/panelen" title="panelen">Panelen</a><a class="menu-item" href="/pages/supportersida-2" title="supporters">Supporters</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Säkerhetspodcasten #265 - Ostrukturerat V.34</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-08-19">2024-08-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1101 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lyssna">Lyssna</a></li>
+    <li><a href="#crowdstrike">CrowdStrike</a></li>
+    <li><a href="#regresshion">RegreSSHion</a></li>
+    <li><a href="#polyfill">Polyfill</a></li>
+    <li><a href="#hårdvara-arm-magiska-pekare-är-inte-magiska">Hårdvara: ARM magiska pekare är inte magiska</a></li>
+    <li><a href="#hårdvara-200-secureboot-platformar-litar-på-do-not-trust-nycklarna">Hårdvara: 200+ SecureBoot platformar litar på DO NOT TRUST nycklarna</a></li>
+    <li><a href="#github-glömmer-aldrig">Github glömmer aldrig</a></li>
+    <li><a href="#e-mail-bedrägeri-på-usd-60m">E-mail bedrägeri på USD 60M</a></li>
+    <li><a href="#e-mail-addresser-är-onda">E-mail addresser är onda</a></li>
+    <li><a href="#jenkins">Jenkins!</a></li>
+    <li><a href="#esxi-ransomware">ESXi Ransomware</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="lyssna">Lyssna</h2>
+<ul>
+<li><a href="https://traffic.libsyn.com/secure/sakerhetspodcasten/2024-08-14_Sakerhetspodcasten.mp3?dest-id=117848" target="_blank" rel="noopener noreffer ">mp3</a>, längd: 01:10:58</li>
+</ul>
+<h2 id="crowdstrike">CrowdStrike</h2>
+<p>8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.</p>
+<p>Man hade under en timme tryckt ut en dålig Channel File 291
+som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.</p>
+<p>Denna historien har ALLT:
+RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;</p>
+<p>Officiella svar från CrowdStrike:</p>
+<ul>
+<li><a href="https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/" target="_blank" rel="noopener noreffer ">Remediation and Guidance Hub: Channel File 291 Incident</a></li>
+<li><a href="https://www.crowdstrike.com/blog/falcon-update-for-windows-hosts-technical-details/" target="_blank" rel="noopener noreffer ">Technical Details: Falcon Content Update for Windows Hosts</a>
+July 20, 2024</li>
+<li><a href="https://www.crowdstrike.com/wp-content/uploads/2024/08/Channel-File-291-Incident-Root-Cause-Analysis-08.06.2024.pdf" target="_blank" rel="noopener noreffer ">External Technical Root Cause Analysis — Channel File 291</a>
+Augusti 6, 2024
+<ul>
+<li>The number of fields in the IPC Template Type was not validated at sensor compile time</li>
+<li>A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291</li>
+<li>Template Type testing should cover a wider variety of matching criteria</li>
+<li>The Content Validator contained a logic error</li>
+<li>Template Instance validation should expand to include testing within the Content Interpreter</li>
+<li>Template Instances should have staged deployment</li>
+</ul>
+</li>
+</ul>
+<p>CrowdStrike Lingo:</p>
+<blockquote>
+<p>The processing of regex-based Rapid Response Content on the sensor involves several
+components:</p>
+<ul>
+<li>Content Interpreter: Part of the sensor C++ code, which can test input strings
+against regexes.</li>
+<li>Template Types: Contain predefined fields for threat detection engineers to
+leverage in Rapid Response Content. Template Types are expressed in code and
+compiled into the sensor at build time.</li>
+<li>Template Type Definitions file: Defines the parameters of each Template Type.
+Definitions in this file include information about which Channel File will deliver the
+Rapid Response Content for each Template Type, how many inputs the Template
+Type is meant to use and what kind of data is required for each input.</li>
+<li>Sensor Content: Determines how to combine security-relevant data with Rapid
+Response Content in order to make certain detection decisions. Sensor Content
+includes on-sensor AI and machine learning models as well as Template Types. It is
+compiled as part of the sensor release.</li>
+<li>Template Instances: Matching criteria developed by detection engineers. Template
+Instances consist of regex content intended for use with a specific Template Type.
+Template Instances identify specific data for use in security operations. Template
+Instances are defined using a UI driven by the Template Type Definitions file.</li>
+<li>Rapid Response Content: Consists of multiple Template Instances bundled
+together. Rapid Response Content is delivered by channel file.</li>
+<li>Content Validator: Checks the validity of channel files against their definition in the
+Template Type Definitions file.</li>
+<li>Content Configuration System: Used to create Template Instances, which are
+validated and deployed to the sensor through a mechanism called Channel Files.</li>
+</ul>
+</blockquote>
+<p>Andra källor:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=H9RSeDUdkCA" target="_blank" rel="noopener noreffer ">Fireship: Real men test in production… The truth about the CrowdStrike disaster</a>
+<code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=5ycfwq9zpGY" target="_blank" rel="noopener noreffer ">Brodie Robertson: CrowdStrike&rsquo;s Disaster Is Bigger Than Windows</a>
+<code>video</code> &hellip;
+Flera tidigare incidenter:
+<ul>
+<li><a href="https://www.zdnet.com/article/defective-mcafee-update-causes-worldwide-meltdown-of-xp-pcs/" target="_blank" rel="noopener noreffer ">zdnet: Defective McAfee update causes worldwide meltdown of XP PCs</a> - April 21, 2010</li>
+<li><a href="https://news.ycombinator.com/item?id=41005936" target="_blank" rel="noopener noreffer ">Debian Linuxkrashat av CrowdStrike i April 2024</a></li>
+<li><a href="https://forums.rockylinux.org/t/crowdstrike-freezing-rockylinux-after-9-4-upgrade/14041" target="_blank" rel="noopener noreffer ">Crowdstrike - freezing RockyLinux After 9.4 upgrade</a> - Maj 2024</li>
+<li><a href="https://access.redhat.com/solutions/7068083" target="_blank" rel="noopener noreffer ">RedHat: Kernel panic observed after booting 5.14.0-427.13.1.el9_4.x86_64 by falcon-sensor process</a> - Juni 2024.</li>
+<li><a href="https://www.reddit.com/r/sysadmin/comments/1e90r9f/crowdstrike_didnt_learn_from_june_27th_outage/" target="_blank" rel="noopener noreffer ">Crowdstrike didn’t learn from June 27th Outage</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/watch?v=7rx4U5TlaqE" target="_blank" rel="noopener noreffer ">Theo - t3.gg: Diving into the embarrassing engineering behind CrowdStrike</a>
+<code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=JgKbe5tcgZ0" target="_blank" rel="noopener noreffer ">ThePrimeTime: IT WAS A REGEX?!? - Full CrowdStrike Report Released</a>
+<code>video</code></li>
+</ul>
+<h2 id="regresshion">RegreSSHion</h2>
+<p>SSH återintroducerade ett race condition där signal (<code>SIG_ALARM</code>) hanterare kan orsaka en heap-corruption.</p>
+<p>ASLR gör buggen ineffektiv att exploitera utan någon info-läcka.</p>
+<ul>
+<li><a href="https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt" target="_blank" rel="noopener noreffer ">Qualys Security Advisory: regreSSHion - RCE in OpenSSH&rsquo;s server, on glibc-based Linux systems (CVE-2024-6387)</a></li>
+<li><a href="https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server" target="_blank" rel="noopener noreffer ">qualys: regreSSHion - Remote Unauthenticated Code Execution Vulnerability in OpenSSH server</a></li>
+<li><a href="https://www.youtube.com/watch?v=Rj3sTAMYNQk" target="_blank" rel="noopener noreffer ">Low Level Learning: this new SSH exploit is absolutely wild</a>
+<code>video</code></li>
+</ul>
+<h2 id="polyfill">Polyfill</h2>
+<p>Polyfill-domänen bakdörrad och angripit sårbara klienter.</p>
+<ul>
+<li><a href="https://blog.qualys.com/vulnerabilities-threat-research/2024/06/28/polyfill-io-supply-chain-attack" target="_blank" rel="noopener noreffer ">Qualys: Polyfill.io Supply Chain Attack</a></li>
+<li><a href="https://www.youtube.com/watch?v=bbatLr98fEY" target="_blank" rel="noopener noreffer ">Low Level Learning: malicious javascript injected into 100,000 websites</a>
+<code>video</code></li>
+</ul>
+<h2 id="hårdvara-arm-magiska-pekare-är-inte-magiska">Hårdvara: ARM magiska pekare är inte magiska</h2>
+<p>TikTag-v2 hittar &ldquo;färgen&rdquo; på en pekare via SPECTRE-liknande gadgets.</p>
+<blockquote>
+<p>Experimental results show that TIKTAG gadgets can successfully leak
+an MTE tag with a success rate higher than 95% in less than 4 seconds.</p>
+</blockquote>
+<p>TikTag gadgets kan fås från v8/JavaScript, så &ldquo;exploiterbart på riktigt&rdquo;(TM) !</p>
+<ul>
+<li><a href="https://arxiv.org/pdf/2406.08719" target="_blank" rel="noopener noreffer ">TIKTAG: Breaking ARM’s Memory Tagging Extension with Speculative Execution</a></li>
+<li><a href="https://www.youtube.com/watch?v=CjpEZ2LAazM" target="_blank" rel="noopener noreffer ">Low Level Learning: researchers find an unfixable bug in EVERY ARM cpu</a>
+<code>video</code></li>
+</ul>
+<h2 id="hårdvara-200-secureboot-platformar-litar-på-do-not-trust-nycklarna">Hårdvara: 200+ SecureBoot platformar litar på DO NOT TRUST nycklarna</h2>
+<p>Det är nästan som om <code>CN=DO NOT TRUST - AMI Test PK</code> certifikatet inte borde användas för root-of-trust?</p>
+<ul>
+<li><a href="https://www.binarly.io/blog/pkfail-untrusted-platform-keys-undermine-secure-boot-on-uefi-ecosystem" target="_blank" rel="noopener noreffer ">binarly: PKfail - Untrusted Platform Keys Undermine Secure Boot on UEFI Ecosystem</a></li>
+<li><a href="https://pk.fail/" target="_blank" rel="noopener noreffer ">pk.fail</a></li>
+<li><a href="https://www.youtube.com/watch?v=eKpv5xjSqs0" target="_blank" rel="noopener noreffer ">Low Level Learning: this is getting ridiculous&hellip;</a></li>
+</ul>
+<h2 id="github-glömmer-aldrig">Github glömmer aldrig</h2>
+<ul>
+<li><a href="https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github" target="_blank" rel="noopener noreffer ">trufflesecurity: Anyone can Access Deleted and Private Repository Data on GitHub</a></li>
+<li><a href="https://trufflesecurity.com/blog/trufflehog-now-finds-all-deleted-and-private-commits-on-github" target="_blank" rel="noopener noreffer ">trufflesecurity: TruffleHog now finds all Deleted &amp; Private Commits on GitHub</a></li>
+<li><a href="https://www.youtube.com/watch?v=EH3tenVGk60" target="_blank" rel="noopener noreffer ">ProtoPenguin: Your Private GitHub Repos Aren&rsquo;t as Private as You Think</a>
+<code>video</code></li>
+</ul>
+<h2 id="e-mail-bedrägeri-på-usd-60m">E-mail bedrägeri på USD 60M</h2>
+<p>Orion tappat bort USD 60M, cirka 620 MSEK, i bedrägeri.</p>
+<blockquote>
+<p>Item 8.01 Other Events.</p>
+<p>On August 10, 2024, Orion S.A. (the “Company”) determined that a Company employee,
+who is not a Named Executive Officer, was the target of a criminal scheme that resulted
+in multiple fraudulently induced outbound wire transfers to accounts controlled by
+unknown third parties.</p>
+<p>As a result of this incident, and if no further recoveries of transferred funds occur,
+the Company expects to record a one-time pre-tax charge of approximately $60 million
+for the unrecovered fraudulent wire transfers.</p>
+<p>The Company has cooperated, and will continue to cooperate, with law enforcement as
+appropriate, and intends to pursue recovery of these funds through all legally
+available means, including potentially available insurance coverage.</p>
+<p>To date, the Company has not found any evidence of additional fraudulent activity and
+currently does not believe the incident resulted in any unauthorized access to data or
+systems maintained by the Company.</p>
+<p>However, the Company’s investigation into the incident and its impacts on the Company,
+including its internal controls, remains ongoing.</p>
+<p>The business and operations were not affected.</p>
+</blockquote>
+<p>Ariklar:</p>
+<ul>
+<li><a href="https://www.sec.gov/Archives/edgar/data/1609804/000095014224002170/eh240519238_8k.htm" target="_blank" rel="noopener noreffer ">SEC.GOV: 8K Orion - USD $60M</a></li>
+<li><a href="https://therecord.media/orion-carbon-black-bec-scam-millions" target="_blank" rel="noopener noreffer ">The Record: Carbon black supplier Orion loses $60 million in business email compromise scam</a></li>
+<li><a href="https://www.scmagazine.com/brief/bec-scam-costs-orion-nearly-60m" target="_blank" rel="noopener noreffer ">SC Magazine: BEC scam costs Orion nearly $60M</a></li>
+<li><a href="https://www.ncsc.gov.uk/files/Business-email-compromise-infographic.pdf" target="_blank" rel="noopener noreffer ">National Cyber Security Centre - ncsc.gov.uk: Business email compromise - Dealing with targeted phishing emails</a>]</li>
+</ul>
+<h2 id="e-mail-addresser-är-onda">E-mail addresser är onda</h2>
+<p>MailCleaner använder e-mail addresser i filsystemet, <code>system()</code> anropp med mera.</p>
+<p>E-mail kan innehålla typ nästan alla addresser&hellip;</p>
+<ul>
+<li><a href="https://modzero.com/en/blog/beyond_the_at_symbol/" target="_blank" rel="noopener noreffer ">Modzero: Beyond the @ Symbol - Exploiting the Flexibility of Email Addresses For Offensive Purposes</a></li>
+</ul>
+<h2 id="jenkins">Jenkins!</h2>
+<ul>
+<li><a href="https://www.jenkins.io/security/advisory/2024-08-07/" target="_blank" rel="noopener noreffer ">Jenkins Security Advisory 2024-08-07</a>
+<ul>
+<li>Arbitrary file read vulnerability through agent connections can lead to RCE SECURITY-3430 / CVE-2024-43044 Critical</li>
+<li>Missing permission check allows accessing other users&rsquo; &ldquo;My Views&rdquo; SECURITY-3349 / CVE-2024-43045 Medium</li>
+</ul>
+</li>
+</ul>
+<h2 id="esxi-ransomware">ESXi Ransomware</h2>
+<p>Ransomware grupper ute i det vilda tagit över ESX miljöer från Windows,
+genom att skapa gruppen &ldquo;ESX Admins&rdquo; eller byta namn på existerande grupper.</p>
+<pre tabindex="0"><code>net group &#34;ESX Admins&#34; /domain /add
+net group &#34;ESX Admins&#34; username /domain /add
+</code></pre><ul>
+<li><a href="https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/" target="_blank" rel="noopener noreffer ">Microsoft: Ransomware operators exploit ESXi hypervisor vulnerability for mass encryption</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-08-19</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/sakerhetspodcasten_264_tips_till_en_18_aring/" class="prev" rel="prev" title="Säkerhetspodcasten #264 - Tips till en 18-åring"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Säkerhetspodcasten #264 - Tips till en 18-åring</a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

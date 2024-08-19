@@ -3,7 +3,19 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #265 - Ostrukturerat V.34</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</link>
+    <pubDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:10:58 CrowdStrike 8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.
+Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.
+Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
+Officiella svar från CrowdStrike:
+Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #264 - Tips till en 18-åring</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</link>
     <pubDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</pubDate>
@@ -92,16 +104,6 @@ Vad har blivit bättre inom säkerhet?]]></description>
 Plugs 2024-05-30,31 Security Fest 2024-03-02 hack-gbggay - säkerhetsträff för queer Gamla spaningar 2023 Om du vill höra vårt gamla tugg, lyssna på: Säkerhetspodcasten #234 - Nyår 2022
 Men nu till dagens återblick!
 00:05:00 - Mattias introducerar formatet. 00:06:52 - Peter: förutspådde att zero-trust failure galore leder till jordens undergång.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #255 - Ostrukturerat V.6</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_255_ostrukturerat_v_6/</link>
-    <pubDate>Mon, 05 Feb 2024 15:55:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_255_ostrukturerat_v_6/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 59:52 Innehåll Panelen diskuterar den senaste tidens nyheter.
-Mother of all breaches - Alla moders intrång? Rickard med flera tycker det är lite hype:at.
-Malwarebytes: “The mother of all breaches” - 26 billion records found online cybernews: Mother of all breaches reveals 26 billion records - what we know so far Troy Hunt: Inside the Massive Naz.API Credential Stuffing List Mercedes-Benz github token problem redhuntlabs: Mercedes-Benz Source Code at Risk - GitHub Token Mishap Sparks Major Security Concerns Post/Horizon Continous Delivery: Developers Blamed For The Post Office Horizon Scandal?]]></description>
 </item>
 </channel>
 </rss>
