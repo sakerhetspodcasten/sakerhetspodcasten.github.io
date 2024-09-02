@@ -3,9 +3,22 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
+    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
+Lyssnaren Mikael hör av sig om krav:
+Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
+[&hellip;]
+Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
+Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #265 - Ostrukturerat V.34</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</link>
     <pubDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</pubDate>
@@ -95,17 +108,6 @@ Fails Tomer Bar: OopsSec - The bad, the worst and the ugly of APT’s operations
 Plugs SecurityFest, Maj 30-31 2024. SEC-T, 10-13 September 2024. Lyssnarbrev från Jonathan Johnsson Jonathan hittade till kontakt@sakerhetspodcasten.se! Tre lyssnarfrågor från honom!
 Tieto - vad tycker ni om deras uttalande? Jag läste precis den här artikeln på DN och skulle vilja höra era tankar om Tietoevrys Sverigechefs uttalanden där: www.dn.se/sverige/tietoevry-efter-attacken-inga-brister-i-var-it-sakerhet
 Vad har blivit bättre inom säkerhet?]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #256 - Nyår 2023</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</link>
-    <pubDate>Mon, 26 Feb 2024 14:22:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:15:02 Innehåll I dagens avsnitt går vi igenom spaningarna från förra årets nyårsavsnitt och hittar på nya inför 2024!
-Plugs 2024-05-30,31 Security Fest 2024-03-02 hack-gbggay - säkerhetsträff för queer Gamla spaningar 2023 Om du vill höra vårt gamla tugg, lyssna på: Säkerhetspodcasten #234 - Nyår 2022
-Men nu till dagens återblick!
-00:05:00 - Mattias introducerar formatet. 00:06:52 - Peter: förutspådde att zero-trust failure galore leder till jordens undergång.]]></description>
 </item>
 </channel>
 </rss>
