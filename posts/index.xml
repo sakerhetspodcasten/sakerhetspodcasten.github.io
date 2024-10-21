@@ -3,7 +3,20 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 07 Oct 2024 08:29:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 08:31:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #268 - Artificiell Intelligens</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</link>
+    <pubDate>Mon, 21 Oct 2024 08:31:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:09:19 Upplägg Peter, Johan och Rickard träffas och pratar AI.
+Metadiskussion
+Kan man lita på AI? Din data blir träningsdata? Segmentering av data i molnet när man kör AI? Användningsfall: Använda AI inom säkerhet
+Angripares användningsfall Försvarares användningsfall Attacker mot AI
+Attacker mot AI Bild vi diskuterade runt;
++---------+ | | &lt;--- Bakdörrar | Träning | &lt;--- Ta bort | | ---&gt; Stöld modell/träningsdata +---------+ | | +-------+-------+ | AI/ | Agent | &lt;-- Prompt Injection | LLM | Agent | --&gt; Exfiltering | | Agent | --&gt; SSRF Request Forgery +-------+-------+ | | +-----------------------+ &lt;--- Prompt Injection | | ---&gt; XSS/JSInjection | Klient (User Agent), | ---&gt; Exfiltrering | AI-Plugins | ---&gt; CSRF Request Forgery +-----------------------+ Några kul saker man kan göra:]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #267 - Ostrukturerat V.41</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</link>
     <pubDate>Mon, 07 Oct 2024 08:29:00 &#43;0000</pubDate>
@@ -97,15 +110,6 @@ Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och h
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</guid>
     <description><![CDATA[Lyssna mp3, längd: 51:41 Innehåll sshd är bakdörrat via xz/liblzma. En påverkansoperation, kanske från en underrättelsetjänst, har skett helt öppet i en mailinglista.
 Kodsnack parallell Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - Peter gästar Kodnsack. Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #258 - Opsec Fails</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</link>
-    <pubDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 33:21 Innehåll I dagens avsnitt diskuterar vi det här med opsec, vad är det, och hur går det snett för angripare?
-Fails Tomer Bar: OopsSec - The bad, the worst and the ugly of APT’s operations security (SecurityFest2023) Dark Reading: Global Law Enforcement Disrupts LockBit Ransomware Gang - &ldquo;The vulnerability used to compromise LockBit is tracked as CVE-2023-3824, a flaw present in PHP version 8.0 before 8.0.30, 8.]]></description>
 </item>
 </channel>
 </rss>
