@@ -3,7 +3,18 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 08:31:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #269 - Ostrukturerat V.45</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</link>
+    <pubDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 50:22 Innehåll Hela panelen träffas äntligen igen! Jesper, Johan, Mattias, Peter, Rickard!
+Lyssnarbrev bakdörrar Peter D hörde av sig:
+En toppen pod gör ni verkligen, det är alltid kul att lyssna på er, strukturerat eller inte. Mycket igenkänning i avsnittet &ldquo;Tips till en 18-åring&rdquo; och även &ldquo;När säkerhet går för långt&rdquo;. [&hellip;]
+Det hände något intressant i USA nyligen, på tal om Chattcontrol och massövervakning ni nämnde i avsnitt 267.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #268 - Artificiell Intelligens</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</link>
     <pubDate>Mon, 21 Oct 2024 08:31:00 &#43;0000</pubDate>
@@ -101,15 +112,6 @@ Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
     <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
 Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #259 - XZ-bakdörren</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</link>
-    <pubDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 51:41 Innehåll sshd är bakdörrat via xz/liblzma. En påverkansoperation, kanske från en underrättelsetjänst, har skett helt öppet i en mailinglista.
-Kodsnack parallell Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - Peter gästar Kodnsack. Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!]]></description>
 </item>
 </channel>
 </rss>
