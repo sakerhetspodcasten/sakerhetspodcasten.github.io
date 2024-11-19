@@ -3,9 +3,22 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #270 - Anekdoter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</link>
+    <pubDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 49:02 Innehåll Jesper, Johan, Mattias, Peter och Rickard - samt poddhunden Ester, träffas för att prata anekdoter!
+Lyssnarbrev Lyssnarbrev från Linus M, från i maj:
+Hej! Ni bad om förslag för teamavsnitt.
+Anekdoter tror jag borde vara lätt för er att klämma ur er en hel del och det tror jag skulle uppskattas av publiken.
+Tack för bra underhållning men också för det informativa innehållet.
+Blandade anekdoter &ldquo;Snäll&rdquo; Nessus-scan bränner ner hela datacentret Radius på &ldquo;alla servers&rdquo; går i evighetsloop efter Nessus scans Produktion är nere VMWare brinner och hela virtualiseringen behöver startas om Testaren och hans chef är omöjliga att nå pga möte med avstängda mobiltelefoner Security Operations Centers (SOC) som funkar bra och mindre bra.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #269 - Ostrukturerat V.45</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</link>
     <pubDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</pubDate>
@@ -105,15 +118,6 @@ Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 
     <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
 Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
 Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #260 - Ostrukturerat V.17</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</link>
-    <pubDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
-Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
 </item>
 </channel>
 </rss>
