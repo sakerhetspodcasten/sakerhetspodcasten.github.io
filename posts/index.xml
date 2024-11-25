@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #271 - Ostrukturerat V.48</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</link>
+    <pubDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
+Dagens ämnen:
+Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #270 - Anekdoter</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</link>
     <pubDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</pubDate>
@@ -106,16 +116,6 @@ Guardians of the Hypervisor: ESXi Ransomware Incident Response - Anders Olsson, 
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</guid>
     <description><![CDATA[Lyssna mp3, längd: 01:05:46 Plugs Konferenser:
 Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Kvantkrypto Prata säkerhet med oss 2024-05-02 kvantkrypto Tomas Gustavsson, Keyfactor och Joachim Strömbergson, Assured AB. video Säkerhetspodcasten #256 - Nyår 2023 - ser dåligt ut för Peters spaning&hellip; Avrunding XZ Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - shameless self plug, 90 minuter med Peter &amp; Kodsnack!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
-    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
-Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
-Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
 </item>
 </channel>
 </rss>

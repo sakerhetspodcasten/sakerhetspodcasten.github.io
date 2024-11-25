@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Säkerhetspodcasten #271 - Ostrukturerat V.48 - Säkerhetspodcasten</title><meta name="Description" content="Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet"><meta property="og:title" content="Säkerhetspodcasten #271 - Ostrukturerat V.48" />
+<meta property="og:description" content="Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
+Dagens ämnen:
+Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-11-25T09:58:00+00:00" />
+<meta property="article:modified_time" content="2024-11-25T09:58:00+00:00" /><meta property="og:site_name" content="Säkerhetspodcasten" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Säkerhetspodcasten #271 - Ostrukturerat V.48"/>
+<meta name="twitter:description" content="Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
+Dagens ämnen:
+Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!"/>
+<meta name="application-name" content="Säkerhetspodcasten">
+<meta name="apple-mobile-web-app-title" content="Säkerhetspodcasten"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Säkerhetspodcasten #271 - Ostrukturerat V.48",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_271_ostrukturerat_v_48\/"
+        },"genre": "posts","wordcount":  6793 ,
+        "url": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_271_ostrukturerat_v_48\/","datePublished": "2024-11-25T09:58:00+00:00","dateModified": "2024-11-25T09:58:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Pods </a><a class="menu-item" href="/pages/lyssna" title="Lyssna"> Lyssna! </a><a class="menu-item" href="/pages/kontakt" title="kontakt"> Kontakt </a><a class="menu-item" href="/pages/panelen" title="panelen"> Panelen </a><a class="menu-item" href="/pages/supportersida-2" title="supporters"> Supporters </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Pods</a><a class="menu-item" href="/pages/lyssna" title="Lyssna">Lyssna!</a><a class="menu-item" href="/pages/kontakt" title="kontakt">Kontakt</a><a class="menu-item" href="/pages/panelen" title="panelen">Panelen</a><a class="menu-item" href="/pages/supportersida-2" title="supporters">Supporters</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Säkerhetspodcasten #271 - Ostrukturerat V.48</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-11-25">2024-11-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;6793 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;32 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lyssna">Lyssna</a></li>
+    <li><a href="#innehåll">Innehåll</a></li>
+    <li><a href="#mullvad-slutar-med-openvpn">Mullvad slutar med OpenVPN</a></li>
+    <li><a href="#off-topic-kryptoagilitet-jämfört-med-stela-kryptolådor">Off-topic: Kryptoagilitet jämfört med stela kryptolådor</a></li>
+    <li><a href="#windows-sårbarhet-köra-kod-via-url-filer">Windows Sårbarhet: Köra kod via URL-filer</a></li>
+    <li><a href="#dlink-nas-command-injection">DLink NAS command injection</a></li>
+    <li><a href="#massa-onda-github-pull-requests">Massa onda GitHub Pull Requests</a></li>
+    <li><a href="#bring-your-own-vulnerable-driver">Bring Your Own Vulnerable Driver</a></li>
+    <li><a href="#city-skylines-2-traffic-mod-bakdörrat">City Skylines 2: Traffic Mod bakdörrat</a></li>
+    <li><a href="#galen-ai-transkribrering">Galen AI Transkribrering</a>
+      <ul>
+        <li><a href="#1-000000000----000059900">1 00:00:00,000 &ndash;&gt; 00:00:59,900</a></li>
+        <li><a href="#2-000059900----000147800">2 00:00:59,900 &ndash;&gt; 00:01:47,800</a></li>
+        <li><a href="#3-000148000----000238000">3 00:01:48,000 &ndash;&gt; 00:02:38,000</a></li>
+        <li><a href="#4-000239200----000327700">4 00:02:39,200 &ndash;&gt; 00:03:27,700</a></li>
+        <li><a href="#5-000328200----000411900">5 00:03:28,200 &ndash;&gt; 00:04:11,900</a></li>
+        <li><a href="#6-000412500----000428400">6 00:04:12,500 &ndash;&gt; 00:04:28,400</a></li>
+        <li><a href="#7-000431300----000444800">7 00:04:31,300 &ndash;&gt; 00:04:44,800</a></li>
+        <li><a href="#8-000455700----000553100">8 00:04:55,700 &ndash;&gt; 00:05:53,100</a></li>
+        <li><a href="#9-000555700----000620300">9 00:05:55,700 &ndash;&gt; 00:06:20,300</a></li>
+        <li><a href="#10-000620600----000720400">10 00:06:20,600 &ndash;&gt; 00:07:20,400</a></li>
+        <li><a href="#11-000720500----000816900">11 00:07:20,500 &ndash;&gt; 00:08:16,900</a></li>
+        <li><a href="#12-000818300----000823600">12 00:08:18,300 &ndash;&gt; 00:08:23,600</a></li>
+        <li><a href="#13-000825700----0008337000000000000582">13 00:08:25,700 &ndash;&gt; 00:08:33,700.0000000000582</a></li>
+        <li><a href="#14-0008337000000000000582----000931800">14 00:08:33,700.0000000000582 &ndash;&gt; 00:09:31,800</a></li>
+        <li><a href="#15-000932300----001029800">15 00:09:32,300 &ndash;&gt; 00:10:29,800</a></li>
+        <li><a href="#16-001030300----001121900">16 00:10:30,300 &ndash;&gt; 00:11:21,900</a></li>
+        <li><a href="#17-001123100----001222400">17 00:11:23,100 &ndash;&gt; 00:12:22,400</a></li>
+        <li><a href="#18-001223100----001224500">18 00:12:23,100 &ndash;&gt; 00:12:24,500</a></li>
+        <li><a href="#19-001225800----001303500">19 00:12:25,800 &ndash;&gt; 00:13:03,500</a></li>
+        <li><a href="#20-001304300----001310700">20 00:13:04,300 &ndash;&gt; 00:13:10,700</a></li>
+        <li><a href="#21-001328000----001411200">21 00:13:28,000 &ndash;&gt; 00:14:11,200</a></li>
+        <li><a href="#22-001412100----001459700">22 00:14:12,100 &ndash;&gt; 00:14:59,700</a></li>
+        <li><a href="#23-001501900----001502400">23 00:15:01,900 &ndash;&gt; 00:15:02,400</a></li>
+        <li><a href="#24-001503800----001505100">24 00:15:03,800 &ndash;&gt; 00:15:05,100</a></li>
+        <li><a href="#25-001505500----001605100">25 00:15:05,500 &ndash;&gt; 00:16:05,100</a></li>
+        <li><a href="#26-001605500----001653800">26 00:16:05,500 &ndash;&gt; 00:16:53,800</a></li>
+        <li><a href="#27-001655900----0017159000000000001164">27 00:16:55,900 &ndash;&gt; 00:17:15,900.0000000001164</a></li>
+        <li><a href="#28-001717000----001734400">28 00:17:17,000 &ndash;&gt; 00:17:34,400</a></li>
+        <li><a href="#29-001735500----001739800">29 00:17:35,500 &ndash;&gt; 00:17:39,800</a></li>
+        <li><a href="#30-001740800----001752600">30 00:17:40,800 &ndash;&gt; 00:17:52,600</a></li>
+        <li><a href="#31-001754400----001851900">31 00:17:54,400 &ndash;&gt; 00:18:51,900</a></li>
+        <li><a href="#32-001852600----001859600">32 00:18:52,600 &ndash;&gt; 00:18:59,600</a></li>
+        <li><a href="#33-001900700----001927800">33 00:19:00,700 &ndash;&gt; 00:19:27,800</a></li>
+        <li><a href="#34-001932300----002023100">34 00:19:32,300 &ndash;&gt; 00:20:23,100</a></li>
+        <li><a href="#35-002024400----002123200">35 00:20:24,400 &ndash;&gt; 00:21:23,200</a></li>
+        <li><a href="#36-002124500----002131700">36 00:21:24,500 &ndash;&gt; 00:21:31,700</a></li>
+        <li><a href="#37-002133200----002135100">37 00:21:33,200 &ndash;&gt; 00:21:35,100</a></li>
+        <li><a href="#38-002136600----002218400">38 00:21:36,600 &ndash;&gt; 00:22:18,400</a></li>
+        <li><a href="#39-002219200----002315600">39 00:22:19,200 &ndash;&gt; 00:23:15,600</a></li>
+        <li><a href="#40-002317700----002417500">40 00:23:17,700 &ndash;&gt; 00:24:17,500</a></li>
+        <li><a href="#41-002417700----002440600">41 00:24:17,700 &ndash;&gt; 00:24:40,600</a></li>
+        <li><a href="#42-002442200----002451200">42 00:24:42,200 &ndash;&gt; 00:24:51,200</a></li>
+        <li><a href="#43-002452200----002515500">43 00:24:52,200 &ndash;&gt; 00:25:15,500</a></li>
+        <li><a href="#44-002516600----002526000">44 00:25:16,600 &ndash;&gt; 00:25:26,000</a></li>
+        <li><a href="#45-002527000----002602800">45 00:25:27,000 &ndash;&gt; 00:26:02,800</a></li>
+        <li><a href="#46-002604600----002609000">46 00:26:04,600 &ndash;&gt; 00:26:09,000</a></li>
+        <li><a href="#47-002620200----002719600">47 00:26:20,200 &ndash;&gt; 00:27:19,600</a></li>
+        <li><a href="#48-002720100----002743900">48 00:27:20,100 &ndash;&gt; 00:27:43,900</a></li>
+        <li><a href="#49-002746200----002747100">49 00:27:46,200 &ndash;&gt; 00:27:47,100</a></li>
+        <li><a href="#50-002757000----002844500">50 00:27:57,000 &ndash;&gt; 00:28:44,500</a></li>
+        <li><a href="#51-002845600----002930900">51 00:28:45,600 &ndash;&gt; 00:29:30,900</a></li>
+        <li><a href="#52-002936000----003000900">52 00:29:36,000 &ndash;&gt; 00:30:00,900</a></li>
+        <li><a href="#53-003002000----003055700">53 00:30:02,000 &ndash;&gt; 00:30:55,700</a></li>
+        <li><a href="#54-003056700----003156500">54 00:30:56,700 &ndash;&gt; 00:31:56,500</a></li>
+        <li><a href="#55-003156700----003201200">55 00:31:56,700 &ndash;&gt; 00:32:01,200</a></li>
+        <li><a href="#56-003202000----003213400">56 00:32:02,000 &ndash;&gt; 00:32:13,400</a></li>
+        <li><a href="#57-003214900----003301400">57 00:32:14,900 &ndash;&gt; 00:33:01,400</a></li>
+        <li><a href="#58-003302700----003311800">58 00:33:02,700 &ndash;&gt; 00:33:11,800</a></li>
+        <li><a href="#59-003312300----003317900">59 00:33:12,300 &ndash;&gt; 00:33:17,900</a></li>
+        <li><a href="#60-003319000----003404600">60 00:33:19,000 &ndash;&gt; 00:34:04,600</a></li>
+        <li><a href="#61-003405800----003428900">61 00:34:05,800 &ndash;&gt; 00:34:28,900</a></li>
+        <li><a href="#62-003430900----003448100">62 00:34:30,900 &ndash;&gt; 00:34:48,100</a></li>
+        <li><a href="#63-003450900----003452900">63 00:34:50,900 &ndash;&gt; 00:34:52,900</a></li>
+        <li><a href="#64-003454100----003517000">64 00:34:54,100 &ndash;&gt; 00:35:17,000</a></li>
+        <li><a href="#65-003520700----003521200">65 00:35:20,700 &ndash;&gt; 00:35:21,200</a></li>
+        <li><a href="#66-003523600----003540100">66 00:35:23,600 &ndash;&gt; 00:35:40,100</a></li>
+        <li><a href="#67-003542200----003554500">67 00:35:42,200 &ndash;&gt; 00:35:54,500</a></li>
+        <li><a href="#68-003556200----003640500">68 00:35:56,200 &ndash;&gt; 00:36:40,500</a></li>
+        <li><a href="#69-003641700----003654300">69 00:36:41,700 &ndash;&gt; 00:36:54,300</a></li>
+        <li><a href="#70-003655300----003733400">70 00:36:55,300 &ndash;&gt; 00:37:33,400</a></li>
+        <li><a href="#71-003734400----003742300">71 00:37:34,400 &ndash;&gt; 00:37:42,300</a></li>
+        <li><a href="#72-003743700----003837500">72 00:37:43,700 &ndash;&gt; 00:38:37,500</a></li>
+        <li><a href="#73-003838700----003907900">73 00:38:38,700 &ndash;&gt; 00:39:07,900</a></li>
+        <li><a href="#74-003922700----003926600">74 00:39:22,700 &ndash;&gt; 00:39:26,600</a></li>
+        <li><a href="#75-003933400----003947300">75 00:39:33,400 &ndash;&gt; 00:39:47,300</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="lyssna">Lyssna</h2>
+<ul>
+<li><a href="https://traffic.libsyn.com/secure/sakerhetspodcasten/2024-11-20_Ostrukt.mp3?dest-id=117848" target="_blank" rel="noopener noreffer ">mp3</a>, längd: 39:50</li>
+</ul>
+<h2 id="innehåll">Innehåll</h2>
+<p>Rickard fick akut hoppa av inspelningen för att rädda universium från <strong>Operation Impending Doom I</strong>,
+och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.</p>
+<p>Dagens ämnen:</p>
+<ul>
+<li>Brev till Jesper.
+Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida,
+via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning.</li>
+<li>Mullvad slutar med OpenVPN</li>
+<li>Off-topic: Kryptoagilitet jämfört med stela kryptolådor</li>
+<li>Windows Sårbarhet (Remote Code Executution via URL-filer)</li>
+<li>DLink NAS command injection: <code>execvp()</code> vs <code>system()</code> i samma produkt&hellip;</li>
+<li>Massa onda Github Pull Requests</li>
+<li>Bring Your Own Vulnerable Driver</li>
+<li>City Skylines Traffic Trojan</li>
+<li>Mattias till DreamHack i helgen</li>
+</ul>
+<p>Extra shoutout till <strong>Low Level</strong> som stod för en helt
+stor andel av historierna Peter rapporterade på denna gången!</p>
+<ul>
+<li><a href="https://www.youtube.com/c/lowlevellearning" target="_blank" rel="noopener noreffer ">Youtube</a>,
+<a href="https://www.twitch.tv/LowLevelTV" target="_blank" rel="noopener noreffer ">Twitch</a>,
+<a href="https://lowlevel.academy/" target="_blank" rel="noopener noreffer ">Low Level Academy</a></li>
+</ul>
+<h2 id="mullvad-slutar-med-openvpn">Mullvad slutar med OpenVPN</h2>
+<p>Mullvad slutar med OpenVPN.</p>
+<blockquote>
+<p>We are removing support for OpenVPN, it will be completely removed on 15th January 2026.
+The process of removing OpenVPN from our app starts today and may be completed much earlier.</p>
+<p>We want to focus entirely on the WireGuard protocol, as we explained in detail back in 2017.
+By moving to a single protocol, we will be able to focus our resources where they can make a difference.</p>
+</blockquote>
+<p>2015, 2017:</p>
+<blockquote>
+<p>Back in early 2015, we were asked by TorrentFreak which cryptographic primitives we recommend. Our answer:
+<em>&quot;&hellip;ideally we would recommend Ed25519 for certificates, Curve25519 for key exchange (ECDHE), and
+ChaCha20-Poly1305 for data streams but that suite isn’t supported by OpenVPN.&quot;</em></p>
+<p>These are the exact primitives that WireGuard contains, but at that time, they were nothing more than a wish list.</p>
+</blockquote>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://mullvad.net/en/blog/2024/11/8/removing-openvpn-15th-january-2026" target="_blank" rel="noopener noreffer ">Mullvad: Removing OpenVPN 15th January 2026</a></li>
+<li><a href="https://mullvad.net/en/blog/wireguard-future" target="_blank" rel="noopener noreffer ">Mullvad: WireGuard is the future</a></li>
+</ul>
+<h2 id="off-topic-kryptoagilitet-jämfört-med-stela-kryptolådor">Off-topic: Kryptoagilitet jämfört med stela kryptolådor</h2>
+<p>Kryptoagilitet vs box-design / tråkiga stela lådor är ett träsk av spännande åsikter.</p>
+<p>Mullvad 2017:</p>
+<blockquote>
+<p>WireGuard is also cryptographically opinionated. In other words, it supports only
+one cryptographic suite and that&rsquo;s it. Supporting multiple suites, so-called
+&ldquo;cipher agility,&rdquo; may sound more optimal, but history has shown that this introduces
+unnecessary complexity and leads to security vulnerabilities.</p>
+</blockquote>
+<p>En av de tidiga förespråkarna av tråkiga lådor utan agilitet är Daniel J Bernstein (DJB).</p>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=3t-YywpUipI" target="_blank" rel="noopener noreffer ">Keyfactor: What is crypto-agility?</a> - <code>video</code>.
+Exempel på fördelar med crypto-agility.</li>
+<li><a href="https://cr.yp.to/highspeed/coolnacl-20120725.pdf" target="_blank" rel="noopener noreffer ">Daniel J. Bernstein, Tanja Lange, and Peter Schwabe: The security impact of a new cryptographic library</a>
+NaCL, ett tidigt exempel på en <code>crypto_box</code> design där någon levererar en helhetslösning från handskakning ner till transportchiffer, <strong>utan agilitet</strong>.</li>
+<li><a href="https://cr.yp.to/talks/2015.10.05/slides-djb-20151005-a4.pdf" target="_blank" rel="noopener noreffer ">Daniel J. Bernstein: Boring crypto</a></li>
+</ul>
+<h2 id="windows-sårbarhet-köra-kod-via-url-filer">Windows Sårbarhet: Köra kod via URL-filer</h2>
+<p>ClearSky Security identiferade en pågående attack riktad mot Ukrainska användare av Windows.</p>
+<p>Genom att få in en URL / Internet shortcut fil på användares datorer via t.ex. phising,
+så kan nästan vad som helst få skadlig kod att börja exekvera.</p>
+<blockquote>
+<p>A single right-click on the file (all Windows versions).</p>
+<p>Deleting the file (Windows 10/11).</p>
+<p>Dragging the file to another folder (Windows 10/11 and some Windows 7/8/8.1 configurations).</p>
+</blockquote>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://www.clearskysec.com/0d-vulnerability-exploited-in-the_wild/" target="_blank" rel="noopener noreffer ">ClearSky Cyber Security: CVE-2024-43451 A New Zero-Day Vulnerability Exploited in the wild</a></li>
+<li><a href="https://www.clearskysec.com/wp-content/uploads/2024/11/Zero-day-cve-2024-4351-report.pdf" target="_blank" rel="noopener noreffer ">New Zero-Day Vulnerability Detected: CVE-2024-43451</a> - <code>pdf</code></li>
+</ul>
+<h2 id="dlink-nas-command-injection">DLink NAS command injection</h2>
+<p>DLink NAS kör kod helt <strong>oautentiserat</strong> via <strong>Command Injection</strong> i <em>Account Manager</em>, <em>Add User</em>, <em>name</em></p>
+<ul>
+<li><code>/cgi-bin/account_mgr.cgi?cmd=cgi_user_add&amp;name=</code></li>
+</ul>
+<p>Hittat av NetSecFish.</p>
+<p>Low Level reversar koden med <a href="https://github.com/ReFirmLabs/binwalk" target="_blank" rel="noopener noreffer ">binwalk</a> och <a href="https://ghidra-sre.org/" target="_blank" rel="noopener noreffer ">Ghidra</a>:</p>
+<ul>
+<li>Visar att någon i DLinks utvecklarteam vet hur man kör kommandon säkert.</li>
+<li>Visar att någon annan inte vet det.</li>
+<li><code>execvp()</code> <em>utan shell exansion</em>.</li>
+<li><code>system()</code> <em>med shell expansion</em>,
+dvs <code>sh -c &quot;command argument&quot;</code> där <code>sh</code> kommer <em>&ldquo;shell expandera&rdquo;</em> kommandot och argumenten.
+Det vill säga <code>;</code>, <code>$VAR</code> och så vidare i argumentet får magiska betydelser.</li>
+</ul>
+<p>Varför man ens kan komma åt Account Manager funktionen utan autentisering&hellip;.
+är en annan fråga.</p>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://netsecfish.notion.site/Command-Injection-Vulnerability-in-name-parameter-for-D-Link-NAS-12d6b683e67c80c49ffcc9214c239a07" target="_blank" rel="noopener noreffer ">NetSecFish: Command Injection Vulnerability in &ldquo;name&rdquo; parameter for D-Link NAS</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/critical-bug-in-eol-d-link-nas-devices-now-exploited-in-attacks/" target="_blank" rel="noopener noreffer ">Bleepingcomputer: Critical bug in EoL D-Link NAS devices now exploited in attacks</a></li>
+<li><a href="https://www.youtube.com/watch?v=-vpGswuYVg8" target="_blank" rel="noopener noreffer ">LowLevel: there’s no way they did this..</a> - <code>video</code></li>
+</ul>
+<h2 id="massa-onda-github-pull-requests">Massa onda GitHub Pull Requests</h2>
+<p>En massa försök att bakdörra Open Source projekt via GitHub PR kan hittas via enkla sökningar.
+<em>&ldquo;GitHub is literally littered with malware&rdquo;</em>:</p>
+<ul>
+<li>De är ofta ganska dåligt gömda</li>
+<li>De använder oftast <code>exec()</code></li>
+<li>De är ofta endast <code>stage 1</code> koden för att ladda ner ondskan från t.ex. en URL där <code>stage 2</code> koden ligger.</li>
+</ul>
+<p>Man verkar tro att ingen review görs alls från maintainers?
+Eller hoppas man att det exekveras automatiskt via t.ex. pull-request tester?</p>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=amclP9CevVw" target="_blank" rel="noopener noreffer ">Eric Parker: They keep trying to backdoor Open Source</a> - <code>video</code></li>
+<li><a href="https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-04-Poisoned-Pipeline-Execution" target="_blank" rel="noopener noreffer ">OWASP CICD-SEC-4: Poisoned Pipeline Execution (PPE)</a></li>
+</ul>
+<h2 id="bring-your-own-vulnerable-driver">Bring Your Own Vulnerable Driver</h2>
+<p>Kaspersky har identifierat SteelFox Trojan, som installerar gamla sårbara drivrutiner för att få
+obegränsad tillgång till allt i datorn.</p>
+<blockquote>
+<ul>
+<li>SteelFox can elevate its privileges through exploitation of a vulnerable driver.</li>
+</ul>
+</blockquote>
+<p><em>&ldquo;Bring your own vulnerable driver&rdquo;</em> är en intressant priviligeringseskalering där man högsta rättigheter
+genom att installera något gammalt som är riktigt sårbart.</p>
+<p>Sårbarheterna som missbrukas:</p>
+<blockquote>
+<p>Ballistix MOD Utility through 2.0.2.5 is vulnerable to privilege escalation in the MODAPI.sys driver component.
+The vulnerability is triggered by sending a specific IOCTL request that allows low-privileged users to directly
+interact with physical memory via the MmMapIoSpace function call (mapping physical memory into a virtual address space).
+Attackers could exploit this issue to achieve local privilege escalation to NT AUTHORITY\SYSTEM.</p>
+</blockquote>
+<blockquote>
+<p>The WinRing0.sys and WinRing0x64.sys drivers 1.2.0 in EVGA Precision X1 through 1.0.6 allow local users, including low
+integrity processes, to read and write to arbitrary memory locations.
+This allows any user to gain NT AUTHORITY\SYSTEM privileges by mapping \Device\PhysicalMemory into the calling process.</p>
+</blockquote>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://securelist.com/steelfox-trojan-drops-stealer-and-miner/114414/" target="_blank" rel="noopener noreffer ">Kaspersky Securelist: New SteelFox Trojan mimics software activators, stealing sensitive data and mining cryptocurrency</a></li>
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2021-41285" target="_blank" rel="noopener noreffer ">CVE-2021-41285</a></li>
+<li><a href="https://www.cve.org/CVERecord?id=CVE-2020-14979" target="_blank" rel="noopener noreffer ">CVE-2020-14979</a></li>
+<li><a href="https://www.youtube.com/watch?v=pSksXALDV98" target="_blank" rel="noopener noreffer ">Low Level: new windows malware brings it&rsquo;s OWN vulnerabilities</a> - <code>video</code></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/new-steelfox-malware-hijacks-windows-pcs-using-vulnerable-driver/" target="_blank" rel="noopener noreffer ">BleepingComputer: New SteelFox malware hijacks Windows PCs using vulnerable driver</a></li>
+</ul>
+<h2 id="city-skylines-2-traffic-mod-bakdörrat">City Skylines 2: Traffic Mod bakdörrat</h2>
+<p><code>FastMath.dll</code> bakdörr inlaggd i Traffic MOD.
+Det är en ganska populär mod, så potentiellt har tusentals användare installerat den.</p>
+<p><code>readpe</code> hittar inga beroenden i bakdörren, eftersom den gömmer sina imports i någon skum länka-via-hashar teknik.</p>
+<p>Anti-virus har varit väldigt långsamma med att lägga till detektering av trojan.</p>
+<blockquote>
+<p>u/ToughAddition: The malicious mod contained the main mod library Traffic.dll (VT link), which
+loads FastMath.dll (VT link) at initialization time. FastMath.dll is a highly-obfuscated library
+with multiple anti-sandbox checks that drops a second stage containing stealer functionalities.
+The second stage resolves system imports of kernel32.dll and ntdll.dll to activate the encrypted shellcode stored within.
+&hellip;</p>
+<p>Function calls resolved by the payload using shellcode techniques:</p>
+<ul>
+<li>kernel32.dll!CreateThread</li>
+<li>kernel32.dll!Sleep</li>
+<li>kernel32.dll!AllocConsole</li>
+<li>&hellip;</li>
+</ul>
+</blockquote>
+<p>Länkar:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=VH_8arwuRz8" target="_blank" rel="noopener noreffer ">Low Level: they found another backdoor.</a> - <code>video</code></li>
+<li><a href="https://www.reddit.com/r/antivirus/comments/1gh4qp0/popular_mod_for_a_game_may_have_been_malicious_no/?rdt=46357" target="_blank" rel="noopener noreffer ">r/antivirus: Popular mod for a game may have been malicious, no one know that to do or what it is, antiviruses not picking it up.</a></li>
+<li><a href="https://www.virustotal.com/gui/file/8c6c3f9b3fd8497322cd9e798790aa3485a44f9c5418bb4aa97b630a3fb8cead/" target="_blank" rel="noopener noreffer ">VirusTotal: 8c6c3f9b3fd849&hellip;</a></li>
+<li><a href="https://www.virustotal.com/gui/file/671c26b7d17db3af70f7ad24e48cf9eabdbac68a9604fa1b803608cff8a5df79" target="_blank" rel="noopener noreffer ">VirusTotal: /671c26b7d17db&hellip;</a></li>
+</ul>
+<h2 id="galen-ai-transkribrering">Galen AI Transkribrering</h2>
+<p>Google försöker igen :)</p>
+<p>Meta: idag diskuterar vi våra AI-transkriberingar.</p>
+<h3 id="1-000000000----000059900">1 00:00:00,000 &ndash;&gt; 00:00:59,900</h3>
+<p>Hej och välkommen till säkerhetsforkosten. Jag som pratar lite Johan Rydberg Möller med mig. Ja Mattias idag så men hanch smälter ditt modermodell och jag spelar också som inte har all so coolt att se och rycker inte nej, han skulle vart här men du är inte här är det sponsrad av short de finns på short.se så även bortforskningsavdelning på bokföring.se och noll x4a som finns på nollys idag.se och vi ska nämna att det är den 20 november när vi spelar in detta och detta är inte ostricket avslut så är det och så kult. Först går det stapeln det står och dit vill man ju gå där vill man ju framförallt prata exakt och vad gör man då? Då går man in på skuldsätten kom och så tycker man så vidare till går för papers och sen så smittar man det där och det gör man föreslagsvis överraböj, för att vi börjar med de första utdragsrunna snart. Åh vilket var kul man ha alla som är bra perfekt så om man har någon god research så.</p>
+<h3 id="2-000059900----000147800">2 00:00:59,900 &ndash;&gt; 00:01:47,800</h3>
+<p>Bara skicka in och den andra grejen som jag nämna någon sekretfest är att vi har ju levlat upp lite eh i lokal Och så vidare Och det är väldigt trevligt, Men det är gratis. Det är det verkligen inte så ha en eh ditt bolag om ni såg jag på sponsra. Hör av det till slutspels.com eh Hello Ett skutfisken eller till oss privat så löser vi det. Yes vi har lite mer. Vi har lite konsert. Vi är mer rum eh faktiskt som som möjlighet att göra exakt men men ni lämnade upp redan förra året var jag för mig. Vi lämnar inte upp så mycket mer sponsorer då och sen Nej det gjorde vi inte men det är där med moms och sånt. Det är massa skatter och avgifter och sånt stök som man 25 % mer eller mindre har vi fler så kan det bli ännu bättre, Ja men</p>
+<h3 id="3-000148000----000238000">3 00:01:48,000 &ndash;&gt; 00:02:38,000</h3>
+<p>Alltså kan tända. Ni är väl det att vi hyrde ju alltid ihop och sen bara Oj Det finns ju massa rum här eh. De kan man göra grejer i och det vi gjorde inte det så att det var ju jämfört två rum som mer eller mindre var tomma Eh Men lobby con-ideen alltså lobby, contänsland detta året tycker jag var nej nice. Det vill säga det fanns väldigt bra möjligheter att hänga och snacka och det kan man ju ta längre eh och det behöver vi hjälp med så Vill ni vara med så vill vi gärna att ni är med och även och förresten och ifall ni inte är bolag som responser så kan det vara värt att höra av sig ändå om man exempelvis brinner för att göra någon form av Village eller annan aktivitet eh, för det kan vi i så fall hjälpa till att stötta och sådär så eh Jo absolut, men men hör av er i så fall så löser vi det kroki inte okej.</p>
+<h3 id="4-000239200----000327700">4 00:02:39,200 &ndash;&gt; 00:03:27,700</h3>
+<p>Nej det det är en annan konferens där. Det är faktiskt det så om du tänker på det Nope Noel Nej jag har fått ett brev till Jesper upp någonstans live. Det är väldigt Det är väldigt tunt och sen så är det ju det kanske är sånt här ebola det vita pulveret vad var det Men det är klart i Alex och Sigge eller något Åh coolt? Ja jag förstår inte. Ja ja, jag ser här du ser inte du får använda den ord.</p>
+<h3 id="5-000328200----000411900">5 00:03:28,200 &ndash;&gt; 00:04:11,900</h3>
+<p>Det står jag har fått en paj Och så står det htps kolon kolon https/064.se bild referera till avsnitt frågetecken text din URL på security fast hemsida första gången så Anders Nu är det krigrapport. Jag kommer inte att så mycket eller Alex är väl den som är det snubben men det är väl själva brev eller?</p>
+<h3 id="6-000412500----000428400">6 00:04:12,500 &ndash;&gt; 00:04:28,400</h3>
+<p>Nej alltså vi det vart här ett tag. Alltså du var här på din spelning. Vi spelar ju ofta. Vi har ju två studier så vi är ju så jäkla etablerad som man brukar säga så är det faktiskt utanför varje dag.</p>
+<h3 id="7-000431300----000444800">7 00:04:31,300 &ndash;&gt; 00:04:44,800</h3>
+<p>Så är det faktiskt inte hos mig. Men det ska vi ju genast fixa för jag har använt min hemsida för reklam precis att göra program.</p>
+<h3 id="8-000455700----000553100">8 00:04:55,700 &ndash;&gt; 00:05:53,100</h3>
+<p>Nej det hade varit tråkigt.se Men eh på tal om det Vi har också podcasten var nere en liten snabbis fick vi någon var det någon sådan snabb savant som skickade som går in där och så är det för runt några timmar så där Alltså de är bättre än vilket jädra på lite. Jag kör runt där igår när jag hade backlog och inte hade skrivit någon någon beskrivning på på avsnittet som Hur många sekunder tog det, men jag gjorde vår tisdag. När skulle jag varit gjort på måndag? Jag kände lite så här Det Det finns vissa personer som det är bara en tidsfråga.</p>
+<h3 id="9-000555700----000620300">9 00:05:55,700 &ndash;&gt; 00:06:20,300</h3>
+<p>I foten eller inte För att jag skrev ju inte några Show notes längre i avsnittsbeskrivningen utan jag skriver ju bara fullständiga shownote finns på sajten, men så att ni går faktiskt istället och nu är roa i det så gå in på dem de avsnitten där jag har gjort AI Trans gruppering för ibland. Ibland blir det.</p>
+<h3 id="10-000620600----000720400">10 00:06:20,600 &ndash;&gt; 00:07:20,400</h3>
+<p>Det är bra ibland blir det mindre bra och jag kan säga det Google som var i det. Den har ju inte haft en fantastisk. Dalen transformerade vårt senaste avsnitt nu måste jag också kolla på det. Det är så mycket galet Och det var roligt Skit vad det sista heter han ska meningen första som det Eh typ nu ser jag välkommen till sex eller någonting sådär, men det det när Johan säger Välkommen till säkerhets podcast och sen skratta till och slutar från Göteborg på samma glada människor tänker man får ge lite Googla att det här är kanske inte den lättaste audiofilen och de skriver här många röster sånt är bra att börja på dock tror Jag tror att det var ett anekdotasnytt. Sen gick ju ut förra veckan blir det två växeln. Ehm bara uppskattat har jag hört kul. Nej men vi var inte det igår eller förrgår gick ut. Ja, det går ut.</p>
+<h3 id="11-000720500----000816900">11 00:07:20,500 &ndash;&gt; 00:08:16,900</h3>
+<p>Då då Eh jag skulle börja och säga att jag lyckades uppdatera och flytta podcasten utan att någon sa något igen sjukt avsnitt om något år att att han var rädd att folk skulle tro att han var psyk sjuk för jag tänker runt och skrattade i kollektivtrafiken blir av shorts.se eh bordfors blir vårdfors.se. Det blir 01.se blir. Skriv till fest jag Jag förstår direkt att du inte har rett ut det här för då hade jag hört det på alla kanaler. Det finns en del.</p>
+<h3 id="12-000818300----000823600">12 00:08:18,300 &ndash;&gt; 00:08:23,600</h3>
+<p>Vi borde börja läsa in vårat den ska bli här istället. Det är du</p>
+<h3 id="13-000825700----0008337000000000000582">13 00:08:25,700 &ndash;&gt; 00:08:33,700.0000000000582</h3>
+<p>Fött ifrån livesending det är bra. Det är bra radio men men hur som haver så nu är nu. Nu är jätte</p>
+<h3 id="14-0008337000000000000582----000931800">14 00:08:33,700.0000000000582 &ndash;&gt; 00:09:31,800</h3>
+<p>Hennes kluster hemma också. Det har blivit en eh en procksmox eh också så jag kan veta det senaste alla använda plocka också. Det har de ganska länge men varför jag har gjort det nu? Det är för att eh jag behöver köpa en ny dator eh och det är väldigt svårt för mig så jag köper inte en ny dator och då tänker jag så här. Hur läser jag det problemet Jo med ett proppsmåkskluster så jag klorar min dator till klustret så finns det ju alltid där är nöjligt eller hur lite här vad bra Johan Ja duktig du är från början, eller först började transkriven bara jag är välkommen till säkerhets podcasten. Jag har som pratar ju börja med vad har jag Peter Magnusson att vi två man kort idag för Mattias blir det virus och Jesper är på Grekland oklart vad han gör på Grekland uppgift så tog ju monteras väldigt mycket typ feber eller sättande eller tabletter. Ja eh var väl uppgift. Det kan ju vara att han tog covid donald-tablett.</p>
+<h3 id="15-000932300----001029800">15 00:09:32,300 &ndash;&gt; 00:10:29,800</h3>
+<p>Här låter Det låter som att vi har lite att jobba på en ljudbokationen avsnittet och sen nästa avsnittet och så precis eller Eh nej, men en grej som jag vill prata om som jag inte kan så mycket om men det är den det jag kommer den rolig eh Windows ormberghet som är på tal om det här. Vi pratade om i strukturerar att det här med en lätt exploderad så verkar den här otroligt läkt exploaterad. Det är clear Sky service curity som har hittat en i juni 2024 som är en den har fått CV numereringen nu då kan jag lägga oklart. Det är väl för att Microsoft gör Microsoft saker Det vill säga långsamt cv2024 43 fyra fem ett.</p>
+<h3 id="16-001030300----001121900">16 00:10:30,300 &ndash;&gt; 00:11:21,900</h3>
+<p>Eh bra nummer. Jag kan gå igenom eh exploadskällaren för den ni vill Så ni nu blir det nu blir det nu blir det minneslädar. Eh det är isning. Ja, exakt. Det är nu. Nu jäklar ska vi prata minne, men höger klicka på filen. Det är lite filen flytta filen Klar Men eh man högerklickar på filen. Alla alla Windows grejer deletar filen flyttar filen. Det är de det är de exekveringsmetoderna som finns så den triggas genom att man antingen höger klickar på filen. Det är lite filen eller flyttar filen. Så det här har man ju då sett är under en eh En man tror att det är en Russian traiteactor, Alltså det är en rysk Hacke grupp som har gjort detta ehm.</p>
+<h3 id="17-001123100----001222400">17 00:11:23,100 &ndash;&gt; 00:12:22,400</h3>
+<p>För Ja för att Ryssland gör ryska saker och den här uppdateras då 12 november, Så den är ganska fräsch då liksom så det här man ska liksom eh uppdatera sin twindosystem och då har jag lite kompisar i min I mitt eh liksom närområde som jag Ja exakt de är nog inte mina kompisar igen, men jag träffar dem inte så mycket på på riktigt utan min med signalgrupper. Så då frågar jag. Ja, Då skriver jag det har ni hört om det här för de är så här de kan Windows liksom eh och bara så här Ja så blir det tyst och så fram och tillbaka och sen bara så här hur vad till din svårt för dem att validera Hur vidare de var patchade eller inte För den här så det kanske ändrats nu, men om man har följd pattscykeln så var det svårt att veta om man hade just fått patchen här då. Men idén är egentligen så här då för Nu gav vi ju ganska vakt bara hur man blir exploaterad. Men idén är att man får ett fishing email från i det här fallet så var det en compromise you cranium government server som skickar ut den här till eh massa olika.</p>
+<h3 id="18-001223100----001224500">18 00:12:23,100 &ndash;&gt; 00:12:24,500</h3>
+<p>mottagare ehm</p>
+<h3 id="19-001225800----001303500">19 00:12:25,800 &ndash;&gt; 00:13:03,500</h3>
+<p>Eh och det som händer då Det är att ja, det är en duell en urlfil egentligen som då triggar den här Ja det är någon remot historia och då det som det som exekverar sig något som de kallar för Spark rat. Jag är inget bra på maloware, men det är tydligen något Ja remote Access 12 Kit liksom. Eh Men idén är ju då att den den går liksom det är bara en fil och Trigger ner antingen högerklickad delita eller flytta den körs bara man gör exakt och det är då Och vad man får då. Det är ju att du får liksom. Ja men remote Execution liksom</p>
+<h3 id="20-001304300----001310700">20 00:13:04,300 &ndash;&gt; 00:13:10,700</h3>
+<p>Det är inte så bra. Nej det finns en long right up på detta hur den har hittat så var de har liksom plockat.</p>
+<h3 id="21-001328000----001411200">21 00:13:28,000 &ndash;&gt; 00:14:11,200</h3>
+<p>Och någonting den Flera sig som en usb-hydd eller en blåtandshidd så dödar du den liksom blir jättesvårt för någon att liksom Starta jag kan ju styra min telefon med mina ögonummer, va? Titta inte på din telefon lägger bort telefonen gräva ner dig i jordkällan det som sker då är att antingen har klickar. Jag flyttade det är lite och då triggar den det här på något sätt som då hämtar ner med varit lokalt hur det nu är möjligt, men det är det ju uppenbarligen Microsoft magi. Ska vara patchat det och PPP magi. Det är typ samma sak så det ska vara patchat nu men det gäller och validera att man är patchad.</p>
+<h3 id="22-001412100----001459700">22 00:14:12,100 &ndash;&gt; 00:14:59,700</h3>
+<p>Ja väldigt så här. Jaha men varför är det svårt att välja den här sårbarhet cvn var liksom täckt vad det var betydligt svårt att hitta oss dator. Det är ju en annan lösning provocerade av så här bara. Ja, men man ska inte klicka Vad fan ska man göra då? Det är ju det man gör det bara så här. Det är också rimligt att vi lägger en miljard på it-säkerhet och klickar de bara länken i kört. Vad i helvete är det då använda som har gjort fel eller har vi byggt system Och vem fick alla pengarna? Du ska ju inte öppna mail. Det luktar som min favorit sourcing leverantör som slutar på Eto</p>
+<h3 id="23-001501900----001502400">23 00:15:01,900 &ndash;&gt; 00:15:02,400</h3>
+<p>Åh</p>
+<h3 id="24-001503800----001505100">24 00:15:03,800 &ndash;&gt; 00:15:05,100</h3>
+<p>jag använder hans problem.</p>
+<h3 id="25-001505500----001605100">25 00:15:05,500 &ndash;&gt; 00:16:05,100</h3>
+<p>Ja eh Peter i internet. Det är som otrolig fluga. Vad är vi nu? Ja, Sen har jag en rolig grej mullvad BPM bara. Jag har klarat sen. Vad gör de De mullvadora gräver tunnlar, de gräver tunnlar gräsmattan. Då ska de bort, Men mullvad gräver mullvady BM gräver ju tunna på internet och de gillar vi eller Jag gillar dem jättemycket. De ska faktiskt skrota Open VPN Just det Så att jag har fan fått meddelande om tror jag. De har faktiskt gått ut med en bloggpost kring det och det är kul. Ehm och behöver en har ju varit med i industrin väldigt väldigt länge eh wiregard är ju någonting som har blivit mer eller mindre. Det är faktiskt stanna nu för tiden i alla fall i open source världen eh och av en anledning till att det är mindre overhead helt enkelt men den är kernelimplementerad så vi går fortare liksom. Vi får mindre teknisk overhead än med Open VPN så det åker ut och</p>
+<h3 id="26-001605500----001653800">26 00:16:05,500 &ndash;&gt; 00:16:53,800</h3>
+<p>Gör nog en bra sak för att OpenVPN har ju blivit eget Monster Eh jag tittar ju mycket på den typ runt implementacionen och problemet är ju inte kanske Open VPN som protokoll. Det är ganska så här Battle tested liksom. Det har ändå varit ute industrin men det som sker i att det har ju en ganska stor och välutbyggd eh implementacion av mammoduler eller saker och ting som ska ske när någon loggar in till exempel validera ljusridentity Eller login eller vad det nu kan vara Och där brukade finnas mycket kul. Det är problemet kommer dock vara så kanske på Wild men jag tycker det är en bra grej för internet Freedom Ja eller något. Det var bara en liten nu men om Douglas eller ja.</p>
+<h3 id="27-001655900----0017159000000000001164">27 00:16:55,900 &ndash;&gt; 00:17:15,900.0000000001164</h3>
+<p>Har inte den typ först någon konstigt hela sin lagring och sen känner sitt eget lilla protokoll. Det kan man absolut göra eh, så man kan börja och göra en liten en tlsans skakning och sen så etablerar man nu. Det blev ström med det man kom fram till så att säga men det finns Ja det där kan vi prata länge om man kan göra på olika sätt.</p>
+<h3 id="28-001717000----001734400">28 00:17:17,000 &ndash;&gt; 00:17:34,400</h3>
+<p>olika saker namnet på vad man kallar de här men det som man Ja vad fan heter han är</p>
+<h3 id="29-001735500----001739800">29 00:17:35,500 &ndash;&gt; 00:17:39,800</h3>
+<p>han som har gjort alla de här boxkrypterna och sånt och så kolveren om att du har en</p>
+<h3 id="30-001740800----001752600">30 00:17:40,800 &ndash;&gt; 00:17:52,600</h3>
+<p>färdig ganska enkelt Krypt upp paketering där där det liksom är det är en grej som sker det finns du Du tar bort väldigt mycket om komplexa handskakningen och sådant så att det är ju en</p>
+<h3 id="31-001754400----001851900">31 00:17:54,400 &ndash;&gt; 00:18:51,900</h3>
+<p>Den enklade grej från en annan typ av filosofi som ligger bakom mig så mycket är ju man skulle kunna hämta det är lättare fan i min animalitet för att konfigurationen ser ut på ett annat sätt. Vi använder public private är det igen, liksom eh, så att ja. Nej det jag jag Det sjuka är att jag sitter här och säger att jag föredrar bara Guard och körde överallt, men det gör inte jag. Jag kör faktiskt inte ihop med VPN men jag borde köra Wild Guard Jag har en Wide Guard instans på min Infrastruktur men jag föredrar att köra Open VPN herregud gick bra som en riktig jävla bonde skomakars barn. Ja, eh inser också att ni som inte har varit med mig här under kvällen så har jag precis sagt mina podcast kollega det här att jag har så att det buggat min VPN hemma för att den inte funkar eh så skomakarens barn absolut.</p>
+<h3 id="32-001852600----001859600">32 00:18:52,600 &ndash;&gt; 00:18:59,600</h3>
+<p>Bygger ombygget så är det faktiskt Peter har du haft sönder den router. Ja det ser så ut</p>
+<h3 id="33-001900700----001927800">33 00:19:00,700 &ndash;&gt; 00:19:27,800</h3>
+<p>Eh jag har inte haft sönder ändraten. Men delning har de har de haft sönder inte nätet. Det har jag aldrig varit med. Det är ju som så här. Vi pratade i avsnittet. Vi spelade innan eller nyss om de här, Vad heter den Come on stacking, Nej men den här wellnewn kevs och precis wellnew next av</p>
+<h3 id="34-001932300----002023100">34 00:19:32,300 &ndash;&gt; 00:20:23,100</h3>
+<p>den finns ju lite dela in så här grejer på den Och om jag fattat den rätt så har kommit ytterligare än nu lätt exploitellink grej nu då. Jo eh och varför verkar det vara så svårt att göra säkrare routers eh, bra fråga. Det är alltså om du om du om du ska luras sluta användas. Kom ihåg i berörda delen kvarianter så finns det liksom en liksom ett CGI då. Alltså c g i var ju så långt ifrån lyfta in och CGI bilder Är det sant Ja precis och det ligger ju en CGI och CGI När Alltså inte Det är inte ens skriftseggi som man kan tro utan det är det är en kompilerad Elf som en liten Alv där som och</p>
+<h3 id="35-002024400----002123200">35 00:20:24,400 &ndash;&gt; 00:21:23,200</h3>
+<p>Eh Luna vill learning där han han sa ju det enklaste förklara att den var att de packade upp liksom På den filen som kom först i bokstavsord firmwalker som var en del. Ja det var en del utav been walk, så nu använder bin bok får extrakta. Eh Men firmw Walker var projektet och det gjorde var just det springade. Det är alltså min bak extraktade för att hitta just där Vilken referens Är vanligt förekommande eh, Finns det några hardcored pass? Eh ja, det är sjukt roligt och det det använder jag civil mycket och det var det var mer eller mindre grepp liksom. Ja, Så</p>
+<h3 id="36-002124500----002131700">36 00:21:24,500 &ndash;&gt; 00:21:31,700</h3>
+<p>eh de första bokstaven löning han smakar ju in i gidra och så och så tyckte han att</p>
+<h3 id="37-002133200----002135100">37 00:21:33,200 &ndash;&gt; 00:21:35,100</h3>
+<p>dels med lite förvirrande. Det är ju att eh</p>
+<h3 id="38-002136600----002218400">38 00:21:36,600 &ndash;&gt; 00:22:18,400</h3>
+<p>Men efter explodering om jag förstår det rätt så tycker om att det är onödigt att fixa det här för att det är gamla support supporterade device utan Ja men men han han var ju fundering på hur kan det här egentligen vara svårbart för att ehm hela hela eh liksom den den exekverar program i sig i skriftet, men allt Det går igenom säger sex och då tänkte han Okej men då när vi förmodligen fel i sig fettsäckar att den inte är säker.</p>
+<h3 id="39-002219200----002315600">39 00:22:19,200 &ndash;&gt; 00:23:15,600</h3>
+<p>Eh och så tittade han Nej men säg exakt implementationen verkar ju helt korrekt liksom den undviker i rasisten. Den kör bara det programmet som ska köra så så Men Men eh försöker lägga till liksom account så så gör du safexek in i en ny då så här eh typ account manager fil då Eh den i sin tur tar ju utan att göra någon nivaluering så kör den bara system på in data och så det det var ju så mening som inte att cgifilen det var var liksom frispark. Det är så jäkla det är så här. Ja alltså jag fattar de har gjort en korrektimplimentation och sen bara Nu är vi klara eller en snubbe som vet vad han håller på med. Jag bygger den här grejen Jocke Ta du det appetit här och jag fortsätter med det eller absolut system.</p>
+<h3 id="40-002317700----002417500">40 00:23:17,700 &ndash;&gt; 00:24:17,500</h3>
+<p>Det är komplicerat det men vi har ju några syster Mexico det aspekter här det det ena är ju egentligen att uppenbarligen departi men han vet om vad Comanche vi började undvika en del av det överhuvudtaget en av två eventuellt men alltså back in the day när jag håller på med det här så det det som var kul var ju att alla nu var ju inte det. Ja det var ju några Enterprise router där Vi kollade på Men mycket var ju hemgrej bara för att vi lekte och lärde egentligen och då var ju alltså nio fall av tio så var det ju ingen utan de här delning Netgear och vad fan då nu hette. Eh det var ju ingen som faktiskt orkar göra något så alla hade ju en gpl ladd former. Alltså. De byggde ju på en ena bizzy Boxer eller någonting liksom. Ehm. Och det som var roligt med det. Det var enligt lag som var en tvungen att bist och repot för att gpl så du kunde nästan alltid ladda ner för men o eh kryptera Alltså bara i klartext liksom, så du behöver du nästan aldrig. Glöm inte göra.</p>
+<h3 id="41-002417700----002440600">41 00:24:17,700 &ndash;&gt; 00:24:40,600</h3>
+<p>Så jävla mycket för du kunde manier hela året, men ja det det ena nivån på när det kanske inte ser bra om han kommande i action. Eh det andra är ju det är att Eh det är ju intressant att singelskrifter bara köra grejer från random anrop på internet alltså var det ett vanligt förra alltså men uppenbarligen nu med.</p>
+<h3 id="42-002442200----002451200">42 00:24:42,200 &ndash;&gt; 00:24:51,200</h3>
+<p>Ja herregud, ja, ja.</p>
+<h3 id="43-002452200----002515500">43 00:24:52,200 &ndash;&gt; 00:25:15,500</h3>
+<p>Säkra produkter någon bara tittade runt efter bakdörrningsförsök och marshös kommit så manicious malicious things fullerquest på GitHub var detta efter. Vi hade en diskussion om detta för några veckor sen.</p>
+<h3 id="44-002516600----002526000">44 00:25:16,600 &ndash;&gt; 00:25:26,000</h3>
+<p>Vill jag minne så att vi pratade om när vi saker. Nej precis. Nej men det här är nog varit mounts grejen.</p>
+<h3 id="45-002527000----002602800">45 00:25:27,000 &ndash;&gt; 00:26:02,800</h3>
+<p>Nej Nej alltså det här är bara en helt random människa som bara testade och söka Okej nu och och det det han hittade ju många pulverkväst där eh folk försöker bifoga lite göttar som borde mörtsas in i olika på projekt så det verkar ju som att eh åtminstone många försöker och många försöken var ju inte speciellt väldålda och det det som är lite oklart här eftersom att vi gör diskuterat liksom när eh</p>
+<h3 id="46-002604600----002609000">46 00:26:04,600 &ndash;&gt; 00:26:09,000</h3>
+<p>action 2017</p>
+<h3 id="47-002620200----002719600">47 00:26:20,200 &ndash;&gt; 00:27:19,600</h3>
+<p>match på vad som helst eller är det så att de har hittat att det på något sätt kommit sig går igenom en pipe blind trots att de är för att någonting är funkar så att som man har inget saknades lite min in på detta bara. Jag vet inte vad du pratar om är att eh oftast när man separerar organisation och repon när man sätter upp att Matera Det åtflöden på sånt där. Det gör man på första delen av alltså head Repo Blablabla Men om man då får tillgång till en ljudfil eller till en</p>
+<h3 id="48-002720100----002743900">48 00:27:20,100 &ndash;&gt; 00:27:43,900</h3>
+<p>Eller ljudfil till en Teg fil, eller säg att de har en read me på spanska säger vi har vi tekniska problem nu eller låter det bara konstigt i mina hörlurar, men dra lite snyggt.</p>
+<h3 id="49-002746200----002747100">49 00:27:46,200 &ndash;&gt; 00:27:47,100</h3>
+<p>Nu kom tillbaka.</p>
+<h3 id="50-002757000----002844500">50 00:27:57,000 &ndash;&gt; 00:28:44,500</h3>
+<p>Så är sätter man valideringen På vilket rep på det som gäller och hur man nycklar det. Det är på den första delen. Det vill säga eh på ditt eh orrgrep och bransch typ, Men om du har någonting längre ner så tolka så oftast det som en string och det gör ju att om jag då kan ändra innehållet i en read me feel som ska översätta från engelska till spanska, så om jag har PR rättigheter, då kan jag åstadkomma ganska mycket dumheter visade sig där ute på internet om han har vissa work clothes uppsatta mer om det är en annan podcast, för det här kommer bli kanon. Vart är livet? Tror jag eh så jag förstår det här att man håller på och pokar runt för att det det känns som att vi inte riktigt var klara med den här implementauren som alltid jag tycker det är så himla Modigt med dem som</p>
+<h3 id="51-002845600----002930900">51 00:28:45,600 &ndash;&gt; 00:29:30,900</h3>
+<p>Byggnader som avsiktligt exekverar när någon gör det pulver Quest och så svarar kloka saker när de skriver det här rätt Och säkert men jag jag är livrädd när jag sitter och action så där det är för att du vet bättre men men Kalle och Mia som har hand om piprunnande. De har ingen aning vad som kommer in i piplinen deras grejer bara chess get it to run get damn it. Men ja spännande förlåt. Det var inte mer än High jacka där men det det känns som att det där kommer bli det nya svarta. Det sa jag inte på min tränsmaning när vi hade det i avsnittet att göra det igen. Fast det är ju snart nyårs dag.</p>
+<h3 id="52-002936000----003000900">52 00:29:36,000 &ndash;&gt; 00:30:00,900</h3>
+<p>Eh vad har vi med för kul bring your own world driver? Ja. Ah vad var det? Jag kan säga att eh mina grejer är ju mer eller mindre bara snoende från Luleå belöning i hela Rubbet Det såg du med han för det låter som att du har Hjärnkoll Nej men han västar komplimang eller vad man säger, Men han han</p>
+<h3 id="53-003002000----003055700">53 00:30:02,000 &ndash;&gt; 00:30:55,700</h3>
+<p>Eh, Han tog upp ett eh Malmö som Ja det är väl väl sno och allt och har på din dator och det var väl inte mera avancerade. Det är en så men alla Men eh Det är den gjorde var att den den skeppade med Peter klarit i klaret man alla mina logic-filer en män signa driver från tror det var från games eller någonting i vart fall en en signad driver som har eh som har någon god alltså tepp eh kan man executions så bara heter så i sig eh och den är ju signad så Windows tycker ju det. Det är helt okej in så där den i hörnan Anki dory så att eh du behöver liksom inte ha en sårbare drivhus på din dator. Det är för det kan man väl varit ta med sig och praktiskt.</p>
+<h3 id="54-003056700----003156500">54 00:30:56,700 &ndash;&gt; 00:31:56,500</h3>
+<p>Men vet du om de hade eh hade hade de konstruerat ens avbara driven eh, eller var det en Det var en så bara driver. Det var en sådan bara som de hade hänt något nyckeln från EA där utan Eh det finns ju de som vi visst var det inte så kul till Fast det är den andra sektorna. Det var ju för två tre år Sedan så var jag ännu en Tokyo som om hur det fanns fantastiska sårbarheter och eh att flera och de var ju bara typ skicka eh skicka en text till till liksom Och i en pointen och så sen gör den exäck eller någonting annat på det liksom så vi kan tillbaks sen när jag kommer vi fråga dig idag Microsoft det är logiskt från vi frågar hur dem också såna här. Varför är de här grejen är en sen driver så här Nej men det är ganska populärt längre grejer Han driver för det är liksom lite mer hemligt och Hard</p>
+<h3 id="55-003156700----003201200">55 00:31:56,700 &ndash;&gt; 00:32:01,200</h3>
+<p>Core och ha, det är en vanlig del en fil liksom. Idr:en kollar inte drivrutinerna.</p>
+<h3 id="56-003202000----003213400">56 00:32:02,000 &ndash;&gt; 00:32:13,400</h3>
+<p>Eh vad fan det är lite speltema med med electronic Arts Vi fortsätter på det timat. Ja eh City Skylines känner till detta spel. Jag vet inte Cities Skyline</p>
+<h3 id="57-003214900----003301400">57 00:32:14,900 &ndash;&gt; 00:33:01,400</h3>
+<p>Ja jo, men det gör det. Det var nog det jag sa, men det står fel på tavlan, Kirby men jag vet väldigt mycket om dig och du tack vare Peter Eh Men City skylinen Ser ju superduper populär liksom eh bygga stad Simulator eller i mål. Eh Om du tänker om du tänker dig simcities med eh min skillnad om man varit väldigt inkluderande och byggde eh community runt den hela så och</p>
+<h3 id="58-003302700----003311800">58 00:33:02,700 &ndash;&gt; 00:33:11,800</h3>
+<p>det går att spela City Skylines Vanilla eller stock eller vad man nu man kallar det du inte har några plugins.</p>
+<h3 id="59-003312300----003317900">59 00:33:12,300 &ndash;&gt; 00:33:17,900</h3>
+<p>Det är bara när du kommer väldigt snabbt in i konstiga problem för du kan till exempel inte säga att det finns.</p>
+<h3 id="60-003319000----003404600">60 00:33:19,000 &ndash;&gt; 00:34:04,600</h3>
+<p>Affärer och eh bostäder i samma hus, det är liksom omöjligt i vanilja vanilje versionen och det men då möjlighet att förklara eh liksom så här den här filen ska gå dit den här filen så kan jag gå dit, Utan nu pratar vid trafik, alltså inte eh att en annan grej som först brukar modda är att eh du lägger till eh stöd för bättre trafikplanering hade ju Göteborgs stad kunnat lyssna på lite grann. Ja men de är jättebra stad hade stå här då hade de potentiellt kunna få malware. Eh det är nämligen så att en en ganska populär.</p>
+<h3 id="61-003405800----003428900">61 00:34:05,800 &ndash;&gt; 00:34:28,900</h3>
+<p>eh sån här plug-in De har blockflöjt som heter traffic eh, var Eh den innehöll en extra del-fil som heter fast MAF och den delen av filen var extra spännande och intressant för att den hade typ mer eller mindre ingen eller den hade väl typ en ingång eller någonting en del l-filen och</p>
+<h3 id="62-003430900----003448100">62 00:34:30,900 &ndash;&gt; 00:34:48,100</h3>
+<p>Denna är den använder inga andra saker att göra någonting utan den var liksom när den var helt fristående och det är ju dåligt ovanligt i den här världen alltså att ofta som du vill göra någonting i Windows så brukar behöva prata med någonting och så där.</p>
+<h3 id="63-003450900----003452900">63 00:34:50,900 &ndash;&gt; 00:34:52,900</h3>
+<p>Och jag tittar några snus.</p>
+<h3 id="64-003454100----003517000">64 00:34:54,100 &ndash;&gt; 00:35:17,000</h3>
+<p>På varje stortal så in ungefär 50-50 som märker eller känner igen den här eh tröjan eller delat den är att den är ondska ganska långt efter att det har varit publik om diskuterat och konkurrenterna bättre tyckte den icke-olskefull tror jag. Nej alltså den själ allting på din dator.</p>
+<h3 id="65-003520700----003521200">65 00:35:20,700 &ndash;&gt; 00:35:21,200</h3>
+<p>var</p>
+<h3 id="66-003523600----003540100">66 00:35:23,600 &ndash;&gt; 00:35:40,100</h3>
+<p>Den här är lite speciellt som bidrar eller som tydligen har förstört för många antivirusprodukterna. Det är att den har nåt lite halvnovellt sättet liksom hitta innehåller dl heller som är lite o standard, men</p>
+<h3 id="67-003542200----003554500">67 00:35:42,200 &ndash;&gt; 00:35:54,500</h3>
+<p>och det det har ju gjorts tidigare, men vad de har gjort också är att de har typ sin egen lilla command haschingsalgorit så istället för att säga att</p>
+<h3 id="68-003556200----003640500">68 00:35:56,200 &ndash;&gt; 00:36:40,500</h3>
+<p>Jag vill använda get file, eller vad fan Windows up innan kan man säga så scroller ni igenom bröd. Dl-fil. Körde via sin egen lilla hasch. Ni ser algoritmåknadenserat det här kommandot av samma hasch som någonting. Kan letar efter då Trigger den upp det som att vi hittat den så att det du behöver liksom förstå den deras egna lilla eh och förskeringsgrejs för att förstå vad den anropar eller låter den köra igenom men correct körning och dynamiskt som heter vad fan var redan egentligen länkar in då så den har sitt eget väldigt osannar och sedan hade länkningssystem för att någon som har tänkt kreativt.</p>
+<h3 id="69-003641700----003654300">69 00:36:41,700 &ndash;&gt; 00:36:54,300</h3>
+<p>Vissa likheter menar vi pratar om i den här xz bakdörren funkar den Den gjorde ju också någon konstig mackapärer för att göra för framsidan länken länkningar på muskopisk och vis ja.</p>
+<h3 id="70-003655300----003733400">70 00:36:55,300 &ndash;&gt; 00:37:33,400</h3>
+<p>Coolt spännande Har vi någon mer och berätta om eh vi vänder den in på gamingtema. Då? Får jag ju ändå droppa att jag kommer ju representera säkerhetsförarkassen på Dreamhack i helgen. Nu kommer ju rätta släppas efter jag har varit där redan Ja precis vad bra. Vad så direkt efter detta kommer jag åka men när jag ni hör detta så gör den tillbaks. Ja, skulle du Eh Men ja. Är de fortfarande det här i Jönköping eller nej, jag ska alltså till huvudstaden eh för Dreamhack is coming home. Vad har du hit mix? Stockholm den? Alltså vi har tidigare because reasons.</p>
+<h3 id="71-003734400----003742300">71 00:37:34,400 &ndash;&gt; 00:37:42,300</h3>
+<p>Nej det är ju på fetingmässan, vad heter den eh, Nej vad heter den inte Ellie med utan</p>
+<h3 id="72-003743700----003837500">72 00:37:43,700 &ndash;&gt; 00:38:37,500</h3>
+<p>Älvsjö som djävulen stick i ferrar kanske ligga drös någonstans. Det var slut så du får vi ja designa stycken med säkerhetsprokosten. Jag har redan Jag har redan hit att han börjar titta om du designar en snygg sticker så använder vi den och det är inte lyxigt erbjudande skicka till kontaktat saker i ett förgas.se.</p>
+<h3 id="73-003838700----003907900">73 00:38:38,700 &ndash;&gt; 00:39:07,900</h3>
+<p>Eh det var väl det om detta Va Ja jag ska påminna igen där Skicka gärna in en CP till securitfest och hör av dig om du responsra eller hitta på något annat kul så blir det toppenbra Nästa år så blir det faktiskt andra två också eh, tack för detta jag som pratade lite Johan Ruben Möller och med mig coola.</p>
+<h3 id="74-003922700----003926600">74 00:39:22,700 &ndash;&gt; 00:39:26,600</h3>
+<p>are</p>
+<h3 id="75-003933400----003947300">75 00:39:33,400 &ndash;&gt; 00:39:47,300</h3>
+<p>Det är därför vi är här är väl väldigt trevligt att hänga med.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-11-25</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/sakerhetspodcasten_270_anekdoter/" class="prev" rel="prev" title="Säkerhetspodcasten #270 - Anekdoter"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Säkerhetspodcasten #270 - Anekdoter</a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
