@@ -3,9 +3,21 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
+    <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:35 Panelen Jesper, Johan, Mattias och Peter träffas och pratar om betydelsefulla sårbarheter.
+Rickard är no show då han är på hemligt uppdrag och räddar världen från en katastrof. Om du ens kan höra detta avsnitt så har Rickard lyckats rädda världen.
+Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
+Panelen diskuterar bland annat:
+Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #271 - Ostrukturerat V.48</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</link>
     <pubDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</pubDate>
@@ -109,15 +121,6 @@ Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarn
 Jesper (arrangör), Mattias (sponsor/utställare/besökare), Peter (video/stream) pratar Security Fest 2024.
 Jesper gillade att sponsoravdelningen var bra och att hotellpersonalen var superb. Mattias gillade talksen och att det var lätt att gå in och ut. Peter gillade Defender / Forensics talksen. Några talks vi gillade extra mycket:
 Guardians of the Hypervisor: ESXi Ransomware Incident Response - Anders Olsson, Nicklas Keijser How not to implement secure digital identity: Poland&rsquo;s Digital ID system - Szymon Chadam Hack the patch: and attack websites at large scale - Emil Trägårdh - Security Fest 2024 Lite synd att projektorlösningen strulade på slutet, men Emil levererade under press!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #262 - Ostrukturerat V.21</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</link>
-    <pubDate>Mon, 20 May 2024 13:56:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:05:46 Plugs Konferenser:
-Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Kvantkrypto Prata säkerhet med oss 2024-05-02 kvantkrypto Tomas Gustavsson, Keyfactor och Joachim Strömbergson, Assured AB. video Säkerhetspodcasten #256 - Nyår 2023 - ser dåligt ut för Peters spaning&hellip; Avrunding XZ Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - shameless self plug, 90 minuter med Peter &amp; Kodsnack!]]></description>
 </item>
 </channel>
 </rss>
