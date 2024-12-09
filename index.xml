@@ -3,9 +3,19 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #273 - Ostrukturerat V.50</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</link>
+    <pubDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 35:05 Panelen Johan, Mattias, Peter och Rickard tar sig vad som har hänt det senaste!
+Jesper är frånvarande pga. att han är bad ass säkerhetspresentatör i Stockholm!
+Ämnen Europol slår till mot MATRIX Off-topic: Säkra meddelandeprotokoll och kvantar Off-topic: kvantkrypto-coinet WiFi hoppandes spioner Needsrestart Credential Guard Credential leaks hackas jättesnabbt Europol slår till mot MATRIX Ett ganska stort kriminelt nätverk blev avkrypterat av Europol i månader, och sen nerstängt.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
     <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
@@ -110,17 +120,6 @@ Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falco
 Om du fått ge dig själv råd i vad du borde lära dig som 18 åring, vad hade du sagt?
 Jag tänker att det antagligen finns en del föräldrar med lite vilse tonåringar som kan behöva något vettigt att göra. Jag själv var nog typ 15-16 när jag börja lyssna (kan det stämma?).
 Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarna att lära sig?]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #263 - Ostrukturerat V.25</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</link>
-    <pubDate>Mon, 17 Jun 2024 15:39:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:03:13 Security Fest 2024 Security Fest 2024: video-länk!
-Jesper (arrangör), Mattias (sponsor/utställare/besökare), Peter (video/stream) pratar Security Fest 2024.
-Jesper gillade att sponsoravdelningen var bra och att hotellpersonalen var superb. Mattias gillade talksen och att det var lätt att gå in och ut. Peter gillade Defender / Forensics talksen. Några talks vi gillade extra mycket:
-Guardians of the Hypervisor: ESXi Ransomware Incident Response - Anders Olsson, Nicklas Keijser How not to implement secure digital identity: Poland&rsquo;s Digital ID system - Szymon Chadam Hack the patch: and attack websites at large scale - Emil Trägårdh - Security Fest 2024 Lite synd att projektorlösningen strulade på slutet, men Emil levererade under press!]]></description>
 </item>
 </channel>
 </rss>
