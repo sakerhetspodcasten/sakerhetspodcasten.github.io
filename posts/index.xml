@@ -3,7 +3,15 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #274 - Fyra fantastiska frågor</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:14 Innehåll Fullständiga shownotes finns på sakerhetspodcasten.se. God jul!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #273 - Ostrukturerat V.50</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</link>
     <pubDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</pubDate>
@@ -107,17 +115,6 @@ Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas 
 Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
 Officiella svar från CrowdStrike:
 Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #264 - Tips till en 18-åring</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</link>
-    <pubDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 53:29 Tema: Vad skall man lära sig som 18 åring? Temaförslag från Love:
-Om du fått ge dig själv råd i vad du borde lära dig som 18 åring, vad hade du sagt?
-Jag tänker att det antagligen finns en del föräldrar med lite vilse tonåringar som kan behöva något vettigt att göra. Jag själv var nog typ 15-16 när jag börja lyssna (kan det stämma?).
-Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarna att lära sig?]]></description>
 </item>
 </channel>
 </rss>
