@@ -12,7 +12,7 @@
     <description><![CDATA[Lyssna mp3, längd: 01:15:02 Innehåll I dagens avsnitt går vi igenom spaningarna från förra årets nyårsavsnitt och hittar på nya inför 2024!
 Plugs 2024-05-30,31 Security Fest 2024-03-02 hack-gbggay - säkerhetsträff för queer Gamla spaningar 2023 Om du vill höra vårt gamla tugg, lyssna på: Säkerhetspodcasten #234 - Nyår 2022
 Men nu till dagens återblick!
-00:05:00 - Mattias introducerar formatet. 00:06:52 - Peter: förutspådde att zero-trust failure galore leder till jordens undergång.]]></description>
+00:05:00 Mattias introducerar formatet. 00:06:52 Peter: förutspådde att zero-trust failure galore leder till jordens undergång. 00:14:52 Jesper: Säkerhet i dev-sec-ops, the year of säkerhetsmedvetenhet.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #234 - Nyår 2022</title>
@@ -21,10 +21,7 @@ Men nu till dagens återblick!
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</guid>
     <description><![CDATA[Lyssna mp3, längd: 01:07:48 Innehåll I årets traditionsenliga Nyårsavsnitt går vi igenom förra årets spaningar och hittar på nya spådomar för det kommande året.
-Gamla spaningar för 2022 3:00 - Peter
-AI skall lösa allt (tråkspaning) Ondska via AI (riktiga spaningen). Exploits och ransomware via AI. 15:00 - Jesper
-Command and control; attacker styrs via CI/CD servers; ransomware, alpine, byggmaskiner, CI/CD. 24:00 - Rickard
-Röst-assistent komprimerad; stor läcka. 29:30 - Johan]]></description>
+Gamla spaningar för 2022 00:03:00 Peter: AI skall lösa allt (tråkspaning) Ondska via AI (riktiga spaningen). Exploits och ransomware via AI. 00:15:00 Jesper: Command and control; attacker styrs via CI/CD servers; ransomware, alpine, byggmaskiner, CI/CD. 00:24:00 Rickard: Röst-assistent komprimerad; stor läcka. 00:29:30 Johan: Stor ökning av attacker kopplade till nationer, cyberkrig.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #219 - Nyårsspecial</title>
