@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Feb 2025 12:39:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #276 - Nyår 2024</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</link>
+    <pubDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:34:50 Innehåll Säkerhetspodcasten spanar 2025 och ser tillbaka på hur 2025 gick jämfört med våra spaningar!
+Gamla Spaningar Hur gick 2024 jämfört med våra spaningar?
+00:05:03 Rickard: Ransomware mot Svensk Samhällskritisk nytta. Någon (svensk) samhällskritisk nytta (el, vatten, ..) kommer drabbas av allvarligt ransomware. 00:15:40 Mattias: Mer Kaotiskt Ransomware! Mer kaotiskt ransomware när det blir svårare att tjäna pengar. Oseriösare kriminella när “professionalla” ransomware gäng blir mer och mer backend medan mer puckon står för attackerna.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #275 - Ostukturerat V.6</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</link>
     <pubDate>Mon, 03 Feb 2025 12:39:00 &#43;0000</pubDate>
@@ -103,19 +113,6 @@ Attacker mot AI Bild vi diskuterade runt;
 Linux buggen som lovade för mycket Före:
 CVSS: 9.9. Allt är sårbart. Alla servers. Alla klienter. Dommedagen är här. Huset brinner. Verkligheten:
 Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar och en bunt user-interaction. CVSS: 9.9 verkar vara rent nonsens. CVSS Attack Complexity (AC), User Interaction (UI), Scope (S) är diskutabla!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
-    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
-Lyssnaren Mikael hör av sig om krav:
-Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
-[&hellip;]
-Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
-Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
 </item>
 </channel>
 </rss>
