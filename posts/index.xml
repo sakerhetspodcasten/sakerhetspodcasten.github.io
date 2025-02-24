@@ -3,7 +3,18 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #277 - Ostrukturerat V.9</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</link>
+    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 55:57 Innehåll Signal: försvarsmakten, granskning, QR-nätfiske. Schrems/USA, privacy/cloud kaos? DOGE hackat och strular till NIST/CISA/m.m. AMD Mikrokod hackat! AI-attacker &amp; missbruk. MitM sårbarheter i OpenSSH och Marvel Rivals.
+Säkerhetspodcasten är två man kort, men Jesper, Mattias och Peter samlas för att leverera ett ostrukterat avsnitt!
+Plugs Kul aktuella grejer!
+SecurityFest 4-5 juni BSides Ume 10-11 juni Peter&rsquo;s bloggpost: Path Length constraint limitations and bypasses Bakdörrar är farligt 00:04:01 Tema signal!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #276 - Nyår 2024</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</link>
     <pubDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</pubDate>
@@ -102,17 +113,6 @@ Kan man lita på AI? Din data blir träningsdata? Segmentering av data i molnet 
 Angripares användningsfall Försvarares användningsfall Attacker mot AI
 Attacker mot AI Bild vi diskuterade runt;
 +---------+ | | &lt;--- Bakdörrar | Träning | &lt;--- Ta bort | | ---&gt; Stöld modell/träningsdata +---------+ | | +-------+-------+ | AI/ | Agent | &lt;-- Prompt Injection | LLM | Agent | --&gt; Exfiltering | | Agent | --&gt; SSRF Request Forgery +-------+-------+ | | +-----------------------+ &lt;--- Prompt Injection | | ---&gt; XSS/JSInjection | Klient (User Agent), | ---&gt; Exfiltrering | AI-Plugins | ---&gt; CSRF Request Forgery +-----------------------+ Några kul saker man kan göra:]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #267 - Ostrukturerat V.41</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</link>
-    <pubDate>Mon, 07 Oct 2024 08:29:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:23 Innehåll Johan, Rickard och Peter träffas efter sommaren och snackar om vad som hänt inom IT-säkerhet!
-Linux buggen som lovade för mycket Före:
-CVSS: 9.9. Allt är sårbart. Alla servers. Alla klienter. Dommedagen är här. Huset brinner. Verkligheten:
-Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar och en bunt user-interaction. CVSS: 9.9 verkar vara rent nonsens. CVSS Attack Complexity (AC), User Interaction (UI), Scope (S) är diskutabla!]]></description>
 </item>
 </channel>
 </rss>
