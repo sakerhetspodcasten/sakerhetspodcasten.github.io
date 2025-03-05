@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Fredrik Björeman - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/fredrik-bj%C3%B6reman/</link>
+        <description>Fredrik Björeman - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 14 Feb 2016 23:14:01 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/fredrik-bj%C3%B6reman/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.51 - Ostrukturerat V.6</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-51-ostrukturerat-v-6/</link>
+    <pubDate>Sun, 14 Feb 2016 23:14:01 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-51-ostrukturerat-v-6/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Fredrik Björeman från bland annat Kodsnack gästar podden! Security Fest, säkerhetskonferensen i Juni i Göteborg. presenteras av Jesper &amp; Johan. Två olika webbläsarfiasko presenteras: opatchade WebKit kloner, samt Chromodo den helt trasiga versionen av Chrome.
+Övriga Nyheter: Java Deserialization är mycket värre än du tror enligt PayPal. Bedragare hackar polis/åklagare. CISCO har ett hål (vilket kom samma dag som podden spelades in, så vi har noll koll).]]></description>
+</item>
+</channel>
+</rss>

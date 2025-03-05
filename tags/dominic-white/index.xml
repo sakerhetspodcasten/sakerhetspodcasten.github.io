@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Dominic White - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/dominic-white/</link>
+        <description>Dominic White - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Jul 2014 08:28:12 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/dominic-white/" rel="self" type="application/rss+xml" /><item>
+    <title>Intervjuavsnitt #9 - Dominic White</title>
+    <link>https://sakerhetspodcasten.se/posts/intervjuavsnitt-9-dominic-white/</link>
+    <pubDate>Wed, 02 Jul 2014 08:28:12 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-9-dominic-white/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Intervju från Hack In The Box Amsterdam 2014 med Dominic White (@singe) CTO på SensePost. Vi pratar om Dominics nya verktyg &ldquo;Big Iron Recon and Pwnage&rdquo; eller BIRP som kan användas för att granska stordatorapplikationer som använder TN3270 och vad man kan hitta på med det.
+Inspelat: 29 maj 2014. Längd: 11:14.
+Länkar Presentation från Amsterdam - http://haxpo.nl/hitb2014ams-dominic-white/ BIRP - https://github.com/sensepost/birp Dominics GitHub - https://github.com/singe Hercules - http://www.]]></description>
+</item>
+</channel>
+</rss>

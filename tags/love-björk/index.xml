@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Love Björk - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/love-bj%C3%B6rk/</link>
+        <description>Love Björk - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Sep 2016 08:25:53 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/love-bj%C3%B6rk/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-68-motsagelsefulla-best-practices-med-love-bjork/</link>
+    <pubDate>Mon, 19 Sep 2016 08:25:53 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-68-motsagelsefulla-best-practices-med-love-bjork/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Rikard och Peter intervjuar Love Björk efter hans talk på Sec-T Community Night 2016. De diskuterar &ldquo;best-practices&rdquo; för nätverk och säkerhet, och hur de ofta motsäger varandra i stora installationer med olika infrastrukturer (brandväggar, HA, segmentering, blandade leverantörer etc).
+Inspelat: 2016-09-07. Längd: 00:38:40.
+Länkar Kommer snart.]]></description>
+</item>
+</channel>
+</rss>
