@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jakob H Heidelberg - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/jakob-h-heidelberg/</link>
+        <description>Jakob H Heidelberg - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Jan 2016 14:20:03 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/jakob-h-heidelberg/" rel="self" type="application/rss+xml" /><item>
+    <title>Intervjuavsnitt #16 - Jakob H. Heidelberg</title>
+    <link>https://sakerhetspodcasten.se/posts/intervjuavsnitt-16-jakob-h-heidelberg/</link>
+    <pubDate>Mon, 11 Jan 2016 14:20:03 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-16-jakob-h-heidelberg/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll I detta intervjuavsnitt pratar vi med Jakob Heidelberg från Fortconsult om hans föredrag på Sec-T 2015, som handlade bland annat om post-exploitation genom Active Directory. Jakob går igenom både strategier för angrepp och försvar i ett modernt AD.
+Länkar Kommer snart.]]></description>
+</item>
+</channel>
+</rss>

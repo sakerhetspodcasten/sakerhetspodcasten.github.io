@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>John Wilander - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/john-wilander/</link>
+        <description>John Wilander - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 09 Jun 2013 14:09:05 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/john-wilander/" rel="self" type="application/rss+xml" /><item>
+    <title>Intervjuavsnitt #4 - John Wilander</title>
+    <link>https://sakerhetspodcasten.se/posts/intervjuavsnitt-4-john-wilander/</link>
+    <pubDate>Sun, 09 Jun 2013 14:09:05 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-4-john-wilander/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Detta är det fjärde intervjuavsnittet av Säkerhetspodcasten i vilket panelen intervjuar John Wilander, co-leader för OWASP Stockholm och doktor i datalogi. Följ John på @johnwilander !
+Inspelat: 2013-05-03. Längd: 00:40:53.
+Länkar Netflix Chaos Monkey
+Using Memory Errors to Attack a Virtual Machine
+Rugged Software
+OpenSAMM]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mathias Karlsson - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/mathias-karlsson/</link>
+        <description>Mathias Karlsson - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Oct 2014 15:26:42 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/mathias-karlsson/" rel="self" type="application/rss+xml" /><item>
+    <title>Intervjuavsnitt #12 - Mathias &#34;Avlidienbrunn&#34; Karlsson</title>
+    <link>https://sakerhetspodcasten.se/posts/intervjuavsnitt-12-mathias-avlidienbrunn-karlsson/</link>
+    <pubDate>Mon, 13 Oct 2014 15:26:42 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-12-mathias-avlidienbrunn-karlsson/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Detta är det tolfte intervjuavsnittet av Säkerhetspodcasten, i vilket Jesper och Peter intervjuar Mathias &ldquo;Avlidienbrunn&rdquo; Karlsson. Det snackas säkerhet i webramverk, framförallt Angular JS, och klientsäkerhet i allmänhet.
+Länkar SEC-T 2014 0x07: Mattias Karlsson - Breaking AngularJS Javascript Sandbox
+SEC-T]]></description>
+</item>
+</channel>
+</rss>

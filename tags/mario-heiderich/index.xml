@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mario Heiderich - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/mario-heiderich/</link>
+        <description>Mario Heiderich - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 31 May 2013 11:24:42 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/mario-heiderich/" rel="self" type="application/rss+xml" /><item>
+    <title>Intervjuavsnitt #3 - Mario Heiderich</title>
+    <link>https://sakerhetspodcasten.se/posts/intervjuavsnitt-3-mario-heiderich/</link>
+    <pubDate>Fri, 31 May 2013 11:24:42 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-3-mario-heiderich/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Detta är det tredje intervjuavsnittet av Säkerhetspodcasten i vilket panelen intervjuar Mario Heiderich, en säkerhetsresearcher och pentester som bland annat ligger bakom mXSS och många andra klientsidesårbarheter. Följ .mario på @0x6D6172696F .
+Inspelat: 2013-05-16. Längd: 00:29:24.
+Länkar:
+mXSS presso: https://www.hackinparis.com/sites/hackinparis.com/files/slidesmarioheiderich.pdf
+mXSS papper: https://cure53.de/fp170.pdf
+mXSS presson Mario visade denna dag, fast inspelad på HiP några dagar tidigare: https://www.youtube.com/watch?v=tkNLD-GmBZE
+innerHTML test tool för att hitta mXSS hål: http://html5sec.]]></description>
+</item>
+</channel>
+</rss>
