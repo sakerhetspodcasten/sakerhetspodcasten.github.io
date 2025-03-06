@@ -1,0 +1,38 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SBOM - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/sbom/</link>
+        <description>SBOM - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/sbom/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #274 - Fyra fantastiska frågor</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:14 Innehåll Johan, Mattias, Peter och Rickard försöker ta sig an Loves fyra frågor!
+(En ung Love kan höras i Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk. 2016-09-07 var verkligen inte igår, drygt 8 år sen!)
+Loves fyra frågor Love&rsquo;s fyra frågor:
+Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #262 - Ostrukturerat V.21</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</link>
+    <pubDate>Mon, 20 May 2024 13:56:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:05:46 Plugs Konferenser:
+Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Kvantkrypto Prata säkerhet med oss 2024-05-02 kvantkrypto Tomas Gustavsson, Keyfactor och Joachim Strömbergson, Assured AB. video Säkerhetspodcasten #256 - Nyår 2023 - ser dåligt ut för Peters spaning&hellip; Avrunding XZ Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - shameless self plug, 90 minuter med Peter &amp; Kodsnack!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #250 - DevSecOps</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</link>
+    <pubDate>Mon, 06 Nov 2023 13:27:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 50:45 Innehåll I dagens avsnitt diskuterar vi DevSecOps. Vad är det, hur funkar det i teorin och hur kan man införa det i en modern organisation.
+Säkerhetspodcasten slog nytt världsrekord i Buzz Words, termer, produktnamn, referenser.
+&hellip;vad f-n hände egentligen? Jag tror dom andra gjorde full denial of service attack mot min förmåga att skriva show-notes!
+DevSecOps devsecops.org Stora drakar om DevSecOps Red Hat: DevSecOps VMWare: DevSecOps IBM: DevSecOps Dev Ops, Continous Delivery med mera Adlibris: The Phoenix Project; Gene Kim, Kevin Behr, George Spafford]]></description>
+</item>
+</channel>
+</rss>

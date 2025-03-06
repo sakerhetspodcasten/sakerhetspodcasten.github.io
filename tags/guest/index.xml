@@ -3,7 +3,16 @@
         <title>guest - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/guest/</link>
         <description>guest - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Sep 2021 08:55:29 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/guest/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/guest/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #247 - Passkeys</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
+Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten avs.209 – Sec-T 2021 Del 1</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-209-sec-t-2021-del-1/</link>
     <pubDate>Mon, 13 Sep 2021 08:55:29 &#43;0000</pubDate>
@@ -24,6 +33,16 @@ Innehåll I dagens avsnitt bjuder vi på ett par intervjuer inspelade under Sec-
 Inspelat: 2019-09-19. Längd: 00:36:26.]]></description>
 </item>
 <item>
+    <title>Säkerhetspodcasten avs.166 – CS3STHLM 2019</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-166-cs3sthlm-2019/</link>
+    <pubDate>Mon, 11 Nov 2019 11:37:55 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-166-cs3sthlm-2019/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt presenterar våra flygande reportrar fyra intervjuer inspelade under CS3STHLM 2019. Vi pratar med Andy Greenberg, Monta Elkins, Stephen Hilt, Jimmy Wylie och Reid Wightman.
+Inspelat: 2019-10-23/24. Längd: 01:15:38.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten avs.159 – Om Shodan Monitor med Jonas Lejon</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-159-om-shodan-monitor-med-jonas-lejon/</link>
     <pubDate>Mon, 19 Aug 2019 09:27:01 &#43;0000</pubDate>
@@ -41,6 +60,7 @@ Inspelat: 2019-05-21. Längd: 00:12:28.]]></description>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-158-webauthn/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll I dagens avsnitt diskuterar vi WebAuthn, vad innebär det, vad är fördelarna, vad är användningsområdena, hur funkar det egentligen?
+Gästande expert: Lars Andrén.
 Inspelat: 2019-05-29. Längd: 01:04:28.]]></description>
 </item>
 <item>
@@ -82,26 +102,6 @@ Inspelat: 2019-03-14. Längd: 00:14:25.]]></description>
     <description><![CDATA[Lyssna mp3
 Innehåll I dagens avsnitt låter vi vår flygande reporter Robin von Post ta över rodret för att göra intervjuer under CS3 i Stockholm 2018. Intervjuer med Joe Slowik, Kai Thomsen och Patrick Miller.
 Inspelat: 2018-10-23. Längd: 01:04:19.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten avs.130 – Security Fest CTF!</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-130-security-fest-ctf/</link>
-    <pubDate>Mon, 25 Jun 2018 10:36:07 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-130-security-fest-ctf/</guid>
-    <description><![CDATA[Lyssna mp3
-Innehåll Dagens avsnitt spelades in av Robin von Post under Security Fest 2018 och är en samling intervjuer på ämnet CTF!
-Inspelat: 2018-06-01. Längd: 00:14:03.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten avs.128 - Code-Reuse attacker mot PLCer</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-127-code-reuse-attacker-mot-plcer/</link>
-    <pubDate>Mon, 07 May 2018 08:41:45 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-127-code-reuse-attacker-mot-plcer/</guid>
-    <description><![CDATA[Lyssna mp3
-Innehåll Dagens avsnitt är en intervju med Ali Abbasi, inspelat av Robin von Post under CS3 2017. Ämnet för dagen är Code-Reuse attacker mot industriella styrsystem.
-Inspelat: 2017-10-24. Längd: 00:11:40.]]></description>
 </item>
 </channel>
 </rss>

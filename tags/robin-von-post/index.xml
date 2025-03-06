@@ -3,7 +3,17 @@
         <title>Robin von Post - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/robin-von-post/</link>
         <description>Robin von Post - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Aug 2019 09:27:01 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/robin-von-post/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Nov 2019 11:37:55 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/robin-von-post/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.166 – CS3STHLM 2019</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-166-cs3sthlm-2019/</link>
+    <pubDate>Mon, 11 Nov 2019 11:37:55 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-166-cs3sthlm-2019/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt presenterar våra flygande reportrar fyra intervjuer inspelade under CS3STHLM 2019. Vi pratar med Andy Greenberg, Monta Elkins, Stephen Hilt, Jimmy Wylie och Reid Wightman.
+Inspelat: 2019-10-23/24. Längd: 01:15:38.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten avs.159 – Om Shodan Monitor med Jonas Lejon</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-159-om-shodan-monitor-med-jonas-lejon/</link>
     <pubDate>Mon, 19 Aug 2019 09:27:01 &#43;0000</pubDate>
@@ -92,16 +102,6 @@ Inspelat: 2017-10-24. Längd: 00:11:40.]]></description>
     <description><![CDATA[Lyssna mp3
 Innehåll Dagens avsnitt är en intervju inspelad under CS3 2017. Säkerhetspodcastens flygande reporter Robin von Post intervjuar Robert Lipovský och Anton Cherepanov från ESET om deras research kring malwaret Industroyer.
 Inspelat: 2017-10-24. Längd: 00:13:09.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten avs.121 - Strategic Network Defense in ICS med Joe Slowik</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-121-strategic-network-defense-in-ics-med-joe-slowik/</link>
-    <pubDate>Mon, 12 Mar 2018 13:35:42 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-121-strategic-network-defense-in-ics-med-joe-slowik/</guid>
-    <description><![CDATA[Lyssna mp3
-Innehåll I dagens avsnitt intervjuar Robin von Post Joe Slowik efter hans talk på CS3Sthlm.
-Inspelat: 2017-10-24. Längd: 00:13:31.]]></description>
 </item>
 </channel>
 </rss>

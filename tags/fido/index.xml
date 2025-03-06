@@ -1,0 +1,66 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>fido - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/fido/</link>
+        <description>fido - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/fido/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #274 - Fyra fantastiska frågor</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:14 Innehåll Johan, Mattias, Peter och Rickard försöker ta sig an Loves fyra frågor!
+(En ung Love kan höras i Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk. 2016-09-07 var verkligen inte igår, drygt 8 år sen!)
+Loves fyra frågor Love&rsquo;s fyra frågor:
+Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #267 - Ostrukturerat V.41</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</link>
+    <pubDate>Mon, 07 Oct 2024 08:29:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:23 Innehåll Johan, Rickard och Peter träffas efter sommaren och snackar om vad som hänt inom IT-säkerhet!
+Linux buggen som lovade för mycket Före:
+CVSS: 9.9. Allt är sårbart. Alla servers. Alla klienter. Dommedagen är här. Huset brinner. Verkligheten:
+Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar och en bunt user-interaction. CVSS: 9.9 verkar vara rent nonsens. CVSS Attack Complexity (AC), User Interaction (UI), Scope (S) är diskutabla!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #247 - Passkeys</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
+Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.158 – WebAuthn</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-158-webauthn/</link>
+    <pubDate>Mon, 19 Aug 2019 09:25:25 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-158-webauthn/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt diskuterar vi WebAuthn, vad innebär det, vad är fördelarna, vad är användningsområdena, hur funkar det egentligen?
+Gästande expert: Lars Andrén.
+Inspelat: 2019-05-29. Längd: 01:04:28.]]></description>
+</item>
+<item>
+    <title>Intervjuavsnitt #8 - Per Thorsheim</title>
+    <link>https://sakerhetspodcasten.se/posts/intervjuavsnitt-8-per-thorsheim/</link>
+    <pubDate>Thu, 27 Feb 2014 09:21:29 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-8-per-thorsheim/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Detta är det åttonde intervjuavsnittet av Säkerhetspodcasten, i vilket Johan, Mattias och Peter intervjuar Per Thorsheim, grundaren till Passwordscon. Inspelat på OWASP GBG den artonde februari 2014.
+Inspelat: 2014-02-18. Längd: 32:49.
+Länkar Per Thorsheim, blogg , YT , twitter
+PasswordCon http://passwordscon.org/
+OwaspGBG Presentation: Per Thorsheim - (Almost) Everything OWASP Won't Teach You
+OwaspGBG Presentation: Klas Lindfors - One Time Passwords
+LinkedIn incidenten http://www.cnet.com/news/millions-of-linkedin-passwords-reportedly-leaked-online/
+Kickstarter incidenten http://www.cnet.com/news/kickstarter-hacked-user-data-stolen/
+bcrypt, scrypt, pbkdf2: https://www.]]></description>
+</item>
+</channel>
+</rss>

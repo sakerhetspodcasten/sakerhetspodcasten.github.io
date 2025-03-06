@@ -4,6 +4,22 @@
         <link>https://sakerhetspodcasten.se/tags/</link>
         <description>Tags - Tag - Säkerhetspodcasten</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Common Vulnerability Scoring System</title>
+    <link>https://sakerhetspodcasten.se/tags/common-vulnerability-scoring-system/</link>
+    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/common-vulnerability-scoring-system/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>CVSS</title>
+    <link>https://sakerhetspodcasten.se/tags/cvss/</link>
+    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/cvss/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>ostrukturerat</title>
     <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
     <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
@@ -28,6 +44,30 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>fido</title>
+    <link>https://sakerhetspodcasten.se/tags/fido/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/fido/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SBOM</title>
+    <link>https://sakerhetspodcasten.se/tags/sbom/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/sbom/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Software Bill Of Materials</title>
+    <link>https://sakerhetspodcasten.se/tags/software-bill-of-materials/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/software-bill-of-materials/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>SEC-T</title>
     <link>https://sakerhetspodcasten.se/tags/sec-t/</link>
     <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
@@ -36,51 +76,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>sommar</title>
-    <link>https://sakerhetspodcasten.se/tags/sommar/</link>
-    <pubDate>Wed, 16 Aug 2023 11:28:00 &#43;0000</pubDate>
+    <title>Emil Lundberg</title>
+    <link>https://sakerhetspodcasten.se/tags/emil-lundberg/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/sommar/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>SecurityFest</title>
-    <link>https://sakerhetspodcasten.se/tags/securityfest/</link>
-    <pubDate>Wed, 28 Jun 2023 09:45:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/securityfest/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>jul</title>
-    <link>https://sakerhetspodcasten.se/tags/jul/</link>
-    <pubDate>Mon, 09 Jan 2023 09:38:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/jul/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Edwin van Andel</title>
-    <link>https://sakerhetspodcasten.se/tags/edwin-van-andel/</link>
-    <pubDate>Mon, 13 Sep 2021 08:55:29 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/edwin-van-andel/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Fabio Viggiani</title>
-    <link>https://sakerhetspodcasten.se/tags/fabio-viggiani/</link>
-    <pubDate>Mon, 13 Sep 2021 08:55:29 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/fabio-viggiani/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Fredrik Alexandersson</title>
-    <link>https://sakerhetspodcasten.se/tags/fredrik-alexandersson/</link>
-    <pubDate>Mon, 13 Sep 2021 08:55:29 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/fredrik-alexandersson/</guid>
+    <guid>https://sakerhetspodcasten.se/tags/emil-lundberg/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

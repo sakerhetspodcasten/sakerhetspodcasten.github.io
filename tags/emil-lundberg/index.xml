@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Emil Lundberg - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/emil-lundberg/</link>
+        <description>Emil Lundberg - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/emil-lundberg/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #247 - Passkeys</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
+Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
+</item>
+</channel>
+</rss>

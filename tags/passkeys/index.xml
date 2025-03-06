@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>passkeys - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/passkeys/</link>
+        <description>passkeys - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/passkeys/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #247 - Passkeys</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
+Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.158 – WebAuthn</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-158-webauthn/</link>
+    <pubDate>Mon, 19 Aug 2019 09:25:25 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-158-webauthn/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt diskuterar vi WebAuthn, vad innebär det, vad är fördelarna, vad är användningsområdena, hur funkar det egentligen?
+Gästande expert: Lars Andrén.
+Inspelat: 2019-05-29. Längd: 01:04:28.]]></description>
+</item>
+</channel>
+</rss>
