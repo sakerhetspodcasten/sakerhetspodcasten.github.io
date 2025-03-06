@@ -3,30 +3,7 @@
         <title>SEC-T - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/sec-t/</link>
         <description>SEC-T - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/sec-t/" rel="self" type="application/rss+xml" /><item>
-    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
-    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
-Lyssnaren Mikael hör av sig om krav:
-Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
-[&hellip;]
-Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
-Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
-    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
-Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
-Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
-</item>
-<item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/sec-t/" rel="self" type="application/rss+xml" /><item>
     <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
     <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
@@ -98,6 +75,26 @@ Inspelat: 2019-09-19. Längd: 00:28:57.]]></description>
     <description><![CDATA[Lyssna mp3
 Innehåll I dagens avsnitt pratar panelen (minus Peter och Johan) Sec-T och går givetvis igenom den senaste tidens nyheter och lite annat smått och gott.
 Inspelat: 2019-10-09. Längd: 00:44:57.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.137 – Sec-T 2018 Day 2</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-137-sec-t-2018-day-2/</link>
+    <pubDate>Mon, 05 Nov 2018 09:53:05 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-137-sec-t-2018-day-2/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll This episode is a collection of our interviews from day two of Sec-T 2018. Featuring interviews with Ulf Frisk, Ido Naor &amp; Dani Goland, Stefan Tanase &amp; Gabriel Cirlig, Steve Miller and Raul Alvarez.
+Inspelat: 2018-09-14. Längd: 01:04:19.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.135 – Sec-T 2018 Day 1</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-135-sec-t-2018-day-1/</link>
+    <pubDate>Mon, 08 Oct 2018 07:36:40 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-135-sec-t-2018-day-1/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll This episode is a collection of our interviews from day one of Sec-T 2018. Featuring interviews with Dan Tentler, Olle Segerdahl, Pasi Saarinen, Frans Rosén, Paolo Stagno and Zoz Brooks.
+Inspelat: 2018-09-13. Längd: 00:59:10.]]></description>
 </item>
 </channel>
 </rss>

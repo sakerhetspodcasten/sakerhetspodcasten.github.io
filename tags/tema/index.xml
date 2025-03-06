@@ -73,6 +73,19 @@ Attacker mot AI Bild vi diskuterade runt;
 +---------+ | | &lt;--- Bakdörrar | Träning | &lt;--- Ta bort | | ---&gt; Stöld modell/träningsdata +---------+ | | +-------+-------+ | AI/ | Agent | &lt;-- Prompt Injection | LLM | Agent | --&gt; Exfiltering | | Agent | --&gt; SSRF Request Forgery +-------+-------+ | | +-----------------------+ &lt;--- Prompt Injection | | ---&gt; XSS/JSInjection | Klient (User Agent), | ---&gt; Exfiltrering | AI-Plugins | ---&gt; CSRF Request Forgery +-----------------------+ Några kul saker man kan göra:]]></description>
 </item>
 <item>
+    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
+    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
+Lyssnaren Mikael hör av sig om krav:
+Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
+[&hellip;]
+Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
+Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #264 - Tips till en 18-åring</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</link>
     <pubDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</pubDate>
@@ -84,6 +97,16 @@ Jag tänker att det antagligen finns en del föräldrar med lite vilse tonåring
 Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarna att lära sig?]]></description>
 </item>
 <item>
+    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
+    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
+Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
+Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #259 - XZ-bakdörren</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</link>
     <pubDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</pubDate>
@@ -91,23 +114,6 @@ Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarn
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</guid>
     <description><![CDATA[Lyssna mp3, längd: 51:41 Innehåll sshd är bakdörrat via xz/liblzma. En påverkansoperation, kanske från en underrättelsetjänst, har skett helt öppet i en mailinglista.
 Kodsnack parallell Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - Peter gästar Kodnsack. Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #258 - Opsec Fails</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</link>
-    <pubDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 33:21 Innehåll I dagens avsnitt diskuterar vi det här med opsec, vad är det, och hur går det snett för angripare?
-Fails Tomer Bar: OopsSec - The bad, the worst and the ugly of APT’s operations security (SecurityFest2023) Dark Reading: Global Law Enforcement Disrupts LockBit Ransomware Gang - &ldquo;The vulnerability used to compromise LockBit is tracked as CVE-2023-3824, a flaw present in PHP version 8.0 before 8.0.30, 8.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #254 - Cyberpocalypse Now</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</link>
-    <pubDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:42 Innehåll God jul och gott nytt år önskar Säkerhetspodcasten!]]></description>
 </item>
 </channel>
 </rss>
