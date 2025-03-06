@@ -3,16 +3,34 @@
         <title>Ulf Frisk - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ulf-frisk/</link>
         <description>Ulf Frisk - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Dec 2017 16:32:28 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ulf-frisk/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Nov 2018 09:53:05 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ulf-frisk/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.137 – Sec-T 2018 Day 2</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-137-sec-t-2018-day-2/</link>
+    <pubDate>Mon, 05 Nov 2018 09:53:05 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-137-sec-t-2018-day-2/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll This episode is a collection of our interviews from day two of Sec-T 2018. Featuring interviews with Ulf Frisk, Ido Naor &amp; Dani Goland, Stefan Tanase &amp; Gabriel Cirlig, Steve Miller and Raul Alvarez.
+Inspelat: 2018-09-14. Längd: 01:04:19.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten avs.109 - Ulf Frisk</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-109-ulf-frisk/</link>
     <pubDate>Mon, 04 Dec 2017 16:32:28 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-109-ulf-frisk/</guid>
-    <description><![CDATA[Lyssna iTunes | mp3
+    <description><![CDATA[Lyssna mp3
 Innehåll Dagens avsnitt spelades in under Sec-T 2017. Ulf Frisk intervjuas av Peter och Rikard om hans talk om DMA-attacker och annan black magic.
-Inspelat: 2017-09-29. Längd: 00:22:03.
-Länkar Kommer snart.]]></description>
+Inspelat: 2017-09-29. Längd: 00:22:03.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.70 - Direct Memoy Attacks med Ulf Frisk</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-70-direct-memoy-attacks-med-ulf-frisk/</link>
+    <pubDate>Mon, 03 Oct 2016 10:30:09 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-70-direct-memoy-attacks-med-ulf-frisk/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Ulf Frisk tog just DMA-attacker till nästa nivå i hans presentation som hölls både på Defcon och senast på Sec-T. Han har lyckats kombinera mjuk- och hårdvara till ett billigt verktyg som låter en angripare läsa ut minnet från en låst dator i över 150 mbps, något som tidigare var begränsat både i mängden minne som kunde läsas ut och i överföringshastighet. Med PCILeech kan man även enkelt skriva till filsystemet, vilket enkelt låter en angripare skriva över lösenord på existerande konton eller skapa nya för att kunna logga in på en nedlåst dator.]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Fredrik Söderblom - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/fredrik-s%C3%B6derblom/</link>
+        <description>Fredrik Söderblom - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2016 13:10:53 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/fredrik-s%C3%B6derblom/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.80 – Crypto flaws in Pacom GMS System</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-80-crypto-flaws-in-pacom-gms-system/</link>
+    <pubDate>Mon, 12 Dec 2016 13:10:53 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-80-crypto-flaws-in-pacom-gms-system/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Inspelat på Sec-T 2016, Rikard intervjuar Fredrik Söderblom, Joachim Strömbergson och Peter Norin om bristerna de upptäckt i en larmsändare från Pacom.
+Inspelat: 2016-09-08. Längd: 00:19:48.]]></description>
+</item>
+</channel>
+</rss>

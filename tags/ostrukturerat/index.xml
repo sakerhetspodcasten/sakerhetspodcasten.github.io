@@ -3,105 +3,110 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Nov 2021 11:36:34 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
-    <title>Säkerhetspodcasten avs.214 – Ostrukturerat V.47</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-214-ostrukturerat-v-47/</link>
-    <pubDate>Mon, 22 Nov 2021 11:36:34 &#43;0000</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #277 - Ostrukturerat V.9</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</link>
+    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-214-ostrukturerat-v-47/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll Det är måndag och dags för ett nytt avsnitt där vi går igenom den senaste tidens säkerhetsnyheter.
-Inspelat: 2021-11-17. Längd: 00:50:45.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 55:57 Innehåll Signal: försvarsmakten, granskning, QR-nätfiske. Schrems/USA, privacy/cloud kaos? DOGE hackat och strular till NIST/CISA/m.m. AMD Mikrokod hackat! AI-attacker &amp; missbruk. MitM sårbarheter i OpenSSH och Marvel Rivals.
+Säkerhetspodcasten är två man kort, men Jesper, Mattias och Peter samlas för att leverera ett ostrukterat avsnitt!
+Plugs Kul aktuella grejer!
+SecurityFest 4-5 juni BSides Ume 10-11 juni Peter&rsquo;s bloggpost: Path Length constraint limitations and bypasses Bakdörrar är farligt 00:04:01 Tema signal!]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.210 – Ostrukturerat V.39</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-210-ostrukturerat-v-39/</link>
-    <pubDate>Mon, 27 Sep 2021 09:08:10 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #273 - Ostrukturerat V.50</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</link>
+    <pubDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-210-ostrukturerat-v-39/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens ostrukturerade avsnitt går vi hårt åt bolag på A. Närmare bestämt diskuterar panelen sårbarheter hos Apple, Azure och AWS.
-Inspelat: 2021-09-22. Längd: 00:50:36.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 35:05 Panelen Johan, Mattias, Peter och Rickard tar sig vad som har hänt det senaste!
+Jesper är frånvarande pga. att han är bad ass säkerhetspresentatör i Stockholm!
+Ämnen Europol slår till mot MATRIX Off-topic: Säkra meddelandeprotokoll och kvantar Off-topic: kvantkrypto-coinet WiFi hoppandes spioner Needsrestart Credential Guard Credential leaks hackas jättesnabbt Europol slår till mot MATRIX Ett ganska stort kriminelt nätverk blev avkrypterat av Europol i månader, och sen nerstängt.]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.208 – Ostrukturerat V.35</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-208-ostrukturerat-v-35/</link>
-    <pubDate>Tue, 31 Aug 2021 12:50:25 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #271 - Ostrukturerat V.48</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</link>
+    <pubDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-208-ostrukturerat-v-35/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt diskuterar vi den senaste tidens säkerhetsnyheter.
-Inspelat: 2021-08-25. Längd: 01:04:35.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
+Dagens ämnen:
+Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.207 – Ostrukturerat V.28</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-207-ostrukturerat-v-28/</link>
-    <pubDate>Tue, 13 Jul 2021 09:23:38 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #269 - Ostrukturerat V.45</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</link>
+    <pubDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-207-ostrukturerat-v-28/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt firar vi sommar och går igenom den senaste tidens nyheter. Bland annat ransomware-attacken mot Coop, printerproblem hos Microsoft och mycket mer.
-Inspelat: 2021-07-07. Längd: 01:08:17.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 50:22 Innehåll Hela panelen träffas äntligen igen! Jesper, Johan, Mattias, Peter, Rickard!
+Lyssnarbrev bakdörrar Peter D hörde av sig:
+En toppen pod gör ni verkligen, det är alltid kul att lyssna på er, strukturerat eller inte. Mycket igenkänning i avsnittet &ldquo;Tips till en 18-åring&rdquo; och även &ldquo;När säkerhet går för långt&rdquo;. [&hellip;]
+Det hände något intressant i USA nyligen, på tal om Chattcontrol och massövervakning ni nämnde i avsnitt 267.]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.205 – Ostrukturerat V.23</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-205-ostrukturerat-v-23/</link>
-    <pubDate>Mon, 07 Jun 2021 16:54:26 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #267 - Ostrukturerat V.41</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</link>
+    <pubDate>Mon, 07 Oct 2024 08:29:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-205-ostrukturerat-v-23/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt är vi lite extra ostrukturerade och snackar lite Solarwinds, cache-problem hos Klarna och en hel del om olika grundämnen.
-Inspelat: 2021-06-02. Längd: 00:55:27.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:23 Innehåll Johan, Rickard och Peter träffas efter sommaren och snackar om vad som hänt inom IT-säkerhet!
+Linux buggen som lovade för mycket Före:
+CVSS: 9.9. Allt är sårbart. Alla servers. Alla klienter. Dommedagen är här. Huset brinner. Verkligheten:
+Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar och en bunt user-interaction. CVSS: 9.9 verkar vara rent nonsens. CVSS Attack Complexity (AC), User Interaction (UI), Scope (S) är diskutabla!]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.203 – Ostrukturerat V.19</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-203-ostrukturerat-v-19/</link>
-    <pubDate>Mon, 10 May 2021 10:35:08 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #265 - Ostrukturerat V.34</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</link>
+    <pubDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-203-ostrukturerat-v-19/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt har vi en speciell gäst, Anne-Marie Eklund Löwinder, för att prata om den sista tidens nyheter. Bland annat pinsamheter hos Cellebrite, ännu mer pinsamheter hos Skolplattformen, och stökiga commits i Minnesota.
-Inspelat: 2021-05-05. Längd: 01:14:15.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:10:58 CrowdStrike 8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.
+Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.
+Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
+Officiella svar från CrowdStrike:
+Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.201 – Ostrukturerat V.15</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-201-ostrukturerat-v-15/</link>
-    <pubDate>Mon, 12 Apr 2021 10:27:43 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #263 - Ostrukturerat V.25</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</link>
+    <pubDate>Mon, 17 Jun 2024 15:39:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-201-ostrukturerat-v-15/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt diskuterar panelen den senaste tidens stora säkerhetsnyheter.
-Inspelat: 2021-04-07. Längd: 01:01:30.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:03:13 Security Fest 2024 Security Fest 2024: video-länk!
+Jesper (arrangör), Mattias (sponsor/utställare/besökare), Peter (video/stream) pratar Security Fest 2024.
+Jesper gillade att sponsoravdelningen var bra och att hotellpersonalen var superb. Mattias gillade talksen och att det var lätt att gå in och ut. Peter gillade Defender / Forensics talksen. Några talks vi gillade extra mycket:
+Guardians of the Hypervisor: ESXi Ransomware Incident Response - Anders Olsson, Nicklas Keijser How not to implement secure digital identity: Poland&rsquo;s Digital ID system - Szymon Chadam Hack the patch: and attack websites at large scale - Emil Trägårdh - Security Fest 2024 Lite synd att projektorlösningen strulade på slutet, men Emil levererade under press!]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.199 – Ostrukturerat V.11</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-199-ostrukt/</link>
-    <pubDate>Mon, 15 Mar 2021 18:13:03 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #262 - Ostrukturerat V.21</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</link>
+    <pubDate>Mon, 20 May 2024 13:56:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-199-ostrukt/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt diskuterar vi bland annat hackade övervakningskameror, Hafnium och andra grundämnen, ett par uppföljningar från tidigare veckor och Jespers spännande TV-Projekt!
-Inspelat: 2021-03-10. Längd: 00:53:58.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:05:46 Plugs Konferenser:
+Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Kvantkrypto Prata säkerhet med oss 2024-05-02 kvantkrypto Tomas Gustavsson, Keyfactor och Joachim Strömbergson, Assured AB. video Säkerhetspodcasten #256 - Nyår 2023 - ser dåligt ut för Peters spaning&hellip; Avrunding XZ Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - shameless self plug, 90 minuter med Peter &amp; Kodsnack!]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.197 – Ostrukturerat V.7</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-197-ostrukturerat-v-7/</link>
-    <pubDate>Mon, 15 Feb 2021 09:16:33 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #260 - Ostrukturerat V.17</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</link>
+    <pubDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-197-ostrukturerat-v-7/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt diskuterar panelen bland annat Solarwinds, Phishing-attacker med morsekod, mordförsök i SCADA-system och en ny supply-chain attack.
-Inspelat: 2021-02-10. Längd: 00:59:58.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
+Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten avs.195 – Ostrukturerat V.3</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-195-ostrukturerat-v-3/</link>
-    <pubDate>Mon, 18 Jan 2021 10:18:09 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #257 - Ostrukturerat V.10</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</link>
+    <pubDate>Mon, 04 Mar 2024 15:22:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-195-ostrukturerat-v-3/</guid>
-    <description><![CDATA[Lyssna iTunes | Spotify | mp3
-Innehåll I dagens avsnitt diskuterar vi den senaste tidens nyheter, bland annat Solarwinds, Parler-hacket, Ubuquiti-breachen och sidechannelattacker mot Google Titan.
-Inspelat: 2021-01-13. Längd: 00:59:56.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 52:21 Innehåll Panelen diskuterar den senaste tidens nyheter och svarar på lite lyssnarfrågor.
+Plugs SecurityFest, Maj 30-31 2024. SEC-T, 10-13 September 2024. Lyssnarbrev från Jonathan Johnsson Jonathan hittade till kontakt@sakerhetspodcasten.se! Tre lyssnarfrågor från honom!
+Tieto - vad tycker ni om deras uttalande? Jag läste precis den här artikeln på DN och skulle vilja höra era tankar om Tietoevrys Sverigechefs uttalanden där: www.dn.se/sverige/tietoevry-efter-attacken-inga-brister-i-var-it-sakerhet
+Vad har blivit bättre inom säkerhet?]]></description>
 </item>
 </channel>
 </rss>

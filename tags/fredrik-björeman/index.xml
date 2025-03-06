@@ -3,15 +3,25 @@
         <title>Fredrik Björeman - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/fredrik-bj%C3%B6reman/</link>
         <description>Fredrik Björeman - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 14 Feb 2016 23:14:01 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/fredrik-bj%C3%B6reman/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Feb 2016 08:43:42 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/fredrik-bj%C3%B6reman/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.52 - Bug Bounties med Frans Rosén</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-52-bug-bounties-med-frans-rosen/</link>
+    <pubDate>Mon, 29 Feb 2016 08:43:42 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-52-bug-bounties-med-frans-rosen/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Frans Rosén från Detectify gästar podcasten för att diskutera Bug Bounties tillsammans med panelen. Vad är ett Bug Bounty-program, hur arbetar han med att jaga buggar, vad kan man förvänta sig om man ger sig in i Bug Bounty-svängen och mycket mer diskuteras i detta veckas avsnitt av Säkerhetspodcasten. Gästpanelist Fredrik Björeman (Kodsnack mfl) är också med på ett hörn.
+Inspelat: 2016-02-11. Längd: 50:22.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten avs.51 - Ostrukturerat V.6</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-51-ostrukturerat-v-6/</link>
     <pubDate>Sun, 14 Feb 2016 23:14:01 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-51-ostrukturerat-v-6/</guid>
-    <description><![CDATA[Lyssna iTunes | mp3
+    <description><![CDATA[Lyssna mp3
 Innehåll Fredrik Björeman från bland annat Kodsnack gästar podden! Security Fest, säkerhetskonferensen i Juni i Göteborg. presenteras av Jesper &amp; Johan. Två olika webbläsarfiasko presenteras: opatchade WebKit kloner, samt Chromodo den helt trasiga versionen av Chrome.
-Övriga Nyheter: Java Deserialization är mycket värre än du tror enligt PayPal. Bedragare hackar polis/åklagare. CISCO har ett hål (vilket kom samma dag som podden spelades in, så vi har noll koll).]]></description>
+Övriga Nyheter: Java Deserialization är mycket värre än du tror enligt PayPal. Bedragare hackar polis/åklagare. CISCO har ett hål (vilket kom samma dag som podden spelades in, så vi har noll koll). IP kameror har massa problem, Shodan tar numera screenshots av dem, och creeps psykar småbarn via deras baby monitors.]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,103 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SEC-T - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/sec-t/</link>
+        <description>SEC-T - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/sec-t/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
+    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
+Lyssnaren Mikael hör av sig om krav:
+Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
+[&hellip;]
+Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
+Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
+    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
+Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
+Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
+    <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:44:56 Innehåll I dagens avsnitt bjuder vi på intervjuer med talare från årets upplaga av Sec-T!
+0:00 Edwin van Andel 14:50 Igor Andriushchenko 34:38 Julia Zdunczyk 47:00 Rami McCarthy 1:03:00 STÖK 1:27:00 Vesa Virta Edwin van Andel: Mer än bara pentest Du behöver mer än enbart pentest Säkerhetstekniker har mer makt än de tror - svara ledning om vad som behövs. Sätt &ldquo;scope&rdquo; bra för tester, bug bounties Hollands myndigheter ger en t-shirt för säkerhetshål.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #228 - Sec-T Community Night 2022</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_228_sec_t_community_night_2022/</link>
+    <pubDate>Mon, 31 Oct 2022 09:49:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_228_sec_t_community_night_2022/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:04 Innehåll I dagens avsnitt släpper vi ett gäng intervjuer inspelade under Sec-Ts community night 2022.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #227 - Ostrukturerat V.42</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_227_ostrukturerat_v_42/</link>
+    <pubDate>Mon, 17 Oct 2022 11:48:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_227_ostrukturerat_v_42/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:07 Innehåll Vi är tillbaka! I dagens avsnitt diskuterar vi Sec-T 2022 och går igenom den senaste tidens nyheter, bland annat problem för Uber och Toyota, hur två italienare cache-poisonade Akamai, varför CIA driver fotbolls-sajter och mycket mer.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #218 - Sec-T 2021 Del 2</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_218_sec_t_2021_del_2/</link>
+    <pubDate>Mon, 31 Jan 2022 17:35:01 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_218_sec_t_2021_del_2/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 39:35 Innehåll Detta är del två av ett antal intervjuavsnitt genomförda under säkerhetskonferensen Sec-T i Stockholm 2021.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.209 – Sec-T 2021 Del 1</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-209-sec-t-2021-del-1/</link>
+    <pubDate>Mon, 13 Sep 2021 08:55:29 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-209-sec-t-2021-del-1/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Detta är del ett av ett antal intervjuavsnitt genomförda under säkerhetskonferensen Sec-T i Stockholm 2021. Detta avsnitt innehåller intervjuer med Edwin van Andel, Fabio Viggiani &amp; Fredrik Alexandersson samt Lars Haulin.
+Inspelat: 2021-09-10. Längd: 00:58:59.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.170 – Trammell Hudson, Dani Goland &amp; Mohsan Farid</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-170-trammell-hudson-dani-goland-mohsan-farid/</link>
+    <pubDate>Mon, 09 Dec 2019 12:29:50 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-170-trammell-hudson-dani-goland-mohsan-farid/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt bjuder vi på ett par intervjuer inspelade under Sec-T 2019!
+Inspelat: 2019-09-19. Längd: 00:36:26.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.168 – James Harrison</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-168-james-harrison/</link>
+    <pubDate>Mon, 25 Nov 2019 09:55:05 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-168-james-harrison/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt intervjuar vi James Harrison, ficktjuv och close-up magiker extraordinaire, för att försöka ta reda på hur hans väldigt specifika skillset platsar på en säkerhetskonferens som Sec-T. Hur går man till väga för att stjäla någons ID-bricka eller plånbok? Hur kan man skydda sig själv och sina ägodelar?
+Inspelat: 2019-09-19. Längd: 00:28:57.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.164 – Ostrukturerat V.42</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-164-ostrukturerat-v-42/</link>
+    <pubDate>Tue, 15 Oct 2019 08:44:46 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-164-ostrukturerat-v-42/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt pratar panelen (minus Peter och Johan) Sec-T och går givetvis igenom den senaste tidens nyheter och lite annat smått och gott.
+Inspelat: 2019-10-09. Längd: 00:44:57.]]></description>
+</item>
+</channel>
+</rss>

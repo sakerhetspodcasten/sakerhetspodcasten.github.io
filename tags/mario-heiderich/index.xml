@@ -10,13 +10,13 @@
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/intervjuavsnitt-3-mario-heiderich/</guid>
     <description><![CDATA[Lyssna iTunes | mp3
-Innehåll Detta är det tredje intervjuavsnittet av Säkerhetspodcasten i vilket panelen intervjuar Mario Heiderich, en säkerhetsresearcher och pentester som bland annat ligger bakom mXSS och många andra klientsidesårbarheter. Följ .mario på @0x6D6172696F .
+Innehåll Detta är det tredje intervjuavsnittet av Säkerhetspodcasten i vilket panelen intervjuar Mario Heiderich, en säkerhetsresearcher och pentester som bland annat ligger bakom mXSS och många andra klientsidesårbarheter. Följ .mario på @0x6D6172696F .
 Inspelat: 2013-05-16. Längd: 00:29:24.
 Länkar:
-mXSS presso: https://www.hackinparis.com/sites/hackinparis.com/files/slidesmarioheiderich.pdf
-mXSS papper: https://cure53.de/fp170.pdf
-mXSS presson Mario visade denna dag, fast inspelad på HiP några dagar tidigare: https://www.youtube.com/watch?v=tkNLD-GmBZE
-innerHTML test tool för att hitta mXSS hål: http://html5sec.]]></description>
+mXSS presso: https://www.hackinparis.com/sites/hackinparis.com/files/slidesmarioheiderich.pdf
+mXSS papper: https://cure53.de/fp170.pdf
+mXSS presson Mario visade denna dag, fast inspelad på HiP några dagar tidigare: https://www.youtube.com/watch?v=tkNLD-GmBZE
+innerHTML test tool för att hitta mXSS hål: http://html5sec.]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,113 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>tema - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/tema/</link>
+        <description>tema - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #276 - Nyår 2024</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</link>
+    <pubDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:34:50 Innehåll Säkerhetspodcasten spanar 2025 och ser tillbaka på hur 2024 gick jämfört med våra spaningar!
+Gamla Spaningar Hur gick 2024 jämfört med våra spaningar?
+00:05:03 Rickard: Ransomware mot Svensk Samhällskritisk nytta. Någon (svensk) samhällskritisk nytta (el, vatten, ..) kommer drabbas av allvarligt ransomware. 00:15:40 Mattias: Mer Kaotiskt Ransomware! Mer kaotiskt ransomware när det blir svårare att tjäna pengar. Oseriösare kriminella när “professionalla” ransomware gäng blir mer och mer backend medan mer puckon står för attackerna.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #275 - Ostukturerat V.6</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</link>
+    <pubDate>Mon, 03 Feb 2025 12:39:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 30:25 Innehåll Hela panelen är samlad efter ett hårt och långt nyårsavsnitt!
+Jesper, Johan, Mattias, Peter och Rickard babblar om ett urval av spännade nyheter;
+Hårdvaru-nära: Mattias spekulerar om nya Apple M silikon spekulativa hål SLAP och FLOP. Peter pratar om Reloader.EFI, nästa nya hål i UEFI Secure Boot. Kryptografi: NATO HALFLOOP-24 för frekvenshoppning knäckt. Bil-nytt: Rickard och Mattias pratar om Subaru STARLINK och Volkswagen Cariad incidenterna. Vår urgamla vänner Spring Boot Actuators återvänder!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #274 - Fyra fantastiska frågor</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:14 Innehåll Johan, Mattias, Peter och Rickard försöker ta sig an Loves fyra frågor!
+(En ung Love kan höras i Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk. 2016-09-07 var verkligen inte igår, drygt 8 år sen!)
+Loves fyra frågor Love&rsquo;s fyra frågor:
+Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
+    <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:35 Panelen Jesper, Johan, Mattias och Peter träffas och pratar om betydelsefulla sårbarheter.
+Rickard är no show då han är på hemligt uppdrag och räddar världen från en katastrof. Om du ens kan höra detta avsnitt så har Rickard lyckats rädda världen.
+Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
+Panelen diskuterar bland annat:
+Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #270 - Anekdoter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</link>
+    <pubDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 49:02 Innehåll Jesper, Johan, Mattias, Peter och Rickard - samt poddhunden Ester, träffas för att prata anekdoter!
+Lyssnarbrev Lyssnarbrev från Linus M, från i maj:
+Hej! Ni bad om förslag för teamavsnitt.
+Anekdoter tror jag borde vara lätt för er att klämma ur er en hel del och det tror jag skulle uppskattas av publiken.
+Tack för bra underhållning men också för det informativa innehållet.
+Blandade anekdoter &ldquo;Snäll&rdquo; Nessus-scan bränner ner hela datacentret Radius på &ldquo;alla servers&rdquo; går i evighetsloop efter Nessus scans Produktion är nere VMWare brinner och hela virtualiseringen behöver startas om Testaren och hans chef är omöjliga att nå pga möte med avstängda mobiltelefoner Webb-säkerhetstest som går åt skogen: Kreditkort börjar tryckas upp Gratis bananer Grindar som börjar slå Grindar som öppnar sig på 15 minuters oautentiserat webhack&hellip; Spring actuator för år sen när massa servers la ut miljövariabler och JVM minne (heapdump) på Internet Applikationer som bara &ldquo;mår dåligt&rdquo; utan tydlig diagnos/orsak efter tester.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #268 - Artificiell Intelligens</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</link>
+    <pubDate>Mon, 21 Oct 2024 08:31:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:09:19 Upplägg Peter, Johan och Rickard träffas och pratar AI.
+Metadiskussion
+Kan man lita på AI? Din data blir träningsdata? Segmentering av data i molnet när man kör AI? Användningsfall: Använda AI inom säkerhet
+Angripares användningsfall Försvarares användningsfall Attacker mot AI
+Attacker mot AI Bild vi diskuterade runt;
++---------+ | | &lt;--- Bakdörrar | Träning | &lt;--- Ta bort | | ---&gt; Stöld modell/träningsdata +---------+ | | +-------+-------+ | AI/ | Agent | &lt;-- Prompt Injection | LLM | Agent | --&gt; Exfiltering | | Agent | --&gt; SSRF Request Forgery +-------+-------+ | | +-----------------------+ &lt;--- Prompt Injection | | ---&gt; XSS/JSInjection | Klient (User Agent), | ---&gt; Exfiltrering | AI-Plugins | ---&gt; CSRF Request Forgery +-----------------------+ Några kul saker man kan göra:]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #264 - Tips till en 18-åring</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</link>
+    <pubDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 53:29 Tema: Vad skall man lära sig som 18 åring? Temaförslag från Love:
+Om du fått ge dig själv råd i vad du borde lära dig som 18 åring, vad hade du sagt?
+Jag tänker att det antagligen finns en del föräldrar med lite vilse tonåringar som kan behöva något vettigt att göra. Jag själv var nog typ 15-16 när jag börja lyssna (kan det stämma?).
+Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarna att lära sig?]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #259 - XZ-bakdörren</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</link>
+    <pubDate>Mon, 08 Apr 2024 11:43:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_259_xz_bakdorren/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 51:41 Innehåll sshd är bakdörrat via xz/liblzma. En påverkansoperation, kanske från en underrättelsetjänst, har skett helt öppet i en mailinglista.
+Kodsnack parallell Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - Peter gästar Kodnsack. Timeline, överblick research!rsc: Timeline of the xz open source attack Evan Boehs: Everything I Know About the XZ Backdoor Video: Seytonic: XZ Backdoor - Timeline and Overview Andres Freund avslöjar bakdörren den 29:e Mars Debian benchmark snubbe på Microsoft är bra att ha!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #258 - Opsec Fails</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</link>
+    <pubDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 33:21 Innehåll I dagens avsnitt diskuterar vi det här med opsec, vad är det, och hur går det snett för angripare?
+Fails Tomer Bar: OopsSec - The bad, the worst and the ugly of APT’s operations security (SecurityFest2023) Dark Reading: Global Law Enforcement Disrupts LockBit Ransomware Gang - &ldquo;The vulnerability used to compromise LockBit is tracked as CVE-2023-3824, a flaw present in PHP version 8.0 before 8.0.30, 8.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #254 - Cyberpocalypse Now</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</link>
+    <pubDate>Wed, 27 Dec 2023 13:48:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_254_cyberpocalypse_now/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:42 Innehåll God jul och gott nytt år önskar Säkerhetspodcasten!]]></description>
+</item>
+</channel>
+</rss>

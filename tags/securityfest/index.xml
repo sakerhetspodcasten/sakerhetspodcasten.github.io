@@ -1,0 +1,64 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SecurityFest - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/securityfest/</link>
+        <description>SecurityFest - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Jun 2023 09:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/securityfest/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #243 - SecurityFest 2023</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_243_securityfest_2023/</link>
+    <pubDate>Wed, 28 Jun 2023 09:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_243_securityfest_2023/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 48:27 Innehåll I dagens avsnitt går vi igenom årets SecurityFest.
+How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen https://oauth.net/2.1/ https://openid.net/wg/fapi/ Best Current Practice&rsquo;s vi ordar om i poddens: IETF Draft: OAuth 2.0 for Browser-Based Apps IETF Draft: OAuth 2.0 Security Best Current Practice Keynote: Red Notice - Pros And Cons - Alethe Denis Keynote: Red Notice - Pros And Cons - Alethe Denis The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal OopsSec - The bad, the worst and the ugly of APT’s operations security - Tomer Bar OopsSec - The bad, the worst and the ugly of APT’s operations security- Tomer Bar SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro When the Red Team Goes Passwordless - Hasain Alshakarti When the Red Team Goes Passwordless - Hasain Alshakarti Lightning talk: Badge challenge - Abhinav Pandagale Lightning talk: Badge challenge - Abhinav Pandagale Architecting for security: the old ways - Dan Tentler Architecting for security: the old ways - Dan Tentler How to: Hack the company, before someone else does it for you - STÖK How to: Hack the company, before someone else does it for you - STÖK Tales from the %TEMP% - Jonas Vestberg Tales from the %TEMP% - Jonas Vestberg Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair ]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #225 - Ostrukturerat V.25</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_225_ostrukturerat_v_25/</link>
+    <pubDate>Mon, 20 Jun 2022 11:08:14 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_225_ostrukturerat_v_25/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:06 Innehåll I dagens avsnitt gör vi en recap på årets SecurityFest, diskuterar HertzBleed och GhostTouch, och lite annat smått och gott.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.130 – Security Fest CTF!</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-130-security-fest-ctf/</link>
+    <pubDate>Mon, 25 Jun 2018 10:36:07 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-130-security-fest-ctf/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Dagens avsnitt spelades in av Robin von Post under Security Fest 2018 och är en samling intervjuer på ämnet CTF!
+Inspelat: 2018-06-01. Längd: 00:14:03.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.94 - Dave Lewis, Steve Lord, Aaron Guzman</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-94-dave-lewis-steve-lord-aaron-guzman/</link>
+    <pubDate>Mon, 19 Jun 2017 11:30:20 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-94-dave-lewis-steve-lord-aaron-guzman/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Detta är ett intervjuavsnitt inspelat under SecurityFest 2017. Avsnittet innehåller tre intervjuer med Dave Lewis, Steve Lord och Aaron Guzman, tre av talarna under konferensen. Timestamps för intervjuer: 0:00 Dave Lewis, 8:20 Steve Lord, 22:45 Aaron Guzman.
+Inspelat: 2017-06-01. Längd: 00:41:00.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.81 - Hur arrangerar man en konferens?</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-81-hur-arrangerar-man-en-konferens/</link>
+    <pubDate>Mon, 19 Dec 2016 13:23:10 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-81-hur-arrangerar-man-en-konferens/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll I dagens avsnitt delar panelen med sig av sina erfarenheter om hur man arrangerar säkerhetsevents. Matnyttiga tips om allt från hur man hittar lokaler till talare, sponsorer och deltagare. Vi utmanar våra lyssnare att själva starta något i sin community, och vi hjälper självklart gärna till!
+Inspelat: 2016-12-09. Längd: 00:58:00.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.59 - Mark Hillick</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-59-mark-hillick/</link>
+    <pubDate>Mon, 06 Jun 2016 15:32:23 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-59-mark-hillick/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Inspelat på Security Fest 2016, Mattias intervjuar Mark Hillick från Riot Games om hans talk om att bygga en feedback-kultur för att höja säkerhetsnivån i ett bolag.
+Inspelat: 2016-06-02. Längd: 00:24:39.]]></description>
+</item>
+</channel>
+</rss>

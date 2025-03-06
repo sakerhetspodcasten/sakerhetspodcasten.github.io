@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Duggan4Sean - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/duggan4sean/</link>
+        <description>Duggan4Sean - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2015 09:35:01 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/duggan4sean/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten avs.48 - Julspecial</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-48-julspecial/</link>
+    <pubDate>Mon, 14 Dec 2015 09:35:01 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-48-julspecial/</guid>
+    <description><![CDATA[Lyssna mp3
+Innehåll Säkerhetspodcasten firar Jul! Panelen går igenom sina nyårslöften och diskuterar den senaste tidens säkerhetsnyheter. Bland annat har podden varit på OWASP Gothenburg Day 2015 och fick med sig intervjuer med Michele Orrù @antisnatchor, Sean Duggan @Duggan4Sean och Marie Moe @MarieGMoe som också finns med i slutet av denna julspecial.
+0:01:47 Löften 0:06:10 Nyheter + OWASP Gothenburg Day Nyheter: Microsoft DNS sårbarhet och XboxLive leaks, Underrättelsetjänster mot kryptering. 0:25:25 Frågor 1:03:03 Michele Orrù @antisnatchor regarding Dark FairyTales from a Phisherman (Vol.]]></description>
+</item>
+</channel>
+</rss>
