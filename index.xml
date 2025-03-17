@@ -3,9 +3,30 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #278 - Automatiseringens Akilleshäl</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</link>
+    <pubDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</guid>
+    <description><![CDATA[Hot mot pipelines, workflows, actions, continuous deployment.
+Lyssna mp3, längd: 01:22:43 Introduktion Automatiseringens fördelar vs. risker – hur Workflows och Actions blivit en attackvektor.
+Exempel på verkliga incidenter (t.ex. supply chain-attacker via CI/CD).
+Populära Workflows &amp; Actions GitHub Actions
+Hur det fungerar.
+Self-hosted vs. GitHub-hosted runners.
+Typiska säkerhetsbrister.
+GitLab CI/CD
+Shared vs. Private Runners.
+Pipeline permissions.
+ArgoCD &amp; Kubernetes CI/CD
+GitOps och hotbilden.
+Privilegierade tillgångar och Kubernetes RBAC.
+Andra populära system]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #277 - Ostrukturerat V.9</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</link>
     <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
@@ -102,19 +123,6 @@ Blandade anekdoter &ldquo;Snäll&rdquo; Nessus-scan bränner ner hela datacentre
 Lyssnarbrev bakdörrar Peter D hörde av sig:
 En toppen pod gör ni verkligen, det är alltid kul att lyssna på er, strukturerat eller inte. Mycket igenkänning i avsnittet &ldquo;Tips till en 18-åring&rdquo; och även &ldquo;När säkerhet går för långt&rdquo;. [&hellip;]
 Det hände något intressant i USA nyligen, på tal om Chattcontrol och massövervakning ni nämnde i avsnitt 267.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #268 - Artificiell Intelligens</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</link>
-    <pubDate>Mon, 21 Oct 2024 08:31:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:09:19 Upplägg Peter, Johan och Rickard träffas och pratar AI.
-Metadiskussion
-Kan man lita på AI? Din data blir träningsdata? Segmentering av data i molnet när man kör AI? Användningsfall: Använda AI inom säkerhet
-Angripares användningsfall Försvarares användningsfall Attacker mot AI
-Attacker mot AI Bild vi diskuterade runt;
-+---------+ | | &lt;--- Bakdörrar | Träning | &lt;--- Ta bort | | ---&gt; Stöld modell/träningsdata +---------+ | | +-------+-------+ | AI/ | Agent | &lt;-- Prompt Injection | LLM | Agent | --&gt; Exfiltering | | Agent | --&gt; SSRF Request Forgery +-------+-------+ | | +-----------------------+ &lt;--- Prompt Injection | | ---&gt; XSS/JSInjection | Klient (User Agent), | ---&gt; Exfiltrering | AI-Plugins | ---&gt; CSRF Request Forgery +-----------------------+ Några kul saker man kan göra:]]></description>
 </item>
 </channel>
 </rss>

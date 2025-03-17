@@ -2,16 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://sakerhetspodcasten.se/posts/</loc><lastmod>2025-03-17T06:33:00&#43;00:00</lastmod></url><url>
+            <loc>https://sakerhetspodcasten.se/</loc><lastmod>2025-03-17T06:33:00&#43;00:00</lastmod></url><url>
+            <loc>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</loc><lastmod>2025-03-17T06:33:00&#43;00:00</lastmod></url><url>
+            <loc>https://sakerhetspodcasten.se/tags/</loc><lastmod>2025-03-17T06:33:00&#43;00:00</lastmod></url><url>
+            <loc>https://sakerhetspodcasten.se/tags/tema/</loc><lastmod>2025-03-17T06:33:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/tags/common-vulnerability-scoring-system/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/tags/cvss/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/tags/ostrukturerat/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
-            <loc>https://sakerhetspodcasten.se/posts/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
-            <loc>https://sakerhetspodcasten.se/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
-            <loc>https://sakerhetspodcasten.se/tags/</loc><lastmod>2025-02-24T08:45:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/tags/ny%C3%A5r/</loc><lastmod>2025-02-17T06:44:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</loc><lastmod>2025-02-17T06:44:00&#43;00:00</lastmod></url><url>
-            <loc>https://sakerhetspodcasten.se/tags/tema/</loc><lastmod>2025-02-17T06:44:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</loc><lastmod>2025-02-03T12:39:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/tags/fido/</loc><lastmod>2024-12-23T07:20:00&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</loc><lastmod>2024-12-23T07:20:00&#43;00:00</lastmod></url><url>
@@ -413,4 +414,5 @@
             <loc>https://sakerhetspodcasten.se/pages/kontakt/</loc><lastmod>2025-01-31T08:37:14&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-2-licensskydd-och-piratkopiering/</loc><lastmod>2018-09-26T08:35:26&#43;00:00</lastmod></url><url>
             <loc>https://sakerhetspodcasten.se/posts/pilot/</loc><lastmod>2018-09-26T08:35:29&#43;00:00</lastmod></url><url>
-            <loc>https://sakerhetspodcasten.se/categories/</loc></url></urlset>
+            <loc>https://sakerhetspodcasten.se/categories/</loc></url><url>
+            <loc>https://sakerhetspodcasten.se/tags/ci/cd/</loc></url></urlset>

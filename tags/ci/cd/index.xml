@@ -1,0 +1,126 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>CI/CD - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/ci/cd/</link>
+        <description>CI/CD - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://sakerhetspodcasten.se/tags/ci/cd/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #278 - Automatiseringens Akilleshäl</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</link>
+    <pubDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</guid>
+    <description><![CDATA[Hot mot pipelines, workflows, actions, continuous deployment.
+Lyssna mp3, längd: 01:22:43 Introduktion Automatiseringens fördelar vs. risker – hur Workflows och Actions blivit en attackvektor.
+Exempel på verkliga incidenter (t.ex. supply chain-attacker via CI/CD).
+Populära Workflows &amp; Actions GitHub Actions
+Hur det fungerar.
+Self-hosted vs. GitHub-hosted runners.
+Typiska säkerhetsbrister.
+GitLab CI/CD
+Shared vs. Private Runners.
+Pipeline permissions.
+ArgoCD &amp; Kubernetes CI/CD
+GitOps och hotbilden.
+Privilegierade tillgångar och Kubernetes RBAC.
+Andra populära system]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #276 - Nyår 2024</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</link>
+    <pubDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:34:50 Innehåll Säkerhetspodcasten spanar 2025 och ser tillbaka på hur 2024 gick jämfört med våra spaningar!
+Gamla Spaningar Hur gick 2024 jämfört med våra spaningar?
+00:05:03 Rickard: Ransomware mot Svensk Samhällskritisk nytta. Någon (svensk) samhällskritisk nytta (el, vatten, ..) kommer drabbas av allvarligt ransomware. 00:15:40 Mattias: Mer Kaotiskt Ransomware! Mer kaotiskt ransomware när det blir svårare att tjäna pengar. Oseriösare kriminella när “professionalla” ransomware gäng blir mer och mer backend medan mer puckon står för attackerna.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #273 - Ostrukturerat V.50</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</link>
+    <pubDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 35:05 Panelen Johan, Mattias, Peter och Rickard tar sig vad som har hänt det senaste!
+Jesper är frånvarande pga. att han är bad ass säkerhetspresentatör i Stockholm!
+Ämnen Europol slår till mot MATRIX Off-topic: Säkra meddelandeprotokoll och kvantar Off-topic: kvantkrypto-coinet WiFi hoppandes spioner Needsrestart Credential Guard Credential leaks hackas jättesnabbt Europol slår till mot MATRIX Ett ganska stort kriminelt nätverk blev avkrypterat av Europol i månader, och sen nerstängt.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
+    <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 46:35 Panelen Jesper, Johan, Mattias och Peter träffas och pratar om betydelsefulla sårbarheter.
+Rickard är no show då han är på hemligt uppdrag och räddar världen från en katastrof. Om du ens kan höra detta avsnitt så har Rickard lyckats rädda världen.
+Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
+Panelen diskuterar bland annat:
+Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #269 - Ostrukturerat V.45</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</link>
+    <pubDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 50:22 Innehåll Hela panelen träffas äntligen igen! Jesper, Johan, Mattias, Peter, Rickard!
+Lyssnarbrev bakdörrar Peter D hörde av sig:
+En toppen pod gör ni verkligen, det är alltid kul att lyssna på er, strukturerat eller inte. Mycket igenkänning i avsnittet &ldquo;Tips till en 18-åring&rdquo; och även &ldquo;När säkerhet går för långt&rdquo;. [&hellip;]
+Det hände något intressant i USA nyligen, på tal om Chattcontrol och massövervakning ni nämnde i avsnitt 267.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
+    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
+Lyssnaren Mikael hör av sig om krav:
+Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
+[&hellip;]
+Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
+Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #265 - Ostrukturerat V.34</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</link>
+    <pubDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:10:58 CrowdStrike 8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.
+Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.
+Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
+Officiella svar från CrowdStrike:
+Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
+    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
+Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
+Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #250 - DevSecOps</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</link>
+    <pubDate>Mon, 06 Nov 2023 13:27:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_250_devsecops/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 50:45 Innehåll I dagens avsnitt diskuterar vi DevSecOps. Vad är det, hur funkar det i teorin och hur kan man införa det i en modern organisation.
+Säkerhetspodcasten slog nytt världsrekord i Buzz Words, termer, produktnamn, referenser.
+&hellip;vad f-n hände egentligen? Jag tror dom andra gjorde full denial of service attack mot min förmåga att skriva show-notes!
+DevSecOps devsecops.org Stora drakar om DevSecOps Red Hat: DevSecOps VMWare: DevSecOps IBM: DevSecOps Dev Ops, Continous Delivery med mera Adlibris: The Phoenix Project; Gene Kim, Kevin Behr, George Spafford]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
+    <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:44:56 Innehåll I dagens avsnitt bjuder vi på intervjuer med talare från årets upplaga av Sec-T!
+0:00 Edwin van Andel 14:50 Igor Andriushchenko 34:38 Julia Zdunczyk 47:00 Rami McCarthy 1:03:00 STÖK 1:27:00 Vesa Virta Edwin van Andel: Mer än bara pentest Du behöver mer än enbart pentest Säkerhetstekniker har mer makt än de tror - svara ledning om vad som behövs. Sätt &ldquo;scope&rdquo; bra för tester, bug bounties Hollands myndigheter ger en t-shirt för säkerhetshål.]]></description>
+</item>
+</channel>
+</rss>
