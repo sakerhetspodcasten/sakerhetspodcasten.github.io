@@ -3,7 +3,18 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 31 Mar 2025 08:00:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #279 - Ostrukturerat V.14</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_279_ostrukturerat_v_14/</link>
+    <pubDate>Mon, 31 Mar 2025 08:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_279_ostrukturerat_v_14/</guid>
+    <description><![CDATA[Signalgate, TJ Actions, Överförmyndarnämnden, Kryptokrig, Paragon, UTF-8, IngressNightmare, Next.js middleware, device bundna sessioner, Post Quantum Cryptograhy!
+Lyssna mp3, längd: 01:10:34 Lyssnarbrev Fler Anekdoter 00:00:43 Johan Wranker om Anekdoter:
+Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
+Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter! Jag gissar att det finns fler som har har det på lager. så om ni skickar in ljudfiler med era historia; korta, långa - Jag har ingen aning!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #277 - Ostrukturerat V.9</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</link>
     <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
@@ -96,17 +107,6 @@ Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
     <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
 Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #257 - Ostrukturerat V.10</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</link>
-    <pubDate>Mon, 04 Mar 2024 15:22:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_257_ostrukturerat_v_10/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 52:21 Innehåll Panelen diskuterar den senaste tidens nyheter och svarar på lite lyssnarfrågor.
-Plugs SecurityFest, Maj 30-31 2024. SEC-T, 10-13 September 2024. Lyssnarbrev från Jonathan Johnsson Jonathan hittade till kontakt@sakerhetspodcasten.se! Tre lyssnarfrågor från honom!
-Tieto - vad tycker ni om deras uttalande? Jag läste precis den här artikeln på DN och skulle vilja höra era tankar om Tietoevrys Sverigechefs uttalanden där: www.dn.se/sverige/tietoevry-efter-attacken-inga-brister-i-var-it-sakerhet
-Vad har blivit bättre inom säkerhet?]]></description>
 </item>
 </channel>
 </rss>
