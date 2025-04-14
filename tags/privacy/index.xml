@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Säkerhetspodcasten</title>
-        <link>https://sakerhetspodcasten.se/posts/</link>
-        <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>privacy - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/privacy/</link>
+        <description>privacy - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/privacy/" rel="self" type="application/rss+xml" /><item>
     <title>Säkerhetspodcasten #280 - Privacy online</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_280_privacy_online/</link>
     <pubDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</pubDate>
@@ -24,27 +24,6 @@ Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter!]]></description
 Lyssna mp3, längd: 01:10:34 Lyssnarbrev Fler Anekdoter 00:00:43 Johan Wranker om Anekdoter:
 Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
 Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter! Jag gissar att det finns fler som har har det på lager. så om ni skickar in ljudfiler med era historia; korta, långa - Jag har ingen aning!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #278 - Automatiseringens Akilleshäl</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</link>
-    <pubDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</guid>
-    <description><![CDATA[Hot mot pipelines, workflows, actions, continuous deployment.
-Lyssna mp3, längd: 01:22:43 Introduktion Automatiseringens fördelar vs. risker – hur Workflows och Actions blivit en attackvektor.
-Exempel på verkliga incidenter (t.ex. supply chain-attacker via CI/CD).
-Populära Workflows &amp; Actions GitHub Actions
-Hur det fungerar.
-Self-hosted vs. GitHub-hosted runners.
-Typiska säkerhetsbrister.
-GitLab CI/CD
-Shared vs. Private Runners.
-Pipeline permissions.
-ArgoCD &amp; Kubernetes CI/CD
-GitOps och hotbilden.
-Privilegierade tillgångar och Kubernetes RBAC.
-Andra populära system]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #277 - Ostrukturerat V.9</title>
@@ -89,36 +68,42 @@ Loves fyra frågor Love&rsquo;s fyra frågor:
 Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten #273 - Ostrukturerat V.50</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</link>
-    <pubDate>Mon, 09 Dec 2024 19:16:00 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #256 - Nyår 2023</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</link>
+    <pubDate>Mon, 26 Feb 2024 14:22:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_273_ostrukturerat_v_50/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 35:05 Panelen Johan, Mattias, Peter och Rickard tar sig vad som har hänt det senaste!
-Jesper är frånvarande pga. att han är bad ass säkerhetspresentatör i Stockholm!
-Ämnen Europol slår till mot MATRIX Off-topic: Säkra meddelandeprotokoll och kvantar Off-topic: kvantkrypto-coinet WiFi hoppandes spioner Needsrestart Credential Guard Credential leaks hackas jättesnabbt Europol slår till mot MATRIX Ett ganska stort kriminelt nätverk blev avkrypterat av Europol i månader, och sen nerstängt.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:15:02 Innehåll I dagens avsnitt går vi igenom spaningarna från förra årets nyårsavsnitt och hittar på nya inför 2024!
+Plugs 2024-05-30,31 Security Fest 2024-03-02 hack-gbggay - säkerhetsträff för queer Gamla spaningar 2023 Om du vill höra vårt gamla tugg, lyssna på: Säkerhetspodcasten #234 - Nyår 2022
+Men nu till dagens återblick!
+00:05:00 Mattias introducerar formatet. 00:06:52 Peter: förutspådde att zero-trust failure galore leder till jordens undergång. 00:14:52 Jesper: Säkerhet i dev-sec-ops, the year of säkerhetsmedvetenhet.]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
-    <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #249 - Ostrukturerat V.43</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</link>
+    <pubDate>Mon, 23 Oct 2023 13:41:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:35 Panelen Jesper, Johan, Mattias och Peter träffas och pratar om betydelsefulla sårbarheter.
-Rickard är no show då han är på hemligt uppdrag och räddar världen från en katastrof. Om du ens kan höra detta avsnitt så har Rickard lyckats rädda världen.
-Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
-Panelen diskuterar bland annat:
-Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_249_ostrukturerat_v_43/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 36:37 Innehåll I dagens avsnitt går vi igenom den senaste tidens nyheter:
+Curl: Massa nyheter! CVE-2020-19909 is everything that is wrong with CVEs CVE-2023-38545 SOCKS5 heap buffer overflow Bard AI fabuleringar ChatControl förseningar .cue filer exploiterar libcue säkerhetshål i Ubuntu och GNOME Inbillade säkerhetshål i Signal Cisco IOS XE under attack, implantat över allt! D-Link command injection, SSID Olaf's Network bryter sig ut till sh shell&hellip; Massa nyheter om Curl!]]></description>
 </item>
 <item>
-    <title>Säkerhetspodcasten #271 - Ostrukturerat V.48</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</link>
-    <pubDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</pubDate>
+    <title>Säkerhetspodcasten #247 - Passkeys</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
-Dagens ämnen:
-Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!]]></description>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
+Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #234 - Nyår 2022</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</link>
+    <pubDate>Mon, 06 Feb 2023 10:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_234_nyar_2022/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:07:48 Innehåll I årets traditionsenliga Nyårsavsnitt går vi igenom förra årets spaningar och hittar på nya spådomar för det kommande året.
+Gamla spaningar för 2022 00:03:00 Peter: AI skall lösa allt (tråkspaning) Ondska via AI (riktiga spaningen). Exploits och ransomware via AI. 00:15:00 Jesper: Command and control; attacker styrs via CI/CD servers; ransomware, alpine, byggmaskiner, CI/CD. 00:24:00 Rickard: Röst-assistent komprimerad; stor läcka. 00:29:30 Johan: Stor ökning av attacker kopplade till nationer, cyberkrig.]]></description>
 </item>
 </channel>
 </rss>
