@@ -3,9 +3,20 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #281 - Ostrukturerat V.18</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_281_ostrukturerat_v_18/</link>
+    <pubDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_281_ostrukturerat_v_18/</guid>
+    <description><![CDATA[CVE, CISA kaos, 4chan ghostscript hack, captcha self-exec, HPE RMI, Erlang OTP, ondregelfil, TLS 47 dagar, Curl säker C-kod.
+Lyssna mp3, längd: 01:02:36 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Hack GBGay 2025, May 17th 2025, LGBTQ+ Security Fest - IT Security Conference, Gothenburg, Sweden BSides Ume 2025 (10-11 June 2025): Overview · Indico SEC-T Lyssnarbrev Fler Anekdoter Johan Wranker om Anekdoter:
+Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #280 - Privacy online</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_280_privacy_online/</link>
     <pubDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</pubDate>
@@ -111,16 +122,6 @@ Rickard är no show då han är på hemligt uppdrag och räddar världen från e
 Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
 Panelen diskuterar bland annat:
 Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #271 - Ostrukturerat V.48</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</link>
-    <pubDate>Mon, 25 Nov 2024 09:58:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_271_ostrukturerat_v_48/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
-Dagens ämnen:
-Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!]]></description>
 </item>
 </channel>
 </rss>
