@@ -3,15 +3,25 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 13:31:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #282 - Transatlantiska haverier</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_282_transatlantiska_haverier/</link>
+    <pubDate>Mon, 12 May 2025 13:31:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_282_transatlantiska_haverier/</guid>
+    <description><![CDATA[Handelskrig, EU US-exit, CVE, CISA, DNSSEC, Schrems, ICANN, IANA, &hellip;
+Lyssna mp3, längd: 01:03:01 Innehåll Hur funkar Säkerhet när transatlantiska relationerna bryter samman? När EU behöver dra sig ur amerikanska moln, hur påverkar det säkerhet på lång och kort sikt. När USA drar in stöd till MITRE och CVE-infrastrukturen hänger på en skör tråd?
+Hur stadsoberoende styrs Internet när relationerna krånglar? DNS, DNSSEC och top-level domains - nycklarna till internet.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #281 - Ostrukturerat V.18</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_281_ostrukturerat_v_18/</link>
     <pubDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_281_ostrukturerat_v_18/</guid>
-    <description><![CDATA[CVE, CISA kaos, 4chan ghostscript hack, captcha self-exec, HPE RMI, Erlang OTP, ondregelfil, TLS 47 dagar, Curl säker C-kod.
+    <description><![CDATA[CVE, CISA kaos, 4chan ghostscript hack, captcha self-exec, HPE RMI, Erlang OTP, ond Cursor regelfil, TLS 47 dagar, Curl säker C-kod.
 Lyssna mp3, längd: 01:02:36 Plugs Vi promotar random kul vagt relaterat till säkerhet:
 Hack GBGay 2025, May 17th 2025, LGBTQ+ Security Fest - IT Security Conference, Gothenburg, Sweden BSides Ume 2025 (10-11 June 2025): Overview · Indico SEC-T Lyssnarbrev Fler Anekdoter Johan Wranker om Anekdoter:
 Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!]]></description>
@@ -110,18 +120,6 @@ Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM,
     <description><![CDATA[Lyssna mp3, längd: 35:05 Panelen Johan, Mattias, Peter och Rickard tar sig vad som har hänt det senaste!
 Jesper är frånvarande pga. att han är bad ass säkerhetspresentatör i Stockholm!
 Ämnen Europol slår till mot MATRIX Off-topic: Säkra meddelandeprotokoll och kvantar Off-topic: kvantkrypto-coinet WiFi hoppandes spioner Needsrestart Credential Guard Credential leaks hackas jättesnabbt Europol slår till mot MATRIX Ett ganska stort kriminelt nätverk blev avkrypterat av Europol i månader, och sen nerstängt.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
-    <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:35 Panelen Jesper, Johan, Mattias och Peter träffas och pratar om betydelsefulla sårbarheter.
-Rickard är no show då han är på hemligt uppdrag och räddar världen från en katastrof. Om du ens kan höra detta avsnitt så har Rickard lyckats rädda världen.
-Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
-Panelen diskuterar bland annat:
-Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
 </item>
 </channel>
 </rss>

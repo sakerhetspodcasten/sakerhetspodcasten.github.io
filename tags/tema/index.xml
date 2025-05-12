@@ -3,7 +3,17 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 13:31:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #282 - Transatlantiska haverier</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_282_transatlantiska_haverier/</link>
+    <pubDate>Mon, 12 May 2025 13:31:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_282_transatlantiska_haverier/</guid>
+    <description><![CDATA[Handelskrig, EU US-exit, CVE, CISA, DNSSEC, Schrems, ICANN, IANA, &hellip;
+Lyssna mp3, längd: 01:03:01 Innehåll Hur funkar Säkerhet när transatlantiska relationerna bryter samman? När EU behöver dra sig ur amerikanska moln, hur påverkar det säkerhet på lång och kort sikt. När USA drar in stöd till MITRE och CVE-infrastrukturen hänger på en skör tråd?
+Hur stadsoberoende styrs Internet när relationerna krånglar? DNS, DNSSEC och top-level domains - nycklarna till internet.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #280 - Privacy online</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_280_privacy_online/</link>
     <pubDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</pubDate>
@@ -116,17 +126,6 @@ Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer t
 [&hellip;]
 Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
 Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #264 - Tips till en 18-åring</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</link>
-    <pubDate>Mon, 12 Aug 2024 09:24:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_264_tips_till_en_18_aring/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 53:29 Tema: Vad skall man lära sig som 18 åring? Temaförslag från Love:
-Om du fått ge dig själv råd i vad du borde lära dig som 18 åring, vad hade du sagt?
-Jag tänker att det antagligen finns en del föräldrar med lite vilse tonåringar som kan behöva något vettigt att göra. Jag själv var nog typ 15-16 när jag börja lyssna (kan det stämma?).
-Vad har varit roligast att kunna och vad tror ni idag ger mest pang för pengarna att lära sig?]]></description>
 </item>
 </channel>
 </rss>
