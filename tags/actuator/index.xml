@@ -1,0 +1,41 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>actuator - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/actuator/</link>
+        <description>actuator - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 May 2025 11:54:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/actuator/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #283 - Ostrukturerat V.22</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</link>
+    <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</guid>
+    <description><![CDATA[TeleMessage/Signalgate, DOGE/Infostealer, Hangul, ASUS, Airborn, VM-escape, Intel BPRC, Unify Protect, sudo-rs!
+Lyssna mp3, längd: 01:12:48 Incident: TeleMessage 00:03:28 USA använder Signal-klonen TeleMessage, utvecklat i Israel under &ldquo;Israel-US Binational Industrial Research and Development Foundation&rdquo;. Meddelanden från appen kunde komma åts av hackers.
+Tekniska detaljer:
+Servern är skriven i JSP och SpringBoot. Lösenord i MD5 på klient istället för server, dvs hittar du en hash funkar den rakt av mot server. feroxbuster hittar /heapdump på archive.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #275 - Ostukturerat V.6</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</link>
+    <pubDate>Mon, 03 Feb 2025 12:39:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 30:25 Innehåll Hela panelen är samlad efter ett hårt och långt nyårsavsnitt!
+Jesper, Johan, Mattias, Peter och Rickard babblar om ett urval av spännade nyheter;
+Hårdvaru-nära: Mattias spekulerar om nya Apple M silikon spekulativa hål SLAP och FLOP. Peter pratar om Reloader.EFI, nästa nya hål i UEFI Secure Boot. Kryptografi: NATO HALFLOOP-24 för frekvenshoppning knäckt. Bil-nytt: Rickard och Mattias pratar om Subaru STARLINK och Volkswagen Cariad incidenterna. Vår urgamla vänner Spring Boot Actuators återvänder!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #270 - Anekdoter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</link>
+    <pubDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 49:02 Innehåll Jesper, Johan, Mattias, Peter och Rickard - samt poddhunden Ester, träffas för att prata anekdoter!
+Lyssnarbrev Lyssnarbrev från Linus M, från i maj:
+Hej! Ni bad om förslag för teamavsnitt.
+Anekdoter tror jag borde vara lätt för er att klämma ur er en hel del och det tror jag skulle uppskattas av publiken.
+Tack för bra underhållning men också för det informativa innehållet.
+Blandade anekdoter &ldquo;Snäll&rdquo; Nessus-scan bränner ner hela datacentret Radius på &ldquo;alla servers&rdquo; går i evighetsloop efter Nessus scans Produktion är nere VMWare brinner och hela virtualiseringen behöver startas om Testaren och hans chef är omöjliga att nå pga möte med avstängda mobiltelefoner Webb-säkerhetstest som går åt skogen: Kreditkort börjar tryckas upp Gratis bananer Grindar som börjar slå Grindar som öppnar sig på 15 minuters oautentiserat webhack&hellip; Spring actuator för år sen när massa servers la ut miljövariabler och JVM minne (heapdump) på Internet Applikationer som bara &ldquo;mår dåligt&rdquo; utan tydlig diagnos/orsak efter tester.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Säkerhetspodcasten #283 - Ostrukturerat V.22 - Säkerhetspodcasten</title><meta name="Description" content="Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet"><meta property="og:title" content="Säkerhetspodcasten #283 - Ostrukturerat V.22" />
+<meta property="og:description" content="TeleMessage/Signalgate, DOGE/Infostealer, Hangul, ASUS, Airborn, VM-escape, Intel BPRC, Unify Protect, sudo-rs!
+Lyssna mp3, längd: 01:12:48 Incident: TeleMessage 00:03:28 USA använder Signal-klonen TeleMessage, utvecklat i Israel under &ldquo;Israel-US Binational Industrial Research and Development Foundation&rdquo;. Meddelanden från appen kunde komma åts av hackers.
+Tekniska detaljer:
+Servern är skriven i JSP och SpringBoot. Lösenord i MD5 på klient istället för server, dvs hittar du en hash funkar den rakt av mot server. feroxbuster hittar /heapdump på archive." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-05-26T11:54:00+00:00" />
+<meta property="article:modified_time" content="2025-05-26T11:54:00+00:00" /><meta property="og:site_name" content="Säkerhetspodcasten" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Säkerhetspodcasten #283 - Ostrukturerat V.22"/>
+<meta name="twitter:description" content="TeleMessage/Signalgate, DOGE/Infostealer, Hangul, ASUS, Airborn, VM-escape, Intel BPRC, Unify Protect, sudo-rs!
+Lyssna mp3, längd: 01:12:48 Incident: TeleMessage 00:03:28 USA använder Signal-klonen TeleMessage, utvecklat i Israel under &ldquo;Israel-US Binational Industrial Research and Development Foundation&rdquo;. Meddelanden från appen kunde komma åts av hackers.
+Tekniska detaljer:
+Servern är skriven i JSP och SpringBoot. Lösenord i MD5 på klient istället för server, dvs hittar du en hash funkar den rakt av mot server. feroxbuster hittar /heapdump på archive."/>
+<meta name="application-name" content="Säkerhetspodcasten">
+<meta name="apple-mobile-web-app-title" content="Säkerhetspodcasten"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_282_transatlantiska_haverier/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Säkerhetspodcasten #283 - Ostrukturerat V.22",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_283_ostrukturerat_v_22\/"
+        },"genre": "posts","keywords": "ostrukturerat, actuator","wordcount":  12649 ,
+        "url": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_283_ostrukturerat_v_22\/","datePublished": "2025-05-26T11:54:00+00:00","dateModified": "2025-05-26T11:54:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Pods </a><a class="menu-item" href="/pages/lyssna" title="Lyssna"> Lyssna! </a><a class="menu-item" href="/pages/kontakt" title="kontakt"> Kontakt </a><a class="menu-item" href="/pages/panelen" title="panelen"> Panelen </a><a class="menu-item" href="/pages/supportersida-2" title="supporters"> Supporters </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Säkerhetspodcasten">Säkerhetspodcasten</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Pods</a><a class="menu-item" href="/pages/lyssna" title="Lyssna">Lyssna!</a><a class="menu-item" href="/pages/kontakt" title="kontakt">Kontakt</a><a class="menu-item" href="/pages/panelen" title="panelen">Panelen</a><a class="menu-item" href="/pages/supportersida-2" title="supporters">Supporters</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Säkerhetspodcasten #283 - Ostrukturerat V.22</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-05-26">2025-05-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;12649 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;60 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lyssna">Lyssna</a></li>
+    <li><a href="#incident-telemessage">Incident: TeleMessage</a></li>
+    <li><a href="#incident-doge-i-infostealer-dump">Incident: DOGE i infostealer dump</a></li>
+    <li><a href="#incident-bankid-med-flera-har-driftstörningar">Incident: BankID med flera har driftstörningar</a></li>
+    <li><a href="#incident-malware-kampanj-via-facebook-reklam">Incident: Malware kampanj via Facebook reklam</a></li>
+    <li><a href="#bug-asus-driver-hub-var-osäkert">Bug: ASUS Driver Hub var osäkert&hellip;</a></li>
+    <li><a href="#bug-apple-airplay">Bug: Apple AirPlay</a></li>
+    <li><a href="#bug-vm-escape">Bug: VM-escape</a></li>
+    <li><a href="#hårdvara-intel-sårbarhet-möjliggör-att-sno-data-från-hypervisor">Hårdvara: Intel sårbarhet möjliggör att sno data från hypervisor!</a></li>
+    <li><a href="#bug-unify-protect">Bug: Unify Protect</a></li>
+    <li><a href="#förbättringar-ubuntu-rostar">Förbättringar: Ubuntu rostar</a></li>
+    <li><a href="#galen-ai-transkribering">Galen AI Transkribering</a>
+      <ul>
+        <li><a href="#1-000000000----000046400">1 00:00:00,000 &ndash;&gt; 00:00:46,400</a></li>
+        <li><a href="#2-000047300----000145500">2 00:00:47,300 &ndash;&gt; 00:01:45,500</a></li>
+        <li><a href="#3-000146800----000228900">3 00:01:46,800 &ndash;&gt; 00:02:28,900</a></li>
+        <li><a href="#4-000230000----000254900">4 00:02:30,000 &ndash;&gt; 00:02:54,900</a></li>
+        <li><a href="#5-000256600----000313200">5 00:02:56,600 &ndash;&gt; 00:03:13,200</a></li>
+        <li><a href="#6-000328200----000338800">6 00:03:28,200 &ndash;&gt; 00:03:38,800</a></li>
+        <li><a href="#7-000350400----000433400">7 00:03:50,400 &ndash;&gt; 00:04:33,400</a></li>
+        <li><a href="#8-000435900----000535200">8 00:04:35,900 &ndash;&gt; 00:05:35,200</a></li>
+        <li><a href="#9-000535800----000635600">9 00:05:35,800 &ndash;&gt; 00:06:35,600</a></li>
+        <li><a href="#10-000635800----000714600">10 00:06:35,800 &ndash;&gt; 00:07:14,600</a></li>
+        <li><a href="#11-000715700----000808800">11 00:07:15,700 &ndash;&gt; 00:08:08,800</a></li>
+        <li><a href="#12-000809700----000854000">12 00:08:09,700 &ndash;&gt; 00:08:54,000</a></li>
+        <li><a href="#13-000856800----000922200">13 00:08:56,800 &ndash;&gt; 00:09:22,200</a></li>
+        <li><a href="#14-000922900----000957500">14 00:09:22,900 &ndash;&gt; 00:09:57,500</a></li>
+        <li><a href="#15-000958700----001000300">15 00:09:58,700 &ndash;&gt; 00:10:00,300</a></li>
+        <li><a href="#16-001001400----001010800">16 00:10:01,400 &ndash;&gt; 00:10:10,800</a></li>
+        <li><a href="#17-001011500----001106000">17 00:10:11,500 &ndash;&gt; 00:11:06,000</a></li>
+        <li><a href="#18-001107100----001147200">18 00:11:07,100 &ndash;&gt; 00:11:47,200</a></li>
+        <li><a href="#19-001148000----001247400">19 00:11:48,000 &ndash;&gt; 00:12:47,400</a></li>
+        <li><a href="#20-001248000----001347800">20 00:12:48,000 &ndash;&gt; 00:13:47,800</a></li>
+        <li><a href="#21-001347900----001431700">21 00:13:47,900 &ndash;&gt; 00:14:31,700</a></li>
+        <li><a href="#22-001432500----001513700">22 00:14:32,500 &ndash;&gt; 00:15:13,700</a></li>
+        <li><a href="#23-001514000----001613900">23 00:15:14,000 &ndash;&gt; 00:16:13,900</a></li>
+        <li><a href="#24-001614000----001639400">24 00:16:14,000 &ndash;&gt; 00:16:39,400</a></li>
+        <li><a href="#25-001650000----001718700">25 00:16:50,000 &ndash;&gt; 00:17:18,700</a></li>
+        <li><a href="#26-0017195999999999998836----001818700">26 00:17:19,599.9999999998836 &ndash;&gt; 00:18:18,700</a></li>
+        <li><a href="#27-001819500----001848800">27 00:18:19,500 &ndash;&gt; 00:18:48,800</a></li>
+        <li><a href="#28-001850600----001858900">28 00:18:50,600 &ndash;&gt; 00:18:58,900</a></li>
+        <li><a href="#29-001859900----001908200">29 00:18:59,900 &ndash;&gt; 00:19:08,200</a></li>
+        <li><a href="#30-001918200----002018000">30 00:19:18,200 &ndash;&gt; 00:20:18,000</a></li>
+        <li><a href="#31-002018100----002024000">31 00:20:18,100 &ndash;&gt; 00:20:24,000</a></li>
+        <li><a href="#32-002027000----002059600">32 00:20:27,000 &ndash;&gt; 00:20:59,600</a></li>
+        <li><a href="#33-002101000----002105700">33 00:21:01,000 &ndash;&gt; 00:21:05,700</a></li>
+        <li><a href="#34-002107100----002204800">34 00:21:07,100 &ndash;&gt; 00:22:04,800</a></li>
+        <li><a href="#35-002205500----002303000">35 00:22:05,500 &ndash;&gt; 00:23:03,000</a></li>
+        <li><a href="#36-002303600----002304700">36 00:23:03,600 &ndash;&gt; 00:23:04,700</a></li>
+        <li><a href="#37-002307000----002318700">37 00:23:07,000 &ndash;&gt; 00:23:18,700</a></li>
+        <li><a href="#38-002319500----002337200">38 00:23:19,500 &ndash;&gt; 00:23:37,200</a></li>
+        <li><a href="#39-002345600----002346200">39 00:23:45,600 &ndash;&gt; 00:23:46,200</a></li>
+        <li><a href="#40-002354800----002436600">40 00:23:54,800 &ndash;&gt; 00:24:36,600</a></li>
+        <li><a href="#41-002438100----002519200">41 00:24:38,100 &ndash;&gt; 00:25:19,200</a></li>
+        <li><a href="#42-002520400----002523700">42 00:25:20,400 &ndash;&gt; 00:25:23,700</a></li>
+        <li><a href="#43-002524600----002605900">43 00:25:24,600 &ndash;&gt; 00:26:05,900</a></li>
+        <li><a href="#44-002606700----002706600">44 00:26:06,700 &ndash;&gt; 00:27:06,600</a></li>
+        <li><a href="#45-002706800----002806500">45 00:27:06,800 &ndash;&gt; 00:28:06,500</a></li>
+        <li><a href="#46-002806700----002906700">46 00:28:06,700 &ndash;&gt; 00:29:06,700</a></li>
+        <li><a href="#47-002906700----002916300">47 00:29:06,700 &ndash;&gt; 00:29:16,300</a></li>
+        <li><a href="#48-002917000----003016900">48 00:29:17,000 &ndash;&gt; 00:30:16,900</a></li>
+        <li><a href="#49-003017100----003026200">49 00:30:17,100 &ndash;&gt; 00:30:26,200</a></li>
+        <li><a href="#50-003027400----003035300">50 00:30:27,400 &ndash;&gt; 00:30:35,300</a></li>
+        <li><a href="#51-003049000----003147400">51 00:30:49,000 &ndash;&gt; 00:31:47,400</a></li>
+        <li><a href="#52-003148400----003248200">52 00:31:48,400 &ndash;&gt; 00:32:48,200</a></li>
+        <li><a href="#53-003248400----003259300">53 00:32:48,400 &ndash;&gt; 00:32:59,300</a></li>
+        <li><a href="#54-003306400----003345200">54 00:33:06,400 &ndash;&gt; 00:33:45,200</a></li>
+        <li><a href="#55-003348000----003447600">55 00:33:48,000 &ndash;&gt; 00:34:47,600</a></li>
+        <li><a href="#56-003448000----00345519999999999976717">56 00:34:48,000 &ndash;&gt; 00:34:55,199.99999999976717</a></li>
+        <li><a href="#57-003458600----003516900">57 00:34:58,600 &ndash;&gt; 00:35:16,900</a></li>
+        <li><a href="#58-003518600----003618500">58 00:35:18,600 &ndash;&gt; 00:36:18,500</a></li>
+        <li><a href="#59-003618500----003625000">59 00:36:18,500 &ndash;&gt; 00:36:25,000</a></li>
+        <li><a href="#60-003626000----003653200">60 00:36:26,000 &ndash;&gt; 00:36:53,200</a></li>
+        <li><a href="#61-003655400----003735700">61 00:36:55,400 &ndash;&gt; 00:37:35,700</a></li>
+        <li><a href="#62-003737700----003809500">62 00:37:37,700 &ndash;&gt; 00:38:09,500</a></li>
+        <li><a href="#63-003810700----003846400">63 00:38:10,700 &ndash;&gt; 00:38:46,400</a></li>
+        <li><a href="#64-003847400----003904000">64 00:38:47,400 &ndash;&gt; 00:39:04,000</a></li>
+        <li><a href="#65-003905900----003909000">65 00:39:05,900 &ndash;&gt; 00:39:09,000</a></li>
+        <li><a href="#66-003914500----003920400">66 00:39:14,500 &ndash;&gt; 00:39:20,400</a></li>
+        <li><a href="#67-003922000----003936900">67 00:39:22,000 &ndash;&gt; 00:39:36,900</a></li>
+        <li><a href="#68-003938400----004000200">68 00:39:38,400 &ndash;&gt; 00:40:00,200</a></li>
+        <li><a href="#69-004001600----004022500">69 00:40:01,600 &ndash;&gt; 00:40:22,500</a></li>
+        <li><a href="#70-004025500----004031700">70 00:40:25,500 &ndash;&gt; 00:40:31,700</a></li>
+        <li><a href="#71-004035400----004036900">71 00:40:35,400 &ndash;&gt; 00:40:36,900</a></li>
+        <li><a href="#72-004039000----004040300">72 00:40:39,000 &ndash;&gt; 00:40:40,300</a></li>
+        <li><a href="#73-004046900----004059300">73 00:40:46,900 &ndash;&gt; 00:40:59,300</a></li>
+        <li><a href="#74-004100700----004108900">74 00:41:00,700 &ndash;&gt; 00:41:08,900</a></li>
+        <li><a href="#75-004112300----004112700">75 00:41:12,300 &ndash;&gt; 00:41:12,700</a></li>
+        <li><a href="#76-004115600----004122300">76 00:41:15,600 &ndash;&gt; 00:41:22,300</a></li>
+        <li><a href="#77-004123700----004133200">77 00:41:23,700 &ndash;&gt; 00:41:33,200</a></li>
+        <li><a href="#78-004134900----004138600">78 00:41:34,900 &ndash;&gt; 00:41:38,600</a></li>
+        <li><a href="#79-004139700----004153500">79 00:41:39,700 &ndash;&gt; 00:41:53,500</a></li>
+        <li><a href="#80-004156000----004158000">80 00:41:56,000 &ndash;&gt; 00:41:58,000</a></li>
+        <li><a href="#81-004159100----004204200">81 00:41:59,100 &ndash;&gt; 00:42:04,200</a></li>
+        <li><a href="#82-004207200----004216200">82 00:42:07,200 &ndash;&gt; 00:42:16,200</a></li>
+        <li><a href="#83-004217100----004245600">83 00:42:17,100 &ndash;&gt; 00:42:45,600</a></li>
+        <li><a href="#84-004246700----004248600">84 00:42:46,700 &ndash;&gt; 00:42:48,600</a></li>
+        <li><a href="#85-004251000----004306700">85 00:42:51,000 &ndash;&gt; 00:43:06,700</a></li>
+        <li><a href="#86-004307700----004327600">86 00:43:07,700 &ndash;&gt; 00:43:27,600</a></li>
+        <li><a href="#87-004328500----004344000">87 00:43:28,500 &ndash;&gt; 00:43:44,000</a></li>
+        <li><a href="#88-004345600----004402800">88 00:43:45,600 &ndash;&gt; 00:44:02,800</a></li>
+        <li><a href="#89-004404600----004406900">89 00:44:04,600 &ndash;&gt; 00:44:06,900</a></li>
+        <li><a href="#90-004407800----004437900">90 00:44:07,800 &ndash;&gt; 00:44:37,900</a></li>
+        <li><a href="#91-004440400----004512800">91 00:44:40,400 &ndash;&gt; 00:45:12,800</a></li>
+        <li><a href="#92-004514000----004558800">92 00:45:14,000 &ndash;&gt; 00:45:58,800</a></li>
+        <li><a href="#93-004601900----004632900">93 00:46:01,900 &ndash;&gt; 00:46:32,900</a></li>
+        <li><a href="#94-004633600----004717800">94 00:46:33,600 &ndash;&gt; 00:47:17,800</a></li>
+        <li><a href="#95-004721100----004808600">95 00:47:21,100 &ndash;&gt; 00:48:08,600</a></li>
+        <li><a href="#96-004810000----004836600">96 00:48:10,000 &ndash;&gt; 00:48:36,600</a></li>
+        <li><a href="#97-004838500----004852100">97 00:48:38,500 &ndash;&gt; 00:48:52,100</a></li>
+        <li><a href="#98-004853700----004953400">98 00:48:53,700 &ndash;&gt; 00:49:53,400</a></li>
+        <li><a href="#99-004953600----005036400">99 00:49:53,600 &ndash;&gt; 00:50:36,400</a></li>
+        <li><a href="#100-005038600----005042500">100 00:50:38,600 &ndash;&gt; 00:50:42,500</a></li>
+        <li><a href="#101-005044700----005054500">101 00:50:44,700 &ndash;&gt; 00:50:54,500</a></li>
+        <li><a href="#102-005055500----005104900">102 00:50:55,500 &ndash;&gt; 00:51:04,900</a></li>
+        <li><a href="#103-005106800----005129700">103 00:51:06,800 &ndash;&gt; 00:51:29,700</a></li>
+        <li><a href="#104-005132600----005141700">104 00:51:32,600 &ndash;&gt; 00:51:41,700</a></li>
+        <li><a href="#105-005143800----005152000">105 00:51:43,800 &ndash;&gt; 00:51:52,000</a></li>
+        <li><a href="#106-005153200----005153600">106 00:51:53,200 &ndash;&gt; 00:51:53,600</a></li>
+        <li><a href="#107-005157300----005244800">107 00:51:57,300 &ndash;&gt; 00:52:44,800</a></li>
+        <li><a href="#108-005245600----005318500">108 00:52:45,600 &ndash;&gt; 00:53:18,500</a></li>
+        <li><a href="#109-005319600----005348500">109 00:53:19,600 &ndash;&gt; 00:53:48,500</a></li>
+        <li><a href="#110-005350500----005412300">110 00:53:50,500 &ndash;&gt; 00:54:12,300</a></li>
+        <li><a href="#111-005413700----005417000">111 00:54:13,700 &ndash;&gt; 00:54:17,000</a></li>
+        <li><a href="#112-005418900----005427700">112 00:54:18,900 &ndash;&gt; 00:54:27,700</a></li>
+        <li><a href="#113-005431200----005433400">113 00:54:31,200 &ndash;&gt; 00:54:33,400</a></li>
+        <li><a href="#114-005435000----005436100">114 00:54:35,000 &ndash;&gt; 00:54:36,100</a></li>
+        <li><a href="#115-005439800----005514400">115 00:54:39,800 &ndash;&gt; 00:55:14,400</a></li>
+        <li><a href="#116-005515600----005539600">116 00:55:15,600 &ndash;&gt; 00:55:39,600</a></li>
+        <li><a href="#117-005540600----005603700">117 00:55:40,600 &ndash;&gt; 00:56:03,700</a></li>
+        <li><a href="#118-005604800----005628800">118 00:56:04,800 &ndash;&gt; 00:56:28,800</a></li>
+        <li><a href="#119-005629800----005637700">119 00:56:29,800 &ndash;&gt; 00:56:37,700</a></li>
+        <li><a href="#120-005638600----005650800">120 00:56:38,600 &ndash;&gt; 00:56:50,800</a></li>
+        <li><a href="#121-005652200----005721700">121 00:56:52,200 &ndash;&gt; 00:57:21,700</a></li>
+        <li><a href="#122-005723200----005810000">122 00:57:23,200 &ndash;&gt; 00:58:10,000</a></li>
+        <li><a href="#123-005810900----005842100">123 00:58:10,900 &ndash;&gt; 00:58:42,100</a></li>
+        <li><a href="#124-005843500----005919100">124 00:58:43,500 &ndash;&gt; 00:59:19,100</a></li>
+        <li><a href="#125-005920000----010002500">125 00:59:20,000 &ndash;&gt; 01:00:02,500</a></li>
+        <li><a href="#126-010003400----010037600">126 01:00:03,400 &ndash;&gt; 01:00:37,600</a></li>
+        <li><a href="#127-010038400----010043400">127 01:00:38,400 &ndash;&gt; 01:00:43,400</a></li>
+        <li><a href="#128-010048800----010049300">128 01:00:48,800 &ndash;&gt; 01:00:49,300</a></li>
+        <li><a href="#129-010050900----010118600">129 01:00:50,900 &ndash;&gt; 01:01:18,600</a></li>
+        <li><a href="#130-010119500----010142400">130 01:01:19,500 &ndash;&gt; 01:01:42,400</a></li>
+        <li><a href="#131-010144700----010201400">131 01:01:44,700 &ndash;&gt; 01:02:01,400</a></li>
+        <li><a href="#132-010204000----010237900">132 01:02:04,000 &ndash;&gt; 01:02:37,900</a></li>
+        <li><a href="#133-010239300----010328700">133 01:02:39,300 &ndash;&gt; 01:03:28,700</a></li>
+        <li><a href="#134-010330200----010351300">134 01:03:30,200 &ndash;&gt; 01:03:51,300</a></li>
+        <li><a href="#135-010353000----010425900">135 01:03:53,000 &ndash;&gt; 01:04:25,900</a></li>
+        <li><a href="#136-010427500----010430200">136 01:04:27,500 &ndash;&gt; 01:04:30,200</a></li>
+        <li><a href="#137-010431700----010437000">137 01:04:31,700 &ndash;&gt; 01:04:37,000</a></li>
+        <li><a href="#138-010438400----010505900">138 01:04:38,400 &ndash;&gt; 01:05:05,900</a></li>
+        <li><a href="#139-010507800----010514100">139 01:05:07,800 &ndash;&gt; 01:05:14,100</a></li>
+        <li><a href="#140-010515100----010522000">140 01:05:15,100 &ndash;&gt; 01:05:22,000</a></li>
+        <li><a href="#141-010525100----010531400">141 01:05:25,100 &ndash;&gt; 01:05:31,400</a></li>
+        <li><a href="#142-010532800----010604400">142 01:05:32,800 &ndash;&gt; 01:06:04,400</a></li>
+        <li><a href="#143-010606600----010608500">143 01:06:06,600 &ndash;&gt; 01:06:08,500</a></li>
+        <li><a href="#144-010609600----010632600">144 01:06:09,600 &ndash;&gt; 01:06:32,600</a></li>
+        <li><a href="#145-010635600----010636900">145 01:06:35,600 &ndash;&gt; 01:06:36,900</a></li>
+        <li><a href="#146-010638000----010642200">146 01:06:38,000 &ndash;&gt; 01:06:42,200</a></li>
+        <li><a href="#147-010643200----010701600">147 01:06:43,200 &ndash;&gt; 01:07:01,600</a></li>
+        <li><a href="#148-010703700----010730600">148 01:07:03,700 &ndash;&gt; 01:07:30,600</a></li>
+        <li><a href="#149-010731700----010735800">149 01:07:31,700 &ndash;&gt; 01:07:35,800</a></li>
+        <li><a href="#150-010737100----010744400">150 01:07:37,100 &ndash;&gt; 01:07:44,400</a></li>
+        <li><a href="#151-010748300----010754200">151 01:07:48,300 &ndash;&gt; 01:07:54,200</a></li>
+        <li><a href="#152-010755700----010801600">152 01:07:55,700 &ndash;&gt; 01:08:01,600</a></li>
+        <li><a href="#153-010803700----010819000">153 01:08:03,700 &ndash;&gt; 01:08:19,000</a></li>
+        <li><a href="#154-0108206000000000004657----01082810000000000046566">154 01:08:20,600.0000000004657 &ndash;&gt; 01:08:28,100.00000000046566</a></li>
+        <li><a href="#155-010829800----0108428999999999995343">155 01:08:29,800 &ndash;&gt; 01:08:42,899.9999999995343</a></li>
+        <li><a href="#156-010846000----0109298999999999995343">156 01:08:46,000 &ndash;&gt; 01:09:29,899.9999999995343</a></li>
+        <li><a href="#157-01093110000000000046566----011003700">157 01:09:31,100.00000000046566 &ndash;&gt; 01:10:03,700</a></li>
+        <li><a href="#158-011004800----011005600">158 01:10:04,800 &ndash;&gt; 01:10:05,600</a></li>
+        <li><a href="#159-011007800----011040900">159 01:10:07,800 &ndash;&gt; 01:10:40,900</a></li>
+        <li><a href="#160-011042300----011047300">160 01:10:42,300 &ndash;&gt; 01:10:47,300</a></li>
+        <li><a href="#161-011049300----011123700">161 01:10:49,300 &ndash;&gt; 01:11:23,700</a></li>
+        <li><a href="#162-011125400----011127100">162 01:11:25,400 &ndash;&gt; 01:11:27,100</a></li>
+        <li><a href="#163-011128300----011219400">163 01:11:28,300 &ndash;&gt; 01:12:19,400</a></li>
+        <li><a href="#164-011220200----011236700">164 01:12:20,200 &ndash;&gt; 01:12:36,700</a></li>
+        <li><a href="#165-011239700----011246000">165 01:12:39,700 &ndash;&gt; 01:12:46,000</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>TeleMessage/Signalgate, DOGE/Infostealer, Hangul, ASUS, Airborn,
+VM-escape, Intel BPRC, Unify Protect, sudo-rs!</p>
+<h2 id="lyssna">Lyssna</h2>
+<ul>
+<li><a href="https://traffic.libsyn.com/secure/sakerhetspodcasten/2025-05-22_Sakerhetspodcasten.mp3?dest-id=117848" target="_blank" rel="noopener noreffer ">mp3</a>, längd: 01:12:48</li>
+</ul>
+<h2 id="incident-telemessage">Incident: TeleMessage</h2>
+<p><code>00:03:28</code>
+USA använder Signal-klonen TeleMessage,
+utvecklat i Israel under
+&ldquo;<em>Israel-US Binational Industrial Research and Development Foundation</em>&rdquo;.
+Meddelanden från appen kunde komma åts av hackers.</p>
+<p>Tekniska detaljer:</p>
+<ul>
+<li>Servern är skriven i <code>JSP</code> och <code>SpringBoot</code>.</li>
+<li>Lösenord i MD5 på klient istället för server,
+dvs hittar du en hash funkar den rakt av mot server.</li>
+<li><code>feroxbuster</code> hittar <code>/heapdump</code> på <code>archive.telemessage.com</code>.</li>
+<li>Heapdumps innehåller Java-minnet,
+<em>inklusive arkiverade meddelanden</em> och
+<em>giltliga användarnamn/lösenord kombinationer</em>.</li>
+<li>Heapdump actuator är <strong>inte</strong> aktiverat i <em>normal</em> konfiguration i
+moderna versioner av SpringBoot.
+Det är antigen onormalt felkonfigurerat,
+eller mycket gammal mjukvara.</li>
+</ul>
+<p>Vi har pratat sådanna attacker tidigare;</p>
+<ul>
+<li><a href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/" target="_blank" rel="noopener noreffer ">Säkerhetspodcasten #275 - Ostukturerat V.6</a>
+<em>Volkswagen Cariad läcka</em>.</li>
+<li><a href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/" target="_blank" rel="noopener noreffer ">Säkerhetspodcasten #270 - Anekdoter</a>
+<em>Jesper och Johan hittar kreditkort i</em> <code>/heapdump</code>
+<em>hos kund de pentestar 2015-ish&hellip;</em></li>
+</ul>
+<p>Det har också förekommit uppgifter att man genom att
+reverse-engineera gamla versioner appen kan hitta hårdkodade
+lösenord i den&hellip; Men tydligen inte det som var vägen in.</p>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://www.404media.co/the-signal-clone-the-trump-admin-uses-was-hacked/" target="_blank" rel="noopener noreffer ">404 Media/ Joseph Cox: The Signal Clone the Trump Admin Uses Was Hacked</a></li>
+<li><a href="https://www.wired.com/story/how-the-signal-knock-off-app-telemessage-got-hacked-in-20-minutes/" target="_blank" rel="noopener noreffer ">WIRED/ Micah Lee: How the Signal Knockoff App TeleMessage Got Hacked in 20 Minutes - The company behind the Signal clone used by at least one Trump administration official was breached earlier this month. The hacker says they got in thanks to a basic misconfiguration.</a></li>
+<li><a href="https://micahflee.com/telemessage-customers-include-dc-police-andreesen-horowitz-jp-morgan-and-hundreds-more/" target="_blank" rel="noopener noreffer ">micahflee/ Micah Lee: TeleMessage customers include DC Police, Andreessen Horowitz, JP Morgan, and hundreds more</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TeleMessage" target="_blank" rel="noopener noreffer ">TeleMessage - Wikipedia</a></li>
+<li><a href="https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/actuator.html" target="_blank" rel="noopener noreffer ">Spring Boot Actuator: Production-ready Features</a></li>
+<li><a href="https://github.com/epi052/feroxbuster" target="_blank" rel="noopener noreffer ">GitHub - epi052/feroxbuster: A fast, simple, recursive content discovery tool written in Rust. - A fast, simple, recursive content discovery tool written in Rust. - epi052/feroxbuster</a></li>
+<li><a href="https://www.youtube.com/watch?v=J__qWnFJZgA" target="_blank" rel="noopener noreffer ">YouTube/ 404 Media: The Trump Admin&rsquo;s Signal Clone Was Hacked</a> <code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=hFgdISy8hnI" target="_blank" rel="noopener noreffer ">YouTube/ Seytonic: Trump&rsquo;s Signal Clone App was Hacked in 15 minutes</a> <code>video</code></li>
+</ul>
+<h2 id="incident-doge-i-infostealer-dump">Incident: DOGE i infostealer dump</h2>
+<p><code>00:23:54</code>
+DOGE ingenjör tros ha en &ldquo;infostealer&rdquo; (datatjuv) på någon av sina
+datorer.</p>
+<p>Spekuleras i att detta förklara varför &ldquo;ryska inloggningar&rdquo; verkar
+följa efter att DOGE får access till amerikanska myndigheter.</p>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://arstechnica.com/security/2025/05/doge-software-engineers-computer-infected-by-info-stealing-malware/" target="_blank" rel="noopener noreffer ">Ars Technica/ Dan Goodin: DOGE software engineer’s computer infected by info-stealing malware - The presence of credentials in leaked “stealer logs” indicates his device was infected.</a></li>
+</ul>
+<h2 id="incident-bankid-med-flera-har-driftstörningar">Incident: BankID med flera har driftstörningar</h2>
+<p><code>00:28:06</code>
+BankID överbelastningsattack:</p>
+<blockquote>
+<p>2025-04-24 BankID fungerar felfritt igen.
+Vi beklagar det besvär som drabbat våra användare och kunder.</p>
+<p>Vi bekräftar att vi har haft en överbelastningsattack som påverkat
+flera av våra användare och kunder. Mellan 20:49 och 23:45 var det
+problem att använda BankID. Vissa delar av trafiken som kom från
+andra länder påverkades fram till ca 08:00 torsdag morgon. Vi vill
+vara tydliga med att alla våra användares data är fortsatt skyddad
+och har så varit under hela överbelastningsattacken. Vi har väl
+inarbetade skydd för att skydda våra användare och vårt system.
+Vi beklagar åter de besvär som drabbat vår användare och kunder.</p>
+<p>Vi kommer incidentrapportera till berörda myndigheter och
+polisanmäla till brottsförebyggande myndighet. Utredningen får
+utvisa orsaken till denna längre störning.</p>
+</blockquote>
+<p>Det har även varit svårt att nå <strong>Swedbank</strong> tjänster.</p>
+<p><strong>Swish</strong> strulat och visat varningar om störningar när man går in i appen.
+Den stora BankID denial-of-service attacken beskrevs så här:</p>
+<blockquote>
+<ul>
+<li>23/04/2025, 21:01:53 At the moment, we are experiencing a disturbance impacting transactions to and from Swedbank.</li>
+</ul>
+</blockquote>
+<p>Tittar man de senaste dagarna, gott om störningar:</p>
+<blockquote>
+<ul>
+<li>May 23, 11:50 CEST At the moment, we are experiencing a disturbance impacting transactions to and from Swedbank.</li>
+<li>May 23, 10:29 CEST At the moment, we are experiencing a disturbance impacting transactions to and from Swedbank.</li>
+<li>May 23, 07:14 CEST At the moment, we are experiencing a disturbance impacting transactions to and from Handelsbanken.</li>
+<li>May 22, 15:42 CEST At the moment, we are experiencing a disturbance impacting transactions to and from Swedbank.</li>
+<li>May 22, 15:42 CEST At the moment, we are experiencing a disturbance impacting transactions to and from Handelsbanken.</li>
+<li>May 22, 15:40 CEST We are still experiencing a disturbance at Swish impacting Swish payments.</li>
+<li>May 22, 14:52 CEST The incident has been identified at one of our suppliers. We are working to resolve the issue.</li>
+<li>May 22, 14:02 CEST We are still experiencing a disturbance at Swish impacting Swish payments.</li>
+<li>May 22, 13:02 CEST At the moment, we are experiencing a disturbance at Swish impacting Swish payments.</li>
+<li>May 20, 23:26 CEST At the moment, we are experiencing a disturbance impacting transactions to and from ICA Banken.</li>
+<li>May 18, 00:30 CEST At the moment, we are experiencing a disturbance at BankID impacting Swish payments.</li>
+</ul>
+</blockquote>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://www.dn.se/direkt/2025-04-23/bank-id-fungerar-igen-efter-kraftig-cyberattack/" target="_blank" rel="noopener noreffer ">DN.se/ Ida Palm Ekspong: DN Direkt - Bank-id fungerar igen efter kraftig cyberattack - Bank-id utsattes för en kraftig överbelastningsattack vid 21-tiden på onsdagskvällen.</a></li>
+<li><a href="https://www.bankid.com/driftsinformation" target="_blank" rel="noopener noreffer ">BankID Status</a></li>
+<li><a href="https://marcusoscarsson.se/just-nu-swedbank-har-fatt-problem-kunder-i-hela-sverige-drabbas/" target="_blank" rel="noopener noreffer ">Marcus Oscarsson: Swedbank har fått problem – kunder i hela Sverige drabbas</a></li>
+<li><a href="https://status.swish.nu/" target="_blank" rel="noopener noreffer ">Swish Status</a></li>
+</ul>
+<h2 id="incident-malware-kampanj-via-facebook-reklam">Incident: Malware kampanj via Facebook reklam</h2>
+<p><code>00:36:55</code>
+AI-bro &ldquo;Kling AI&rdquo; reklam levererad via Facebook levererade malware
+som blandat annat ville sno digitala plånböcker.</p>
+<p><code>U+3164</code> Hangul Filler <strong>&quot;ㅤ&quot;</strong> används i användargränssnitt
+attacker för göra det mindre tydligt att man klickar på en EXE-fil.
+<code>.jpg\u3164.exe</code> visas som <code>.jpg ...</code> av Windows&hellip;</p>
+<blockquote>
+<p>Rather, it offers the option to a purported image or video that,
+in reality, is a malicious Windows executable hidden using double
+extensions and Hangul Filler (0xE3 0x85 0xA4) characters.</p>
+</blockquote>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://research.checkpoint.com/2025/impersonated-kling-ai-site-installs-malware/" target="_blank" rel="noopener noreffer ">Check Point Research: Impersonated GenAI Site Lures Victims to Infostealer Download - Discover how an impersonated GenAI Tool led victims to download a fake media file concealing Windows executables</a></li>
+<li><a href="https://thehackernews.com/2025/05/fake-kling-ai-facebook-ads-deliver-rat.html" target="_blank" rel="noopener noreffer ">The Hacker News: Fake Kling AI Facebook Ads Deliver RAT Malware to Over 22 Million Potential Victims - Fake Facebook ads impersonating Kling AI deploy PureHVNC RAT via spoofed sites, stealing credentials and crypto data.</a></li>
+<li><a href="https://www.compart.com/en/unicode/U&#43;3164" target="_blank" rel="noopener noreffer ">https://www.compart.com/en/unicode/U+3164: “ㅤ” U+3164 Hangul Filler Unicode Character - U+3164 is the unicode hex value of the character Hangul Filler. Char U+3164, Encodings, HTML Entitys:ㅤ,ㅤ, UTF-8 (hex), UTF-16 (hex), UTF-32 (hex)</a></li>
+</ul>
+<h2 id="bug-asus-driver-hub-var-osäkert">Bug: ASUS Driver Hub var osäkert&hellip;</h2>
+<p><code>00:38:47</code>
+ASUS Driver Hub kunde luras att installera mjukvara från var som
+helst.
+Bara web headern <code>origin</code> skall försvåra exploitering,
+men koden som kollade <code>origin</code> var helt defekt:
+exempelvis
+<code>driverhub.asus.com.mrbruh.com</code> var betrodd eftersom
+strängjämförelsen gjordes fel..</p>
+<p>Shameless self-promotion:
+Peter började misstänka att den här mjukvaran var skräp som
+skulle avinstalleras redan i 2020,
+bl.a. på grund av att den oombett skapade en webserver med ett
+helt befängt certifikat.</p>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://mrbruh.com/asusdriverhub/" target="_blank" rel="noopener noreffer ">MrBruh&rsquo;s Epic Blog</a></li>
+<li><a href="https://github.com/blaufish/server.pem" target="_blank" rel="noopener noreffer ">GitHub - blaufish/server.pem</a></li>
+</ul>
+<h2 id="bug-apple-airplay">Bug: Apple AirPlay</h2>
+<p><code>00:46:33</code>
+Minnesbuggar i Apple AirPlay SDK drabbar massa Apple och andras
+produkter som är byggda på SDKn.</p>
+<p>Attacken demad mot högtalarsystem, infotainment system i bilar,
+med mera&hellip; hur mycket gammalt bös är sårbart nu?</p>
+<p>&ldquo;Adjacent&rdquo; attack, du behöver vara nära för att göra attacken.</p>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://www.oligo.security/blog/airborne" target="_blank" rel="noopener noreffer ">Airborne: Wormable Zero-Click RCE in Apple AirPlay Puts Billions of Devices at Risk | Oligo Security | Oligo Security - Oligo Security reveals AirBorne, a new set of vulnerabilities in Apple&rsquo;s AirPlay protocol and SDK. Learn how zero-click RCEs, ACL bypasses, and wormable exploits could endanger Apple and IoT devices worldwide and how to protect yourself.</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZmOvRLBL3Ys" target="_blank" rel="noopener noreffer ">YouTube/ Oligo Security: AirBorne CVE-2025-24252 Exploit Demo - MacOS Use After Free</a> <code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=vcs5G4JWab8" target="_blank" rel="noopener noreffer ">YouTube/ Oligo Security: AirBorne CVE-2025-24132 Exploit Demo - Speaker Stack Overflow</a> <code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=eq8bUwFuSUM" target="_blank" rel="noopener noreffer ">YouTube/ Oligo Security: AirBorne CVE-2025-24132 Exploit Demo - Car Multimedia System Stack Overflow</a> <code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=AZ0WM6U48lI" target="_blank" rel="noopener noreffer ">YouTube/ Low Level: this might be the biggest bug of the year</a> <code>video</code></li>
+</ul>
+<p><strong>Off-topic:</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TmwFHrTkT84" target="_blank" rel="noopener noreffer ">YouTube/ 74 Gear: Flight Delayed for Instagram Picture | Cockpit Confessionals</a> <code>video</code>
+<em>Foto-äventyr med bland annat Apple AirDrop som spårar ut på flygplan&hellip;</em></li>
+</ul>
+<h2 id="bug-vm-escape">Bug: VM-escape</h2>
+<p><code>00:50:38</code>
+VirtualBox VM escape via sårbart virtuellt VGA-grafikkort.</p>
+<ul>
+<li><a href="https://github.com/google/security-research/security/advisories/GHSA-qx2m-rcpc-v43v" target="_blank" rel="noopener noreffer ">Oracle VM VirtualBox - VM escape via VGA device · Advisory · google/security-research · GitHub - GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.</a></li>
+<li><a href="https://www.youtube.com/watch?v=-DCWRbOkJxA" target="_blank" rel="noopener noreffer ">YouTube/ Eric Parker: VirtualBox Just got a new Escape</a> <code>video</code></li>
+</ul>
+<h2 id="hårdvara-intel-sårbarhet-möjliggör-att-sno-data-från-hypervisor">Hårdvara: Intel sårbarhet möjliggör att sno data från hypervisor!</h2>
+<p><code>00:55:14</code>
+Intel Branch Predictor Race Conditions:
+Ny avancerad SPECTRE/Meltdown variant.</p>
+<p>Skall kunna sno data t.ex:</p>
+<ul>
+<li>från Hypervisor (VM host) i en attack startad från VM guest</li>
+<li>från Kernel i en attack startad från User</li>
+</ul>
+<blockquote>
+<p>Branch predictor updates can still be in-flight when an affected
+processor switches privileges (e.g., <strong>user to kernel</strong> or <strong>guest
+to hypervisor</strong>) or performs an IBPB. Because these updates are still
+in-flight, they are associated with the wrong privilege mode once
+they land after the privilege switch. We call this new class of
+vulnerabilities Branch Predictor Race Conditions.</p>
+</blockquote>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://comsec.ethz.ch/research/microarch/branch-privilege-injection/" target="_blank" rel="noopener noreffer ">Branch Privilege Injection: Exploiting Branch Predictor Race Conditions – Computer Security Group</a></li>
+<li><a href="https://comsec.ethz.ch/wp-content/files/bprc_sec25.pdf" target="_blank" rel="noopener noreffer ">Sandro Rüegge, Johannes Wikner, Kaveh Razavi: Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions</a> <code>pdf</code></li>
+<li><a href="https://www.youtube.com/watch?v=jrsOvaN7PaA" target="_blank" rel="noopener noreffer ">YouTube/ COMSEC: Branch Privilege Injection leaking /etc/shadow from kernel memory</a> <code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=9j_UzNtwZHg" target="_blank" rel="noopener noreffer ">YouTube/ Low Level: the most magical exploit i&rsquo;ve ever seen</a> <code>video</code></li>
+</ul>
+<h2 id="bug-unify-protect">Bug: Unify Protect</h2>
+<p><code>01:02:04</code>
+Två buggar, varav en ger kodexekvering:</p>
+<p><strong>CVE-2025-23123</strong> RCE, heap-overflow:</p>
+<ul>
+<li>Base Score: <code>10.0 Critical</code></li>
+<li>Vector: <code>CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</code></li>
+</ul>
+<blockquote>
+<p>A malicious actor with access to the management network could
+execute a remote code execution (RCE) by exploiting a heap
+buffer overflow vulnerability in the UniFi Protect Cameras
+(Version 4.75.43 and earlier) firmware.</p>
+</blockquote>
+<p><strong>CVE-2025-23164</strong> persistent access även efter att en
+delningslänk inaktiverats:</p>
+<ul>
+<li>Base Score: <code>4.4 Medium</code></li>
+<li>Vector: <code> CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N</code></li>
+</ul>
+<blockquote>
+<p>A misconfigured access token mechanism in the Unifi Protect
+Application (Version 5.3.41 and earlier) could permit the
+recipient of a &ldquo;Share Livestream&rdquo; link to maintain access to
+the corresponding livestream subsequent to such link becoming
+disabled.</p>
+</blockquote>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-23123" target="_blank" rel="noopener noreffer ">NVD: CVE-2025-23123</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-23164" target="_blank" rel="noopener noreffer ">NVD: CVE-2025-23164</a></li>
+<li><a href="https://community.ui.com/releases/Security-Advisory-Bulletin-047-047/cef86c37-7421-44fd-b251-84e76475a5bc" target="_blank" rel="noopener noreffer ">community.ui.com/ Security Advisory Bulletin 047</a></li>
+</ul>
+<h2 id="förbättringar-ubuntu-rostar">Förbättringar: Ubuntu rostar</h2>
+<p><code>01:04:31</code>
+Ubuntu går mot <code>sudo-rs</code>,</p>
+<ul>
+<li>Rust omskrivning av <code>sudo</code></li>
+<li>Skrivits i sammarbete med
+Todd Miller (<code>sudo</code> maintainer)</li>
+</ul>
+<p>Många är positiva, även om <code>doas</code> och <code>run0</code> redan fanns
+som modernare, säkrare och förenklade alternativ till <code>sudo</code>.</p>
+<p>På några hörn av Internet är folk sura över Rust och Ubuntu!</p>
+<blockquote>
+<p>The <code>sudo-rs</code> team is collaborating with Todd Miller, who’s
+maintained the original sudo for over thirty years.
+<code>sudo-rs</code> should not be considered a fork in the road,
+but rather a handshake across generations of secure systems.
+Throughout the development of <code>sudo-rs</code>, the TTF team have also
+made contributions to enhance the original sudo implementation.</p>
+<p>The <code>sudo-rs</code> project is designed to be a drop in replacement for
+the original tool. For the vast majority of users, the upgrade
+should be completely transparent to their workflow. That said,
+<code>sudo-rs</code> is a not a “blind” reimplementation. The developers are
+taking a “less is more” approach. This means that some
+features of the original <code>sudo</code> may not be reimplemented if they
+serve only niche, or more recently considered “outdated” practices.</p>
+</blockquote>
+<p><strong>Länkar:</strong></p>
+<ul>
+<li><a href="https://discourse.ubuntu.com/t/adopting-sudo-rs-by-default-in-ubuntu-25-10/60583" target="_blank" rel="noopener noreffer ">Ubuntu Community Hub: Adopting sudo-rs By Default in Ubuntu 25.10 - Project Discussion - Introduction Following on from Carefully But Purposefully Oxidising Ubuntu, Ubuntu will be the first major Linux distribution to adopt sudo-rs as the default implementation of sudo, in partnership with the Trifecta Tech …</a></li>
+<li><a href="https://jnsgr.uk/2025/03/carefully-but-purposefully-oxidising-ubuntu/" target="_blank" rel="noopener noreffer ">Carefully But Purposefully Oxidising Ubuntu · Jon Seager</a></li>
+<li><a href="https://www.millert.dev/" target="_blank" rel="noopener noreffer ">Todd C. Miller</a></li>
+<li><a href="https://www.youtube.com/watch?v=Le4iacgPl8w" target="_blank" rel="noopener noreffer ">YouTube/ Brodie Robertson: You Will Never Escape Rust Rewrites On Linux</a> <code>video</code></li>
+<li><a href="https://www.youtube.com/watch?v=rwwL1ZQvMIU" target="_blank" rel="noopener noreffer ">YouTube/ Brodie Robertson: Setting The Record Straight On Linux Sudo</a> <code>video</code></li>
+</ul>
+<p>Andra <code>sudo</code> ersättare:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Doas" target="_blank" rel="noopener noreffer ">doas - Wikipedia</a></li>
+<li><a href="https://www.freedesktop.org/software/systemd/man/257/run0.html" target="_blank" rel="noopener noreffer ">run0</a></li>
+<li><a href="https://news.ycombinator.com/item?id=40205714" target="_blank" rel="noopener noreffer ">Run0, a systemd based alternative to sudo, announced | Hacker News</a></li>
+</ul>
+<h2 id="galen-ai-transkribering">Galen AI Transkribering</h2>
+<p>Google försöker förstå oss!
+Ha överseende med den!</p>
+<h3 id="1-000000000----000046400">1 00:00:00,000 &ndash;&gt; 00:00:46,400</h3>
+<p>Hej och välkomna till säkerhetspargasen jag som pratar lite Johan Rydberg Möller och med mig Ja jag har Richard Bokfors äntligen Peter Magnusson en bransch preitor nära dig och Mattias bidragare aguasingas det är den 21 Majorna vi spelade in detta Norris år 2025 och jag ska nämna att vi sponsrade av ashort som ni kan läsa ner dem på short.se så även om noll x4a som finns på noll x4a.se och bordfartskonsaltning som finns på motorfors.se och säkerligen även på queensäck.se för några inspelningar Ja vart lite upptagen så är det Eh spännande spännande saker i den allmänna världen eh utanför podcastens trygga hörn</p>
+<h3 id="2-000047300----000145500">2 00:00:47,300 &ndash;&gt; 00:01:45,500</h3>
+<p>det kommer vi snart säkert in på inte just det men andra spännande tror jag Men innan dess så har vi lite snabbupplugg som vi ska gå igenom vi kan börja med Beats b-sights Umeås som går att starta 1011 juni så snart men i lyssna på detta vet inte om ni vill sprätta men kolla upp det Eh sektte är lite senare i år 11 till 12 september Och där är det slutsålt vet vi men det finns eventyrlistan och gå in och skriva upp dig där om du inte har en biljett och sedan ska vi dessutom nämna att vi hade ett avsnitt om han är dotter det var avsnitt 270 i november kom det ut och därefter så var det en lyssnare som skrev in och tyckte att det var en strålande idé för vi kunde Samla in flera ut åter från er kära lyssnare de har så smått börja trilla in men vi behöver fler så skriv gärna till oss eh och skicka med en inspelning av din egen dot eller så kan ni göra det text så kan vi läsa upp det det gör ni till kontaktet saker i sportcaster.se enklast</p>
+<h3 id="3-000146800----000228900">3 00:01:46,800 &ndash;&gt; 00:02:28,900</h3>
+<p>annars får ni lyssna på våra tråkig Henrik dotter igen och det kanske kommer något mer med bara våra I framtiden vi får se eh Sen vill jag bara också passa på att nämna att när detta kommer ut så är vi blått en drygvecka vi har till eh securitfest eh Det ska bli väldigt trevligt att träffa många av er där hoppas jag eh och vi som sitter här kommer förmodligen Alla var där eh i någon månad för det viktigaste El resten förhoppningsvis hela tiden och Jesper hoppas jag är definitivt för han ska stå bredvid mig på scenen även om man inte är rummet just nu Eh där är det nog relativt kört att få tag på biljetter men det finns eventelista som man kan ju alltid skruva upp sig och hoppas</p>
+<h3 id="4-000230000----000254900">4 00:02:30,000 &ndash;&gt; 00:02:54,900</h3>
+<p>Hoppet är det sista sen lämna människan eller vad är det lämnar något lämna något som lämnar skeppet katterna som följer efter råttorna Ah du tänker så Nej men de är lite sen katten Ja Nej de går ner med skeppet Noel det var något av ett sidospår så det är tur att detta är ett os-utred ett avsnitt</p>
+<h3 id="5-000256600----000313200">5 00:02:56,600 &ndash;&gt; 00:03:13,200</h3>
+<p>Ska vi hoppa in i nyheterna vad vi klara med alla pluggar och allting sånt som jag lovat att säga rätt håll berätta</p>
+<h3 id="6-000328200----000338800">6 00:03:28,200 &ndash;&gt; 00:03:38,800</h3>
+<p>vi inser att vi vi på no fly list här så länge han sitter i Norrköping</p>
+<h3 id="7-000350400----000433400">7 00:03:50,400 &ndash;&gt; 00:04:33,400</h3>
+<p>eh Cry Me a River har aldrig varit mer apprate jodå Nej men vi har ju pratat tidigare om den nationella säkerhetsrådgivaren Mike Waltz och numera inte längre säkerhetsrådgivare av uppenbara skäl han är Nu tror jag vet hur ser representant till FN i New York eller något sånt här Jag tycker det var nationell säkerhetsrådgivare verkar ju vara ett dåligt yrke Det verkar ju gå så där här också av andra själv visserligen men gräva ner oss i de bilderna eh Nej men jag jag har fått beskrivningen</p>
+<h3 id="8-000435900----000535200">8 00:04:35,900 &ndash;&gt; 00:05:35,200</h3>
+<p>Han har ställt till det är lite för sig igen Det var nämligen så att det var under något Kevin ett möte här för ett tag sen så var han och lite uttråkad Vi har ju pratat om signal Gate på signal Gate Mike Waltz lyckades bjuda in en journalist från Atlantic till att man inte vore kul att bombade lite grejer Alltså nu Ska vi bomba grejer Oj därför planen eh Tango det här jag säger det igen jag reagerar mest på i hela den tråden det var ju så här omognat tonen Bro stuff liksom så här jakton och strong och sånt där liksom herregud det det var väldigt dessutom visar att säga det det var ju inte ett litet huvudstad sprängde bort där så det var ju det var ju det Det var ju liksom inte så att det var en oskyldig nere person som sträck med den smällen</p>
+<h3 id="9-000535800----000635600">9 00:05:35,800 &ndash;&gt; 00:06:35,600</h3>
+<p>Det var väl för det var väl Mike Walt som var ansvarig även för den förresten Ja Ja han var inte ensam där det var det Vad är det lite allt möjligt den här journalisten eh Det finns mycket som är fel i den här situationen Men det var ju ändå kanske den absolut pinsammaste delen av det Eh novell Han har alltså gjort det igen ehm Han var på ett kabinettmöte och blev lite uttråkad så Han bestämde sig för att kolla sina signalmeddelande och då var det en fotograf bakom honom som hann inte hade koll på För det behöver man ju inte ha som nationell säkerhetsrådgiver på ett Kevin FM de var ju inbjuden för att ta foton där Men om du ska göra något dumt så är det ju dumt och inte har koll på att det står fotograf bakom dig och och Vad var nu felet med foten Nej men felet med fotoot var ju eller att vi visste ju alla att de var jobbar med signal så det var ju ingen nyhet Problemet var ju att det var ju inte signal som han använder ja det är ju två grejer här det ena är ju att i foten</p>
+<h3 id="10-000635800----000714600">10 00:06:35,800 &ndash;&gt; 00:07:14,600</h3>
+<p>är det ju Du ser ju chatt garn kanske 100 och sånt Ja det Jo det Det ser ju typ en fyra olika chatt kommer sessioner som man kan klicka på det är ju smidigt Eh Men det som visar sig på ännu mer intressant sen då Vad är det så att det här var inte den officiella signalappen som vi väl vara lite blåsvart eller någonting annat Ja precis och det här är Vad gul och alla vet gul och färre det suger Ja okej Det är inte podcastens officiella handling Nej jag tycker två två här inne har gått på elektro Så jag tycker vi inte ska göra läsa färgen gul här Det var lite orange jakt i den gula färgen tror jag i alla fall</p>
+<h3 id="11-000715700----000808800">11 00:07:15,700 &ndash;&gt; 00:08:08,800</h3>
+<p>det visar sig då att eh de här signalkommissionen hade varit inte i appen signal som vi har antydit utan en klon av segment som heter telemessage signal eller TM signal ehm och det här var en app då som utvecklad av telemessage som nu ägs tydligen av företag som heter smarsch inte det väldigt likt smurch som är väl den här terroristorganisationen i Bond Det är ett to Spice Nej det var så kan det vara bolaget Det är väl också eh De är ju inte amerikanska utan det är ett israelisk bolag som är fundat av Israel och USA rimligt Eh Men till och message då Eh det fungerade nästan exakt som signal men det har ju en USP då</p>
+<h3 id="12-000809700----000854000">12 00:08:09,700 &ndash;&gt; 00:08:54,000</h3>
+<p>Det har många senare men stora öppen är att det är arkiverar alla en kopior på alla alla meddelanden som kommer in det för det är tråkigt ifall ut sen kan gå tillbaka och läsa din chattis då Alltså om jag fattar redan rätt så makes det här som sens för att det är så tok kritiken alltså eh Mike Walls fick för att använda signal var att det följer inte den här makreringsmusik Har ju för precis så det här skulle ju kunna vara ett sätt att liksom de valde den här appen för och kunna spara kopior om man vill om man är väldigt snäll men hypotes men den uppfyllde ett krav kan vi säga nej men den den löser din complet mot ett krav Tyvärr så löser den ju inte en rad andra eh</p>
+<h3 id="13-000856800----000922200">13 00:08:56,800 &ndash;&gt; 00:09:22,200</h3>
+<p>i ett krav Tycker du att den fallerade mest Ja nej men vi kan väl säga så att ehm två dagar efter att den här bilden på då publicerade så var det en en ordentifierad hacker en som hörde av sig till tror jag Josef Cox på for of formedia eh som Lödde att ja men jag började kolla på det här och jag skulle säga att det tog nog 15 till 20 minuter innan jag hade ägt hela skiten</p>
+<h3 id="14-000922900----000957500">14 00:09:22,900 &ndash;&gt; 00:09:57,500</h3>
+<p>Det här var ganska kul om man då läser lite om vad det var faktiskt hade gjort har gått in och kolla på den appen noterat att så här Här finns ju lite olika websiter bland annat min panel på secure. telemessage.com den Det är nog mellan lite ljuger och Noterade där på något vis att de haschar lösenorden som ska användas då för att logga in på kläntsidan</p>
+<h3 id="15-000958700----001000300">15 00:09:58,700 &ndash;&gt; 00:10:00,300</h3>
+<p>till md5 dessutom</p>
+<h3 id="16-001001400----001010800">16 00:10:01,400 &ndash;&gt; 00:10:10,800</h3>
+<p>och om du gör det här på klientsidan så blir effektiv alltså effekten av det är att en decematchen är ditt lösenord</p>
+<h3 id="17-001011500----001106000">17 00:10:11,500 &ndash;&gt; 00:11:06,000</h3>
+<p>det är det som skickas tills över en hasch så blir det då då blir det guld Ja exakt eh och genom att ta sig vidare i detta så ja eller sådana här vi kan komma till det ehm han Noterade även att den här sajten byggdes med på jsp Alltså vad är det Java server pagesm Jajamensan den var poppig När jag var ung typ 2000-tal var det the shit Yes det är inte Superman är att man ställde på någon jättegammal jsbegrunka men men det blir ju ovanligare ovanligare är ju äldre man blir liksom av anledning av anledningar som ska bli tydligen Eh Men jag såg det att Ja vad fan det var en ny esb Det är ju en indikation på att det här kanske inte är världens säkraste webappé teknik och alltså är det väl</p>
+<h3 id="18-001107100----001147200">18 00:11:07,100 &ndash;&gt; 00:11:47,200</h3>
+<p>inget fundamentalt fel på jsb behöver inte vara men visar sig att det var tekniksmälle han kollade då på sajten secure. eller message.com Och även på en annan said som heter Arcade message.com och noterar Han körde en spidering verktyg basically ehm letade efter intressanta enpunkter och hittade där då bland annat hip dump var har vi hört heap dump tidigare Peter</p>
+<h3 id="19-001148000----001247400">19 00:11:48,000 &ndash;&gt; 00:12:47,400</h3>
+<p>Ja vi har gjort två avsnitt där vi nämner springbåt hypnump back Traitor och Eh jag var med på ett pyttelitet hör men det var väl mest Jesper och Johan som jag tror bland annat vi pratade om detta detalj I just Anita 270 men typ 20 15 eller någonting var det liksom då Eh dunnan hittade Gutta i en sajt som hade kreditkort och allt möjligt liksom använt Jag springer boot eh tillsammans med ISP för att bygga de här applikationerna och så här Inget felres på inbot används fortfarande för fritid Eh Men eh back in the day fram tills för jag vet inte exakt Vilket år de tog bort den här funktionen från standard så så exponerades en rad actuators igenom spring boot eh och dessa är saker som info</p>
+<h3 id="20-001248000----001347800">20 00:12:48,000 &ndash;&gt; 00:13:47,800</h3>
+<p>metrics config sådana saker och Blandat också Men nice om det typ kör deployerte eller något kan de sitta eller Vilket uppföljakt hur man har kanon sitta och kolla Health och om hem för mig indikerar att server mod dåligt så kan de döda den instansen och kicka upp en ny liksom och så där och du har ju i detta då en rad verktyg genom den actrator som du kan använda för det bugga applikationen och så där eh bland annat och eh metrics män framförallt hypdump så sent som i Julas så var det ju på CCC det var ju en beskrivning av hur Volkswagen åkte på det med en hittamp också och ja det är mer än ett ett kopiering mot det här eh rakt av den här snubben då som lättare efter detta han gick till den här eh En Pointer som såklart är oavtaliserad och fick då som svar på en 150 MB fil med ja</p>
+<h3 id="21-001347900----001431700">21 00:13:47,900 &ndash;&gt; 00:14:31,700</h3>
+<p>minnesbilden på JVM med GTA med ghetta eh och som de sa citat i New from past The Experience that heap dumped from web servers Within club The Bodies of htpiric Quest av naturliga skäl men det här är ju någonting som är helt säkert eftersom att de har ju naturligtvis byggt en jättesäker arkiveläsning där du kör coola Krypt och grejer så att det finns ju inget känsligt på söven det är ju det är ju inte så att de har byggt en så över där jättekänslig data från massvis modiga klienten möjligt jättesäkra eventuell eh lösningen som hela appen bara bryter hela den liksom det är ju inte så att man gör den mest enkla mest</p>
+<h3 id="22-001432500----001513700">22 00:14:32,500 &ndash;&gt; 00:15:13,700</h3>
+<p>det mest korrekade mest osäkra möjliga tekniklösningen det är precis det man gör det behöver inte säga att du går och hände såna i förväg Men eh men han gick igenom basically should väl Strings på hip dump-filen eller ladda in den i nått minus viewing tool och erfarenhet så jävla mycket lättare kör jag string sen försöker få Ja verktyg innan faktiskt eh och sökte typ efter password eh och då fick jag ju ut de här hemlig fem matcherna som man ju användes som lösenord det är där fallet från utsidan byggdes Why not ehm för du behöver ju inte skicka dem Det hade ju varit onödigt jobbigt Ja jag fick för mig att han bara fick läsa innehållet i meddelanden men han fick den så pass</p>
+<h3 id="23-001514000----001613900">23 00:15:14,000 &ndash;&gt; 00:16:13,900</h3>
+<p>i i arcave servern så fick du ju ett meddelande ni heapdumpen också Ja men då hade de ju väldigt kardemptials så eh Då provade de att logga in med första bästa på secure.l message.com då Och den första som de kom in på vad en ett konto som var associerat med eller sociated with Vad säger man på svenska som tillhörde Us customs and Border protection Oh my god eh och där inne så kan du helt enkelt och läsa alla arkiverade meddelanden i klartext good stuffs så är lösenord så är jag använda det säger allt möjligt ehm men det var inte bara då Eh customs and Border protection utan han kollade väl igenom vad som råkade finnas i hip dampen vid tillfället Han tog den och såg bland annat att coinbase internal chats eh låg där delvis ehm de har dock gått ut och svaret att There is no evidens any sensitive coin base customer</p>
+<h3 id="24-001614000----001639400">24 00:16:14,000 &ndash;&gt; 00:16:39,400</h3>
+<p>Asian bla bla Mm okej vi får väl se tillfället då så är den ungefär 15 till 20 minuter bara kolla på den här appen överhuvudtaget hitta en server som liksom hemlig eller okänd som men men det ena är ju secure.org</p>
+<h3 id="25-001650000----001718700">25 00:16:50,000 &ndash;&gt; 00:17:18,700</h3>
+<p>jämför med det här karate och sånt så behöver man ändå hitta någon någon relativt okänd server på internet såhär här var det ju verkligen enkla publika namn inga konstigheter kan du väl bara så här Google searcher på stjärna. eller message.com och få upp de här frågorna för det är ju där du loggar in som använder precis eh Impressive Ja men jag menar så här</p>
+<h3 id="26-0017195999999999998836----001818700">26 00:17:19,599.9999999998836 &ndash;&gt; 00:18:18,700</h3>
+<p>det var det är eh att de här serverna har sovit som som gör att det var enkelt komma åt dem Det är mycket som är fel här Men vem fan haschar alltså det är mycket konstigt men vad är den 1000 sakerna som är konstigt i den här historien framför är det största problemet är väl att du nu Vi har krav om förmodligen har vi ett krav på att du ska ha en tyven krypterad kommunikation när du pratar om att Bomba genom eh att använda publika tjänster är direkt och det får du inte oavs Jag tycker det men det verkar de ju uppenbarligen inte bryr sig om att man sen då aktivt väljer att bryta intern protection och ladda upp alla meddelanden och krypterade till ett tjänst som du inte kontrollerar men det är väl fint ifall man behöver hitta dem sen och har glömt bort sina lösenord var blir nästa steg nu för det här är de här historien som är den Den är som en löken som bara skal efter skala efter skalade vi bara bättre staten arkiverar sina hemliga konversationer</p>
+<h3 id="27-001819500----001848800">27 00:18:19,500 &ndash;&gt; 00:18:48,800</h3>
+<p>i en israelisk leverantör det är jättespännande alltså och vi räknar bort alla säkerhetsvålen så så rent ciggintmässigt så är det ju superspännande att du gjort sin hotmodell där kanske jag skulle misstänka att de här sömnare efter hela internet körd där i förmodligen kopplat till SCC SCC krav eller vad de heter så att</p>
+<h3 id="28-001850600----001858900">28 00:18:50,600 &ndash;&gt; 00:18:58,900</h3>
+<p>folk som är intresserad av företagspioneri och och kartlägger var får vi tag på Gutta om känsliga företag</p>
+<h3 id="29-001859900----001908200">29 00:18:59,900 &ndash;&gt; 00:19:08,200</h3>
+<p>De har ju jag vet inte om det förhoppningsvis eller men de borde ju om de gör det här som ett mål</p>
+<h3 id="30-001918200----002018000">30 00:19:18,200 &ndash;&gt; 00:20:18,000</h3>
+<p>att eh att liksom eh amerikansk delar amerikanska staten körde här så borde ju alla Nations tates Går du också vara intresserade intressant och se deras logga det är ju rätt smart av det här bolaget Och just lämna hip-up öppen för det är liksom blåsebullarna är billigt det var inte vi eh och sen att vi läser all information också och levererar det till eh israelisk under lite tjänsten att du har liksom identifierat den här serven Du har hittat hypdump funktionaliteten och du har greppat igenom den och sättet så här har vi haschade lösenord det är nästa steg är ju naturligt tänker jag Okej men nu måste vi cracka lite md5-här men om du gör det får du ut Klart dig lösenordet och försöker log in mig det så kommer ni inte funka Jag kan svårt att jag känner igen den typen av dumheter från relativt tidigt 2000 ta- någon gång tidigt i min karriär har jag stött på</p>
+<h3 id="31-002018100----002024000">31 00:20:18,100 &ndash;&gt; 00:20:24,000</h3>
+<p>som gjorde glentachning gjorde den här bilen Ja jag har sett det också Jag vet inte</p>
+<h3 id="32-002027000----002059600">32 00:20:27,000 &ndash;&gt; 00:20:59,600</h3>
+<p>kring det här är ju sin kurs och sånt där ja om två veckor Om en vecka Jag tänker på eh man man upphör ju aldrig att förvånas med just det här med client Side security liksom att att eh göra eh autentiseringen clientside allt kan man säga nytt igen Alltså hascha på klänktsidan och sen skickade det ju klart exakt Ja men great thinking ni gjorde inte riktigt hela Leksand där vi har hört någonting om haschar det som man har man ska hascha lösenorden också så här</p>
+<h3 id="33-002101000----002105700">33 00:21:01,000 &ndash;&gt; 00:21:05,700</h3>
+<p>att att det är liksom host Det är liksom hosta</p>
+<h3 id="34-002107100----002204800">34 00:21:07,100 &ndash;&gt; 00:22:04,800</h3>
+<p>enkla ordtjänst istället för att det går till din specifika tennen toastning eh att arkivservern någonsin får veta vad menar är play Intex för det hade Du hade ju kunnat du kan köra någon alltså RS något annat frö göra att du krypterar mot en privat nyckel så att liksom hela arkivloggorna nu kunnat vara krypterande exempel Okej de gjorde något jävligt dumt De använder inte systemen som är till för kriterande kommunikation samma sak förmodligen utvecklats med mycket vålda och stor pris och dem är förmodligen rätt jobbiga användare hela syftet med dem är att de ska vara klassade och säkra Nej det Det jobbar vi inte med utan Vi tar istället en en konsument app och så ber de tagna med byxorna nere för de bjöd in fel person bara där superroligt superpinsamt och alltihopa och sen så är det liksom</p>
+<h3 id="35-002205500----002303000">35 00:22:05,500 &ndash;&gt; 00:23:03,000</h3>
+<p>ett steg till Jaha det var inte den officiella lappen Oh my god bara Det var ju liksom helt absolut Och så jag vet att det har gick tidigt igenom bara arkituren för folk hade ju gått in på den här på den sitter och funka man kan välja sin eget loggarkiv och ett av arkiven är ju default det som ingår ifrån företaget men du kan även pipa det till dina egna loggar om du vill eller alltså det är ett arkiv men redan då var det klart det här är klart text så Det betyder att om du använder defoldsättningen eh så de som driftar Den här tjänsten de kan läsa alla de här informationen klart text Det var men det var ju fortfarande bara typ teoretiskt Och sen kom så hållbarheten av våra två rader senare men sen visar jag typ för att hela världen kan läsa det här men maybe this is the point Alltså så här är detta Spirit verktyg fast då hade du inte byggt inom här såbarheten försäljningen har inte gamla versioner alltså innan när det kom ett ut så var det ju några som speklerade att om du Rivers genera gamla version av appen så fanns ju nog den lösenord som låg där inne när du hörde den</p>
+<h3 id="36-002303600----002304700">36 00:23:03,600 &ndash;&gt; 00:23:04,700</h3>
+<p>det är liksom</p>
+<h3 id="37-002307000----002318700">37 00:23:07,000 &ndash;&gt; 00:23:18,700</h3>
+<p>Ja det det märker ju mest som att det här bara är dumt verkar vara förklaringen men men det var ju också så när jag klickade in så här och kollade på Wikipedia och de mannen bara</p>
+<h3 id="38-002319500----002337200">38 00:23:19,500 &ndash;&gt; 00:23:37,200</h3>
+<p>Det här är en Us i Israel fan Dead att det här är liksom en amerikansk honeypot</p>
+<h3 id="39-002345600----002346200">39 00:23:45,600 &ndash;&gt; 00:23:46,200</h3>
+<p>atis</p>
+<h3 id="40-002354800----002436600">40 00:23:54,800 &ndash;&gt; 00:24:36,600</h3>
+<p>med tele message loggan och gör inga sticker som gör någon sponsor något annat surt den här gången lovar de sponsor inte ehm okej och så bara en liten penics utan lite snabb bonus Dodge allas våra vänner på Department of government efficiency named after equiped of coin and meme eh för vi lever i helt värdelös Timeline Eh det finns ju snubbe som heter Kyle shoot som jobbar och kanske har</p>
+<h3 id="41-002438100----002519200">41 00:24:38,100 &ndash;&gt; 00:25:19,200</h3>
+<p>Han är någon form av Software engineer eh och han har haft bland annat då Access till citat Core finansial management systems som tillhör fima det vill säga federal emergency management agency sedan i februari ehm och det kan man tycka vad man vill Om det står att problemet med detta är väl och att man märkt att hans credentials har dygt upp i infostraler dumps titt som tätt sedan 2023 så man tror/speklerar i att han har en malver på någon sina datorer som håller på att dumpar han Secret alltså inte så här</p>
+<h3 id="42-002520400----002523700">42 00:25:20,400 &ndash;&gt; 00:25:23,700</h3>
+<p>vikten längdming eh är liksom om någon</p>
+<h3 id="43-002524600----002605900">43 00:25:24,600 &ndash;&gt; 00:26:05,900</h3>
+<p>av någon åker på får ett maler på sin Maskin vi kan hända men men just det här med att det är också cirkulerar i samband med att det säger så här Dodge killarna får väldigt mycket aktieas väldigt lite så känns ju inte jättebra dessutom tillsammans med det var någon admini någon utav de här organisationerna som Noterade att 30 minuter efter de hade skapat ett nytt konto delat ut lite dog representanter så loggar det någon på med någon kardansena inte brutforcisning utan direkt på första försöket från IP i Ryssland så alla de här pengarna tillsammans målar en otrevlig bild kompetens på hög nivåer som kännetecknar den här administrationen</p>
+<h3 id="44-002606700----002706600">44 00:26:06,700 &ndash;&gt; 00:27:06,600</h3>
+<p>Ja alltså man tänker på liksom hur mycket eh smarta människor som måste finnas där borta ändå och så lyckas de eh få en sån hög inkompetente idioter i Office senaste ni gjorde en riskanalys Hade ni med ett bordsfaktorn som liksom ett horn men så här Du kan komma säkerhetskontroller alltså på rätt många svar på på riktigt ska jag säga att att Eh den amerikan alltså eh fudge factoren på den amerikanska administrationen har dykt upp som som en en sån här eh potentiell Trigger för events som man som man eventuellt tidigare tyckte var arg så osannolikt så det skulle aldrig kunna hända men nu mera Ja vi får nog höja probability här på grund av den här administr</p>
+<h3 id="45-002706800----002806500">45 00:27:06,800 &ndash;&gt; 00:28:06,500</h3>
+<p>Mmm Ja jag menar eh En sak som jag lyfter ibland speciellt i samhällskritisk verksamhet det är liksom Eh ja när nu flyttat eran verksamheter i den här extremt ekonomiskt effektiva målet Ja vad har ni tänkt på möjligheten att målet kan försvinna och det är liksom har ju varit jävligt osannolikt men med ta nu var det inte det det var någon hög bank eh tjänsteman på eu-nivå eller något va så Men eh eller Eh Han har officiell position han blev ju utlåst ifrån sitt Microsoftkonto av på order av administrationen var det inte något klok människa i den här podden som spekulerar det nyårsavsnitt om att det här med att flytta hem moln skulle bli en grej snart så kan det vara så kan det vara det tar vi om ett år eller sex sju månader tror du till och med detta kan ha varit ett år sedan novell eh från detta till något helt annat eller ja det är fortfarande ryssare repot men denna gånger gäller i Sverige Yes vi hade eller jag eh drabbades personligen hör och häpna Eh jag tror jag var på väg hem kanske från en podcast</p>
+<h3 id="46-002806700----002906700">46 00:28:06,700 &ndash;&gt; 00:29:06,700</h3>
+<p>det är ju faktiskt Klockan var sent och det var kallt kom ihåg och när jag skulle gå på bussen så kunde jag inte köpa min biljett via Västtrafiken eh och då stod det att Swedbank hade störningar eh och sen ändrades det till att nej det var inte det var inte det var ju Swish Och sen visste sig att det var inte Swish heller Det var faktiskt Bankid i botten som hade problemet så våran tes är ju att ryssarna är repot då de vet ju när vi spelar in så de ville ju de de de som menar tack på våran podcast och slog de ut BankID så skulle jag skulle känna osäkerhet eh Mattias funderade mellan det är väl något tjock och det blev rimligt det är mindre och Mattias vi har kört samhället som var målet här utan det var Mattias idholm nästan var målet Ja så att det var en det du sa Tack i alla fall eh På eh BankID och det här var den 24 april det är någonstans Jag kommer inte ihåg exakt Vilket datum Det var eh 23 Nej det var innan</p>
+<h3 id="47-002906700----002916300">47 00:29:06,700 &ndash;&gt; 00:29:16,300</h3>
+<p>det var nog 22 april Ja där aprilish var det i alla fall eh så en del av attack som pågick i alla fall i tre timmar innan de fick ordning på det</p>
+<h3 id="48-002917000----003016900">48 00:29:17,000 &ndash;&gt; 00:30:16,900</h3>
+<p>eh och jag tror inte vi har någon så här tydligrot till detta men vi kan återkomma till vem det var som skulle kunna vilja göra disturbises i BankID med en stund Man kan väl om man om man tittar på dig just eh urett eh gråzonsperspektiv så kan man ju tänka sig att BankID skulle kunna vara ett eh ett extremt intressant mål för någon som vill testa och eh bara störade svenska samhället för vi är extremt beroende av det och drog BankID har ju en en marknadspenetration som är upp emot 100 % Alltså det är fler än vad som har internet i Sverige som har använt BankID eh Vilket är det Ja nej men på på alltså vi pratade om internet hemma men alla har väl en telefonerna men men det är helt galet eh galet hög marknadspenetration och då tänker jag att det det skulle ju kunna vara en en ett intressant mål att se Kan vi störa ute på ett sätt som gör att att Sam</p>
+<h3 id="49-003017100----003026200">49 00:30:17,100 &ndash;&gt; 00:30:26,200</h3>
+<p>hället får problem bara som ett testskott liksom ehm så det är väl inte osannolikt att det är eh aktörer som har</p>
+<h3 id="50-003027400----003035300">50 00:30:27,400 &ndash;&gt; 00:30:35,300</h3>
+<p>stats finansierad motiv i alla fall</p>
+<h3 id="51-003049000----003147400">51 00:30:49,000 &ndash;&gt; 00:31:47,400</h3>
+<p>så att jag har lite glömt detaljer men jag vet att jag tittade på eh mitt specifika fall då med Västtrafik appen Eh vad ska jag göra för att kunna betala nästa gång Det här är den där och Freja det gick i det kommer ju ofta upp som ett alternativ till BankID men jag tror inte det funkar med Västtrafik appen däremot kan jag trösta alla göteborgare eh med att du kan faktiskt blippa ditt kreditkort direkt i bussterminalen Det visste inte jag innan Men nu vet jag det så Så länge det inte de eh sabbat connectionen med eurocard och OMX och sånt där så kan du blippa direkt i eh olika incidenter härstiden Jag vet inte hur många av de som är bekräfttade säkerhets incidenter eller om det är bara har varit skitbart om spakarna med bara för någon vecka Sen var jag ute någonstans och då gick alla betalt terminalen ner jag var upp tillfälle på krogen Detta händer Ja så det var ju herrar det var ju tragiskt ta den hittade Johansson</p>
+<h3 id="52-003148400----003248200">52 00:31:48,400 &ndash;&gt; 00:32:48,200</h3>
+<p>de vet de vet hur det Eh Men sen så visade sig att precis samtidigt så gick betalt terminalena på Willys ner och på en rad andra platser så jag vet inte exakt vad den länkande faktorn är där du kan ju vara de som bjuda ut betalt terminalerna det kan det vara eller en payment provider eller ja och jag vet inte heller om detta vad han behövtad säkerhetsincident Eller hur då Men det var väl också Någon Eh det då som sagt mot ICA och nyligen Var det inte så eh pass men det var definitivt den här i april det var ju en det då så Tack mot BankID inget snacka saken De har även en kort driftstörning eh bara för typ en vecka sedan Eh Men det är inte bekräftat det är en det då attack och sen har de varit på Swish direkt också eh och det var 15 maj eh så hade faktiskt de också en identifierad det då att direkt mot Swish den här gången Eh jag vet inte hur länge det var Jo det var</p>
+<h3 id="53-003248400----003259300">53 00:32:48,400 &ndash;&gt; 00:32:59,300</h3>
+<p>bara det var en kort stund Det var bara en eh typ en timme ungefär Eh den 15 maj så att vi någon som är där ute och probar våra viktiga samhällsfunktioner det kommer vi inte ifrån</p>
+<h3 id="54-003306400----003345200">54 00:33:06,400 &ndash;&gt; 00:33:45,200</h3>
+<p>skicka lite buskling AI Har ni hört talas om det det hade inte jag heller Eh det är en en AI Power plattform för att bygga bilder och videos från eh text och bildpromper då Eh som eh är ja kinesisk ehm och ja Eh har 22 miljoner eh</p>
+<h3 id="55-003348000----003447600">55 00:33:48,000 &ndash;&gt; 00:34:47,600</h3>
+<p>eh användare är parently enligt de i alla fall Enligt mig själv så man kan säga att det det är en Ja även om den inte är superkänd här så är det en en stor plattform och de blev utsatta för att det var massa fake annonser på Facebook eh som som då Eh lockade med gratis tokens eller vad det var för att man skulle då kunna få prova den här plattformen eh grejen var bara att den gick inte till eh Kling ai.com utan till Kling AI media.com eller klinge är jag någonting annat punkt com eh och eh erbjöd Ja men här kan du generera din video Eller bild var du vill free prompting liksom Och sen så presenteras den inte i Browser men du kan Här kan du ladda ner den och köra den eh och så är det ju en Manuel Dropper</p>
+<h3 id="56-003448000----00345519999999999976717">56 00:34:48,000 &ndash;&gt; 00:34:55,199.99999999976717</h3>
+<p>eh oklart Hur många som faktiskt blev drabbad av detta men men det var eh</p>
+<h3 id="57-003458600----003516900">57 00:34:58,600 &ndash;&gt; 00:35:16,900</h3>
+<p>Endgame i alla fall en en remote Access Trojan som som då laddades ner och som innehöll en eh elak artad Windows executeal som som låg då med dubbel extensions och</p>
+<h3 id="58-003518600----003618500">58 00:35:18,600 &ndash;&gt; 00:36:18,500</h3>
+<p>eh det här kanske ni kan Vad är hangulfiller characters Är det någon hungulfiller characters golf det låter som eh något special typnytt Du kan använda för att OBS alltså alfabetet Korean language förmodligen någonting Du kan lägga in som gör att det ser ut som att det inte är en Eric c som fölländelse 0xe3 0x85 och 0xa 4 typisk sådana har ju varit att du väljer den är så här left to right switch eh och sånt kan vara något som grej är ett helt pop och den här coola potentialy eh ingen aning ehm Men i alla fall den här drog ner en en eh En malware Dropper som pratade med en command control server och sen la sig och och monitorera det efter analysverktyg</p>
+<h3 id="59-003618500----003625000">59 00:36:18,500 &ndash;&gt; 00:36:25,000</h3>
+<p>som eh ja men oljedebag och kompani så att den inte skulle bli eh upptäckt</p>
+<h3 id="60-003626000----003653200">60 00:36:26,000 &ndash;&gt; 00:36:53,200</h3>
+<p>eh och eh Endgame är man väl inte helt eh helt klar på men men second stage Eh payload ja gick ner och installerade massa så här data stiler så cryptosdealers och sånt där så att sannolikt var det snart är en Dodge dator nära dig sannolikt men men sen eh sannolikt var möjligt efter privatpersoner som har en en</p>
+<h3 id="61-003655400----003735700">61 00:36:55,400 &ndash;&gt; 00:37:35,700</h3>
+<p>man kan väl nu kan det lite dåligt men kan man inte tar Geta folk lite folk i Kina folk som håller på med Krypt och folk som håller på med AI men man har sett en tydlig ehm tydlig ökning av det man kallar för malverizing då på Facebook och meta håller på och eh ja försöker kämpa mot det här så mycket de kan då Men men det är eh Swords and Contest monitorial och så</p>
+<h3 id="62-003737700----003809500">62 00:37:37,700 &ndash;&gt; 00:38:09,500</h3>
+<p>typ Eh ja nej men och man ser också att eh eh ett ökat eh intresse för att eh försöka kapitalisera på populariteten i i generativa a i så att man man låtsas vara en en känd ai-plattform och locka med att Ja men här kan du få testköra gratis istället för att betala med kreditkort efter någon typ av credition på den här ännu Eh ja Ish skulle jag säga ehm det</p>
+<h3 id="63-003810700----003846400">63 00:38:10,700 &ndash;&gt; 00:38:46,400</h3>
+<p>vietnamesiska för attackers Eh Men det är mer av a legend lift man har sett att de har det här Modus och berandigt eh så att inte i alla fall inte den Ja det jag har läst ehm så eh så har jag inte sett att man har tydligt ackrediterat det här till eh kanske kommer någon annan ska vi ta och hastighet och lustigt gå över till Peters buggarna vad fint sätt på i dansskorna för nu kör vi Jag tänkte att jag kunde prata om Asus och vi ska säga så här</p>
+<h3 id="64-003847400----003904000">64 00:38:47,400 &ndash;&gt; 00:39:04,000</h3>
+<p>jag ska prata om vad som har hänt 205 men om man cyberstaka mig så kan man ju dra slut så att om att jag kanske har ett Asus moderkort eller att jag åtminstone känner någon som har ett Asus moderkort eh för på mitt gifter är på så</p>
+<h3 id="65-003905900----003909000">65 00:39:05,900 &ndash;&gt; 00:39:09,000</h3>
+<p>ladda jag upp ämne vart det fakterna Från</p>
+<h3 id="66-003914500----003920400">66 00:39:14,500 &ndash;&gt; 00:39:20,400</h3>
+<p>hyfsat oseriös Asus installation för så som</p>
+<h3 id="67-003922000----003936900">67 00:39:22,000 &ndash;&gt; 00:39:36,900</h3>
+<p>så som Asus moderkortsprylar funkade 2020 du båtar upp Windows konstatera att även klart jag ska installera lite skräp från mord kort tillverkarna så att du får ju</p>
+<h3 id="68-003938400----004000200">68 00:39:38,400 &ndash;&gt; 00:40:00,200</h3>
+<p>Du får väl någon du ska verkligen göra på någonting och sen så får du upp liksom ett göje som ser ut som att det är gjort för 15-åriga Kids och det är bloatware man får ganska snabbt känslan av att så fort datum funkar ville nog bli av med det här liksom alltså det är du får lite dåliga vibbar eh du noterar ju också att</p>
+<h3 id="69-004001600----004022500">69 00:40:01,600 &ndash;&gt; 00:40:22,500</h3>
+<p>eh det finns ju webs överar på din på din dator som du inte har bett om utan för det är klart att om du ska ha en klient som hjälper adminin dator så är det klart Han undrar igång webbsöver den här är ju då ISP den Den ska ju bara vara exponerad mot local host men det är fortfarande en sådan här</p>
+<h3 id="70-004025500----004031700">70 00:40:25,500 &ndash;&gt; 00:40:31,700</h3>
+<p>Ja om du tar bett mig webb så jag kanske inte ska få den liksom som en del av att du installerar Windows</p>
+<h3 id="71-004035400----004036900">71 00:40:35,400 &ndash;&gt; 00:40:36,900</h3>
+<p>att</p>
+<h3 id="72-004039000----004040300">72 00:40:39,000 &ndash;&gt; 00:40:40,300</h3>
+<p>du kör ju https</p>
+<h3 id="73-004046900----004059300">73 00:40:46,900 &ndash;&gt; 00:40:59,300</h3>
+<p>:en Och om man då tittar på det sättet så här Det är ju någon random jävla uppensvårdsutvecklare där de har surt Hans</p>
+<h3 id="74-004100700----004108900">74 00:41:00,700 &ndash;&gt; 00:41:08,900</h3>
+<p>Step By Step installationsguide för hur du skapar ett sort och det och det är så som skapar liksom Och undrar med sitt moderkort liksom</p>
+<h3 id="75-004112300----004112700">75 00:41:12,300 &ndash;&gt; 00:41:12,700</h3>
+<p>och</p>
+<h3 id="76-004115600----004122300">76 00:41:15,600 &ndash;&gt; 00:41:22,300</h3>
+<p>Windows lite på det här sättet så att deras klient Antingen så lite den ju på ett</p>
+<h3 id="77-004123700----004133200">77 00:41:23,700 &ndash;&gt; 00:41:33,200</h3>
+<p>ett så här Eh ja störst allmänhet Eller så har de helt disable htps validering men det finns liksom så här</p>
+<h3 id="78-004134900----004138600">78 00:41:34,900 &ndash;&gt; 00:41:38,600</h3>
+<p>Det fanns en del teknik och coach men som så här</p>
+<h3 id="79-004139700----004153500">79 00:41:39,700 &ndash;&gt; 00:41:53,500</h3>
+<p>få bort den här skiten från min dator fort Känslan när man tittar på det här och så lade jag på den här listan kanske man tittar på det här eh och sen så glömmer man ju bort den här skiten liksom</p>
+<h3 id="80-004156000----004158000">80 00:41:56,000 &ndash;&gt; 00:41:58,000</h3>
+<p>som tur är så finns det ju människor som är</p>
+<h3 id="81-004159100----004204200">81 00:41:59,100 &ndash;&gt; 00:42:04,200</h3>
+<p>lite mer drivna än mig så någon har nu kollat på de här Asus skitprogrammen</p>
+<h3 id="82-004207200----004216200">82 00:42:07,200 &ndash;&gt; 00:42:16,200</h3>
+<p>då är det ju så alltså att eh vi ska sätta var helt legit och gjort korrekt Ja precis Så vi går vidare till nästa men den första timmarna är ju att</p>
+<h3 id="83-004217100----004245600">83 00:42:17,100 &ndash;&gt; 00:42:45,600</h3>
+<p>om du kartlar mot den här liksom lokalt på datorn så kan ju liksom Vem som helst som väljer och och lita på det här sättet eller om det finns ett korrektsärt i med att Eh hur som helst Om du Om du bara har ju kört Karl med rätt kommandon eh så kan du ju starta installationen på datorn eh typ av system eller vad det nu mer som kör installationerna så det är ju en sån här fantastic Det har man verkligen en oautantiserad känns på local host där du kan inte reagera med systemet</p>
+<h3 id="84-004246700----004248600">84 00:42:46,700 &ndash;&gt; 00:42:48,600</h3>
+<p>nice bra</p>
+<h3 id="85-004251000----004306700">85 00:42:51,000 &ndash;&gt; 00:43:06,700</h3>
+<p>Men Men tanken är ju då För de har tydligen någon sån här att du är klienten kan klicka rummet på en website ute på internet som är hostade Asus och så kan den Skicka den här</p>
+<h3 id="86-004307700----004327600">86 00:43:07,700 &ndash;&gt; 00:43:27,600</h3>
+<p>på din lokala dator så att en site ute på internet alltså på något jävla sätt så får den lov att vara det det är liksom så här internet får lov och säga till din dator vad som ska hända på din dator och det bara</p>
+<h3 id="87-004328500----004344000">87 00:43:28,500 &ndash;&gt; 00:43:44,000</h3>
+<p>intressanta arkitekturval men nu är det ju Naturligtvis så att det är ju klart att de kan koda så att du behöver inte oro det för att Vilken vilken onsight som helst på internet kan vara inställda grejer på din dator eller Det vill säga att</p>
+<h3 id="88-004345600----004402800">88 00:43:45,600 &ndash;&gt; 00:44:02,800</h3>
+<p>här Kolla om orien menar eh eh Johan du får som uppgift när jag Du du har fått kravbeskrivningen att du måste stödja att eh en viss specifik sajt får lov att starta grejer mot den här web servern på på din dator</p>
+<h3 id="89-004404600----004406900">89 00:44:04,600 &ndash;&gt; 00:44:06,900</h3>
+<p>Hur skulle du hantera orgeln</p>
+<h3 id="90-004407800----004437900">90 00:44:07,800 &ndash;&gt; 00:44:37,900</h3>
+<p>liksom hur hur om du har då typ driver.se hur hade du implementert koden första höll man ju inte gjort så här överhuvudtaget eller ens brytse om originhead arkituvalet det är bara det var där Vilken kod Skulle du ha för Vad skulle du göra med och hedrum liksom om jag nu var tvungen att göra det på detta sättet ta din origin Heather som du får och kolla så att den är exakt likadan med din tillåtna sajt men han</p>
+<h3 id="91-004440400----004512800">91 00:44:40,400 &ndash;&gt; 00:45:12,800</h3>
+<p>nattsken när du skriver den här koden Jag skulle kunna vara att du kollar om den är ungefär snarlig den har inte du lita på Jag tror det är där Min laproach och deras kanske skiljer sig då om originan innehåller de orden Du litar på den innehåller de här tecknena i någon ordning Då är det nog rätt så han sa han som har han har den här snubben har ju lovat att det ska komma med en artikel till om att det är ännu värre än vad det verkar men men det är en av vissa titels är ju att nu har de gjort ämnet jätteflummer regga exempel</p>
+<h3 id="92-004514000----004558800">92 00:45:14,000 &ndash;&gt; 00:45:58,800</h3>
+<p>Jag tror att koden finns Men men om jag fattar det rätt så är det liksom att den kollar om Heaven innehåller typ driver.se.com landskod och så vill man göra det lätt för sig någon hade ju någon har redan crack när de skrev den här gården eller hittade på idén</p>
+<h3 id="93-004601900----004632900">93 00:46:01,900 &ndash;&gt; 00:46:32,900</h3>
+<p>gjort minst två tre olika felaktig arkitekturvallen när ni är överhuvudtaget bygger skiten och sen implementationen klass också här det är liksom en sån här liten rörigssoppa av fails den det är liksom så här Ja men de löser det här problemet så jag fortfarande inte nöjd som en liten rysk docka av problem härligt</p>
+<h3 id="94-004633600----004717800">94 00:46:33,600 &ndash;&gt; 00:47:17,800</h3>
+<p>Airplay Vad är Play för något Apple system för att Strömma ljud till olika högtalare och Apple TV och video hade som uppgift att du Du bygger en prylar play Hur hade Richard gjort det här hade du kollat ner från SketchUp byggt hela Airplay library från Apple TV</p>
+<h3 id="95-004721100----004808600">95 00:47:21,100 &ndash;&gt; 00:48:08,600</h3>
+<p>hade utvecklaren Rickard Han tyckte var bra om Apple levererade helt sårbar kod Nej hade jag inte tycker att helt okej Jag har inte koll exakt på detaljer men men du har alltså två olika strukturer som ligger i samma minnesgrej och så i vissa fall så kan du lura airplayen att den där grejen Du har i minnet Det är inte typ a Det är typ B så får du Type confusion och så betyder de olika så finns det något primitiv där du då kan läsa ut all data du behöver för att sen eh skriva sönder och göra ett emot codectekution exploit och eh så de har ju då det med att det det är ens på gamla sårbara</p>
+<h3 id="96-004810000----004836600">96 00:48:10,000 &ndash;&gt; 00:48:36,600</h3>
+<p>de har diamant att karriärer mot kod exekursen på en ett högtalare system och eh några mobils inför teamentsystem och det kan man ju fundera på hur många hur många gamla internet av shitta bandoneware grejer finns det med så bara du är ju fortfarande den här Du måste vara nära grejen var angriper eftersom att du är väl luften som du gör dina tank men</p>
+<h3 id="97-004838500----004852100">97 00:48:38,500 &ndash;&gt; 00:48:52,100</h3>
+<p>Du måste vara på wifit också Om jag bara är ansluten till ett nätverk utan</p>
+<h3 id="98-004853700----004953400">98 00:48:53,700 &ndash;&gt; 00:49:53,400</h3>
+<p>man om man tycker om flygplan och sånt Han Han har ju pratat om att en flygvändning brukade Hon skickade liksom lite sexy Snapshot till Piloten Alltså Sen frågade hon Piloten var vad tyckte Piloten av någon coola bilderna undan i ett honom Men han bara Jag har inte fått något vin så här men de passagerare Airdrop Ja ja det är absolut inte Proximity det behöver du inte vara på på samma här i olika Men men Airplay tror jag att du måste vara på samma wifi men jag kan hem och hämta jag tänkte säga Ut rent använda perspektiv Vi har inte undersökt hur det ska funka Men jag har för mig att Känslan är att vissa saker tips ljud kan du nog streama med Men ska du gå över på bild så måste du sitta på då samma Wifi eller något sånt där Jag är helt säker på att</p>
+<h3 id="99-004953600----005036400">99 00:49:53,600 &ndash;&gt; 00:50:36,400</h3>
+<p>är är play men nu dyker upp enheter som inte jag har lagt till och som inte är på något wifi Jag är med i Mm så jag jag hem och testa Ja ehm Ja så en en adjecent eh code Execution såbarhet där du kan få köra dina exploits på prylar däremot kan jag tänka mig att vissa airplayenheter själva presenterar ett wifi som heter Airplay någonting shoota ballong som du kan ansluta till och därmed skicka till dem inte orimligt men det här vet vi för lite om men så kan det vara Wilander Ja precis</p>
+<h3 id="100-005038600----005042500">100 00:50:38,600 &ndash;&gt; 00:50:42,500</h3>
+<p>Eh Men eh från Airplay till virtual box</p>
+<h3 id="101-005044700----005054500">101 00:50:44,700 &ndash;&gt; 00:50:54,500</h3>
+<p>eh Om du är en glad liten gäst i din Virtualbox det vill säga Du är lite OS som kör in i en virtual box</p>
+<h3 id="102-005055500----005104900">102 00:50:55,500 &ndash;&gt; 00:51:04,900</h3>
+<p>eh så det är ju kul att det finns grafikkort så att du kan leverera bild till användare av din VM eh</p>
+<h3 id="103-005106800----005129700">103 00:51:06,800 &ndash;&gt; 00:51:29,700</h3>
+<p>så det sitter ett vgr grafikkort i Din virtuella miljö och till skillnad från det mest andra i miljön så är ju hårdvaran är ju inte på riktigt liksom det är ju det är ju en koppling till en emulerad del i Virtualbox systemet</p>
+<h3 id="104-005132600----005141700">104 00:51:32,600 &ndash;&gt; 00:51:41,700</h3>
+<p>och där finns det någon liten god integration på någonstans att du kan skriva kreativt till VGA grafikkortet och</p>
+<h3 id="105-005143800----005152000">105 00:51:43,800 &ndash;&gt; 00:51:52,000</h3>
+<p>på något sätt kan du skriva sönder minnet i din Virtualbox så</p>
+<h3 id="106-005153200----005153600">106 00:51:53,200 &ndash;&gt; 00:51:53,600</h3>
+<p>gott</p>
+<h3 id="107-005157300----005244800">107 00:51:57,300 &ndash;&gt; 00:52:44,800</h3>
+<p>så kan man göra massa grejer det är ju bara för att visa vad som är på deathstopen så att du kommer inte på Vart kör box Eh Men men då kan du berätta det ut och ha ditt lilla melbour hoppade ut ur sin VM Och istället börjar snurra upp i den riktiga datorn Det det är ju alltid uppskattat smidigt vad det är det inte så det kommer lite då och då men ändå det ändå relativt att relativt sällan skulle jag säga sen vi får vi Ja för det de är lite coola lite roliga just när de puckar ju med en spelare</p>
+<h3 id="108-005245600----005318500">108 00:52:45,600 &ndash;&gt; 00:53:18,500</h3>
+<p>den modellen av värld vi lever ju nu där det är mycket virtualisering liksom Ja jag minns Detta måste ju vara att det in the before times eh long time ago in a Galaxy far for away ehm men jag var på en sans konferens och eh vi pratade just där risk och riskhantering och hur man ska se på det här med virtualisering som var ganska poppigt och färskt det då Eh där det var ett par stycken eh som som jobbade för</p>
+<h3 id="109-005319600----005348500">109 00:53:19,600 &ndash;&gt; 00:53:48,500</h3>
+<p>någon three later agency som sa det att ja aldrig har olika klassade system i samma järn. Varför inte Då kan inte gå in på det så pass men potentiellt om man tänker sig att det skulle finnas någonting någon möjlighet att hoppa ur gäst-oset ja Finns det några exempel på det kan inte gå in på det fucking Lines don&rsquo;t do it</p>
+<h3 id="110-005350500----005412300">110 00:53:50,500 &ndash;&gt; 00:54:12,300</h3>
+<p>ett gott råd eh och trots det så tuffar ju folk på som vanligt och tycker att ja men det är ju Prima liv Vi kan ju ha en och samma virtualiserade miljö för alla våra kommunsystem allt ifrån energistyrning till dagis planering liksom det Det är ju mycket effektivare och köra i samma Just do it</p>
+<h3 id="111-005413700----005417000">111 00:54:13,700 &ndash;&gt; 00:54:17,000</h3>
+<p>det är ju väldigt intressant för de som</p>
+<h3 id="112-005418900----005427700">112 00:54:18,900 &ndash;&gt; 00:54:27,700</h3>
+<p>massa hosta cloudmiljöer och sånt Hur Hur ska man resonera runt alla de här grejerna liksom Och där vet du inte vem din kompis på samma Järnia</p>
+<h3 id="113-005431200----005433400">113 00:54:31,200 &ndash;&gt; 00:54:33,400</h3>
+<p>men det här var ju alltså en</p>
+<h3 id="114-005435000----005436100">114 00:54:35,000 &ndash;&gt; 00:54:36,100</h3>
+<p>bugg i</p>
+<h3 id="115-005439800----005514400">115 00:54:39,800 &ndash;&gt; 00:55:14,400</h3>
+<p>en virtualiserad hårdvar eller man ska säga det är liksom en ett fel i ckd som kör i i själva världscuell box liksom så att det här är ju ett mjukvaro problem även om VGA grafikkortet låter ju som att det är hårdvar men det är Ja precis men den emulerar ju hårdvaran exponerad och sårbar c-kärlekord helt enkelt har vi något riktigt hårdvarlig problem här då vet vi har ju haft ett antal sån här spektreliknande Tackar men</p>
+<h3 id="116-005515600----005539600">116 00:55:15,600 &ndash;&gt; 00:55:39,600</h3>
+<p>det känns inte som att det var lite längesen vi hade nått så här rolig lite mer lite mer lite mer Mältan för att lite längre sedan var det nu gjorde den ja ofta när vi säger så här spektreliknande vad vad vi har som underförstått då Det är ju att den är den ja ens att den är begränsade impact för det hade ju</p>
+<h3 id="117-005540600----005603700">117 00:55:40,600 &ndash;&gt; 00:56:03,700</h3>
+<p>aspekteren var ju låst i processen Och så var Mältan var ju den här scary där du liksom faktiskt kunde påverka eller du kunde läsa ut vad som hände liksom i kön eller att du är så här så så ofta när vi har pratat så säger man ja jo men det här är en spektroliknande och ungefär att ta det lite chill för att det här är ändå</p>
+<h3 id="118-005604800----005628800">118 00:56:04,800 &ndash;&gt; 00:56:28,800</h3>
+<p>okej att din webbläsare säkerhet och lite annat stora brinner men men inte så att hela världen står och brinner men det vore ju kul om du hade en Intel dator och världen helt plötsligt stor och brand eh för nu har vi alltså en inte eller brunch prediction Race condition som är alltså en ny typ av eh sårbarhet där du alltså kan</p>
+<h3 id="119-005629800----005637700">119 00:56:29,800 &ndash;&gt; 00:56:37,700</h3>
+<p>du kan på något sätt träna upp orange projektorn om du ser den här typen av chords så borde du brancha på det här sättet och så</p>
+<h3 id="120-005638600----005650800">120 00:56:38,600 &ndash;&gt; 00:56:50,800</h3>
+<p>på något sätt kan då Observera resultatet med någon sån här gladforskar man grejer och så där Eh Men det som är roligt med den här brunch face conditionen det är att</p>
+<h3 id="121-005652200----005721700">121 00:56:52,200 &ndash;&gt; 00:57:21,700</h3>
+<p>Den är helt delad i hela processorn liksom det finns ingen koppling till processer eller operativ systemnivåer eller hypervisor nivåer eller så liksom Så att typ alla kan krig här med alla här liksom Det spelar ingen roll om du är guest du kan skicka med operativsystem med att är du virtualiserad så kan du kan du mucka med hypervisor och sånt så att Eh teoretiskt sett så är det här</p>
+<h3 id="122-005723200----005810000">122 00:57:23,200 &ndash;&gt; 00:58:10,000</h3>
+<p>bland de coolaste man man kan få av de här attackerna då eftersom att den till och med till och med kan fucka med liksom utanför sin eget OS och jag fick för mig att det här Race conditionet Det var väl att de har ju sen spektrum Mältan och alla efter följande liknande så har de ju byggt lite så här mot åtgärder så att bland annat så har de väl någon slags flushing utav State så att När du byter processen eller något sånt där så ser de tydligen flasha all State så att Eh cpuden är liksom fri igen från från gamla det är ju därför intelprocessoren har ju blivit långsamma långsamma långsamma långsamma långsamma lång som har lång som är varenda jävla gång när man integrerat någon av de här attackfaktorerna Eh Men Här har de en ny som jag tror de flesta</p>
+<h3 id="123-005810900----005842100">123 00:58:10,900 &ndash;&gt; 00:58:42,100</h3>
+<p>intelprocessorer är berörda tydligen är de har de testat med fel på både arm om det inte kunna liknande Men men typ de flesta inte var ju att den där flashingen om de är tillräckligt snabba så hittar de den eh hitta de datat bransch prefection datat innan flashen händer det är det som är Race condition då så att det är liksom ett sätt och bypass och den gamla fixen egentligen det här</p>
+<h3 id="124-005843500----005919100">124 00:58:43,500 &ndash;&gt; 00:59:19,100</h3>
+<p>intressant men är exploita billigt i Factor på det där jag har inte det så gick och det tog typ ett halvår och sen så var det så här Ja men här tog Eh jag jag har inte det i huvudet just nu men men det var jag kommer inte ihåg för det var chili Bitt eller chillabajt och mötte dig men men det var några stycken fyra kilo bit tror jag det var eller något sånt här per sekund Det var mycket datan och kunde extrahera och sen är det ju</p>
+<h3 id="125-005920000----010002500">125 00:59:20,000 &ndash;&gt; 01:00:02,500</h3>
+<p>är ditt mål att läsa ut en helt liksom där du inte har någon som helst aning om vad du tittar efter så är det ju fortfarande hysteras långsamt så att det är ju inte så att du med den här sårbarheten så är det en one click och så en timme senare så har du fått Har du fått allting du var intresserad av på en helt server men men det är fortfarande som så här att om du tänker på något sätt du skulle kunna först extracket där någon page table eller någonting som på något sätt hjälper dig med och targeta Vilken data är du vill Vad finns det du letar efter eh så om</p>
+<h3 id="126-010003400----010037600">126 01:00:03,400 &ndash;&gt; 01:00:37,600</h3>
+<p>många om här med att någon behöver bygga en bra expload kedja men men om det är liksom möjligt förmodligen utan det man vill säga lite tok en eller ett lösenord eller så så är det ju liksom det är ju inte många kilometer behöver läsa behöver först få ut Du behöver först få ut datat så hjälper dig uttageta och sen blev det snor det du vill ha så För det är väldigt liten avgränsadintelligent att tack så är det plentyfast för er en stor data där upp Super långsamt Det är ungefär som man får tänka</p>
+<h3 id="127-010038400----010043400">127 01:00:38,400 &ndash;&gt; 01:00:43,400</h3>
+<p>mm Men oftast så kanske du bara behöver lite data för att sedan gå vidare och slippa använda just detta</p>
+<h3 id="128-010048800----010049300">128 01:00:48,800 &ndash;&gt; 01:00:49,300</h3>
+<p>om du till exempel</p>
+<h3 id="129-010050900----010118600">129 01:00:50,900 &ndash;&gt; 01:01:18,600</h3>
+<p>vi bygga ett attack flöda specifikt för nå ad domän kontroller eller du specifikt vill göra en attackkedja för att komma över kubenetes eh credition och du attackposten prata om nästa gång men om du tänker om du tänker ut en bra attackkedja sönder Du kan utnyttja det här på ett smart sätt då är det plentyffekter</p>
+<h3 id="130-010119500----010142400">130 01:01:19,500 &ndash;&gt; 01:01:42,400</h3>
+<p>Eh har du inte bra tackteknik så är det något sånt jag vill rätta mig själv eh De har byggt en to end Branch Privilege Injection attack som läcker arbitary memory att 5,6 kilobyte per sekund och den up to date Ubuntu 2404 med alla default mitigations eller Label Oh bad</p>
+<h3 id="131-010144700----010201400">131 01:01:44,700 &ndash;&gt; 01:02:01,400</h3>
+<p>orbitary Memories brukar vara dåligt du låter väldigt dåligt Ja spännande Finns det Ja vi kommer lägga i Show notes eh såklart förra zonet alla phonout som numera är väldigt fina finns på saker och språk som är dessa ifall inte visste det där finns länkar till vidare läsning</p>
+<h3 id="132-010204000----010237900">132 01:02:04,000 &ndash;&gt; 01:02:37,900</h3>
+<p>Vi ska gå vidare tror jag och prata om något helt annat Ja du säger unify Unified protect ehm ubiquitis eh nvr kamerasystem som eh som i veckan hade en ganska stygg eh cvr Det var en 10.0 Mm men med lite Kevins såklart och ja eh men men</p>
+<h3 id="133-010239300----010328700">133 01:02:39,300 &ndash;&gt; 01:03:28,700</h3>
+<p>eh i korthet så kan man säga att den den innebar att om du om du satt på eh management nät eller kameranätet så kunde du alltså eh få få den att eh skickas sidostömmar till det så du kunde alltså titta på kameravinderna så att Eh effekten av det var ju inte sådär devastating kan man tycka eh får inte en tia Jag undrar det också eh anta att han exponerad på nätet med det ja eh fast den är väl det beror väl på hur du tolka dina CV Ja Men typiskt Network i 10 på Network brukar ju inte vara lokal Lan för då är det väl adjessent ändå Eh Men okej Ja Låt oss inte så konverterade det här till cbsistisktionen på Alright eh Nej men ja Nej visst ehm</p>
+<h3 id="134-010330200----010351300">134 01:03:30,200 &ndash;&gt; 01:03:51,300</h3>
+<p>men det kanske lägger upp din skit på internet hur du tittar på den här kameror bortifrån Det förutsätter ju att du har gjort din segmentering ordentligt kanske men men hur som helst Eh det Det kanske var en generös tid Ja det är väl alla vill ju ha en 10.0 Alltså klart Men eh det var eh tydligen extremt</p>
+<h3 id="135-010353000----010425900">135 01:03:53,000 &ndash;&gt; 01:04:25,900</h3>
+<p>ska jag inte säga enkelt men Men eh förutsejbart och repeterbart att att få få den här att börja Strömma en en videoström till valfri enhet helt enkelt smidigt ehm så att det finns uppdateringar att eh lägga på sina kameror så att man man har hela riggen uppsatt när man hostar sin only fantasida som nu är olaglig shit det var ett långt spår Ja här och patcha</p>
+<h3 id="136-010427500----010430200">136 01:04:27,500 &ndash;&gt; 01:04:30,200</h3>
+<p>eh vi ska avrunda idag med Peter sista.</p>
+<h3 id="137-010431700----010437000">137 01:04:31,700 &ndash;&gt; 01:04:37,000</h3>
+<p>Sudo RS mmm första RS för Rust eh</p>
+<h3 id="138-010438400----010505900">138 01:04:38,400 &ndash;&gt; 01:05:05,900</h3>
+<p>Ubuntu har ju inbört för fan kan jag prata då eh röst har ju påbörjat sitt lilla projekt med att oxydera Vilket är coolt namn för att röstific Rosta ner det är det Det ska inte vara något rent järn längre det ska vara rostigt nu så att Eh De har ju inte kollat på att</p>
+<h3 id="139-010507800----010514100">139 01:05:07,800 &ndash;&gt; 01:05:14,100</h3>
+<p>fler och fler delar av eh ubuntus bas oas eh ska jag</p>
+<h3 id="140-010515100----010522000">140 01:05:15,100 &ndash;&gt; 01:05:22,000</h3>
+<p>flytta från någon klassiska gamla c-byggen till rostbyggen och</p>
+<h3 id="141-010525100----010531400">141 01:05:25,100 &ndash;&gt; 01:05:31,400</h3>
+<p>mål med då med då har ett röstbaserad bygger det Då har du ju en</p>
+<h3 id="142-010532800----010604400">142 01:05:32,800 &ndash;&gt; 01:06:04,400</h3>
+<p>du har ju dels ät operativsystem som är det vill säga ett programmeringsspråk eh som där du om du använder safe subsystem av röst så ska du ju ha ett eh mindre löfte från programmeringsspråket att den här komplegeringen har gått igenom så finns det inga minne så hål i din kod eh sen kan du ju använda ansiffrust om du vill leva eller crazy men det gör du inte som en normala konsutvecklare eh</p>
+<h3 id="143-010606600----010608500">143 01:06:06,600 &ndash;&gt; 01:06:08,500</h3>
+<p>så att om man tänker sig</p>
+<h3 id="144-010609600----010632600">144 01:06:09,600 &ndash;&gt; 01:06:32,600</h3>
+<p>i synnerhet säkerhetskritisk kod som där du inte vill ha säkerhetskål så är ju röst Väldigt nice och man tittar på att byta ut bland annat Sudo som är en uråldrig applikation Den är mycket äldre än vad många tror</p>
+<h3 id="145-010635600----010636900">145 01:06:35,600 &ndash;&gt; 01:06:36,900</h3>
+<p>där man nu gör en</p>
+<h3 id="146-010638000----010642200">146 01:06:38,000 &ndash;&gt; 01:06:42,200</h3>
+<p>eh En River röst där man också då säger att</p>
+<h3 id="147-010643200----010701600">147 01:06:43,200 &ndash;&gt; 01:07:01,600</h3>
+<p>alla viktiga funktioner som folk faktiskt vill ha av Sud och ska följa med in i Sudo RS Men en del liksom ljus case som ingen använder och sånt ska på sitt bort med sig</p>
+<h3 id="148-010703700----010730600">148 01:07:03,700 &ndash;&gt; 01:07:30,600</h3>
+<p>Eh den han som har varit menteinen för Sudo i Ja sen hur minnes tider inte alls man började säga då Men han som har varit där Jag vet inte om det är 10-20 år som samma snubben har jag haft hand om Sudo är med och jag inte kodar men ger input och diskuterar med dem som är röst röststyrd right teamet och så eh så det är ju lite nice att kunna få</p>
+<h3 id="149-010731700----010735800">149 01:07:31,700 &ndash;&gt; 01:07:35,800</h3>
+<p>kod som ska vara fri från säkerhetsråd och komponera dessutom till</p>
+<h3 id="150-010737100----010744400">150 01:07:37,100 &ndash;&gt; 01:07:44,400</h3>
+<p>vad som är till maskinkod så att det blir liksom lika snabbt som annan optimerad år det slutresultatet</p>
+<h3 id="151-010748300----010754200">151 01:07:48,300 &ndash;&gt; 01:07:54,200</h3>
+<p>hotar och knipset finger på den snubben så den introducerar någon allvarlig så bara till Sudo och brett plan</p>
+<h3 id="152-010755700----010801600">152 01:07:55,700 &ndash;&gt; 01:08:01,600</h3>
+<p>jag använder ju ändå en del och</p>
+<h3 id="153-010803700----010819000">153 01:08:03,700 &ndash;&gt; 01:08:19,000</h3>
+<p>annan grej som är nice med Offside att få göra en då har jag en lockfill där Du ser exakt vilka är det pennen som sin gick när det byggdes liksom så att Eh och du får ett tydligare Byggsystem och så så att</p>
+<h3 id="154-0108206000000000004657----01082810000000000046566">154 01:08:20,600.0000000004657 &ndash;&gt; 01:08:28,100.00000000046566</h3>
+<p>de flesta är ju positiva och jag länkar till en snubbe som snackar om det här som är rätt positivt i det hela men det är också så här</p>
+<h3 id="155-010829800----0108428999999999995343">155 01:08:29,800 &ndash;&gt; 01:08:42,899.9999999995343</h3>
+<p>Ja jag hittade ett sådan här trådar och sånt där folk verkligen hatar röst och är jättearga på att du har bunt och då ska bland annat ersätta Sud och så där och det här är det här är saker</p>
+<h3 id="156-010846000----0109298999999999995343">156 01:08:46,000 &ndash;&gt; 01:09:29,899.9999999995343</h3>
+<p>De rusthållarna anser till leder hos dig så att man ska gå till ett säkerhet programmeringsspråk och trots att de själva inte håller på kodar de här kodbaserna så är de väldigt anti till att Vi skapar en mer kt språk som har en tydligare och mer lättläst syntax där det är mindvirus Men eh så jag är lite svårt att förstå vad är det att det är folk tycker så illa av det här eh exploaterar du får ju tänka som en underrättelsetjänst här Va Ska du komma och sätta käppare hjulen för våra fina bakdörrar som vi har haft i så många år Så just nu så är det så här att om du</p>
+<h3 id="157-01093110000000000046566----011003700">157 01:09:31,100.00000000046566 &ndash;&gt; 01:10:03,700</h3>
+<p>om du om du vill gå ifrån gamla Sudo så finns det Alltså ner tre stycken konkurrerande projekt om hur du ska göra hur du ska göra en bättre Sudo Vi har ju då suda RS som en rewright av Sudo i röst och som ska vara målet i att den ska vara nära 91 mappning eh sen har vi då som kommer från uppenbes det som ska ha en lite mer lättläst syntanks och likad med sura RS Så ska de också</p>
+<h3 id="158-011004800----011005600">158 01:10:04,800 &ndash;&gt; 01:10:05,600</h3>
+<p>Ta bort</p>
+<h3 id="159-011007800----011040900">159 01:10:07,800 &ndash;&gt; 01:10:40,900</h3>
+<p>alltså massa optioner som liksom den ska inte innehålla massa sånt som vanlig folk inte använder finns inte med du alltså utan den nu talar uttalar mig som att jag kan dåas men men vilket ni har inte kan men men den ska jag likheten den den ska vara lättare och och liksom mer skriven för att göra färre ljus case och mer lätt konfiguration och var lite säkrare och sen så har vi system Dear 0 mer då ett annat så här som är då Eh</p>
+<h3 id="160-011042300----011047300">160 01:10:42,300 &ndash;&gt; 01:10:47,300</h3>
+<p>den ut teknisk polare de andra för att de andra alla de andra bygger ju på att du har eh</p>
+<h3 id="161-011049300----011123700">161 01:10:49,300 &ndash;&gt; 01:11:23,700</h3>
+<p>sett uv-grejer och att du får kan ner i procesträdet Run ser vi ju så mycket coolare för att då snackade ju med huvudpressen som inte operativsystem kör och invokera någonting som är helt frånkopplat där det stod nu startade den så att Run Zero är ju teknisk sett mer imponerande eh så nu är det ju nu har du ju eh en hel drös optionen på hur du ska göra det här som olika operativsystem kan bråka om vilken så</p>
+<h3 id="162-011125400----011127100">162 01:11:25,400 &ndash;&gt; 01:11:27,100</h3>
+<p>tre möjliga</p>
+<h3 id="163-011128300----011219400">163 01:11:28,300 &ndash;&gt; 01:12:19,400</h3>
+<p>projekt där Det kan introduceras nya säkerhetsråd i massa olika listor av för den här kvällen Jag hoppas att ni som lyssnar tyckte att det var trevligt Det tyckte i alla fall Vi som gjorde programmet och vi var Johan du börja Möller och Mattias idag 1 + 1 = 3 och 2 som en liten kamera i ditt nätverk Ha det gott Hej vänner av säkerhets podcasten anekdotrosnittet vintras tyckte jag var skitskoj och jag skulle gett gärna vilja höra fler Vad sägs om att vi tillsammans krautsåsar in lite anekdotter för Jag gissar att det finns fler som har på lager så om ni skickar in ljudfiler</p>
+<h3 id="164-011220200----011236700">164 01:12:20,200 &ndash;&gt; 01:12:36,700</h3>
+<p>med era historia korta långa Jag har ingen aning och sen kan gänget klippa ihop det här och släppa det kanske under sommaren så vi får möjligt av njuta dem tillsammans med en grillad det var lite önskan från Ivan wanker ska vi ha</p>
+<h3 id="165-011239700----011246000">165 01:12:39,700 &ndash;&gt; 01:12:46,000</h3>
+<p>Ja Ska vi ha samma pluggar Eller ja man ska slänga in något typ Hej Vi ses snart på skriften</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-05-26</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/ostrukturerat/">ostrukturerat</a>,&nbsp;<a href="/tags/actuator/">actuator</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/sakerhetspodcasten_282_transatlantiska_haverier/" class="prev" rel="prev" title="Säkerhetspodcasten #282 - Transatlantiska haverier"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Säkerhetspodcasten #282 - Transatlantiska haverier</a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

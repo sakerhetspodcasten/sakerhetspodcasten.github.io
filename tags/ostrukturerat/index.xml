@@ -3,7 +3,18 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 May 2025 11:54:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #283 - Ostrukturerat V.22</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</link>
+    <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</guid>
+    <description><![CDATA[TeleMessage/Signalgate, DOGE/Infostealer, Hangul, ASUS, Airborn, VM-escape, Intel BPRC, Unify Protect, sudo-rs!
+Lyssna mp3, längd: 01:12:48 Incident: TeleMessage 00:03:28 USA använder Signal-klonen TeleMessage, utvecklat i Israel under &ldquo;Israel-US Binational Industrial Research and Development Foundation&rdquo;. Meddelanden från appen kunde komma åts av hackers.
+Tekniska detaljer:
+Servern är skriven i JSP och SpringBoot. Lösenord i MD5 på klient istället för server, dvs hittar du en hash funkar den rakt av mot server. feroxbuster hittar /heapdump på archive.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #281 - Ostrukturerat V.18</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_281_ostrukturerat_v_18/</link>
     <pubDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</pubDate>
@@ -100,15 +111,6 @@ Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falco
 Jesper (arrangör), Mattias (sponsor/utställare/besökare), Peter (video/stream) pratar Security Fest 2024.
 Jesper gillade att sponsoravdelningen var bra och att hotellpersonalen var superb. Mattias gillade talksen och att det var lätt att gå in och ut. Peter gillade Defender / Forensics talksen. Några talks vi gillade extra mycket:
 Guardians of the Hypervisor: ESXi Ransomware Incident Response - Anders Olsson, Nicklas Keijser How not to implement secure digital identity: Poland&rsquo;s Digital ID system - Szymon Chadam Hack the patch: and attack websites at large scale - Emil Trägårdh - Security Fest 2024 Lite synd att projektorlösningen strulade på slutet, men Emil levererade under press!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #262 - Ostrukturerat V.21</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</link>
-    <pubDate>Mon, 20 May 2024 13:56:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_262_ostrukturerat_v_21/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:05:46 Plugs Konferenser:
-Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Kvantkrypto Prata säkerhet med oss 2024-05-02 kvantkrypto Tomas Gustavsson, Keyfactor och Joachim Strömbergson, Assured AB. video Säkerhetspodcasten #256 - Nyår 2023 - ser dåligt ut för Peters spaning&hellip; Avrunding XZ Kodsnack 578 - Inte personens första bakdörr, med Peter Magnusson - shameless self plug, 90 minuter med Peter &amp; Kodsnack!]]></description>
 </item>
 </channel>
 </rss>

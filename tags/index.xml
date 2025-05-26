@@ -3,20 +3,28 @@
         <title>Tags - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/</link>
         <description>Tags - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 13:31:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>tema</title>
-    <link>https://sakerhetspodcasten.se/tags/tema/</link>
-    <pubDate>Mon, 12 May 2025 13:31:00 &#43;0000</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 May 2025 11:54:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>actuator</title>
+    <link>https://sakerhetspodcasten.se/tags/actuator/</link>
+    <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/tema/</guid>
+    <guid>https://sakerhetspodcasten.se/tags/actuator/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>ostrukturerat</title>
     <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
-    <pubDate>Mon, 28 Apr 2025 13:59:00 &#43;0000</pubDate>
+    <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/ostrukturerat/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>tema</title>
+    <link>https://sakerhetspodcasten.se/tags/tema/</link>
+    <pubDate>Mon, 12 May 2025 13:31:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/tema/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -73,14 +81,6 @@
     <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/sbom/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Software Bill Of Materials</title>
-    <link>https://sakerhetspodcasten.se/tags/software-bill-of-materials/</link>
-    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/software-bill-of-materials/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
