@@ -3,7 +3,22 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 May 2025 11:54:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #284 - Attack Paths</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</link>
+    <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</guid>
+    <description><![CDATA[Attack Paths och verktyg för att jobba med dem!
+Lyssna mp3, längd: 01:02:17 Attack Path Vad är &ldquo;Attack Path&rdquo;?
+Primärt:
+Resan från Initial Access (TTP) Till att hela företaget står och brinner, t.ex. Impact (TTP) eller Exfiltration (TTP). Sekundärt:
+Kanske även förberedelser, recon. Vad är fördelarna, tanken med att tänka i termer av Attack Paths?
+Attack Path verktyg, termer och metoder Verktyg/metodstöd.
+Kärt barn har många namn:
+Attack Exposure Scoring (AES) värdera risken kopplad till en Attack Path Attack Path Analysis (APA) Attack Path Management (APM) Attack Path Simulation (APS) Attack Path Visualization (APV) visa attack paths Olika fokus i APx verktyg:]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #283 - Ostrukturerat V.22</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</link>
     <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
@@ -108,17 +123,6 @@ Gamla Spaningar Hur gick 2024 jämfört med våra spaningar?
     <description><![CDATA[Lyssna mp3, längd: 30:25 Innehåll Hela panelen är samlad efter ett hårt och långt nyårsavsnitt!
 Jesper, Johan, Mattias, Peter och Rickard babblar om ett urval av spännade nyheter;
 Hårdvaru-nära: Mattias spekulerar om nya Apple M silikon spekulativa hål SLAP och FLOP. Peter pratar om Reloader.EFI, nästa nya hål i UEFI Secure Boot. Kryptografi: NATO HALFLOOP-24 för frekvenshoppning knäckt. Bil-nytt: Rickard och Mattias pratar om Subaru STARLINK och Volkswagen Cariad incidenterna. Vår urgamla vänner Spring Boot Actuators återvänder!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #274 - Fyra fantastiska frågor</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</link>
-    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:12:14 Innehåll Johan, Mattias, Peter och Rickard försöker ta sig an Loves fyra frågor!
-(En ung Love kan höras i Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk. 2016-09-07 var verkligen inte igår, drygt 8 år sen!)
-Loves fyra frågor Love&rsquo;s fyra frågor:
-Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
 </item>
 </channel>
 </rss>

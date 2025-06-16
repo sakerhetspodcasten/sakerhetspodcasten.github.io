@@ -3,7 +3,22 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 13:31:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #284 - Attack Paths</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</link>
+    <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</guid>
+    <description><![CDATA[Attack Paths och verktyg för att jobba med dem!
+Lyssna mp3, längd: 01:02:17 Attack Path Vad är &ldquo;Attack Path&rdquo;?
+Primärt:
+Resan från Initial Access (TTP) Till att hela företaget står och brinner, t.ex. Impact (TTP) eller Exfiltration (TTP). Sekundärt:
+Kanske även förberedelser, recon. Vad är fördelarna, tanken med att tänka i termer av Attack Paths?
+Attack Path verktyg, termer och metoder Verktyg/metodstöd.
+Kärt barn har många namn:
+Attack Exposure Scoring (AES) värdera risken kopplad till en Attack Path Attack Path Analysis (APA) Attack Path Management (APM) Attack Path Simulation (APS) Attack Path Visualization (APV) visa attack paths Olika fokus i APx verktyg:]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #282 - Transatlantiska haverier</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_282_transatlantiska_haverier/</link>
     <pubDate>Mon, 12 May 2025 13:31:00 &#43;0000</pubDate>
@@ -113,19 +128,6 @@ Kan man lita på AI? Din data blir träningsdata? Segmentering av data i molnet 
 Angripares användningsfall Försvarares användningsfall Attacker mot AI
 Attacker mot AI Bild vi diskuterade runt;
 +---------+ | | &lt;--- Bakdörrar | Träning | &lt;--- Ta bort | | ---&gt; Stöld modell/träningsdata +---------+ | | +-------+-------+ | AI/ | Agent | &lt;-- Prompt Injection | LLM | Agent | --&gt; Exfiltering | | Agent | --&gt; SSRF Request Forgery +-------+-------+ | | +-----------------------+ &lt;--- Prompt Injection | | ---&gt; XSS/JSInjection | Klient (User Agent), | ---&gt; Exfiltrering | AI-Plugins | ---&gt; CSRF Request Forgery +-----------------------+ Några kul saker man kan göra:]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #266 - När säkerhet går för långt</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</link>
-    <pubDate>Mon, 02 Sep 2024 19:09:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 42:09 Lysnarbrev Johan, Mattias Peter och Rickard diskuterar: &ldquo;När säkerhet går för långt” eller &ldquo;när säkerhetskraven blir kontraproduktiva&rdquo;.
-Lyssnaren Mikael hör av sig om krav:
-Sitter å lyssnar #262 och kände mig lite träffad när ni eftersökte idéer till temaavsnitt.
-[&hellip;]
-Temat jag funderar på är ”när säkerhet går för långt” eller ”när säkerhetskraven blir kontraproduktiva”.
-Jag sitter just nu i ett projekt, där man har satt en massa regler man ska förhålla sig till.]]></description>
 </item>
 </channel>
 </rss>
