@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #285 - Ostrukturerat V.27</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</link>
+    <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</guid>
+    <description><![CDATA[Operation Deep Sentinel, Påskägg, BankID, CrowdStrike, ASUS API, ASUS SSH, Azure
+Lyssna mp3, längd: 54:23 Archetyp 00:00:49 Europol Operation Deep Sentinel slår mot Archetyp, en handelsplats på &ldquo;darknet&rdquo;.
+Europol: Europe-wide takedown hits longest-standing dark web drug market – Administrator arrested in Spain; top vendors targeted in Sweden - Between 11 and 13 June, a series of coordinated actions took place across Germany, the Netherlands, Romania, Spain, Sweden, targeting the platform’s administrator, moderators, key vendors, and technical infrastructure.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #284 - Attack Paths</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</link>
     <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
@@ -113,16 +123,6 @@ SecurityFest 4-5 juni BSides Ume 10-11 juni Peter&rsquo;s bloggpost: Path Length
     <description><![CDATA[Lyssna mp3, längd: 01:34:50 Innehåll Säkerhetspodcasten spanar 2025 och ser tillbaka på hur 2024 gick jämfört med våra spaningar!
 Gamla Spaningar Hur gick 2024 jämfört med våra spaningar?
 00:05:03 Rickard: Ransomware mot Svensk Samhällskritisk nytta. Någon (svensk) samhällskritisk nytta (el, vatten, ..) kommer drabbas av allvarligt ransomware. 00:15:40 Mattias: Mer Kaotiskt Ransomware! Mer kaotiskt ransomware när det blir svårare att tjäna pengar. Oseriösare kriminella när “professionalla” ransomware gäng blir mer och mer backend medan mer puckon står för attackerna.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #275 - Ostukturerat V.6</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</link>
-    <pubDate>Mon, 03 Feb 2025 12:39:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_275_ostukturerat_v_6/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 30:25 Innehåll Hela panelen är samlad efter ett hårt och långt nyårsavsnitt!
-Jesper, Johan, Mattias, Peter och Rickard babblar om ett urval av spännade nyheter;
-Hårdvaru-nära: Mattias spekulerar om nya Apple M silikon spekulativa hål SLAP och FLOP. Peter pratar om Reloader.EFI, nästa nya hål i UEFI Secure Boot. Kryptografi: NATO HALFLOOP-24 för frekvenshoppning knäckt. Bil-nytt: Rickard och Mattias pratar om Subaru STARLINK och Volkswagen Cariad incidenterna. Vår urgamla vänner Spring Boot Actuators återvänder!]]></description>
 </item>
 </channel>
 </rss>

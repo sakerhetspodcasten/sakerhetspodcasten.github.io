@@ -1,0 +1,57 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>BankID - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/bankid/</link>
+        <description>BankID - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/bankid/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #285 - Ostrukturerat V.27</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</link>
+    <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</guid>
+    <description><![CDATA[Operation Deep Sentinel, Påskägg, BankID, CrowdStrike, ASUS API, ASUS SSH, Azure
+Lyssna mp3, längd: 54:23 Archetyp 00:00:49 Europol Operation Deep Sentinel slår mot Archetyp, en handelsplats på &ldquo;darknet&rdquo;.
+Europol: Europe-wide takedown hits longest-standing dark web drug market – Administrator arrested in Spain; top vendors targeted in Sweden - Between 11 and 13 June, a series of coordinated actions took place across Germany, the Netherlands, Romania, Spain, Sweden, targeting the platform’s administrator, moderators, key vendors, and technical infrastructure.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #283 - Ostrukturerat V.22</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</link>
+    <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</guid>
+    <description><![CDATA[TeleMessage/Signalgate, DOGE/Infostealer, Hangul, ASUS, Airborn, VM-escape, Intel BPRC, Unify Protect, sudo-rs!
+Lyssna mp3, längd: 01:12:48 Incident: TeleMessage 00:03:28 USA använder Signal-klonen TeleMessage, utvecklat i Israel under &ldquo;Israel-US Binational Industrial Research and Development Foundation&rdquo;. Meddelanden från appen kunde komma åts av hackers.
+Tekniska detaljer:
+Servern är skriven i JSP och SpringBoot. Lösenord i MD5 på klient istället för server, dvs hittar du en hash funkar den rakt av mot server. feroxbuster hittar /heapdump på archive.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #274 - Fyra fantastiska frågor</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</link>
+    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_274_fyra_fantastiska_fragor/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:12:14 Innehåll Johan, Mattias, Peter och Rickard försöker ta sig an Loves fyra frågor!
+(En ung Love kan höras i Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk. 2016-09-07 var verkligen inte igår, drygt 8 år sen!)
+Loves fyra frågor Love&rsquo;s fyra frågor:
+Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #260 - Ostrukturerat V.17</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</link>
+    <pubDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
+Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #247 - Passkeys</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</link>
+    <pubDate>Tue, 05 Sep 2023 12:45:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_247_passkeys/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 58:08 Innehåll I dagens avsnitt har vi finbesök i studion i form av Emil Lundberg från Yubico som är på plats för att snacka passkeys, WebAuthn, FIDO och annat kul!
+Recap och vad är nytt? Vad har hänt runt WebAuthn / FIDO sen 2019 ? U2F, andra faktor. Lagringslös. Vad är det nya, passkeys? Vad är FIDO inte: identifieringstjänst så som t.ex. BankID. Lyssnarbrev från Jonas Långt brev nerkokat av Peter till några huvudpunkter:]]></description>
+</item>
+</channel>
+</rss>

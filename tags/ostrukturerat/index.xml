@@ -3,7 +3,17 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 May 2025 11:54:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #285 - Ostrukturerat V.27</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</link>
+    <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</guid>
+    <description><![CDATA[Operation Deep Sentinel, Påskägg, BankID, CrowdStrike, ASUS API, ASUS SSH, Azure
+Lyssna mp3, längd: 54:23 Archetyp 00:00:49 Europol Operation Deep Sentinel slår mot Archetyp, en handelsplats på &ldquo;darknet&rdquo;.
+Europol: Europe-wide takedown hits longest-standing dark web drug market – Administrator arrested in Spain; top vendors targeted in Sweden - Between 11 and 13 June, a series of coordinated actions took place across Germany, the Netherlands, Romania, Spain, Sweden, targeting the platform’s administrator, moderators, key vendors, and technical infrastructure.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #283 - Ostrukturerat V.22</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_283_ostrukturerat_v_22/</link>
     <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
@@ -100,17 +110,6 @@ Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas 
 Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
 Officiella svar från CrowdStrike:
 Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #263 - Ostrukturerat V.25</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</link>
-    <pubDate>Mon, 17 Jun 2024 15:39:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_263_ostrukturerat_v_25/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:03:13 Security Fest 2024 Security Fest 2024: video-länk!
-Jesper (arrangör), Mattias (sponsor/utställare/besökare), Peter (video/stream) pratar Security Fest 2024.
-Jesper gillade att sponsoravdelningen var bra och att hotellpersonalen var superb. Mattias gillade talksen och att det var lätt att gå in och ut. Peter gillade Defender / Forensics talksen. Några talks vi gillade extra mycket:
-Guardians of the Hypervisor: ESXi Ransomware Incident Response - Anders Olsson, Nicklas Keijser How not to implement secure digital identity: Poland&rsquo;s Digital ID system - Szymon Chadam Hack the patch: and attack websites at large scale - Emil Trägårdh - Security Fest 2024 Lite synd att projektorlösningen strulade på slutet, men Emil levererade under press!]]></description>
 </item>
 </channel>
 </rss>

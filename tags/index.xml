@@ -3,7 +3,23 @@
         <title>Tags - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/</link>
         <description>Tags - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>BankID</title>
+    <link>https://sakerhetspodcasten.se/tags/bankid/</link>
+    <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/bankid/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ostrukturerat</title>
+    <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
+    <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/ostrukturerat/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>tema</title>
     <link>https://sakerhetspodcasten.se/tags/tema/</link>
     <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
@@ -17,14 +33,6 @@
     <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/actuator/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>ostrukturerat</title>
-    <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
-    <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/ostrukturerat/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -73,14 +81,6 @@
     <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/fido/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>SBOM</title>
-    <link>https://sakerhetspodcasten.se/tags/sbom/</link>
-    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/sbom/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
