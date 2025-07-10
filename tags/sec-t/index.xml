@@ -3,7 +3,19 @@
         <title>SEC-T - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/sec-t/</link>
         <description>SEC-T - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/sec-t/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/sec-t/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #286 - Sommar 2025</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</guid>
+    <description><![CDATA[Sommar 2025 inleds med champagne!
+BSides Ume recap. Security Fest recap. Planer för SEC-T, BlackHat, Defcon. Andra sommar planer? Lite kul ISC^2 CPE diskussioner också, hett ämne i sommarsolen!
+Lyssna mp3, längd: 49:36 BSides Ume 2025 Länkar:
+BSides Ume 2025 (10-11 June 2025): Overview · Indico blaufish.github.io: BSides Ume 2025 Konferens video Peter om hur filma, strömma, editera konferensvideo för Security Fest:
+blaufish.github.io: Capturing and streaming conferences - audio, video and more blaufish.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
     <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
@@ -85,16 +97,6 @@ Inspelat: 2019-10-09. Längd: 00:44:57.]]></description>
     <description><![CDATA[Lyssna mp3
 Innehåll This episode is a collection of our interviews from day two of Sec-T 2018. Featuring interviews with Ulf Frisk, Ido Naor &amp; Dani Goland, Stefan Tanase &amp; Gabriel Cirlig, Steve Miller and Raul Alvarez.
 Inspelat: 2018-09-14. Längd: 01:04:19.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten avs.135 – Sec-T 2018 Day 1</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-135-sec-t-2018-day-1/</link>
-    <pubDate>Mon, 08 Oct 2018 07:36:40 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-135-sec-t-2018-day-1/</guid>
-    <description><![CDATA[Lyssna mp3
-Innehåll This episode is a collection of our interviews from day one of Sec-T 2018. Featuring interviews with Dan Tentler, Olle Segerdahl, Pasi Saarinen, Frans Rosén, Paolo Stagno and Zoz Brooks.
-Inspelat: 2018-09-13. Längd: 00:59:10.]]></description>
 </item>
 </channel>
 </rss>

@@ -3,7 +3,55 @@
         <title>Tags - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/</link>
         <description>Tags - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>bsides</title>
+    <link>https://sakerhetspodcasten.se/tags/bsides/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/bsides/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>keepass</title>
+    <link>https://sakerhetspodcasten.se/tags/keepass/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/keepass/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SEC-T</title>
+    <link>https://sakerhetspodcasten.se/tags/sec-t/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/sec-t/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SecurityFest</title>
+    <link>https://sakerhetspodcasten.se/tags/securityfest/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/securityfest/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>sommar</title>
+    <link>https://sakerhetspodcasten.se/tags/sommar/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/sommar/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>tema</title>
+    <link>https://sakerhetspodcasten.se/tags/tema/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/tema/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>BankID</title>
     <link>https://sakerhetspodcasten.se/tags/bankid/</link>
     <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
@@ -20,14 +68,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>tema</title>
-    <link>https://sakerhetspodcasten.se/tags/tema/</link>
-    <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/tema/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>actuator</title>
     <link>https://sakerhetspodcasten.se/tags/actuator/</link>
     <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
@@ -41,46 +81,6 @@
     <pubDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/privacy/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Common Vulnerability Scoring System</title>
-    <link>https://sakerhetspodcasten.se/tags/common-vulnerability-scoring-system/</link>
-    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/common-vulnerability-scoring-system/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>CVSS</title>
-    <link>https://sakerhetspodcasten.se/tags/cvss/</link>
-    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/cvss/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Schrems</title>
-    <link>https://sakerhetspodcasten.se/tags/schrems/</link>
-    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/schrems/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Nyår</title>
-    <link>https://sakerhetspodcasten.se/tags/ny%C3%A5r/</link>
-    <pubDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/ny%C3%A5r/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>fido</title>
-    <link>https://sakerhetspodcasten.se/tags/fido/</link>
-    <pubDate>Mon, 23 Dec 2024 07:20:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/fido/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

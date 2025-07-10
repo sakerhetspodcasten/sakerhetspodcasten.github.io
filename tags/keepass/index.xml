@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>keepass - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/keepass/</link>
+        <description>keepass - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/keepass/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #286 - Sommar 2025</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</link>
+    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</guid>
+    <description><![CDATA[Sommar 2025 inleds med champagne!
+BSides Ume recap. Security Fest recap. Planer för SEC-T, BlackHat, Defcon. Andra sommar planer? Lite kul ISC^2 CPE diskussioner också, hett ämne i sommarsolen!
+Lyssna mp3, längd: 49:36 BSides Ume 2025 Länkar:
+BSides Ume 2025 (10-11 June 2025): Overview · Indico blaufish.github.io: BSides Ume 2025 Konferens video Peter om hur filma, strömma, editera konferensvideo för Security Fest:
+blaufish.github.io: Capturing and streaming conferences - audio, video and more blaufish.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #242 - Ostrukturerat V.24</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_242_ostrukturerat_v_24/</link>
+    <pubDate>Mon, 12 Jun 2023 09:25:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_242_ostrukturerat_v_24/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 56:38 Innehåll I dagens ostrukurerade avsnitt diskuterar vi lite ransomware-attacker, massiva fuckups hos Toyota, hur angripare drar nytta av ChatGPTs hallucinationer och mycket mer.
+Malware: Operation Triangulation SecureList Operation Triangulation: iOS devices targeted with previously unknown malware Brickar iOS förmåga att ta hem nya säkerhetsuppdateringar iMessage ZeroClick installationsvektor Riktade attacker mot bl.a. Kaspersky management Texter i domänaddresser m.m. känns NSA-iga Utvecklat av Weebs, det finns anime-referenser i malwaret!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten avs.19 – Ostrukturerat V.2</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-19-ostrukturerat-v-2/</link>
+    <pubDate>Thu, 16 Jan 2014 17:39:11 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-19-ostrukturerat-v-2/</guid>
+    <description><![CDATA[Lyssna iTunes | mp3
+Innehåll Detta är det nittonde ordinarie avsnittet av Säkerhetspodcasten, i vilket panelen (minus Johan som är hemma med ryggskott) diskuterar den senaste tidens nyheter, fler upptåg från NSA, vikten av att göra backups och vad som har hänt under julhelgen.
+Inspelat: 2013-01-09. Längd: 1:26:12.
+Länkar DEFCON Conference - Youtube kanal Här finns samtliga talks från Defcon 21.
+DEFCON 16 - Matt Wier &amp; Sudhir Aggarwal: Password Cracking on a Budget Här diskuteras lösenords listor och smarta filter.]]></description>
+</item>
+</channel>
+</rss>
