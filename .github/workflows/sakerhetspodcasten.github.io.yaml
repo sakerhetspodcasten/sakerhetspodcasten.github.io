@@ -2,7 +2,7 @@ name: hugo at sakerhetspodcasten.github.io
 on:
   workflow_dispatch:
   schedule:
-    - cron: "37 13 * * WED" # 13:37
+    - cron: "37 13 28 * *" # 13:37; At 01:37 PM, on day 28 of the month
 
 permissions:
   contents: write
