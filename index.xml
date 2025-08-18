@@ -3,9 +3,20 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #287 - Ostrukturerat V.34</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</link>
+    <pubDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</guid>
+    <description><![CDATA[Sommar, AI utbrytning, Proven shimming, HTTP/1.1 måste dö, Solar Supplychain, Areoflot hackat, Minions!
+Lyssna mp3, längd: 01:00:13 Plugs Building Secure AI, Stockholm, 23-24 September 2025 Bli Säker podden massa spännande i sommras 00:11:54 Konkurrentanalys!
+Bli Säker med Karl Emil Nikka har släppt bra avsnitt i sommar om bland annat:
+UK lag: ID-verifiering för att få nå porr och annat upprörande Tea läckte chat-loggar, ID-handlingar, foton på användare Dataläcka med svenska medborgares personuppgifter AI-chatläckor Fyndiq falska minneskort, USB-stickor, m.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #286 - Sommar 2025</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</link>
     <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
@@ -116,17 +127,6 @@ ArgoCD &amp; Kubernetes CI/CD
 GitOps och hotbilden.
 Privilegierade tillgångar och Kubernetes RBAC.
 Andra populära system]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #277 - Ostrukturerat V.9</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</link>
-    <pubDate>Mon, 24 Feb 2025 08:45:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_277_ostrukturerat_v_9/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 55:57 Innehåll Signal: försvarsmakten, granskning, QR-nätfiske. Schrems/USA, privacy/cloud kaos? DOGE hackat och strular till NIST/CISA/m.m. AMD Mikrokod hackat! AI-attacker &amp; missbruk. MitM sårbarheter i OpenSSH och Marvel Rivals.
-Säkerhetspodcasten är två man kort, men Jesper, Mattias och Peter samlas för att leverera ett ostrukterat avsnitt!
-Plugs Kul aktuella grejer!
-SecurityFest 4-5 juni BSides Ume 10-11 juni Peter&rsquo;s bloggpost: Path Length constraint limitations and bypasses Bakdörrar är farligt 00:04:01 Tema signal!]]></description>
 </item>
 </channel>
 </rss>

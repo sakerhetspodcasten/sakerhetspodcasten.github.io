@@ -3,7 +3,18 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #287 - Ostrukturerat V.34</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</link>
+    <pubDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</guid>
+    <description><![CDATA[Sommar, AI utbrytning, Proven shimming, HTTP/1.1 måste dö, Solar Supplychain, Areoflot hackat, Minions!
+Lyssna mp3, längd: 01:00:13 Plugs Building Secure AI, Stockholm, 23-24 September 2025 Bli Säker podden massa spännande i sommras 00:11:54 Konkurrentanalys!
+Bli Säker med Karl Emil Nikka har släppt bra avsnitt i sommar om bland annat:
+UK lag: ID-verifiering för att få nå porr och annat upprörande Tea läckte chat-loggar, ID-handlingar, foton på användare Dataläcka med svenska medborgares personuppgifter AI-chatläckor Fyndiq falska minneskort, USB-stickor, m.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #285 - Ostrukturerat V.27</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</link>
     <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
@@ -98,18 +109,6 @@ Det hände något intressant i USA nyligen, på tal om Chattcontrol och massöve
 Linux buggen som lovade för mycket Före:
 CVSS: 9.9. Allt är sårbart. Alla servers. Alla klienter. Dommedagen är här. Huset brinner. Verkligheten:
 Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar och en bunt user-interaction. CVSS: 9.9 verkar vara rent nonsens. CVSS Attack Complexity (AC), User Interaction (UI), Scope (S) är diskutabla!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #265 - Ostrukturerat V.34</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</link>
-    <pubDate>Mon, 19 Aug 2024 08:54:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_265_ostrukturerat_v_34/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:10:58 CrowdStrike 8.5 miljoner Windows Datorer som körde CrowdStrike blåskärmade.
-Man hade under en timme tryckt ut en dålig Channel File 291 som fick kundernas CrowdStrike drivis att krasha inne i Windows kernel mode.
-Denna historien har ALLT: RegExp, null pointers, minnesmappning, kernel mode, CI/CD, Continous Delivery, DevOps, risk analys &hellip;
-Officiella svar från CrowdStrike:
-Remediation and Guidance Hub: Channel File 291 Incident Technical Details: Falcon Content Update for Windows Hosts July 20, 2024 External Technical Root Cause Analysis — Channel File 291 Augusti 6, 2024 The number of fields in the IPC Template Type was not validated at sensor compile time A runtime array bounds check was missing for Content Interpreter input fields on Channel File 291 Template Type testing should cover a wider variety of matching criteria The Content Validator contained a logic error Template Instance validation should expand to include testing within the Content Interpreter Template Instances should have staged deployment CrowdStrike Lingo:]]></description>
 </item>
 </channel>
 </rss>
