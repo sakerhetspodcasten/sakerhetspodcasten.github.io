@@ -3,10 +3,18 @@
         <title>Tags - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/</link>
         <description>Tags - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>anekdoter</title>
+    <link>https://sakerhetspodcasten.se/tags/anekdoter/</link>
+    <pubDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/tags/anekdoter/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>tema</title>
     <link>https://sakerhetspodcasten.se/tags/tema/</link>
-    <pubDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</pubDate>
+    <pubDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/tema/</guid>
     <description><![CDATA[]]></description>
@@ -73,14 +81,6 @@
     <pubDate>Mon, 26 May 2025 11:54:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/tags/actuator/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>privacy</title>
-    <link>https://sakerhetspodcasten.se/tags/privacy/</link>
-    <pubDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/tags/privacy/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

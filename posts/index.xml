@@ -3,13 +3,16 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Säkerhetspodcasten #288 - Era Anekdoter</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</link>
-    <pubDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</pubDate>
+    <pubDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 35:32 Innehåll Fullständiga shownotes finns på sakerhetspodcasten.se.]]></description>
+    <description><![CDATA[Lyssnarna hör av sig om befängda API-servers, och skolan som ger elever för mycket rättigeter.
+Lyssna mp3, längd: 35:32 Plugs Building Secure AI, Stockholm, 23-24 September 2025 Lyssnarbrev om galen JSON (Google transkribering av ljudfil, samt mindre manuella ändringar)
+Hej säkerhets podcasten mitt namn är Kalle och det här är min sommar anekdot
+Nej skämtade jag tänkte så här nya efterfrågat anekdotter min anekdoter mer av ett mysterium inom servar och webbutveckling inte direkt säkerhet i sig men ni verkar det inte fått in så många anekdoter]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #287 - Ostrukturerat V.34</title>
