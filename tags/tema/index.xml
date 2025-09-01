@@ -3,7 +3,15 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #288 - Era Anekdoter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</link>
+    <pubDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 35:32 Innehåll Fullständiga shownotes finns på sakerhetspodcasten.se.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #286 - Sommar 2025</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</link>
     <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
@@ -114,19 +122,6 @@ Rickard är no show då han är på hemligt uppdrag och räddar världen från e
 Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
 Panelen diskuterar bland annat:
 Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #270 - Anekdoter</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</link>
-    <pubDate>Mon, 18 Nov 2024 08:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_270_anekdoter/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 49:02 Innehåll Jesper, Johan, Mattias, Peter och Rickard - samt poddhunden Ester, träffas för att prata anekdoter!
-Lyssnarbrev Lyssnarbrev från Linus M, från i maj:
-Hej! Ni bad om förslag för teamavsnitt.
-Anekdoter tror jag borde vara lätt för er att klämma ur er en hel del och det tror jag skulle uppskattas av publiken.
-Tack för bra underhållning men också för det informativa innehållet.
-Blandade anekdoter &ldquo;Snäll&rdquo; Nessus-scan bränner ner hela datacentret Radius på &ldquo;alla servers&rdquo; går i evighetsloop efter Nessus scans Produktion är nere VMWare brinner och hela virtualiseringen behöver startas om Testaren och hans chef är omöjliga att nå pga möte med avstängda mobiltelefoner Webb-säkerhetstest som går åt skogen: Kreditkort börjar tryckas upp Gratis bananer Grindar som börjar slå Grindar som öppnar sig på 15 minuters oautentiserat webhack&hellip; Spring actuator för år sen när massa servers la ut miljövariabler och JVM minne (heapdump) på Internet Applikationer som bara &ldquo;mår dåligt&rdquo; utan tydlig diagnos/orsak efter tester.]]></description>
 </item>
 </channel>
 </rss>

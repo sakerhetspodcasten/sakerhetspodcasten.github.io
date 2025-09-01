@@ -3,9 +3,17 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #288 - Era Anekdoter</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</link>
+    <pubDate>Mon, 01 Sep 2025 08:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 35:32 Innehåll Fullständiga shownotes finns på sakerhetspodcasten.se.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #287 - Ostrukturerat V.34</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</link>
     <pubDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</pubDate>
@@ -106,27 +114,6 @@ Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter!]]></description
 Lyssna mp3, längd: 01:10:34 Lyssnarbrev Fler Anekdoter 00:00:43 Johan Wranker om Anekdoter:
 Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
 Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter! Jag gissar att det finns fler som har har det på lager. så om ni skickar in ljudfiler med era historia; korta, långa - Jag har ingen aning!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #278 - Automatiseringens Akilleshäl</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</link>
-    <pubDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</guid>
-    <description><![CDATA[Hot mot pipelines, workflows, actions, continuous deployment.
-Lyssna mp3, längd: 01:22:43 Introduktion Automatiseringens fördelar vs. risker – hur Workflows och Actions blivit en attackvektor.
-Exempel på verkliga incidenter (t.ex. supply chain-attacker via CI/CD).
-Populära Workflows &amp; Actions GitHub Actions
-Hur det fungerar.
-Self-hosted vs. GitHub-hosted runners.
-Typiska säkerhetsbrister.
-GitLab CI/CD
-Shared vs. Private Runners.
-Pipeline permissions.
-ArgoCD &amp; Kubernetes CI/CD
-GitOps och hotbilden.
-Privilegierade tillgångar och Kubernetes RBAC.
-Andra populära system]]></description>
 </item>
 </channel>
 </rss>
