@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #289 - Ostrukturerat V.41</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</link>
+    <pubDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</guid>
+    <description><![CDATA[SEC-T. Självrefererande Git. NPM: S1ngularity, och Shai-Hulud. Massa randomware och läckor: Miljödata, Jaguar LandRover (JLR), Collins, Kinesiska Muren (GFwC). Minnesskydd. Kassa kassaskåp! WhatsApp/iOS/DNG attack. Hotaktör säkrar dina server. Steam-malware.
+Lyssna mp3, längd: 01:16:09 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 blaufish.github.io: Self Referential Git Peter har gjort en git commit be31337 som i en länk refererar till sig själv på github. Antar du vår utmaning?]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #288 - Era Anekdoter</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</link>
     <pubDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</pubDate>
@@ -104,17 +114,6 @@ Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!]]></descripti
 Lyssna mp3, längd: 01:06:51 Lyssnarbrev Fler Anekdoter 00:01:04 Johan Wranker om Anekdoter:
 Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
 Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #279 - Ostrukturerat V.14</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_279_ostrukturerat_v_14/</link>
-    <pubDate>Mon, 31 Mar 2025 08:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_279_ostrukturerat_v_14/</guid>
-    <description><![CDATA[Signalgate, TJ Actions, Överförmyndarnämnden, Kryptokrig, Paragon, UTF-8, IngressNightmare, Next.js middleware, device bundna sessioner, Post Quantum Cryptograhy!
-Lyssna mp3, längd: 01:10:34 Lyssnarbrev Fler Anekdoter 00:00:43 Johan Wranker om Anekdoter:
-Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
-Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter! Jag gissar att det finns fler som har har det på lager. så om ni skickar in ljudfiler med era historia; korta, långa - Jag har ingen aning!]]></description>
 </item>
 </channel>
 </rss>

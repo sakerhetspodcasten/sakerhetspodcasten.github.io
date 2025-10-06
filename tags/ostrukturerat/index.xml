@@ -3,7 +3,17 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #289 - Ostrukturerat V.41</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</link>
+    <pubDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</guid>
+    <description><![CDATA[SEC-T. Självrefererande Git. NPM: S1ngularity, och Shai-Hulud. Massa randomware och läckor: Miljödata, Jaguar LandRover (JLR), Collins, Kinesiska Muren (GFwC). Minnesskydd. Kassa kassaskåp! WhatsApp/iOS/DNG attack. Hotaktör säkrar dina server. Steam-malware.
+Lyssna mp3, längd: 01:16:09 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 blaufish.github.io: Self Referential Git Peter har gjort en git commit be31337 som i en länk refererar till sig själv på github. Antar du vår utmaning?]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #287 - Ostrukturerat V.34</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</link>
     <pubDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</pubDate>
@@ -98,17 +108,6 @@ Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida,
 Lyssnarbrev bakdörrar Peter D hörde av sig:
 En toppen pod gör ni verkligen, det är alltid kul att lyssna på er, strukturerat eller inte. Mycket igenkänning i avsnittet &ldquo;Tips till en 18-åring&rdquo; och även &ldquo;När säkerhet går för långt&rdquo;. [&hellip;]
 Det hände något intressant i USA nyligen, på tal om Chattcontrol och massövervakning ni nämnde i avsnitt 267.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #267 - Ostrukturerat V.41</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</link>
-    <pubDate>Mon, 07 Oct 2024 08:29:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:23 Innehåll Johan, Rickard och Peter träffas efter sommaren och snackar om vad som hänt inom IT-säkerhet!
-Linux buggen som lovade för mycket Före:
-CVSS: 9.9. Allt är sårbart. Alla servers. Alla klienter. Dommedagen är här. Huset brinner. Verkligheten:
-Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar och en bunt user-interaction. CVSS: 9.9 verkar vara rent nonsens. CVSS Attack Complexity (AC), User Interaction (UI), Scope (S) är diskutabla!]]></description>
 </item>
 </channel>
 </rss>

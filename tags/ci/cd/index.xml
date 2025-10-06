@@ -4,6 +4,16 @@
         <link>https://sakerhetspodcasten.se/tags/ci/cd/</link>
         <description>CI/CD - Tag - Säkerhetspodcasten</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://sakerhetspodcasten.se/tags/ci/cd/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #289 - Ostrukturerat V.41</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</link>
+    <pubDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</guid>
+    <description><![CDATA[SEC-T. Självrefererande Git. NPM: S1ngularity, och Shai-Hulud. Massa randomware och läckor: Miljödata, Jaguar LandRover (JLR), Collins, Kinesiska Muren (GFwC). Minnesskydd. Kassa kassaskåp! WhatsApp/iOS/DNG attack. Hotaktör säkrar dina server. Steam-malware.
+Lyssna mp3, längd: 01:16:09 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 blaufish.github.io: Self Referential Git Peter har gjort en git commit be31337 som i en länk refererar till sig själv på github. Antar du vår utmaning?]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #278 - Automatiseringens Akilleshäl</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</link>
     <pubDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</pubDate>
@@ -112,15 +122,6 @@ Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en
 Säkerhetspodcasten slog nytt världsrekord i Buzz Words, termer, produktnamn, referenser.
 &hellip;vad f-n hände egentligen? Jag tror dom andra gjorde full denial of service attack mot min förmåga att skriva show-notes!
 DevSecOps devsecops.org Stora drakar om DevSecOps Red Hat: DevSecOps VMWare: DevSecOps IBM: DevSecOps Dev Ops, Continous Delivery med mera Adlibris: The Phoenix Project; Gene Kim, Kevin Behr, George Spafford]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #248 - Sec-T 2023</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</link>
-    <pubDate>Mon, 16 Oct 2023 09:28:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_248_sec_t_2023/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:44:56 Innehåll I dagens avsnitt bjuder vi på intervjuer med talare från årets upplaga av Sec-T!
-0:00 Edwin van Andel 14:50 Igor Andriushchenko 34:38 Julia Zdunczyk 47:00 Rami McCarthy 1:03:00 STÖK 1:27:00 Vesa Virta Edwin van Andel: Mer än bara pentest Du behöver mer än enbart pentest Säkerhetstekniker har mer makt än de tror - svara ledning om vad som behövs. Sätt &ldquo;scope&rdquo; bra för tester, bug bounties Hollands myndigheter ger en t-shirt för säkerhetshål.]]></description>
 </item>
 </channel>
 </rss>
