@@ -3,7 +3,20 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Oct 2025 15:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #290 - Ostrukturerat V.42</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_290_ostrukturerat_v_42/</link>
+    <pubDate>Mon, 13 Oct 2025 15:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_290_ostrukturerat_v_42/</guid>
+    <description><![CDATA[VPN med e-identitet/BankID. RedHat, Discord läckor. DrayTek och CISCO hål. Audacity, Qualcomm, Arduino - off-topic!
+Lyssna mp3, längd: 52:28 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 Lyssnarfråga Ida: e-identitet.se BankID-tjänst stoppar VPN Ida undrar vad vi tycker om att e-identitet.se stoppar BankID användning via VPN.
+Länkar:
+Svensk e-identitet: Driftinformation Ida:
+Stötte på en sak häromveckan som jag började fundera lite på. Skickar med en skärmdump.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #289 - Ostrukturerat V.41</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</link>
     <pubDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</pubDate>
@@ -97,17 +110,6 @@ Jesper är frånvarande pga. att han är bad ass säkerhetspresentatör i Stockh
     <description><![CDATA[Lyssna mp3, längd: 39:50 Innehåll Rickard fick akut hoppa av inspelningen för att rädda universium från Operation Impending Doom I, och lämande Jesper, Johan, Mattias och Peter till att styra båten i land.
 Dagens ämnen:
 Brev till Jesper. Rebecka kommunicerar syntaxfel i SecurityFest&rsquo;s hemsida, via att be Jesper öppna ett brev &ldquo;live&rdquo; under inspelning. Mullvad slutar med OpenVPN Off-topic: Kryptoagilitet jämfört med stela kryptolådor Windows Sårbarhet (Remote Code Executution via URL-filer) DLink NAS command injection: execvp() vs system() i samma produkt&hellip; Massa onda Github Pull Requests Bring Your Own Vulnerable Driver City Skylines Traffic Trojan Mattias till DreamHack i helgen Extra shoutout till Low Level som stod för en helt stor andel av historierna Peter rapporterade på denna gången!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #269 - Ostrukturerat V.45</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</link>
-    <pubDate>Mon, 04 Nov 2024 09:43:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_269_ostrukturerat_v_45/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 50:22 Innehåll Hela panelen träffas äntligen igen! Jesper, Johan, Mattias, Peter, Rickard!
-Lyssnarbrev bakdörrar Peter D hörde av sig:
-En toppen pod gör ni verkligen, det är alltid kul att lyssna på er, strukturerat eller inte. Mycket igenkänning i avsnittet &ldquo;Tips till en 18-åring&rdquo; och även &ldquo;När säkerhet går för långt&rdquo;. [&hellip;]
-Det hände något intressant i USA nyligen, på tal om Chattcontrol och massövervakning ni nämnde i avsnitt 267.]]></description>
 </item>
 </channel>
 </rss>

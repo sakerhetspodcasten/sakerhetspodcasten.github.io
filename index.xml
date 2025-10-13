@@ -3,9 +3,22 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Oct 2025 15:32:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #290 - Ostrukturerat V.42</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_290_ostrukturerat_v_42/</link>
+    <pubDate>Mon, 13 Oct 2025 15:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_290_ostrukturerat_v_42/</guid>
+    <description><![CDATA[VPN med e-identitet/BankID. RedHat, Discord läckor. DrayTek och CISCO hål. Audacity, Qualcomm, Arduino - off-topic!
+Lyssna mp3, längd: 52:28 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 Lyssnarfråga Ida: e-identitet.se BankID-tjänst stoppar VPN Ida undrar vad vi tycker om att e-identitet.se stoppar BankID användning via VPN.
+Länkar:
+Svensk e-identitet: Driftinformation Ida:
+Stötte på en sak häromveckan som jag började fundera lite på. Skickar med en skärmdump.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #289 - Ostrukturerat V.41</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</link>
     <pubDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</pubDate>
@@ -105,17 +118,6 @@ Hur stadsoberoende styrs Internet när relationerna krånglar? DNS, DNSSEC och t
 Lyssna mp3, längd: 01:02:36 Plugs Vi promotar random kul vagt relaterat till säkerhet:
 Hack GBGay 2025, May 17th 2025, LGBTQ+ Security Fest - IT Security Conference, Gothenburg, Sweden BSides Ume 2025 (10-11 June 2025): Overview · Indico SEC-T Lyssnarbrev Fler Anekdoter Johan Wranker om Anekdoter:
 Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #280 - Privacy online</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_280_privacy_online/</link>
-    <pubDate>Mon, 14 Apr 2025 09:05:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_280_privacy_online/</guid>
-    <description><![CDATA[Privacy online - hot och möjligheter. Vad ska man tänka på för att hålla sig anonym? Går det att vara anonym online? Betalningar, säkra meddelanden, etc? Pitfalls i OPSEC. Vart är vi på väg i övervakningen? För och nackdelar med anonymitet.
-Lyssna mp3, längd: 01:06:51 Lyssnarbrev Fler Anekdoter 00:01:04 Johan Wranker om Anekdoter:
-Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
-Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter!]]></description>
 </item>
 </channel>
 </rss>
