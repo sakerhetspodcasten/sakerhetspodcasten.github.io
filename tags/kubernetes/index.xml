@@ -1,0 +1,124 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Kubernetes - Tag - Säkerhetspodcasten</title>
+        <link>https://sakerhetspodcasten.se/tags/kubernetes/</link>
+        <description>Kubernetes - Tag - Säkerhetspodcasten</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Oct 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/kubernetes/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #291 - Kubernetes Drivers</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_291_kubernetes_drivers/</link>
+    <pubDate>Mon, 27 Oct 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_291_kubernetes_drivers/</guid>
+    <description><![CDATA[Kubernetes och CSI/CNI/&hellip; driver-infrastrukturen, Priviligerade tjänster (DaemonSet) - vilka hål kan det finns det där? Hur illa kan det gå om det är dåligt konf&rsquo;at eller om ondingar kan pilla på konfigurationen?
+Varför kräver vissa typer av tjänster höjda privilegier?
+Lyssna mp3, längd: 01:07:56 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 Primer/intro Vad är CSI, CNI, CRI – och varför de är kritiska för klustret.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #285 - Ostrukturerat V.27</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</link>
+    <pubDate>Mon, 30 Jun 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_285_ostrukturerat_v_27/</guid>
+    <description><![CDATA[Operation Deep Sentinel, Påskägg, BankID, CrowdStrike, ASUS API, ASUS SSH, Azure
+Lyssna mp3, längd: 54:23 Archetyp 00:00:49 Europol Operation Deep Sentinel slår mot Archetyp, en handelsplats på &ldquo;darknet&rdquo;.
+Europol: Europe-wide takedown hits longest-standing dark web drug market – Administrator arrested in Spain; top vendors targeted in Sweden - Between 11 and 13 June, a series of coordinated actions took place across Germany, the Netherlands, Romania, Spain, Sweden, targeting the platform’s administrator, moderators, key vendors, and technical infrastructure.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #284 - Attack Paths</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</link>
+    <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</guid>
+    <description><![CDATA[Attack Paths och verktyg för att jobba med dem!
+Lyssna mp3, längd: 01:02:17 Attack Path Vad är &ldquo;Attack Path&rdquo;?
+Primärt:
+Resan från Initial Access (TTP) Till att hela företaget står och brinner, t.ex. Impact (TTP) eller Exfiltration (TTP). Sekundärt:
+Kanske även förberedelser, recon. Vad är fördelarna, tanken med att tänka i termer av Attack Paths?
+Attack Path verktyg, termer och metoder Verktyg/metodstöd.
+Kärt barn har många namn:
+Attack Exposure Scoring (AES) värdera risken kopplad till en Attack Path Attack Path Analysis (APA) Attack Path Management (APM) Attack Path Simulation (APS) Attack Path Visualization (APV) visa attack paths Olika fokus i APx verktyg:]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #279 - Ostrukturerat V.14</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_279_ostrukturerat_v_14/</link>
+    <pubDate>Mon, 31 Mar 2025 08:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_279_ostrukturerat_v_14/</guid>
+    <description><![CDATA[Signalgate, TJ Actions, Överförmyndarnämnden, Kryptokrig, Paragon, UTF-8, IngressNightmare, Next.js middleware, device bundna sessioner, Post Quantum Cryptograhy!
+Lyssna mp3, längd: 01:10:34 Lyssnarbrev Fler Anekdoter 00:00:43 Johan Wranker om Anekdoter:
+Anekdoter tyckte jag var skitskoj och jag skulle vilja höra fler!
+Vad sägs om att vi tillsammans crowdsårcar in lite anekdotter! Jag gissar att det finns fler som har har det på lager. så om ni skickar in ljudfiler med era historia; korta, långa - Jag har ingen aning!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #278 - Automatiseringens Akilleshäl</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</link>
+    <pubDate>Mon, 17 Mar 2025 06:33:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_278_automatiseringens_akilleshal/</guid>
+    <description><![CDATA[Hot mot pipelines, workflows, actions, continuous deployment.
+Lyssna mp3, längd: 01:22:43 Introduktion Automatiseringens fördelar vs. risker – hur Workflows och Actions blivit en attackvektor.
+Exempel på verkliga incidenter (t.ex. supply chain-attacker via CI/CD).
+Populära Workflows &amp; Actions GitHub Actions
+Hur det fungerar.
+Self-hosted vs. GitHub-hosted runners.
+Typiska säkerhetsbrister.
+GitLab CI/CD
+Shared vs. Private Runners.
+Pipeline permissions.
+ArgoCD &amp; Kubernetes CI/CD
+GitOps och hotbilden.
+Privilegierade tillgångar och Kubernetes RBAC.
+Andra populära system]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #276 - Nyår 2024</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</link>
+    <pubDate>Mon, 17 Feb 2025 06:44:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_276_nyar_2024/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:34:50 Innehåll Säkerhetspodcasten spanar 2025 och ser tillbaka på hur 2024 gick jämfört med våra spaningar!
+Gamla Spaningar Hur gick 2024 jämfört med våra spaningar?
+00:05:03 Rickard: Ransomware mot Svensk Samhällskritisk nytta. Någon (svensk) samhällskritisk nytta (el, vatten, ..) kommer drabbas av allvarligt ransomware. 00:15:40 Mattias: Mer Kaotiskt Ransomware! Mer kaotiskt ransomware när det blir svårare att tjäna pengar. Oseriösare kriminella när “professionalla” ransomware gäng blir mer och mer backend medan mer puckon står för attackerna.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #261 - CI/CD Security</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</link>
+    <pubDate>Mon, 13 May 2024 14:07:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_261_ci_cd_security/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:46 Plugs Konferenser Maj 30-31 2024: Security Fest Juni 4-5 2024: BSides Conference, Umeå September 10-13 2024: SEC-T 0x10sion Tillbakablickar Säkerhetspodcasten #250 - DevSecOps Säkerhetspodcasten #259 - XZ-bakdörren GitHub själv-hostad Runner litar blint på bidragare! John Stawinski med flera hackar GitHub, Microsoft, &hellip; via konstiga CI/CD fel i GitHub Self-Hosted Runners.
+Konstiga grejer som triggade oss: Contributator (bidragare) skall vara en kul grej, inte ett säkerhetshål!
+Dubbelkolla vilka regler som gäller för din Runner (joggare) om du satt upp en egen!]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #260 - Ostrukturerat V.17</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</link>
+    <pubDate>Mon, 22 Apr 2024 06:47:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_260_ostrukturerat_v_17/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 56:27 Innehåll Panelen diskuterar den senaste tidens säkerhetsnyheter.
+Plugs Shameless Self Plugs: Rickard Kunskapsfrukost 24-03-28, Vad är NIS2 och hur påverkar det din verksamhet? - Rikard Bodforss från Bodforss Consulting berättar om NIS 2-direktivet och hur det påverkar dig och din verksamhet. Vilka krav behöver du ställa på dina leverantörer? Hur långt kommer man med god informationssäkerhet? Villaägarnas Riksförbund Produktgranskning / Bordforss: Så kan bankbedrägerierna minska Jesper leker med k3s: Lightweight Kubernetes Konferenser BSides Umeå 2024 - Jun 4 – 5, 2024.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #258 - Opsec Fails</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</link>
+    <pubDate>Mon, 18 Mar 2024 15:53:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_258_opsec_fails/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 33:21 Innehåll I dagens avsnitt diskuterar vi det här med opsec, vad är det, och hur går det snett för angripare?
+Fails Tomer Bar: OopsSec - The bad, the worst and the ugly of APT’s operations security (SecurityFest2023) Dark Reading: Global Law Enforcement Disrupts LockBit Ransomware Gang - &ldquo;The vulnerability used to compromise LockBit is tracked as CVE-2023-3824, a flaw present in PHP version 8.0 before 8.0.30, 8.]]></description>
+</item>
+<item>
+    <title>Säkerhetspodcasten #256 - Nyår 2023</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</link>
+    <pubDate>Mon, 26 Feb 2024 14:22:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_256_nyar_2023/</guid>
+    <description><![CDATA[Lyssna mp3, längd: 01:15:02 Innehåll I dagens avsnitt går vi igenom spaningarna från förra årets nyårsavsnitt och hittar på nya inför 2024!
+Plugs 2024-05-30,31 Security Fest 2024-03-02 hack-gbggay - säkerhetsträff för queer Gamla spaningar 2023 Om du vill höra vårt gamla tugg, lyssna på: Säkerhetspodcasten #234 - Nyår 2022
+Men nu till dagens återblick!
+00:05:00 Mattias introducerar formatet. 00:06:52 Peter: förutspådde att zero-trust failure galore leder till jordens undergång. 00:14:52 Jesper: Säkerhet i dev-sec-ops, the year of säkerhetsmedvetenhet.]]></description>
+</item>
+</channel>
+</rss>

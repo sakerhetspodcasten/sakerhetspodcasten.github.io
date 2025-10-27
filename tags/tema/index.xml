@@ -3,7 +3,18 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 27 Oct 2025 13:32:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #291 - Kubernetes Drivers</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_291_kubernetes_drivers/</link>
+    <pubDate>Mon, 27 Oct 2025 13:32:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_291_kubernetes_drivers/</guid>
+    <description><![CDATA[Kubernetes och CSI/CNI/&hellip; driver-infrastrukturen, Priviligerade tjänster (DaemonSet) - vilka hål kan det finns det där? Hur illa kan det gå om det är dåligt konf&rsquo;at eller om ondingar kan pilla på konfigurationen?
+Varför kräver vissa typer av tjänster höjda privilegier?
+Lyssna mp3, längd: 01:07:56 Plugs Vi promotar random kul vagt relaterat till säkerhet:
+Security Fest: WWWInterpub Friday, November 7, 2025 Primer/intro Vad är CSI, CNI, CRI – och varför de är kritiska för klustret.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #288 - Era Anekdoter</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</link>
     <pubDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</pubDate>
@@ -113,18 +124,6 @@ Hårdvaru-nära: Mattias spekulerar om nya Apple M silikon spekulativa hål SLAP
 (En ung Love kan höras i Säkerhetspodcasten avs.68 - Motsägelsefulla Best Practices med Love Björk. 2016-09-07 var verkligen inte igår, drygt 8 år sen!)
 Loves fyra frågor Love&rsquo;s fyra frågor:
 Problemet med samhälls single point of failure. Framtiden för lösenord. SBOM, hur hanterar man det här på ett bra sätt? Mental hälsa! Problemet med samhälls single point of failure Här tänker jag tex på bankID och att alla snart sitter i Microsoft365.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #272 - Betydelsefulla sårbarheter</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</link>
-    <pubDate>Mon, 02 Dec 2024 10:56:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_272_betydelsefulla_sarbarheter/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 46:35 Panelen Jesper, Johan, Mattias och Peter träffas och pratar om betydelsefulla sårbarheter.
-Rickard är no show då han är på hemligt uppdrag och räddar världen från en katastrof. Om du ens kan höra detta avsnitt så har Rickard lyckats rädda världen.
-Betydelsefulla sårbarheter Ämne: Sårbarheter som har faktiskt påverkan
-Panelen diskuterar bland annat:
-Log4shell Återblick till Säkerhetspodcasten #215 - Log4Shell. Förkrav för att exploita är en del - indata till log, och möjlighet till egress för JNDI.]]></description>
 </item>
 </channel>
 </rss>
