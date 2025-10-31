@@ -11,7 +11,10 @@
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-103-lucas-lundgren/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll I dagens avsnitt av Säkerhetspodcasten intervjuar vi Lucas Lundgren efter hans talk på Sec-T 2017. Vi pratar om hur man äger andras hårddiskar på internet genom ISCSI.
-Inspelat: 2017-09-29. Längd: 00:16:27.]]></description>
+Inspelat: 2017-09-29. Längd: 00:16:27.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:07,480 Välkomna till den här intervjus-säsongen som är tillgänglig av Säkerhetspodcasten och Säkti.
+2 00:00:08,100 --&gt; 00:00:21,800 Vi intervjuar några av språkarna och nu har vi Lucas Lundgren här som har tillgång till en annan stor problem från internet.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten avs.66 - Extrasode om MQTT med Lucas Lundgren</title>
@@ -21,7 +24,8 @@ Inspelat: 2017-09-29. Längd: 00:16:27.]]></description>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-66-extrasode-om-mqtt-med-lucas-lundgren/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll Detta avsnitt spelades in under Sec-T 2016 och är en intervju med Lucas Lundgren som pratar om IOT-protokollet MQTT. Han har i sin research upptäckt att MQTT ofta exponeras mot internet utan någon som helst säkerhet, vilket ledde till att han kan göra allt från att öppna fängelsedörrar, skapa &ldquo;jordbävningar&rdquo; eller stjäla pengar. Mycket nöje.
-Inspelat: 2016-09-08. Längd: 00:22:36.]]></description>
+Inspelat: 2016-09-08. Längd: 00:22:36.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.]]></description>
 </item>
 </channel>
 </rss>

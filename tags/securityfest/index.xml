@@ -22,7 +22,7 @@ blaufish.github.io: Capturing and streaming conferences - audio, video and more 
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_243_securityfest_2023/</guid>
     <description><![CDATA[Lyssna mp3, längd: 48:27 Innehåll I dagens avsnitt går vi igenom årets SecurityFest.
-How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen https://oauth.net/2.1/ https://openid.net/wg/fapi/ Best Current Practice&rsquo;s vi ordar om i poddens: IETF Draft: OAuth 2.0 for Browser-Based Apps IETF Draft: OAuth 2.0 Security Best Current Practice Keynote: Red Notice - Pros And Cons - Alethe Denis Keynote: Red Notice - Pros And Cons - Alethe Denis The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal OopsSec - The bad, the worst and the ugly of APT’s operations security - Tomer Bar OopsSec - The bad, the worst and the ugly of APT’s operations security- Tomer Bar SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro When the Red Team Goes Passwordless - Hasain Alshakarti When the Red Team Goes Passwordless - Hasain Alshakarti Lightning talk: Badge challenge - Abhinav Pandagale Lightning talk: Badge challenge - Abhinav Pandagale Architecting for security: the old ways - Dan Tentler Architecting for security: the old ways - Dan Tentler How to: Hack the company, before someone else does it for you - STÖK How to: Hack the company, before someone else does it for you - STÖK Tales from the %TEMP% - Jonas Vestberg Tales from the %TEMP% - Jonas Vestberg Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair ]]></description>
+How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen https://oauth.net/2.1/ https://openid.net/wg/fapi/ Best Current Practice&rsquo;s vi ordar om i poddens: IETF Draft: OAuth 2.0 for Browser-Based Apps IETF Draft: OAuth 2.0 Security Best Current Practice Keynote: Red Notice - Pros And Cons - Alethe Denis Keynote: Red Notice - Pros And Cons - Alethe Denis The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae The C2 tool no one talks about: AWS SSM - Run Command - Eduard Agavriloae Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal Bypassing Anti-Cheats &amp; Hacking Competitive Games - Rohan Aggarwal OopsSec - The bad, the worst and the ugly of APT’s operations security - Tomer Bar OopsSec - The bad, the worst and the ugly of APT’s operations security- Tomer Bar SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro SQLi to Root Access: Exploiting a ISP infrastructure - Ignacio Navarro When the Red Team Goes Passwordless - Hasain Alshakarti When the Red Team Goes Passwordless - Hasain Alshakarti Lightning talk: Badge challenge - Abhinav Pandagale Lightning talk: Badge challenge - Abhinav Pandagale Architecting for security: the old ways - Dan Tentler Architecting for security: the old ways - Dan Tentler How to: Hack the company, before someone else does it for you - STÖK How to: Hack the company, before someone else does it for you - STÖK Tales from the %TEMP% - Jonas Vestberg Tales from the %TEMP% - Jonas Vestberg Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Beyond On-Premises: Exploring the Post-Domain Admin Landscape in the Cloud - Natarajan, Kumar Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair Aikido: Turning EDRs to malicious wipers using 0-day exploits - Or Yair AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #225 - Ostrukturerat V.25</title>
@@ -30,7 +30,11 @@ How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How
     <pubDate>Mon, 20 Jun 2022 11:08:14 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_225_ostrukturerat_v_25/</guid>
-    <description><![CDATA[Lyssna mp3, längd: 01:20:06 Innehåll I dagens avsnitt gör vi en recap på årets SecurityFest, diskuterar HertzBleed och GhostTouch, och lite annat smått och gott.]]></description>
+    <description><![CDATA[Lyssna mp3, längd: 01:20:06 Innehåll I dagens avsnitt gör vi en recap på årets SecurityFest, diskuterar HertzBleed och GhostTouch, och lite annat smått och gott.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:03,120 Hej och välkommen till Säkerhetspodcasten.
+2 00:00:03,200 --&gt; 00:00:06,200 Jag som pratar heter Johan Ryberg, men heller med mig har jag Rickard Bortfors.
+3 00:00:06,360 --&gt; 00:00:07,380 Med snus under läppen.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten avs.130 – Security Fest CTF!</title>
@@ -40,7 +44,9 @@ How to f*ck up at OAuth2 while following BCPs -Tobias Ahnoff, Pontus Hanssen How
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-130-security-fest-ctf/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll Dagens avsnitt spelades in av Robin von Post under Security Fest 2018 och är en samling intervjuer på ämnet CTF!
-Inspelat: 2018-06-01. Längd: 00:14:03.]]></description>
+Inspelat: 2018-06-01. Längd: 00:14:03.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:24,940 Hej, Pet från podcasten här. Vi har fullt upp och förberedda inför Securityfest och filmar den och så, men vi hade en sån himla tur att när Securityfest gick av stapeln så var Robin von Host där och Johan bad honom hjälpa till och ta lite intervjuer med lite olika personer som jobbade i CTFN, vår Capture the Flag-tävling.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten avs.94 - Dave Lewis, Steve Lord, Aaron Guzman</title>
@@ -50,7 +56,9 @@ Inspelat: 2018-06-01. Längd: 00:14:03.]]></description>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-94-dave-lewis-steve-lord-aaron-guzman/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll Detta är ett intervjuavsnitt inspelat under SecurityFest 2017. Avsnittet innehåller tre intervjuer med Dave Lewis, Steve Lord och Aaron Guzman, tre av talarna under konferensen. Timestamps för intervjuer: 0:00 Dave Lewis, 8:20 Steve Lord, 22:45 Aaron Guzman.
-Inspelat: 2017-06-01. Längd: 00:41:00.]]></description>
+Inspelat: 2017-06-01. Längd: 00:41:00.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:09,000 Hej och välkommen till Säkerhetspodcasten som idag spelar in från Securityfest på Eriksbergshallen i Göteborg.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten avs.81 - Hur arrangerar man en konferens?</title>
@@ -60,7 +68,9 @@ Inspelat: 2017-06-01. Längd: 00:41:00.]]></description>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-81-hur-arrangerar-man-en-konferens/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll I dagens avsnitt delar panelen med sig av sina erfarenheter om hur man arrangerar säkerhetsevents. Matnyttiga tips om allt från hur man hittar lokaler till talare, sponsorer och deltagare. Vi utmanar våra lyssnare att själva starta något i sin community, och vi hjälper självklart gärna till!
-Inspelat: 2016-12-09. Längd: 00:58:00.]]></description>
+Inspelat: 2016-12-09. Längd: 00:58:00.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,260 --&gt; 00:00:03,580 Hej och välkommen till Säkerhetspodcasten.]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten avs.59 - Mark Hillick</title>
@@ -70,7 +80,9 @@ Inspelat: 2016-12-09. Längd: 00:58:00.]]></description>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten-avs-59-mark-hillick/</guid>
     <description><![CDATA[Lyssna mp3
 Innehåll Inspelat på Security Fest 2016, Mattias intervjuar Mark Hillick från Riot Games om hans talk om att bygga en feedback-kultur för att höja säkerhetsnivån i ett bolag.
-Inspelat: 2016-06-02. Längd: 00:24:39.]]></description>
+Inspelat: 2016-06-02. Längd: 00:24:39.
+AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:21,760 Så, jag är på Securitifest, förstås, och jag gick in på Mark Hillick från Riot Games, som är här och presenterar, och vad har du faktiskt tagit upp på ditt tal idag?]]></description>
 </item>
 </channel>
 </rss>

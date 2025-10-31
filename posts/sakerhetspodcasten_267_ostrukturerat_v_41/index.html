@@ -22,7 +22,7 @@ Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar
 <meta name="application-name" content="Säkerhetspodcasten">
 <meta name="apple-mobile-web-app-title" content="Säkerhetspodcasten"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/" /><link rel="next" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_268_artificiell_intelligens/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://sakerhetspodcasten.se/posts/sakerhetspodcasten_267_ostrukturerat_v_41/" /><link rel="prev" href="https://sakerhetspodcasten.se/posts/s_xe4_kerhetspodcasten_267_ostrukturerat_v_41/" /><link rel="next" href="https://sakerhetspodcasten.se/posts/s_xe4_kerhetspodcasten_268_artificiell_intelligens/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -33,7 +33,7 @@ Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_267_ostrukturerat_v_41\/"
-        },"genre": "posts","keywords": "ostrukturerat, fido, CVSS, Common Vulnerability Scoring System","wordcount":  843 ,
+        },"genre": "posts","keywords": "ostrukturerat, fido, CVSS, Common Vulnerability Scoring System","wordcount":  16724 ,
         "url": "https:\/\/sakerhetspodcasten.se\/posts\/sakerhetspodcasten_267_ostrukturerat_v_41\/","datePublished": "2024-10-07T08:29:00+00:00","dateModified": "2024-10-07T08:29:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -75,8 +75,8 @@ Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Säkerhetspodcasten #267 - Ostrukturerat V.41</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-10-07">2024-10-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;843 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-10-07">2024-10-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;16724 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;79 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -94,6 +94,7 @@ Vi fick bara någon tråkiga printer-buggar som kräver specifika inställningar
     <li><a href="#firmware-mediatech-wifi-chipset-sårbarhet">Firmware: mediatech wifi chipset sårbarhet</a></li>
     <li><a href="#rust-i-android">Rust i Android</a></li>
     <li><a href="#chat-control">Chat Control</a></li>
+    <li><a href="#ai-transkribering">AI transkribering</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><h2 id="lyssna">Lyssna</h2>
@@ -231,6 +232,4398 @@ utan deras stöd kan det bli svårt för Ungern att få igenom förslaget.</p>
 <p>EU-parlamentet har röstat emot det ursprungliga förslaget medan
 ministerråd inte har antagit en officiell hållning.</p>
 </blockquote>
+<h2 id="ai-transkribering">AI transkribering</h2>
+<p><em>AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.</em></p>
+<p><code>1 00:00:00,000 --&gt; 00:00:10,420</code>
+Hej och välkomna till Säkerhetspodcasten. Jag som pratar heter Johan Rybärmöller med mig har jag Rickard Botfors och Peter Magnusson som är en ArcWeb-läsare nära dig.</p>
+<p><code>2 00:00:10,420 --&gt; 00:00:15,800</code>
+Precis, som ni märker är vi två man kort, en i Grekland och en i sjuk. Ni får själva gissa vilka.</p>
+<p><code>3 00:00:16,160 --&gt; 00:00:28,120</code>
+Det är den 3 oktober 2024 när vi spelar in detta och jag ska nämna att vi är sponsrade av Ashort som finns på ashort.se samt av Botfors Consulting som finns på botfors.se</p>
+<p><code>4 00:00:28,120 --&gt; 00:00:32,720</code>
+och av 0x4a som ni hittar på 0x4a.se när ni inte är i Grekland.</p>
+<p><code>5 00:00:32,720 --&gt; 00:00:35,860</code>
+Exakt. Har vi några plugs förresten?</p>
+<p><code>6 00:00:38,800 --&gt; 00:00:45,560</code>
+Jag kan nämna att CFP för Security Fest 2025 är ute, eller öppen kanske man säger.</p>
+<p><code>7 00:00:46,080 --&gt; 00:00:49,720</code>
+Är det inte någon OWASP-event hos stegarna? Jag har dålig koll på det.</p>
+<p><code>8 00:00:50,860 --&gt; 00:00:53,740</code>
+OWASP-eventen är fan fulla.</p>
+<p><code>9 00:00:54,140 --&gt; 00:00:55,020</code>
+Innan de släpps.</p>
+<p><code>10 00:00:55,020 --&gt; 00:00:58,100</code>
+Ja, men typ sex timmar.</p>
+<p><code>11 00:00:58,120 --&gt; 00:01:00,160</code>
+Efter att de har släppt någonting så är det ju fullt.</p>
+<p><code>12 00:01:00,880 --&gt; 00:01:13,520</code>
+Så att om vi går ut med någonting, OWASP gör någonting. Det var fullt ungefär 50 timmar innan ni fick möjlighet att lyssna på det här avsnittet.</p>
+<p><code>13 00:01:13,720 --&gt; 00:01:16,440</code>
+Signa upp på deras mejllista då helt enkelt kan vi tipsa om.</p>
+<p><code>14 00:01:16,520 --&gt; 00:01:16,940</code>
+Det kan man göra.</p>
+<p><code>15 00:01:16,940 --&gt; 00:01:20,260</code>
+Ja, och så kan du ju köpa en tidsmaskin så har du någon chans att gå.</p>
+<p><code>16 00:01:20,260 --&gt; 00:01:21,620</code>
+För framtiden i världen ska det vara.</p>
+<p><code>17 00:01:21,620 --&gt; 00:01:27,320</code>
+Ja, precis. 60 har ju varit. Jag kunde tyvärr inte delta för jag var i Paris.</p>
+<p><code>18 00:01:27,560 --&gt; 00:01:27,940</code>
+Nej, det var inte det.</p>
+<p><code>19 00:01:28,120 --&gt; 00:01:28,580</code>
+Jag var i Bordeaux.</p>
+<p><code>20 00:01:28,620 --&gt; 00:01:30,920</code>
+Skaffa en autoklickare till din mejl.</p>
+<p><code>21 00:01:31,260 --&gt; 00:01:32,600</code>
+Ja, mycket bra idé.</p>
+<p><code>22 00:01:32,920 --&gt; 00:01:34,800</code>
+Få skicka sig en massa phishing-mejl.</p>
+<p><code>23 00:01:36,060 --&gt; 00:01:38,640</code>
+Nåväl, det var ju inte det vi skulle prata om.</p>
+<p><code>24 00:01:39,140 --&gt; 00:01:40,020</code>
+Vi ska prata om lite nyheter.</p>
+<p><code>25 00:01:40,980 --&gt; 00:01:41,780</code>
+Det ska vi.</p>
+<p><code>26 00:01:41,960 --&gt; 00:01:43,380</code>
+Det är ett ostrukturellt avsnitt.</p>
+<p><code>27 00:01:43,500 --&gt; 00:01:47,100</code>
+Ja, och vi ber om ursäkt för att vi har varit dåliga på att spela in.</p>
+<p><code>28 00:01:47,280 --&gt; 00:01:49,380</code>
+Ja, det var i sommar och sånt där.</p>
+<p><code>29 00:01:49,960 --&gt; 00:01:52,300</code>
+Och vi har alla varit ute och rest och varit sjuka.</p>
+<p><code>30 00:01:52,740 --&gt; 00:01:53,140</code>
+Ja.</p>
+<p><code>31 00:01:53,420 --&gt; 00:01:54,720</code>
+Och varit sjuka på resor och sånt.</p>
+<p><code>32 00:01:54,720 --&gt; 00:01:57,840</code>
+Och i september brukar vi ju vara och spela in en massa.</p>
+<p><code>33 00:01:57,840 --&gt; 00:01:59,040</code>
+Kontent på sektiga.</p>
+<p><code>34 00:01:59,120 --&gt; 00:02:00,180</code>
+Men ingen av oss var där.</p>
+<p><code>35 00:02:00,400 --&gt; 00:02:01,680</code>
+Nej, det är faktiskt dåligt av oss.</p>
+<p><code>36 00:02:01,700 --&gt; 00:02:02,140</code>
+Ja, det är dåligt.</p>
+<p><code>37 00:02:02,740 --&gt; 00:02:03,700</code>
+Jag har inte varit här på flera år nu.</p>
+<p><code>38 00:02:03,800 --&gt; 00:02:04,860</code>
+Jag måste rätta mig.</p>
+<p><code>39 00:02:05,040 --&gt; 00:02:05,420</code>
+Skärpa mig.</p>
+<p><code>40 00:02:06,520 --&gt; 00:02:10,260</code>
+Men med en sånt livet ibland.</p>
+<p><code>41 00:02:10,680 --&gt; 00:02:11,460</code>
+Då får man bara dela det med.</p>
+<p><code>42 00:02:11,520 --&gt; 00:02:13,300</code>
+Men nu är vi inne här på höstterminen i alla fall.</p>
+<p><code>43 00:02:13,400 --&gt; 00:02:14,920</code>
+Så nu ska vi försöka vara lite bättre med släppen.</p>
+<p><code>44 00:02:15,440 --&gt; 00:02:15,760</code>
+Precis.</p>
+<p><code>45 00:02:16,760 --&gt; 00:02:20,040</code>
+Så ni får förvänta er mer kontent framledes.</p>
+<p><code>46 00:02:21,380 --&gt; 00:02:24,640</code>
+Nåväl, ska vi prata lite printers eller?</p>
+<p><code>47 00:02:24,640 --&gt; 00:02:27,640</code>
+Ja, jag tänker det är väl den största nyheten.</p>
+<p><code>48 00:02:28,180 --&gt; 00:02:29,320</code>
+Som har kommit de senaste veckorna.</p>
+<p><code>49 00:02:29,340 --&gt; 00:02:31,960</code>
+Om det ens handlade om en printer.</p>
+<p><code>50 00:02:32,780 --&gt; 00:02:33,000</code>
+Alltså.</p>
+<p><code>51 00:02:34,780 --&gt; 00:02:36,860</code>
+Det har ju varit lite panikastningar.</p>
+<p><code>52 00:02:37,120 --&gt; 00:02:39,000</code>
+Han hade ju gått ut innan.</p>
+<p><code>53 00:02:39,320 --&gt; 00:02:41,640</code>
+Och sagt att han hade en.</p>
+<p><code>54 00:02:42,700 --&gt; 00:02:45,940</code>
+CVSS 9,9 sårbarhet.</p>
+<p><code>55 00:02:47,420 --&gt; 00:02:48,980</code>
+Jag tänkte ju lite trött.</p>
+<p><code>56 00:02:49,240 --&gt; 00:02:50,120</code>
+När jag såg det att.</p>
+<p><code>57 00:02:51,100 --&gt; 00:02:53,440</code>
+Ja, om du har någon jävla sårbarhet.</p>
+<p><code>58 00:02:53,440 --&gt; 00:02:55,880</code>
+I Linux-nätverkstack.</p>
+<p><code>59 00:02:56,020 --&gt; 00:02:56,160</code>
+Så.</p>
+<p><code>60 00:02:56,160 --&gt; 00:03:00,600</code>
+Och publicerar den istället för att störa mig.</p>
+<p><code>61 00:03:00,600 --&gt; 00:03:05,180</code>
+Jag var så fullt upp med alla säkerhetshål som publicerade.</p>
+<p><code>62 00:03:05,400 --&gt; 00:03:09,480</code>
+Jag hade så svårt att förstå varför jag skulle.</p>
+<p><code>63 00:03:11,900 --&gt; 00:03:12,360</code>
+Eller så här.</p>
+<p><code>64 00:03:13,460 --&gt; 00:03:15,600</code>
+Det här nyheter om att det kommer komma en nyhet.</p>
+<p><code>65 00:03:16,340 --&gt; 00:03:16,980</code>
+Ja, precis.</p>
+<p><code>66 00:03:17,340 --&gt; 00:03:18,380</code>
+Så det är ju fast hela tiden.</p>
+<p><code>67 00:03:18,420 --&gt; 00:03:20,940</code>
+Ja, jag vet en jättefarlig sårbarhet.</p>
+<p><code>68 00:03:21,040 --&gt; 00:03:22,260</code>
+Men jag får inte berätta om den.</p>
+<p><code>69 00:03:22,640 --&gt; 00:03:23,860</code>
+Kolla på mig, jag är viktig.</p>
+<p><code>70 00:03:23,860 --&gt; 00:03:24,180</code>
+Ja.</p>
+<p><code>71 00:03:24,980 --&gt; 00:03:26,140</code>
+Sen var ju förväntningen.</p>
+<p><code>72 00:03:26,140 --&gt; 00:03:27,600</code>
+Förväntningarna var ju skruvade till 11.</p>
+<p><code>73 00:03:27,760 --&gt; 00:03:29,980</code>
+Eftersom att det skulle vara CVSS 9,9.</p>
+<p><code>74 00:03:30,180 --&gt; 00:03:30,300</code>
+Ja.</p>
+<p><code>75 00:03:32,320 --&gt; 00:03:32,840</code>
+Nu.</p>
+<p><code>76 00:03:34,160 --&gt; 00:03:35,420</code>
+Nu har inte jag.</p>
+<p><code>77 00:03:36,060 --&gt; 00:03:38,280</code>
+100% koll.</p>
+<p><code>78 00:03:38,720 --&gt; 00:03:38,820</code>
+Men.</p>
+<p><code>79 00:03:39,140 --&gt; 00:03:40,160</code>
+Det har aldrig stoppat oss för.</p>
+<p><code>80 00:03:40,720 --&gt; 00:03:42,860</code>
+Nej, men som jag har fattat.</p>
+<p><code>81 00:03:43,020 --&gt; 00:03:45,320</code>
+På många.</p>
+<p><code>82 00:03:46,220 --&gt; 00:03:47,840</code>
+Många varianter av det här.</p>
+<p><code>83 00:03:49,420 --&gt; 00:03:50,920</code>
+Så kräver den väl.</p>
+<p><code>84 00:03:51,100 --&gt; 00:03:52,120</code>
+Alltså det krävs att du.</p>
+<p><code>85 00:03:52,120 --&gt; 00:03:53,800</code>
+Går in och söker efter skrivar.</p>
+<p><code>86 00:03:53,900 --&gt; 00:03:55,960</code>
+Och klickar på en skrivar i en massa OS.</p>
+<p><code>87 00:03:55,960 --&gt; 00:03:57,220</code>
+Om vi går tillbaka lite.</p>
+<p><code>88 00:03:57,220 --&gt; 00:03:58,720</code>
+Det är för det första det vi pratar om.</p>
+<p><code>89 00:03:58,720 --&gt; 00:03:59,960</code>
+Common Unix Printing System.</p>
+<p><code>90 00:03:59,960 --&gt; 00:04:00,460</code>
+Precis.</p>
+<p><code>91 00:04:00,460 --&gt; 00:04:00,960</code>
+CAPS.</p>
+<p><code>92 00:04:01,340 --&gt; 00:04:04,140</code>
+Som finns i en massa olika operativsystem.</p>
+<p><code>93 00:04:04,140 --&gt; 00:04:04,640</code>
+Ja.</p>
+<p><code>94 00:04:05,580 --&gt; 00:04:06,780</code>
+Det är det vi pratar om alltså.</p>
+<p><code>95 00:04:07,040 --&gt; 00:04:08,460</code>
+Jag tänkte jag kan jag kan dra.</p>
+<p><code>96 00:04:08,460 --&gt; 00:04:11,720</code>
+Vad är vad är det pre-reqs för att liksom få.</p>
+<p><code>97 00:04:11,980 --&gt; 00:04:14,180</code>
+De är inte en sårbarheten utan fyra.</p>
+<p><code>98 00:04:14,180 --&gt; 00:04:14,680</code>
+Nej, precis.</p>
+<p><code>99 00:04:14,680 --&gt; 00:04:25,940</code>
+Men men för att du ska kunna exploatera de här så krävs det då att CAPS Browse D servicen måste vara manuellt enablad och ställs.</p>
+<p><code>100 00:04:25,960 --&gt; 00:04:26,580</code>
+Startad.</p>
+<p><code>101 00:04:26,580 --&gt; 00:04:37,340</code>
+Ja, det vill säga den som annonserar skrivare i nätverket att attackeraren måste kunna få access till det sårbara systemet.</p>
+<p><code>102 00:04:37,340 --&gt; 00:04:47,920</code>
+Antingen genom liksom Restricted publik access till internet och vem vem släpper ut en skrivare på internet.</p>
+<p><code>103 00:04:47,920 --&gt; 00:04:49,880</code>
+Sjuttiofemtusen fler än vad du vill.</p>
+<p><code>104 00:04:49,880 --&gt; 00:04:55,340</code>
+Men okej, okej, okej, eller att man har access till det interna nätverket.</p>
+<p><code>105 00:04:55,340 --&gt; 00:04:55,840</code>
+Ja, den.</p>
+<p><code>106 00:04:55,840 --&gt; 00:05:25,220</code>
+Den lokala connectionen är man lita på den då attackeraren annonserar en en malicious IPP server och skapar en fejk skrivare en användare på den liksom offer maskinen skickar ett print jobb till den här onda skrivaren och attackeraren använder den här möjligheten då till att exekvera arbetare i kod.</p>
+<p><code>107 00:05:25,220 --&gt; 00:05:25,720</code>
+På.</p>
+<p><code>108 00:05:25,720 --&gt; 00:05:26,200</code>
+Sjuttiofemtusen fler än vad du vill.</p>
+<p><code>109 00:05:26,200 --&gt; 00:05:27,120</code>
+Sjuttiofemtusen fler än vad du vill.</p>
+<p><code>110 00:05:27,120 --&gt; 00:05:27,160</code>
+Sjuttiofemtusen fler än vad du vill.</p>
+<p><code>111 00:05:27,160 --&gt; 00:05:28,040</code>
+Offrets maskin.</p>
+<p><code>112 00:05:28,040 --&gt; 00:05:31,480</code>
+Men vad är det alltså om offeret måste skicka ett print till jobb.</p>
+<p><code>113 00:05:31,480 --&gt; 00:05:31,980</code>
+Ja.</p>
+<p><code>114 00:05:31,980 --&gt; 00:05:32,460</code>
+Sjuttiofemtusen fler än vad du vill.</p>
+<p><code>115 00:05:32,460 --&gt; 00:05:33,480</code>
+Till en malicious printer.</p>
+<p><code>116 00:05:33,480 --&gt; 00:05:35,480</code>
+Så det kräver user interaction då på något sätt.</p>
+<p><code>117 00:05:35,480 --&gt; 00:05:35,980</code>
+Ja.</p>
+<p><code>118 00:05:35,980 --&gt; 00:05:36,720</code>
+Mm.</p>
+<p><code>119 00:05:36,720 --&gt; 00:05:37,760</code>
+Så då undrar jag hur.</p>
+<p><code>120 00:05:37,760 --&gt; 00:05:38,260</code>
+För att du är 9,9 då.</p>
+<p><code>121 00:05:38,260 --&gt; 00:05:39,520</code>
+Exakt vad jag tänker.</p>
+<p><code>122 00:05:39,520 --&gt; 00:05:42,360</code>
+9,9 borde vara fullständigt.</p>
+<p><code>123 00:05:42,360 --&gt; 00:05:43,500</code>
+Eh.</p>
+<p><code>124 00:05:43,500 --&gt; 00:05:45,840</code>
+No user access.</p>
+<p><code>125 00:05:45,840 --&gt; 00:05:49,080</code>
+Ja fast 10,0 så finns ju inga begränsningar.</p>
+<p><code>126 00:05:49,080 --&gt; 00:05:53,980</code>
+Han hade väl en screenshot nu minns jag inte vad det stod i den eh såhär.</p>
+<p><code>127 00:05:53,980 --&gt; 00:05:55,980</code>
+Jag skrev det till den här CVSS rankningen.</p>
+<p><code>128 00:05:55,980 --&gt; 00:05:59,980</code>
+Ja jag också för jag menar jag fick 9,8 på min det tyckte jag var högt som fan.</p>
+<p><code>129 00:05:59,980 --&gt; 00:06:00,480</code>
+Ja.</p>
+<p><code>130 00:06:00,480 --&gt; 00:06:07,900</code>
+Eh och då tyckte jag men jag behövde bara fråga efter lösenordet och så får jag det och sen så är jag gud i nätet.</p>
+<p><code>131 00:06:07,900 --&gt; 00:06:08,400</code>
+Ja.</p>
+<p><code>132 00:06:08,400 --&gt; 00:06:12,080</code>
+Eh det tyckte jag var rätt illa eh ja.</p>
+<p><code>133 00:06:12,080 --&gt; 00:06:13,320</code>
+Mm.</p>
+<p><code>134 00:06:13,320 --&gt; 00:06:18,960</code>
+Men då är vi tillbaks till det här att göra CVSS scoring är svårt.</p>
+<p><code>135 00:06:18,960 --&gt; 00:06:19,040</code>
+Ja.</p>
+<p><code>136 00:06:19,040 --&gt; 00:06:19,800</code>
+Så är det.</p>
+<p><code>137 00:06:19,800 --&gt; 00:06:21,540</code>
+Ja det har vi ett helt avsnitt om.</p>
+<p><code>138 00:06:21,540 --&gt; 00:06:31,360</code>
+Och det är ju också ett fall av skårar du helheten som en grej eller skårar du varje enskild.</p>
+<p><code>139 00:06:31,360 --&gt; 00:06:33,420</code>
+Det är fyra separata CVER va?</p>
+<p><code>140 00:06:34,040 --&gt; 00:06:34,240</code>
+Ja.</p>
+<p><code>141 00:06:34,480 --&gt; 00:06:35,920</code>
+Ja något sånt ja.</p>
+<p><code>142 00:06:36,400 --&gt; 00:06:40,540</code>
+Så ja precis har de gjort då en CVSS scoring på hela attackkedjan.</p>
+<p><code>143 00:06:41,360 --&gt; 00:06:41,840</code>
+I guess.</p>
+<p><code>144 00:06:42,620 --&gt; 00:06:42,720</code>
+Då.</p>
+<p><code>145 00:06:43,800 --&gt; 00:06:47,560</code>
+Om stjärnorna står i rätt vinkel så kanske man kan.</p>
+<p><code>146 00:06:47,560 --&gt; 00:06:48,200</code>
+Ja det är klart.</p>
+<p><code>147 00:06:48,200 --&gt; 00:06:49,860</code>
+Det är inte det är ingen bra grej det här men.</p>
+<p><code>148 00:06:49,860 --&gt; 00:07:01,960</code>
+Vi pratade i CVSS avsnittet just om det faktum att eh libraries är vi dåliga på att skåra och eh klientinitierade eh sårbarheter är vi dåliga på att skåra.</p>
+<p><code>149 00:07:01,960 --&gt; 00:07:02,460</code>
+Mm.</p>
+<p><code>150 00:07:02,460 --&gt; 00:07:02,960</code>
+Ja.</p>
+<p><code>151 00:07:02,960 --&gt; 00:07:12,260</code>
+Och också ehm så tenderar man ju att ratea upp sin egen sårbarhet för man tycker det är det coolaste sen som har hänt sen eh Jesus liksom.</p>
+<p><code>152 00:07:12,260 --&gt; 00:07:17,320</code>
+Ja men i det här fallet var det väl eh det var väl något wins forum som stod för den sårbarheten.</p>
+<p><code>153 00:07:17,320 --&gt; 00:07:17,820</code>
+Ja men i det här fallet var det väl eh det var väl något wins forum som stod för den sårbarheten.</p>
+<p><code>154 00:07:17,820 --&gt; 00:07:18,580</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>155 00:07:18,580 --&gt; 00:07:18,940</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>156 00:07:18,940 --&gt; 00:07:19,360</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>157 00:07:19,360 --&gt; 00:07:19,860</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>158 00:07:19,860 --&gt; 00:07:21,020</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>159 00:07:21,020 --&gt; 00:07:21,520</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>160 00:07:21,520 --&gt; 00:07:22,020</code>
+För den scoringen som var 9,9 så det var ju inte Researchen själv som hade sagt det.</p>
+<p><code>161 00:07:22,020 --&gt; 00:07:22,360</code>
+Ok.</p>
+<p><code>162 00:07:22,360 --&gt; 00:07:22,700</code>
+Ok.</p>
+<p><code>163 00:07:22,700 --&gt; 00:07:23,200</code>
+Fair enough.</p>
+<p><code>164 00:07:23,200 --&gt; 00:07:24,300</code>
+Men jag såg ju att det var ju ett jävla massa chatter på Twitter.</p>
+<p><code>165 00:07:24,300 --&gt; 00:07:25,260</code>
+Men jag såg ju att det var ju ett jävla massa chatter på Twitter.</p>
+<p><code>166 00:07:25,260 --&gt; 00:07:27,240</code>
+En massa chatter på twitter</p>
+<p><code>167 00:07:27,240 --&gt; 00:07:31,060</code>
+Precis innan det är väl</p>
+<p><code>168 00:07:31,060 --&gt; 00:07:33,540</code>
+Publikt, eller i alla fall innan</p>
+<p><code>169 00:07:33,540 --&gt; 00:07:35,760</code>
+Artiklarna som faktiskt</p>
+<p><code>170 00:07:35,760 --&gt; 00:07:37,500</code>
+Gick igenom hur svårt det var att exploatera</p>
+<p><code>171 00:07:37,500 --&gt; 00:07:37,860</code>
+Kom ut</p>
+<p><code>172 00:07:37,860 --&gt; 00:07:41,680</code>
+Det jag tyckte var sämst</p>
+<p><code>173 00:07:41,680 --&gt; 00:07:42,380</code>
+Med hypen</p>
+<p><code>174 00:07:42,380 --&gt; 00:07:45,360</code>
+Var ju det faktum</p>
+<p><code>175 00:07:45,360 --&gt; 00:07:46,020</code>
+Att</p>
+<p><code>176 00:07:46,020 --&gt; 00:07:48,960</code>
+Han hade väl skrivit</p>
+<p><code>177 00:07:48,960 --&gt; 00:07:51,540</code>
+Något ordval som att det berörde typ</p>
+<p><code>178 00:07:51,540 --&gt; 00:07:53,160</code>
+Alla</p>
+<p><code>179 00:07:53,160 --&gt; 00:07:55,960</code>
+Sövrar och alla klienter</p>
+<p><code>180 00:07:55,960 --&gt; 00:07:57,180</code>
+Och det var därför</p>
+<p><code>181 00:07:57,180 --&gt; 00:07:59,280</code>
+Jag bara mentalt i min</p>
+<p><code>182 00:07:59,280 --&gt; 00:07:59,840</code>
+Sån här</p>
+<p><code>183 00:07:59,840 --&gt; 00:08:03,040</code>
+Okej men då är det nätverkskoden</p>
+<p><code>184 00:08:03,040 --&gt; 00:08:05,360</code>
+För jag menar</p>
+<p><code>185 00:08:05,360 --&gt; 00:08:07,620</code>
+Det måste ju finnas massa</p>
+<p><code>186 00:08:07,620 --&gt; 00:08:09,720</code>
+Desktopdatorer</p>
+<p><code>187 00:08:09,720 --&gt; 00:08:11,160</code>
+Som inte har installerat</p>
+<p><code>188 00:08:11,160 --&gt; 00:08:13,400</code>
+Printerdrivsystemet</p>
+<p><code>189 00:08:13,400 --&gt; 00:08:14,720</code>
+Och på server</p>
+<p><code>190 00:08:14,720 --&gt; 00:08:18,020</code>
+Och på serversystemet</p>
+<p><code>191 00:08:18,020 --&gt; 00:08:19,520</code>
+Måste ju vara</p>
+<p><code>192 00:08:19,520 --&gt; 00:08:21,540</code>
+Jättemånga som inte installerar drivargrejer</p>
+<p><code>193 00:08:21,540 --&gt; 00:08:21,920</code>
+Och sånt</p>
+<p><code>194 00:08:21,920 --&gt; 00:08:23,940</code>
+Så just det att</p>
+<p><code>195 00:08:23,940 --&gt; 00:08:27,160</code>
+Ja men såhär</p>
+<p><code>196 00:08:27,160 --&gt; 00:08:30,680</code>
+Det skrevs på</p>
+<p><code>197 00:08:30,680 --&gt; 00:08:32,740</code>
+Dels att det här</p>
+<p><code>198 00:08:32,740 --&gt; 00:08:34,800</code>
+Windsforumet hade gett en lite</p>
+<p><code>199 00:08:34,800 --&gt; 00:08:36,900</code>
+Hypad CVSS rating</p>
+<p><code>200 00:08:36,900 --&gt; 00:08:38,980</code>
+I kombination med att han</p>
+<p><code>201 00:08:38,980 --&gt; 00:08:40,700</code>
+Hade en skrivelse som gick att tolka</p>
+<p><code>202 00:08:40,700 --&gt; 00:08:41,240</code>
+Som att</p>
+<p><code>203 00:08:41,240 --&gt; 00:08:44,680</code>
+Alla linuxsystem plus</p>
+<p><code>204 00:08:44,680 --&gt; 00:08:46,080</code>
+Lite annat är berört</p>
+<p><code>205 00:08:46,080 --&gt; 00:08:48,160</code>
+I can&rsquo;t pwn the world</p>
+<p><code>206 00:08:48,160 --&gt; 00:08:49,680</code>
+Ja men precis macOS</p>
+<p><code>207 00:08:49,680 --&gt; 00:08:50,560</code>
+Och sådär var det ju också</p>
+<p><code>208 00:08:50,560 --&gt; 00:08:53,980</code>
+Ja men det var väl lite</p>
+<p><code>209 00:08:53,980 --&gt; 00:08:54,680</code>
+Av en</p>
+<p><code>210 00:08:54,680 --&gt; 00:08:57,180</code>
+Antiklimax kan man väl säga</p>
+<p><code>211 00:08:57,180 --&gt; 00:08:59,440</code>
+Och det var väl tur det</p>
+<p><code>212 00:08:59,440 --&gt; 00:09:00,260</code>
+I och för sig</p>
+<p><code>213 00:09:00,260 --&gt; 00:09:03,240</code>
+Men visst känns det lite tråkigt</p>
+<p><code>214 00:09:03,240 --&gt; 00:09:03,880</code>
+Alltså såhär</p>
+<p><code>215 00:09:03,880 --&gt; 00:09:07,280</code>
+Ibland vill man ju känna den här pulsen</p>
+<p><code>216 00:09:07,280 --&gt; 00:09:08,380</code>
+Vara lite stressad</p>
+<p><code>217 00:09:08,380 --&gt; 00:09:11,220</code>
+Börja springa runt</p>
+<p><code>218 00:09:11,220 --&gt; 00:09:13,060</code>
+Har ni hanterat det här för det helvete</p>
+<p><code>219 00:09:13,060 --&gt; 00:09:15,420</code>
+Man vill ju ha det som det är</p>
+<p><code>220 00:09:15,420 --&gt; 00:09:17,820</code>
+Vilken som heter den så var det</p>
+<p><code>221 00:09:17,820 --&gt; 00:09:19,300</code>
+Ja jänsläpp</p>
+<p><code>222 00:09:19,300 --&gt; 00:09:20,400</code>
+Vi vill ju att det brinner</p>
+<p><code>223 00:09:20,400 --&gt; 00:09:21,740</code>
+Heartbleed</p>
+<p><code>224 00:09:21,740 --&gt; 00:09:22,240</code>
+Ja precis</p>
+<p><code>225 00:09:22,240 --&gt; 00:09:24,080</code>
+Heartbleed är ju fortfarande</p>
+<p><code>226 00:09:24,080 --&gt; 00:09:25,620</code>
+Den bästa sårbarheten någonsin</p>
+<p><code>227 00:09:25,620 --&gt; 00:09:26,840</code>
+Eller Log4j</p>
+<p><code>228 00:09:26,840 --&gt; 00:09:27,940</code>
+Ja men Heartbleed</p>
+<p><code>229 00:09:27,940 --&gt; 00:09:28,800</code>
+För att den var</p>
+<p><code>230 00:09:28,800 --&gt; 00:09:30,700</code>
+Det drabbade typ allt</p>
+<p><code>231 00:09:30,700 --&gt; 00:09:32,580</code>
+Och själva</p>
+<p><code>232 00:09:32,580 --&gt; 00:09:34,400</code>
+Proof of concept</p>
+<p><code>233 00:09:34,400 --&gt; 00:09:36,960</code>
+Exploiten var så underbar</p>
+<p><code>234 00:09:36,960 --&gt; 00:09:38,480</code>
+Att leka med</p>
+<p><code>235 00:09:38,480 --&gt; 00:09:40,680</code>
+Alltså det var ju så grafiskt</p>
+<p><code>236 00:09:40,680 --&gt; 00:09:44,100</code>
+This is how hacking is in the movies</p>
+<p><code>237 00:09:44,100 --&gt; 00:09:44,860</code>
+Ja exakt</p>
+<p><code>238 00:09:44,860 --&gt; 00:09:46,940</code>
+Men det jag funderar på är såhär</p>
+<p><code>239 00:09:46,940 --&gt; 00:09:49,560</code>
+Börjar vi bli gamla trötta gubbar nu</p>
+<p><code>240 00:09:49,560 --&gt; 00:09:50,380</code>
+För jag hade precis en del</p>
+<p><code>241 00:09:50,400 --&gt; 00:09:51,080</code>
+Jag hade precis lite</p>
+<p><code>242 00:09:51,080 --&gt; 00:09:54,360</code>
+Jag hade precis lite samma känsla som Peter här</p>
+<p><code>243 00:09:54,360 --&gt; 00:09:54,940</code>
+Just det här att</p>
+<p><code>244 00:09:54,940 --&gt; 00:09:57,000</code>
+Bend over here it comes again</p>
+<p><code>245 00:09:57,000 --&gt; 00:09:58,660</code>
+Och jag såhär</p>
+<p><code>246 00:09:58,660 --&gt; 00:09:59,860</code>
+Ja ja det kommer att släppa</p>
+<p><code>247 00:09:59,860 --&gt; 00:10:00,440</code>
+Men alltså</p>
+<p><code>248 00:10:00,440 --&gt; 00:10:04,880</code>
+Du lovade mig att jag skulle få känna</p>
+<p><code>249 00:10:04,880 --&gt; 00:10:05,640</code>
+Adrenalin</p>
+<p><code>250 00:10:05,640 --&gt; 00:10:08,320</code>
+Att jag skulle tycka mitt jobb var spännande</p>
+<p><code>251 00:10:08,320 --&gt; 00:10:09,780</code>
+Och sen</p>
+<p><code>252 00:10:09,780 --&gt; 00:10:12,040</code>
+Ge mig gärna skriva</p>
+<p><code>253 00:10:12,040 --&gt; 00:10:14,420</code>
+Då måste jag ha på den här skrivardemonen</p>
+<p><code>254 00:10:14,420 --&gt; 00:10:16,780</code>
+Bara om porttexten</p>
+<p><code>255 00:10:16,780 --&gt; 00:10:19,680</code>
+Du lovade att vi skulle få känna</p>
+<p><code>256 00:10:19,680 --&gt; 00:10:20,880</code>
+Att vi levde</p>
+<p><code>257 00:10:20,880 --&gt; 00:10:23,480</code>
+Och du gav oss såna jävla skrivar</p>
+<p><code>258 00:10:23,480 --&gt; 00:10:24,320</code>
+Ja</p>
+<p><code>259 00:10:24,320 --&gt; 00:10:27,180</code>
+Big bag of nothing</p>
+<p><code>260 00:10:27,180 --&gt; 00:10:34,320</code>
+Ska vi gå vidare till nästa ämne</p>
+<p><code>261 00:10:34,320 --&gt; 00:10:34,860</code>
+Ja</p>
+<p><code>262 00:10:34,860 --&gt; 00:10:36,080</code>
+Jag skulle bara nämna såhär</p>
+<p><code>263 00:10:36,080 --&gt; 00:10:40,320</code>
+Hack the box har gjort en såbar</p>
+<p><code>264 00:10:40,320 --&gt; 00:10:41,960</code>
+Sån här som man kan leka med</p>
+<p><code>265 00:10:41,960 --&gt; 00:10:43,360</code>
+Om man vill prova att exploatera</p>
+<p><code>266 00:10:43,360 --&gt; 00:10:45,140</code>
+Lägga upp egna skrivar i Unix</p>
+<p><code>267 00:10:45,140 --&gt; 00:10:46,220</code>
+Jättekul</p>
+<p><code>268 00:10:46,220 --&gt; 00:10:48,820</code>
+Kände som en sysadmin på 90-talet</p>
+<p><code>269 00:10:49,680 --&gt; 00:10:50,920</code>
+Alltså</p>
+<p><code>270 00:10:50,920 --&gt; 00:10:55,700</code>
+För att skriva och installera i Linux</p>
+<p><code>271 00:10:55,700 --&gt; 00:10:58,000</code>
+Det är väl fan asimponerande</p>
+<p><code>272 00:10:58,000 --&gt; 00:11:00,340</code>
+Det är fan såhär</p>
+<p><code>273 00:11:00,340 --&gt; 00:11:01,280</code>
+Lika som att du är redo</p>
+<p><code>274 00:11:01,280 --&gt; 00:11:02,500</code>
+Är man fan elit alltså</p>
+<p><code>275 00:11:02,500 --&gt; 00:11:07,120</code>
+Herregud</p>
+<p><code>276 00:11:07,120 --&gt; 00:11:11,080</code>
+Där fick vi adrenalinkicken då</p>
+<p><code>277 00:11:11,080 --&gt; 00:11:13,040</code>
+Något</p>
+<p><code>278 00:11:13,040 --&gt; 00:11:13,680</code>
+Men</p>
+<p><code>279 00:11:13,680 --&gt; 00:11:16,200</code>
+Men kära vänner</p>
+<p><code>280 00:11:16,200 --&gt; 00:11:18,320</code>
+Jag ger er en arkbrowser</p>
+<p><code>281 00:11:18,320 --&gt; 00:11:19,120</code>
+Browser</p>
+<p><code>282 00:11:19,680 --&gt; 00:11:21,760</code>
+Så istället för att köra Chrome</p>
+<p><code>283 00:11:21,760 --&gt; 00:11:22,980</code>
+Eller Edge eller någonting</p>
+<p><code>284 00:11:22,980 --&gt; 00:11:24,800</code>
+Så kan du få köra Ark</p>
+<p><code>285 00:11:24,800 --&gt; 00:11:26,440</code>
+Det är</p>
+<p><code>286 00:11:26,440 --&gt; 00:11:29,760</code>
+Har det något med Ark Linux att göra?</p>
+<p><code>287 00:11:32,040 --&gt; 00:11:34,000</code>
+Jag skulle gissa nej</p>
+<p><code>288 00:11:34,000 --&gt; 00:11:34,300</code>
+Men</p>
+<p><code>289 00:11:34,300 --&gt; 00:11:35,920</code>
+Har det något med Noah?</p>
+<p><code>290 00:11:39,500 --&gt; 00:11:41,740</code>
+Om vi låter Peter prata</p>
+<p><code>291 00:11:41,740 --&gt; 00:11:42,620</code>
+Kanske det går bättre</p>
+<p><code>292 00:11:42,620 --&gt; 00:11:45,060</code>
+Så skapade Gud Ark en browser</p>
+<p><code>293 00:11:45,060 --&gt; 00:11:47,240</code>
+För att rädda aporna</p>
+<p><code>294 00:11:47,240 --&gt; 00:11:49,640</code>
+Från overflow</p>
+<p><code>295 00:11:49,680 --&gt; 00:11:52,900</code>
+Vad hände med Arkbrowser?</p>
+<p><code>296 00:11:53,700 --&gt; 00:11:55,160</code>
+De byggde en feature som hette</p>
+<p><code>297 00:11:55,160 --&gt; 00:11:56,100</code>
+Boost</p>
+<p><code>298 00:11:56,100 --&gt; 00:11:58,380</code>
+Och du fick</p>
+<p><code>299 00:11:58,380 --&gt; 00:12:00,980</code>
+Du fick designa en riktigt cool feature Johan</p>
+<p><code>300 00:12:00,980 --&gt; 00:12:04,300</code>
+Vad saknade alla andra webbrowsers</p>
+<p><code>301 00:12:04,300 --&gt; 00:12:05,840</code>
+Som du skulle vilja ha i din boost</p>
+<p><code>302 00:12:05,840 --&gt; 00:12:06,260</code>
+Turbo</p>
+<p><code>303 00:12:06,260 --&gt; 00:12:09,080</code>
+Jag vet inte vad jag gör</p>
+<p><code>304 00:12:09,080 --&gt; 00:12:11,080</code>
+I webbrowsers</p>
+<p><code>305 00:12:11,080 --&gt; 00:12:13,660</code>
+Jag laddar allting mycket snabbare</p>
+<p><code>306 00:12:13,660 --&gt; 00:12:15,600</code>
+Framförallt så kan du</p>
+<p><code>307 00:12:15,600 --&gt; 00:12:16,720</code>
+Boosta webbsajter</p>
+<p><code>308 00:12:16,720 --&gt; 00:12:18,220</code>
+Du kan till exempel välja att</p>
+<p><code>309 00:12:18,220 --&gt; 00:12:19,640</code>
+Jag vet inte</p>
+<p><code>310 00:12:19,680 --&gt; 00:12:21,940</code>
+Se den här klickdialogen</p>
+<p><code>311 00:12:21,940 --&gt; 00:12:24,420</code>
+Jag vet inte se den här fula loggan</p>
+<p><code>312 00:12:24,420 --&gt; 00:12:25,140</code>
+Så du kan</p>
+<p><code>313 00:12:25,140 --&gt; 00:12:26,680</code>
+Du kan liksom lite såhär</p>
+<p><code>314 00:12:26,680 --&gt; 00:12:28,380</code>
+Pointer en klick och välja bort</p>
+<p><code>315 00:12:28,380 --&gt; 00:12:30,120</code>
+Det finns fan</p>
+<p><code>316 00:12:30,120 --&gt; 00:12:31,520</code>
+Det kom nu i den senaste</p>
+<p><code>317 00:12:31,520 --&gt; 00:12:32,840</code>
+Sorry tangent</p>
+<p><code>318 00:12:32,840 --&gt; 00:12:35,840</code>
+Men jag uppdaterade nyligen till IOS 18</p>
+<p><code>319 00:12:35,840 --&gt; 00:12:39,840</code>
+Och där har de lagt in den funktionen i Safari</p>
+<p><code>320 00:12:39,840 --&gt; 00:12:41,980</code>
+Så du kan trycka på såhär</p>
+<p><code>321 00:12:41,980 --&gt; 00:12:43,920</code>
+Dölj de här elementen</p>
+<p><code>322 00:12:43,920 --&gt; 00:12:45,560</code>
+Reklamelement eller whatever</p>
+<p><code>323 00:12:45,560 --&gt; 00:12:47,760</code>
+Dölj alla jävla cookie banners</p>
+<p><code>324 00:12:47,760 --&gt; 00:12:48,620</code>
+Det har jag gjort manuellt</p>
+<p><code>325 00:12:48,620 --&gt; 00:12:48,860</code>
+Med</p>
+<p><code>326 00:12:48,860 --&gt; 00:12:52,520</code>
+Developer-konsolen flera gånger</p>
+<p><code>327 00:12:52,520 --&gt; 00:12:53,420</code>
+Men</p>
+<p><code>328 00:12:53,420 --&gt; 00:12:56,940</code>
+Men det som Arc har gjort</p>
+<p><code>329 00:12:56,940 --&gt; 00:12:57,540</code>
+Det är liksom</p>
+<p><code>330 00:12:57,540 --&gt; 00:13:02,420</code>
+Du har en fet Firebase-databas</p>
+<p><code>331 00:13:02,420 --&gt; 00:13:04,960</code>
+Och så kan du välja vilka</p>
+<p><code>332 00:13:04,960 --&gt; 00:13:07,240</code>
+Vilka element som inte ska finnas</p>
+<p><code>333 00:13:07,240 --&gt; 00:13:07,880</code>
+På en sida</p>
+<p><code>334 00:13:07,880 --&gt; 00:13:09,960</code>
+Och sen varje gång du återbesöker den</p>
+<p><code>335 00:13:09,960 --&gt; 00:13:11,360</code>
+Så att du inte gillar</p>
+<p><code>336 00:13:11,360 --&gt; 00:13:13,460</code>
+Loggan på Google</p>
+<p><code>337 00:13:13,460 --&gt; 00:13:15,180</code>
+Så varenda gång du går in på Google</p>
+<p><code>338 00:13:15,180 --&gt; 00:13:16,040</code>
+Finns inte loggan</p>
+<p><code>339 00:13:16,040 --&gt; 00:13:18,660</code>
+Så det är ganska nice att du bara kan</p>
+<p><code>340 00:13:18,860 --&gt; 00:13:20,200</code>
+Andra på ML-koden</p>
+<p><code>341 00:13:20,200 --&gt; 00:13:20,740</code>
+Hur som helst</p>
+<p><code>342 00:13:20,740 --&gt; 00:13:21,940</code>
+På vilken webbsite som helst</p>
+<p><code>343 00:13:21,940 --&gt; 00:13:22,320</code>
+Mm</p>
+<p><code>344 00:13:22,320 --&gt; 00:13:25,740</code>
+Kan du tänka dig något</p>
+<p><code>345 00:13:25,740 --&gt; 00:13:26,660</code>
+Potentiellt problem</p>
+<p><code>346 00:13:26,660 --&gt; 00:13:27,320</code>
+Jag tänkte säga det</p>
+<p><code>347 00:13:27,320 --&gt; 00:13:28,040</code>
+Ja</p>
+<p><code>348 00:13:28,040 --&gt; 00:13:30,540</code>
+Det låter som en</p>
+<p><code>349 00:13:30,540 --&gt; 00:13:32,600</code>
+Dålig väg</p>
+<p><code>350 00:13:32,600 --&gt; 00:13:33,980</code>
+Till en bra attackvektor</p>
+<p><code>351 00:13:33,980 --&gt; 00:13:34,420</code>
+Mm</p>
+<p><code>352 00:13:34,420 --&gt; 00:13:35,100</code>
+Men det är</p>
+<p><code>353 00:13:35,100 --&gt; 00:13:36,120</code>
+Alla</p>
+<p><code>354 00:13:36,120 --&gt; 00:13:38,080</code>
+Exakt det man är orolig för</p>
+<p><code>355 00:13:38,080 --&gt; 00:13:39,900</code>
+När man installerar webbrowser-plugins</p>
+<p><code>356 00:13:39,900 --&gt; 00:13:40,240</code>
+Ja</p>
+<p><code>357 00:13:40,240 --&gt; 00:13:41,280</code>
+Om du tänker</p>
+<p><code>358 00:13:41,280 --&gt; 00:13:44,220</code>
+Universal crosshead-scripting</p>
+<p><code>359 00:13:44,220 --&gt; 00:13:45,700</code>
+Hur nära ligger det</p>
+<p><code>360 00:13:45,700 --&gt; 00:13:46,720</code>
+Beskrivning av host</p>
+<p><code>361 00:13:46,720 --&gt; 00:13:47,920</code>
+Det är exakt det</p>
+<p><code>362 00:13:47,920 --&gt; 00:13:48,380</code>
+Basically</p>
+<p><code>363 00:13:48,380 --&gt; 00:13:48,700</code>
+Ja</p>
+<p><code>364 00:13:48,700 --&gt; 00:13:48,840</code>
+Ja</p>
+<p><code>365 00:13:48,860 --&gt; 00:13:50,080</code>
+, det är alltså så här</p>
+<p><code>366 00:13:50,080 --&gt; 00:13:51,040</code>
+Att</p>
+<p><code>367 00:13:51,040 --&gt; 00:13:54,020</code>
+Arc webbrowser</p>
+<p><code>368 00:13:54,020 --&gt; 00:13:55,040</code>
+Snackar direkt</p>
+<p><code>369 00:13:55,040 --&gt; 00:13:56,920</code>
+Med en firebase-databas</p>
+<p><code>370 00:13:56,920 --&gt; 00:13:57,740</code>
+Ute på internet</p>
+<p><code>371 00:13:57,740 --&gt; 00:13:59,140</code>
+Och så får den veta</p>
+<p><code>372 00:13:59,140 --&gt; 00:14:00,800</code>
+Får den veta</p>
+<p><code>373 00:14:00,800 --&gt; 00:14:02,140</code>
+Hur den ska modda webbrowsen</p>
+<p><code>374 00:14:02,140 --&gt; 00:14:02,940</code>
+Jag tänkte ju</p>
+<p><code>375 00:14:02,940 --&gt; 00:14:03,940</code>
+I min enfald</p>
+<p><code>376 00:14:03,940 --&gt; 00:14:05,000</code>
+Att den var lokal</p>
+<p><code>377 00:14:05,000 --&gt; 00:14:05,940</code>
+Att man hade en lokal</p>
+<p><code>378 00:14:05,940 --&gt; 00:14:07,820</code>
+Som svarade dina preferences</p>
+<p><code>379 00:14:07,820 --&gt; 00:14:08,740</code>
+Det var fan</p>
+<p><code>380 00:14:08,740 --&gt; 00:14:11,020</code>
+Nu låter det ju som en</p>
+<p><code>381 00:14:11,020 --&gt; 00:14:11,380</code>
+Sån här</p>
+<p><code>382 00:14:11,380 --&gt; 00:14:12,500</code>
+Det låter ju som en</p>
+<p><code>383 00:14:12,500 --&gt; 00:14:14,260</code>
+Fjuttigenomtänkt</p>
+<p><code>384 00:14:14,260 --&gt; 00:14:15,620</code>
+Rimlig funktion</p>
+<p><code>385 00:14:15,620 --&gt; 00:14:16,500</code>
+Du beskriver</p>
+<p><code>386 00:14:16,500 --&gt; 00:14:18,060</code>
+Du måste ju tänka</p>
+<p><code>387 00:14:18,060 --&gt; 00:14:18,520</code>
+Att du vill ha en</p>
+<p><code>388 00:14:18,520 --&gt; 00:14:18,840</code>
+Booster</p>
+<p><code>389 00:14:18,860 --&gt; 00:14:20,020</code>
+Du vill ju ha något coolt</p>
+<p><code>390 00:14:20,020 --&gt; 00:14:20,160</code>
+Där</p>
+<p><code>391 00:14:20,160 --&gt; 00:14:22,600</code>
+Tänk dig dem nu</p>
+<p><code>392 00:14:22,600 --&gt; 00:14:23,700</code>
+Och det var en</p>
+<p><code>393 00:14:23,700 --&gt; 00:14:24,780</code>
+Du kunde inte tänka</p>
+<p><code>394 00:14:24,780 --&gt; 00:14:25,280</code>
+Med något så dum</p>
+<p><code>395 00:14:25,280 --&gt; 00:14:27,060</code>
+Han</p>
+<p><code>396 00:14:27,060 --&gt; 00:14:27,820</code>
+Feo</p>
+<p><code>397 00:14:27,820 --&gt; 00:14:28,700</code>
+Som jag nämnt tidigare</p>
+<p><code>398 00:14:28,700 --&gt; 00:14:29,040</code>
+Han</p>
+<p><code>399 00:14:29,040 --&gt; 00:14:31,300</code>
+Han brukar ju berätta om</p>
+<p><code>400 00:14:31,300 --&gt; 00:14:33,040</code>
+Vad en</p>
+<p><code>401 00:14:33,040 --&gt; 00:14:34,680</code>
+Security research</p>
+<p><code>402 00:14:34,680 --&gt; 00:14:35,300</code>
+Vid namn</p>
+<p><code>403 00:14:35,300 --&gt; 00:14:35,780</code>
+Eva</p>
+<p><code>404 00:14:35,780 --&gt; 00:14:36,100</code>
+Vån</p>
+<p><code>405 00:14:36,100 --&gt; 00:14:37,160</code>
+Och jag tror att det här</p>
+<p><code>406 00:14:37,160 --&gt; 00:14:38,480</code>
+Är en av Evas findings igen</p>
+<p><code>407 00:14:38,480 --&gt; 00:14:40,580</code>
+Hon</p>
+<p><code>408 00:14:40,580 --&gt; 00:14:41,560</code>
+Hade ju då</p>
+<p><code>409 00:14:41,560 --&gt; 00:14:42,500</code>
+Konstaterat att</p>
+<p><code>410 00:14:42,500 --&gt; 00:14:44,860</code>
+Hur funkar den här</p>
+<p><code>411 00:14:44,860 --&gt; 00:14:46,200</code>
+Säkerhetsmodellen</p>
+<p><code>412 00:14:46,200 --&gt; 00:14:47,220</code>
+Kring boost</p>
+<p><code>413 00:14:47,220 --&gt; 00:14:47,620</code>
+Så här</p>
+<p><code>414 00:14:47,620 --&gt; 00:14:48,320</code>
+För det är ju rätt coolt</p>
+<p><code>415 00:14:48,320 --&gt; 00:14:48,840</code>
+Att jag kan nämna den här</p>
+<p><code>416 00:14:48,860 --&gt; 00:14:51,160</code>
+På mina boost</p>
+<p><code>417 00:14:51,160 --&gt; 00:14:51,520</code>
+Men</p>
+<p><code>418 00:14:51,520 --&gt; 00:14:54,200</code>
+Så hon skapade helt enkelt</p>
+<p><code>419 00:14:54,200 --&gt; 00:14:55,340</code>
+Två olika</p>
+<p><code>420 00:14:55,340 --&gt; 00:14:56,500</code>
+Arc browser</p>
+<p><code>421 00:14:56,500 --&gt; 00:14:58,080</code>
+Instanser</p>
+<p><code>422 00:14:58,080 --&gt; 00:14:59,920</code>
+Och så testade hon</p>
+<p><code>423 00:14:59,920 --&gt; 00:15:01,400</code>
+Att börja ändra</p>
+<p><code>424 00:15:01,400 --&gt; 00:15:02,240</code>
+Så här</p>
+<p><code>425 00:15:02,240 --&gt; 00:15:02,780</code>
+Om du</p>
+<p><code>426 00:15:02,780 --&gt; 00:15:03,860</code>
+Interceptar då</p>
+<p><code>427 00:15:03,860 --&gt; 00:15:04,380</code>
+Hon gjorde en</p>
+<p><code>428 00:15:04,380 --&gt; 00:15:05,540</code>
+Frida interceptor</p>
+<p><code>429 00:15:05,540 --&gt; 00:15:06,340</code>
+Som berättade</p>
+<p><code>430 00:15:06,340 --&gt; 00:15:07,380</code>
+Vad firebase gjorde</p>
+<p><code>431 00:15:07,380 --&gt; 00:15:09,100</code>
+Och sen så tog hon då</p>
+<p><code>432 00:15:09,100 --&gt; 00:15:09,600</code>
+Bara och</p>
+<p><code>433 00:15:09,600 --&gt; 00:15:10,980</code>
+Anslöt</p>
+<p><code>434 00:15:10,980 --&gt; 00:15:12,100</code>
+Till sin firebase</p>
+<p><code>435 00:15:12,100 --&gt; 00:15:12,820</code>
+Och så bad hon</p>
+<p><code>436 00:15:12,820 --&gt; 00:15:13,400</code>
+Att ändra</p>
+<p><code>437 00:15:13,400 --&gt; 00:15:14,640</code>
+Den andra</p>
+<p><code>438 00:15:14,640 --&gt; 00:15:15,720</code>
+Användarens</p>
+<p><code>439 00:15:15,720 --&gt; 00:15:17,560</code>
+Webupplevelse</p>
+<p><code>440 00:15:17,560 --&gt; 00:15:18,840</code>
+Det funkar jättemycket</p>
+<p><code>441 00:15:18,860 --&gt; 00:15:19,320</code>
+Jättebra</p>
+<p><code>442 00:15:19,320 --&gt; 00:15:20,480</code>
+Ja vad praktiskt</p>
+<p><code>443 00:15:20,480 --&gt; 00:15:22,300</code>
+Det som var</p>
+<p><code>444 00:15:22,300 --&gt; 00:15:24,920</code>
+Det som var lite cool</p>
+<p><code>445 00:15:24,920 --&gt; 00:15:26,560</code>
+Vad fan är use caset</p>
+<p><code>446 00:15:26,560 --&gt; 00:15:27,460</code>
+Med att de har det</p>
+<p><code>447 00:15:27,460 --&gt; 00:15:28,980</code>
+På en central</p>
+<p><code>448 00:15:28,980 --&gt; 00:15:30,220</code>
+Databas</p>
+<p><code>449 00:15:30,220 --&gt; 00:15:32,640</code>
+Det är så mycket mer</p>
+<p><code>450 00:15:32,640 --&gt; 00:15:33,660</code>
+Web 2.0</p>
+<p><code>451 00:15:33,660 --&gt; 00:15:34,840</code>
+Än att du skulle ha det lokalt</p>
+<p><code>452 00:15:34,840 --&gt; 00:15:35,300</code>
+Hos dig</p>
+<p><code>453 00:15:35,300 --&gt; 00:15:36,240</code>
+Ja jo</p>
+<p><code>454 00:15:36,240 --&gt; 00:15:36,620</code>
+Du menar</p>
+<p><code>455 00:15:36,620 --&gt; 00:15:37,380</code>
+Jag så så här</p>
+<p><code>456 00:15:37,380 --&gt; 00:15:39,060</code>
+Nej men jag tänker</p>
+<p><code>457 00:15:39,060 --&gt; 00:15:39,980</code>
+Jag tänker så här</p>
+<p><code>458 00:15:39,980 --&gt; 00:15:40,600</code>
+Ska det vara liksom</p>
+<p><code>459 00:15:40,600 --&gt; 00:15:41,340</code>
+Vi vet</p>
+<p><code>460 00:15:41,340 --&gt; 00:15:42,140</code>
+Vi märker ju att</p>
+<p><code>461 00:15:42,140 --&gt; 00:15:42,980</code>
+Väldigt många användare</p>
+<p><code>462 00:15:42,980 --&gt; 00:15:43,680</code>
+Väljer att ta bort</p>
+<p><code>463 00:15:43,680 --&gt; 00:15:44,220</code>
+De här grejerna</p>
+<p><code>464 00:15:44,220 --&gt; 00:15:45,140</code>
+På de här sajterna</p>
+<p><code>465 00:15:45,140 --&gt; 00:15:46,260</code>
+Vill du ju också göra det</p>
+<p><code>466 00:15:46,260 --&gt; 00:15:46,720</code>
+Ja</p>
+<p><code>467 00:15:46,720 --&gt; 00:15:48,320</code>
+Eller liksom</p>
+<p><code>468 00:15:48,320 --&gt; 00:15:48,840</code>
+Om jag får göra det</p>
+<p><code>469 00:15:48,860 --&gt; 00:15:49,660</code>
+Jag gissar nu</p>
+<p><code>470 00:15:49,660 --&gt; 00:15:52,040</code>
+Observera att jag gissar</p>
+<p><code>471 00:15:52,040 --&gt; 00:15:52,760</code>
+Fuck no</p>
+<p><code>472 00:15:52,760 --&gt; 00:15:53,560</code>
+Som jag har rätt här</p>
+<p><code>473 00:15:53,560 --&gt; 00:15:53,800</code>
+Men</p>
+<p><code>474 00:15:53,800 --&gt; 00:15:55,280</code>
+Men det skulle ju vara</p>
+<p><code>475 00:15:55,280 --&gt; 00:15:56,400</code>
+Att du kanske har</p>
+<p><code>476 00:15:56,400 --&gt; 00:15:59,160</code>
+Flera olika datorer</p>
+<p><code>477 00:15:59,160 --&gt; 00:16:00,300</code>
+Som ska köra</p>
+<p><code>478 00:16:00,300 --&gt; 00:16:01,120</code>
+Samma</p>
+<p><code>479 00:16:01,120 --&gt; 00:16:01,900</code>
+Arke</p>
+<p><code>480 00:16:01,900 --&gt; 00:16:02,820</code>
+Profil</p>
+<p><code>481 00:16:02,820 --&gt; 00:16:04,220</code>
+Det skulle jag gissa</p>
+<p><code>482 00:16:04,220 --&gt; 00:16:04,960</code>
+Att det är</p>
+<p><code>483 00:16:04,960 --&gt; 00:16:05,880</code>
+Use caset</p>
+<p><code>484 00:16:05,880 --&gt; 00:16:06,740</code>
+Men</p>
+<p><code>485 00:16:06,740 --&gt; 00:16:09,400</code>
+Tydligen</p>
+<p><code>486 00:16:09,400 --&gt; 00:16:10,760</code>
+Så har de ju varit duktiga</p>
+<p><code>487 00:16:10,760 --&gt; 00:16:11,400</code>
+Och haft</p>
+<p><code>488 00:16:11,400 --&gt; 00:16:12,440</code>
+ACL</p>
+<p><code>489 00:16:12,440 --&gt; 00:16:13,200</code>
+Eller</p>
+<p><code>490 00:16:13,200 --&gt; 00:16:14,200</code>
+Någon sorts</p>
+<p><code>491 00:16:14,200 --&gt; 00:16:15,340</code>
+Loggning</p>
+<p><code>492 00:16:15,340 --&gt; 00:16:15,680</code>
+På den här</p>
+<p><code>493 00:16:15,680 --&gt; 00:16:16,960</code>
+Firebase databasen</p>
+<p><code>494 00:16:16,960 --&gt; 00:16:18,680</code>
+Så de kunde tydligen</p>
+<p><code>495 00:16:18,680 --&gt; 00:16:19,640</code>
+Gå igenom</p>
+<p><code>496 00:16:19,640 --&gt; 00:16:20,980</code>
+Och söka jäkla långt</p>
+<p><code>497 00:16:20,980 --&gt; 00:16:21,600</code>
+Tillbaka i tiden</p>
+<p><code>498 00:16:21,600 --&gt; 00:16:22,200</code>
+Och se att</p>
+<p><code>499 00:16:22,200 --&gt; 00:16:23,760</code>
+Innan den här lilla</p>
+<p><code>500 00:16:23,760 --&gt; 00:16:24,760</code>
+Lustigkurvare Eva</p>
+<p><code>501 00:16:24,760 --&gt; 00:16:25,340</code>
+Kom där</p>
+<p><code>502 00:16:25,340 --&gt; 00:16:26,920</code>
+Och för första gången</p>
+<p><code>503 00:16:26,920 --&gt; 00:16:27,680</code>
+Ställde sig frågan</p>
+<p><code>504 00:16:27,680 --&gt; 00:16:28,840</code>
+Hur funkar Bost egentligen</p>
+<p><code>505 00:16:28,840 --&gt; 00:16:30,060</code>
+Så har tydligen</p>
+<p><code>506 00:16:30,060 --&gt; 00:16:31,360</code>
+Ingen annan gjort det här</p>
+<p><code>507 00:16:31,360 --&gt; 00:16:32,600</code>
+Det finns inga</p>
+<p><code>508 00:16:32,600 --&gt; 00:16:33,560</code>
+Andra exempel</p>
+<p><code>509 00:16:33,560 --&gt; 00:16:34,800</code>
+På att fel användare</p>
+<p><code>510 00:16:34,800 --&gt; 00:16:35,480</code>
+Har accessat</p>
+<p><code>511 00:16:35,480 --&gt; 00:16:36,620</code>
+Ingen av de tre</p>
+<p><code>512 00:16:36,620 --&gt; 00:16:37,160</code>
+Användarna</p>
+<p><code>513 00:16:37,160 --&gt; 00:16:37,860</code>
+Har busat med</p>
+<p><code>514 00:16:37,860 --&gt; 00:16:38,340</code>
+Någon andra</p>
+<p><code>515 00:16:38,340 --&gt; 00:16:41,320</code>
+Ja jag vet inte</p>
+<p><code>516 00:16:41,320 --&gt; 00:16:41,900</code>
+Om det är tre</p>
+<p><code>517 00:16:41,900 --&gt; 00:16:43,040</code>
+Eller om det är</p>
+<p><code>518 00:16:43,040 --&gt; 00:16:44,000</code>
+Tre hundratusen</p>
+<p><code>519 00:16:44,000 --&gt; 00:16:44,580</code>
+Som kör Bost</p>
+<p><code>520 00:16:44,580 --&gt; 00:16:45,900</code>
+Jag hade aldrig hört talas om det</p>
+<p><code>521 00:16:45,900 --&gt; 00:16:46,540</code>
+Men</p>
+<p><code>522 00:16:46,540 --&gt; 00:16:46,820</code>
+Nej</p>
+<p><code>523 00:16:46,820 --&gt; 00:16:47,820</code>
+Nej</p>
+<p><code>524 00:16:47,820 --&gt; 00:16:48,480</code>
+Men jag</p>
+<p><code>525 00:16:48,480 --&gt; 00:16:50,820</code>
+Men okej</p>
+<p><code>526 00:16:50,820 --&gt; 00:16:53,380</code>
+Sen funderar jag också på</p>
+<p><code>527 00:16:53,380 --&gt; 00:16:54,700</code>
+Vad sparas</p>
+<p><code>528 00:16:54,700 --&gt; 00:16:56,420</code>
+I den här databasen</p>
+<p><code>529 00:16:56,420 --&gt; 00:16:58,780</code>
+Html-koden</p>
+<p><code>530 00:16:58,780 --&gt; 00:17:00,160</code>
+Och namnet på vilket element</p>
+<p><code>531 00:17:00,160 --&gt; 00:17:01,440</code>
+Som ska tas bort</p>
+<p><code>532 00:17:01,440 --&gt; 00:17:02,100</code>
+Eller läggas till</p>
+<p><code>533 00:17:02,100 --&gt; 00:17:02,740</code>
+Jo</p>
+<p><code>534 00:17:02,740 --&gt; 00:17:04,180</code>
+Det kan man ju tycka</p>
+<p><code>535 00:17:04,180 --&gt; 00:17:05,600</code>
+Och så lite privacy-grejer</p>
+<p><code>536 00:17:05,600 --&gt; 00:17:06,300</code>
+Ja men exakt</p>
+<p><code>537 00:17:06,300 --&gt; 00:17:07,080</code>
+När jag surfar</p>
+<p><code>538 00:17:07,080 --&gt; 00:17:08,020</code>
+Gay-pornhub</p>
+<p><code>539 00:17:08,020 --&gt; 00:17:08,540</code>
+Precis</p>
+<p><code>540 00:17:08,540 --&gt; 00:17:09,800</code>
+Ja men vi sparar också</p>
+<p><code>541 00:17:09,800 --&gt; 00:17:10,680</code>
+Såklart alla domäner</p>
+<p><code>542 00:17:10,680 --&gt; 00:17:11,600</code>
+Du vanligtvis är inne på</p>
+<p><code>543 00:17:11,600 --&gt; 00:17:12,120</code>
+Och</p>
+<p><code>544 00:17:12,120 --&gt; 00:17:13,560</code>
+Blablabla</p>
+<p><code>545 00:17:13,560 --&gt; 00:17:14,620</code>
+Så fattar du</p>
+<p><code>546 00:17:14,620 --&gt; 00:17:16,040</code>
+Min privacy-vinkel</p>
+<p><code>547 00:17:16,040 --&gt; 00:17:16,460</code>
+På det hela</p>
+<p><code>548 00:17:16,460 --&gt; 00:17:17,040</code>
+Ja jo</p>
+<p><code>549 00:17:17,040 --&gt; 00:17:18,440</code>
+Ehm</p>
+<p><code>550 00:17:18,440 --&gt; 00:17:20,320</code>
+Ja om inte annat</p>
+<p><code>551 00:17:20,320 --&gt; 00:17:23,620</code>
+Vad är det du väljer</p>
+<p><code>552 00:17:23,620 --&gt; 00:17:24,080</code>
+Att ta bort</p>
+<p><code>553 00:17:24,080 --&gt; 00:17:25,320</code>
+Och vad är det du lägger till</p>
+<p><code>554 00:17:25,320 --&gt; 00:17:25,820</code>
+På sajter</p>
+<p><code>555 00:17:25,820 --&gt; 00:17:26,500</code>
+Kan jag också säga</p>
+<p><code>556 00:17:26,500 --&gt; 00:17:27,060</code>
+Någonting om det</p>
+<p><code>557 00:17:27,060 --&gt; 00:17:27,520</code>
+Som person</p>
+<p><code>558 00:17:27,520 --&gt; 00:17:29,020</code>
+Det är en ganska rolig</p>
+<p><code>559 00:17:29,020 --&gt; 00:17:30,340</code>
+Grej faktiskt</p>
+<p><code>560 00:17:30,340 --&gt; 00:17:31,020</code>
+Ifall man kunde</p>
+<p><code>561 00:17:31,020 --&gt; 00:17:32,900</code>
+Äta bort inloggningsrutorna</p>
+<p><code>562 00:17:32,900 --&gt; 00:17:33,600</code>
+På alla sajter</p>
+<p><code>563 00:17:33,600 --&gt; 00:17:34,520</code>
+Men jag kan säga såhär</p>
+<p><code>564 00:17:34,520 --&gt; 00:17:36,140</code>
+Jag är lite imponerad</p>
+<p><code>565 00:17:36,140 --&gt; 00:17:36,920</code>
+Jag har inte tänkt på</p>
+<p><code>566 00:17:36,920 --&gt; 00:17:37,780</code>
+Den här featuren tidigare</p>
+<p><code>567 00:17:37,780 --&gt; 00:17:38,960</code>
+Jag har ju som sagt</p>
+<p><code>568 00:17:38,960 --&gt; 00:17:39,560</code>
+Jag har själv</p>
+<p><code>569 00:17:39,560 --&gt; 00:17:40,440</code>
+Flera gånger</p>
+<p><code>570 00:17:40,440 --&gt; 00:17:41,780</code>
+Tagit bort störande element</p>
+<p><code>571 00:17:41,780 --&gt; 00:17:42,320</code>
+Typ om det ligger</p>
+<p><code>572 00:17:42,320 --&gt; 00:17:42,800</code>
+Någon sån här</p>
+<p><code>573 00:17:42,800 --&gt; 00:17:43,880</code>
+Ovillay</p>
+<p><code>574 00:17:43,880 --&gt; 00:17:45,120</code>
+Som säger att du måste betala</p>
+<p><code>575 00:17:45,120 --&gt; 00:17:46,840</code>
+Innan du får sin</p>
+<p><code>576 00:17:46,840 --&gt; 00:17:47,440</code>
+Och lite sånt</p>
+<p><code>577 00:17:47,440 --&gt; 00:17:47,980</code>
+Så är det ju</p>
+<p><code>578 00:17:47,980 --&gt; 00:17:49,020</code>
+Ofta går det ju</p>
+<p><code>579 00:17:49,020 --&gt; 00:17:49,500</code>
+Bara att ta bort</p>
+<p><code>580 00:17:49,500 --&gt; 00:17:50,480</code>
+Irriterande ovillays</p>
+<p><code>581 00:17:50,480 --&gt; 00:17:51,100</code>
+Liksom i</p>
+<p><code>582 00:17:51,100 --&gt; 00:17:52,580</code>
+Såhär så att</p>
+<p><code>583 00:17:52,580 --&gt; 00:17:54,260</code>
+Men de har ju byggt</p>
+<p><code>584 00:17:54,260 --&gt; 00:17:55,200</code>
+Ett anmälda gränssnitt</p>
+<p><code>585 00:17:55,200 --&gt; 00:17:55,580</code>
+Runt det</p>
+<p><code>586 00:17:55,580 --&gt; 00:17:56,860</code>
+Jag känner att jag måste</p>
+<p><code>587 00:17:56,860 --&gt; 00:17:57,800</code>
+Kolla hur iOS</p>
+<p><code>588 00:17:57,800 --&gt; 00:17:58,540</code>
+Gör detta nu</p>
+<p><code>589 00:17:58,540 --&gt; 00:17:59,500</code>
+Ja</p>
+<p><code>590 00:17:59,500 --&gt; 00:18:00,400</code>
+Förhoppningsvis</p>
+<p><code>591 00:18:00,400 --&gt; 00:18:01,580</code>
+Gör det om det är lokalt</p>
+<p><code>592 00:18:01,580 --&gt; 00:18:03,700</code>
+Ja</p>
+<p><code>593 00:18:03,700 --&gt; 00:18:04,820</code>
+Vart var det</p>
+<p><code>594 00:18:04,820 --&gt; 00:18:06,260</code>
+Alla på internet</p>
+<p><code>595 00:18:06,260 --&gt; 00:18:06,960</code>
+Delar samma</p>
+<p><code>596 00:18:06,960 --&gt; 00:18:08,480</code>
+Antagligen nej</p>
+<p><code>597 00:18:08,480 --&gt; 00:18:09,240</code>
+För att du vill ju</p>
+<p><code>598 00:18:09,240 --&gt; 00:18:10,000</code>
+Ha samma inställningar</p>
+<p><code>599 00:18:10,000 --&gt; 00:18:10,640</code>
+På din Mac</p>
+<p><code>600 00:18:10,640 --&gt; 00:18:13,120</code>
+Ja men det är inte så farligt</p>
+<p><code>601 00:18:13,120 --&gt; 00:18:13,560</code>
+På min Mac</p>
+<p><code>602 00:18:13,560 --&gt; 00:18:16,360</code>
+Men men</p>
+<p><code>603 00:18:16,360 --&gt; 00:18:17,680</code>
+Ja</p>
+<p><code>604 00:18:17,680 --&gt; 00:18:17,960</code>
+Ja</p>
+<p><code>605 00:18:17,960 --&gt; 00:18:18,640</code>
+, det finns ju</p>
+<p><code>606 00:18:18,640 --&gt; 00:18:20,120</code>
+Det finns ju definitivt</p>
+<p><code>607 00:18:20,120 --&gt; 00:18:22,300</code>
+Alltså om inte annat</p>
+<p><code>608 00:18:22,300 --&gt; 00:18:23,540</code>
+Om det är samma användare</p>
+<p><code>609 00:18:23,540 --&gt; 00:18:24,540</code>
+Så finns det ju</p>
+<p><code>610 00:18:24,540 --&gt; 00:18:26,220</code>
+Crossljuset</p>
+<p><code>611 00:18:26,220 --&gt; 00:18:27,080</code>
+Profilattacker</p>
+<p><code>612 00:18:27,080 --&gt; 00:18:27,600</code>
+På transkatt</p>
+<p><code>613 00:18:27,600 --&gt; 00:18:28,300</code>
+Ja, hundra procent</p>
+<p><code>614 00:18:28,300 --&gt; 00:18:29,800</code>
+Spännande</p>
+<p><code>615 00:18:29,800 --&gt; 00:18:31,240</code>
+Vilket dumma heter</p>
+<p><code>616 00:18:31,240 --&gt; 00:18:33,020</code>
+Ska vi byta till hårdvara?</p>
+<p><code>617 00:18:33,420 --&gt; 00:18:34,240</code>
+Ja, vad händer där?</p>
+<p><code>618 00:18:34,260 --&gt; 00:18:34,840</code>
+Why not?</p>
+<p><code>619 00:18:36,300 --&gt; 00:18:36,820</code>
+Ubiquit</p>
+<p><code>620 00:18:36,820 --&gt; 00:18:37,540</code>
+Nu har det ju</p>
+<p><code>621 00:18:37,540 --&gt; 00:18:38,500</code>
+Det har gått så lång tid</p>
+<p><code>622 00:18:38,500 --&gt; 00:18:39,520</code>
+Sedan vi spelade in</p>
+<p><code>623 00:18:39,520 --&gt; 00:18:40,440</code>
+Det är en månad sedan</p>
+<p><code>624 00:18:40,440 --&gt; 00:18:41,680</code>
+Den släpptes den här nyheten</p>
+<p><code>625 00:18:41,680 --&gt; 00:18:41,880</code>
+Ja</p>
+<p><code>626 00:18:41,880 --&gt; 00:18:42,740</code>
+Men</p>
+<p><code>627 00:18:42,740 --&gt; 00:18:44,840</code>
+Svenskt bolag</p>
+<p><code>628 00:18:44,840 --&gt; 00:18:47,360</code>
+Gör hårdvara och säkerhetsprodukt</p>
+<p><code>629 00:18:47,360 --&gt; 00:18:47,760</code>
+Och</p>
+<p><code>630 00:18:47,760 --&gt; 00:18:49,920</code>
+Deras produkt</p>
+<p><code>631 00:18:49,920 --&gt; 00:18:51,900</code>
+Vi hade ju intervju med dem för övrigt</p>
+<p><code>632 00:18:51,900 --&gt; 00:18:52,560</code>
+Ja, precis</p>
+<p><code>633 00:18:52,560 --&gt; 00:18:53,620</code>
+Men deras produkt bygger ju på</p>
+<p><code>634 00:18:53,620 --&gt; 00:18:54,920</code>
+Nu kommer jag inte ihåg</p>
+<p><code>635 00:18:54,920 --&gt; 00:18:55,500</code>
+Det står där</p>
+<p><code>636 00:18:55,500 --&gt; 00:18:55,980</code>
+Fido</p>
+<p><code>637 00:18:55,980 --&gt; 00:18:57,840</code>
+Eller var det inte det du tänkte på?</p>
+<p><code>638 00:18:58,660 --&gt; 00:18:59,580</code>
+Jag tänkte på vad</p>
+<p><code>639 00:18:59,580 --&gt; 00:19:01,380</code>
+Vad säkerhetsprocessen</p>
+<p><code>640 00:19:01,380 --&gt; 00:19:02,920</code>
+Som sitter i deras enheter heter</p>
+<p><code>641 00:19:02,920 --&gt; 00:19:05,220</code>
+Jag har kunnat det här en gång i tiden</p>
+<p><code>642 00:19:05,220 --&gt; 00:19:06,340</code>
+Men jag suger just nu</p>
+<p><code>643 00:19:06,340 --&gt; 00:19:06,960</code>
+Ja, inte det</p>
+<p><code>644 00:19:06,960 --&gt; 00:19:08,000</code>
+Toppar man ju inte tyvärr</p>
+<p><code>645 00:19:08,000 --&gt; 00:19:08,800</code>
+Men hur som helst</p>
+<p><code>646 00:19:08,800 --&gt; 00:19:10,120</code>
+De använder ju en</p>
+<p><code>647 00:19:10,120 --&gt; 00:19:12,600</code>
+Kommersiell säkerhetsprocessor</p>
+<p><code>648 00:19:12,600 --&gt; 00:19:13,780</code>
+Som är gjord för att</p>
+<p><code>649 00:19:13,780 --&gt; 00:19:15,380</code>
+Göra sånt här säkert</p>
+<p><code>650 00:19:15,380 --&gt; 00:19:17,280</code>
+Men det visar sig att</p>
+<p><code>651 00:19:17,280 --&gt; 00:19:17,720</code>
+Men jag tror</p>
+<p><code>652 00:19:17,720 --&gt; 00:19:18,860</code>
+Hårdvarunycklar typ</p>
+<p><code>653 00:19:18,860 --&gt; 00:19:20,800</code>
+För de som inte vet</p>
+<p><code>654 00:19:20,800 --&gt; 00:19:23,340</code>
+Och framförallt så gör de ju det</p>
+<p><code>655 00:19:23,340 --&gt; 00:19:24,460</code>
+Det är ju</p>
+<p><code>656 00:19:24,460 --&gt; 00:19:26,760</code>
+Processorer som är tänkta att vara</p>
+<p><code>657 00:19:26,760 --&gt; 00:19:29,240</code>
+Tillräckligt säkra för att köra</p>
+<p><code>658 00:19:29,240 --&gt; 00:19:29,820</code>
+Till exempel</p>
+<p><code>659 00:19:29,820 --&gt; 00:19:31,620</code>
+Kreditkortslösningen och sånt</p>
+<p><code>660 00:19:31,620 --&gt; 00:19:33,220</code>
+Det är vad de tillverkas för</p>
+<p><code>661 00:19:33,220 --&gt; 00:19:36,980</code>
+De är ju då inte tillverkade för att vara en</p>
+<p><code>662 00:19:36,980 --&gt; 00:19:39,420</code>
+Ogenomtränglig</p>
+<p><code>663 00:19:39,420 --&gt; 00:19:40,920</code>
+Hardware security model</p>
+<p><code>664 00:19:40,920 --&gt; 00:19:44,120</code>
+Som impliderar om du börjar göra dumheter i den</p>
+<p><code>665 00:19:44,120 --&gt; 00:19:44,460</code>
+Och</p>
+<p><code>666 00:19:44,460 --&gt; 00:19:46,500</code>
+Det finns ju inte heller en massa</p>
+<p><code>667 00:19:46,500 --&gt; 00:19:47,620</code>
+Liksom</p>
+<p><code>668 00:19:47,720 --&gt; 00:19:49,440</code>
+Metalliskt filter</p>
+<p><code>669 00:19:49,440 --&gt; 00:19:51,220</code>
+För att förhindra att det strålar och så</p>
+<p><code>670 00:19:51,220 --&gt; 00:19:51,620</code>
+Och</p>
+<p><code>671 00:19:51,620 --&gt; 00:19:53,820</code>
+Då har vi röjande strålning</p>
+<p><code>672 00:19:53,820 --&gt; 00:19:54,480</code>
+Vad är det?</p>
+<p><code>673 00:19:54,480 --&gt; 00:19:56,000</code>
+Har inte röjande strålning en coolt</p>
+<p><code>674 00:19:56,000 --&gt; 00:19:57,280</code>
+Rös</p>
+<p><code>675 00:19:57,280 --&gt; 00:19:58,020</code>
+Ja</p>
+<p><code>676 00:19:58,020 --&gt; 00:19:59,440</code>
+Det finns något utlöst</p>
+<p><code>677 00:19:59,440 --&gt; 00:20:00,360</code>
+Någon brukar säga också</p>
+<p><code>678 00:20:00,360 --&gt; 00:20:00,820</code>
+Men</p>
+<p><code>679 00:20:00,820 --&gt; 00:20:02,520</code>
+Vi kan säga rös</p>
+<p><code>680 00:20:02,520 --&gt; 00:20:03,000</code>
+Helt enkelt</p>
+<p><code>681 00:20:03,000 --&gt; 00:20:04,580</code>
+Men den håller till rös</p>
+<p><code>682 00:20:04,580 --&gt; 00:20:05,140</code>
+Så att</p>
+<p><code>683 00:20:05,140 --&gt; 00:20:06,080</code>
+Du kunde</p>
+<p><code>684 00:20:06,080 --&gt; 00:20:06,760</code>
+Du kan</p>
+<p><code>685 00:20:06,760 --&gt; 00:20:08,400</code>
+Med coola prylar</p>
+<p><code>686 00:20:08,400 --&gt; 00:20:09,080</code>
+Så kan du</p>
+<p><code>687 00:20:09,080 --&gt; 00:20:11,080</code>
+Avslöja grejer</p>
+<p><code>688 00:20:11,080 --&gt; 00:20:12,280</code>
+Om vad processorn gör</p>
+<p><code>689 00:20:12,280 --&gt; 00:20:13,340</code>
+Genom att mäta</p>
+<p><code>690 00:20:13,340 --&gt; 00:20:15,080</code>
+Spänning från ramen</p>
+<p><code>691 00:20:15,080 --&gt; 00:20:15,560</code>
+Var det va?</p>
+<p><code>692 00:20:15,560 --&gt; 00:20:17,060</code>
+När den var på</p>
+<p><code>693 00:20:17,060 --&gt; 00:20:17,560</code>
+Ja</p>
+<p><code>694 00:20:17,720 --&gt; 00:20:19,900</code>
+Våran googlande människa här</p>
+<p><code>695 00:20:19,900 --&gt; 00:20:21,440</code>
+Han tittade i mobiltelefonen</p>
+<p><code>696 00:20:21,440 --&gt; 00:20:22,740</code>
+Och han tyckte så mycket stöd just nu</p>
+<p><code>697 00:20:22,740 --&gt; 00:20:23,740</code>
+SLE 78</p>
+<p><code>698 00:20:23,740 --&gt; 00:20:24,500</code>
+Kan det ha varit den</p>
+<p><code>699 00:20:24,500 --&gt; 00:20:24,720</code>
+Ja</p>
+<p><code>700 00:20:24,720 --&gt; 00:20:25,840</code>
+Du tänkte på en</p>
+<p><code>701 00:20:25,840 --&gt; 00:20:26,900</code>
+Jag tyckte det var 76</p>
+<p><code>702 00:20:26,900 --&gt; 00:20:29,120</code>
+Nej men</p>
+<p><code>703 00:20:29,120 --&gt; 00:20:31,300</code>
+78 är ju mycket bättre än 76</p>
+<p><code>704 00:20:31,300 --&gt; 00:20:31,960</code>
+Han finns där</p>
+<p><code>705 00:20:31,960 --&gt; 00:20:34,120</code>
+Står det där</p>
+<p><code>706 00:20:34,120 --&gt; 00:20:35,420</code>
+Vad är en SLE?</p>
+<p><code>707 00:20:35,660 --&gt; 00:20:37,240</code>
+Vad heter bolaget som gör dem?</p>
+<p><code>708 00:20:38,140 --&gt; 00:20:38,540</code>
+Pass</p>
+<p><code>709 00:20:38,540 --&gt; 00:20:39,920</code>
+Ska vi säga</p>
+<p><code>710 00:20:39,920 --&gt; 00:20:43,560</code>
+Infineon</p>
+<p><code>711 00:20:43,560 --&gt; 00:20:44,500</code>
+Ja, Infineon</p>
+<p><code>712 00:20:44,500 --&gt; 00:20:44,780</code>
+Ja, precis</p>
+<p><code>713 00:20:44,780 --&gt; 00:20:46,780</code>
+Infineon är en av de stora</p>
+<p><code>714 00:20:46,780 --&gt; 00:20:47,700</code>
+Tillverkarna</p>
+<p><code>715 00:20:47,720 --&gt; 00:20:48,260</code>
+Och säkra</p>
+<p><code>716 00:20:48,260 --&gt; 00:20:50,360</code>
+Secure</p>
+<p><code>717 00:20:50,360 --&gt; 00:20:52,800</code>
+IC-tillverkarna</p>
+<p><code>718 00:20:52,800 --&gt; 00:20:54,400</code>
+Om man vill läsa detaljerna</p>
+<p><code>719 00:20:54,400 --&gt; 00:20:54,940</code>
+Så kan man läsa</p>
+<p><code>720 00:20:54,940 --&gt; 00:20:56,480</code>
+Ubicos Advisory</p>
+<p><code>721 00:20:56,480 --&gt; 00:20:58,540</code>
+Men jag tror att</p>
+<p><code>722 00:20:58,540 --&gt; 00:21:00,000</code>
+Det är ju en cool</p>
+<p><code>723 00:21:00,000 --&gt; 00:21:00,820</code>
+Side-channel-attack</p>
+<p><code>724 00:21:00,820 --&gt; 00:21:02,160</code>
+Men den kräver sådär</p>
+<p><code>725 00:21:02,160 --&gt; 00:21:03,300</code>
+Hundratusen</p>
+<p><code>726 00:21:03,300 --&gt; 00:21:04,780</code>
+Kronors utrustning</p>
+<p><code>727 00:21:04,780 --&gt; 00:21:06,160</code>
+För att lösa</p>
+<p><code>728 00:21:06,160 --&gt; 00:21:07,420</code>
+Och du måste ju ha</p>
+<p><code>729 00:21:07,420 --&gt; 00:21:08,980</code>
+Fysisk access till pryttern</p>
+<p><code>730 00:21:08,980 --&gt; 00:21:09,940</code>
+Och jag såg dessutom</p>
+<p><code>731 00:21:09,940 --&gt; 00:21:10,700</code>
+En sån här</p>
+<p><code>732 00:21:10,700 --&gt; 00:21:11,820</code>
+Before-and-after-bild</p>
+<p><code>733 00:21:11,820 --&gt; 00:21:13,800</code>
+Ja, den ser inte vacker ut</p>
+<p><code>734 00:21:13,800 --&gt; 00:21:14,800</code>
+Så det är ingenting du gör</p>
+<p><code>735 00:21:14,800 --&gt; 00:21:15,640</code>
+Du kommer märka det</p>
+<p><code>736 00:21:15,640 --&gt; 00:21:16,960</code>
+Evil-made-attack</p>
+<p><code>737 00:21:16,960 --&gt; 00:21:17,600</code>
+Den är ingen</p>
+<p><code>738 00:21:17,600 --&gt; 00:21:18,600</code>
+Nej, det är lugnt</p>
+<p><code>739 00:21:18,600 --&gt; 00:21:20,420</code>
+Men det är också som så här</p>
+<p><code>740 00:21:20,420 --&gt; 00:21:23,880</code>
+Det här</p>
+<p><code>741 00:21:23,880 --&gt; 00:21:25,060</code>
+Ligger ju</p>
+<p><code>742 00:21:25,060 --&gt; 00:21:27,040</code>
+Alltså för alla sådana</p>
+<p><code>743 00:21:27,040 --&gt; 00:21:29,440</code>
+Små, enkla</p>
+<p><code>744 00:21:29,440 --&gt; 00:21:31,320</code>
+Säkerhetsstickor</p>
+<p><code>745 00:21:31,320 --&gt; 00:21:31,960</code>
+Och authenticators</p>
+<p><code>746 00:21:31,960 --&gt; 00:21:33,600</code>
+Det här lägger ju med</p>
+<p><code>747 00:21:33,600 --&gt; 00:21:34,980</code>
+I din riskmodell</p>
+<p><code>748 00:21:34,980 --&gt; 00:21:35,500</code>
+Om</p>
+<p><code>749 00:21:35,500 --&gt; 00:21:37,780</code>
+Om du är</p>
+<p><code>750 00:21:37,780 --&gt; 00:21:39,020</code>
+Sansad</p>
+<p><code>751 00:21:39,020 --&gt; 00:21:39,340</code>
+Liksom</p>
+<p><code>752 00:21:39,340 --&gt; 00:21:40,240</code>
+För till exempel</p>
+<p><code>753 00:21:40,240 --&gt; 00:21:41,640</code>
+För du nämnde 4 dollars nu</p>
+<p><code>754 00:21:41,640 --&gt; 00:21:43,640</code>
+Och där har de ju just</p>
+<p><code>755 00:21:43,640 --&gt; 00:21:45,360</code>
+Det finns även en NIST-standard</p>
+<p><code>756 00:21:45,360 --&gt; 00:21:45,780</code>
+Där man då</p>
+<p><code>757 00:21:45,780 --&gt; 00:21:47,180</code>
+Vilka</p>
+<p><code>758 00:21:47,180 --&gt; 00:21:48,520</code>
+Vilka risker är i</p>
+<p><code>759 00:21:48,520 --&gt; 00:21:51,580</code>
+I ens hotbild</p>
+<p><code>760 00:21:51,580 --&gt; 00:21:52,280</code>
+Beroende på vilken</p>
+<p><code>761 00:21:52,280 --&gt; 00:21:54,160</code>
+Nivå av säkerhet man väljer</p>
+<p><code>762 00:21:54,160 --&gt; 00:21:55,200</code>
+Och de här små stickorna</p>
+<p><code>763 00:21:55,200 --&gt; 00:21:55,840</code>
+De är ju</p>
+<p><code>764 00:21:55,840 --&gt; 00:21:58,360</code>
+Inte säkra mot</p>
+<p><code>765 00:21:58,360 --&gt; 00:22:00,840</code>
+Att en väldigt motiverad angripare</p>
+<p><code>766 00:22:00,840 --&gt; 00:22:01,460</code>
+Nej</p>
+<p><code>767 00:22:01,460 --&gt; 00:22:02,320</code>
+Går lös</p>
+<p><code>768 00:22:02,320 --&gt; 00:22:04,160</code>
+Och har enheten över lång tid</p>
+<p><code>769 00:22:04,160 --&gt; 00:22:04,860</code>
+Nej</p>
+<p><code>770 00:22:04,860 --&gt; 00:22:06,840</code>
+Så</p>
+<p><code>771 00:22:06,840 --&gt; 00:22:08,360</code>
+Och framförallt</p>
+<p><code>772 00:22:08,360 --&gt; 00:22:10,200</code>
+Det här är ju inte en skalbar attack</p>
+<p><code>773 00:22:10,200 --&gt; 00:22:11,700</code>
+Så att</p>
+<p><code>774 00:22:11,700 --&gt; 00:22:12,480</code>
+Jag menar</p>
+<p><code>775 00:22:12,480 --&gt; 00:22:14,980</code>
+Om Rick hade på något sätt</p>
+<p><code>776 00:22:14,980 --&gt; 00:22:16,180</code>
+Skulle få sin jubik i</p>
+<p><code>777 00:22:16,180 --&gt; 00:22:17,020</code>
+Och ha en</p>
+<p><code>778 00:22:17,020 --&gt; 00:22:17,960</code>
+Krypto-wallet</p>
+<p><code>779 00:22:17,960 --&gt; 00:22:19,200</code>
+För flera miljoner på den</p>
+<p><code>780 00:22:19,200 --&gt; 00:22:20,480</code>
+Nu känner inte jag till</p>
+<p><code>781 00:22:20,480 --&gt; 00:22:21,400</code>
+Att jubikris skulle ha</p>
+<p><code>782 00:22:21,400 --&gt; 00:22:22,060</code>
+En sån feature</p>
+<p><code>783 00:22:22,060 --&gt; 00:22:22,760</code>
+Men en</p>
+<p><code>784 00:22:22,760 --&gt; 00:22:23,700</code>
+Men en sån här</p>
+<p><code>785 00:22:23,700 --&gt; 00:22:25,160</code>
+SLS</p>
+<p><code>786 00:22:25,160 --&gt; 00:22:25,920</code>
+Eller vad fan han heter</p>
+<p><code>787 00:22:25,920 --&gt; 00:22:26,580</code>
+Processor</p>
+<p><code>788 00:22:26,580 --&gt; 00:22:29,100</code>
+Då</p>
+<p><code>789 00:22:29,100 --&gt; 00:22:30,240</code>
+Då finns det ju ett</p>
+<p><code>790 00:22:30,240 --&gt; 00:22:31,720</code>
+Attack-scenario</p>
+<p><code>791 00:22:31,720 --&gt; 00:22:33,420</code>
+Där det är rimligt</p>
+<p><code>792 00:22:33,420 --&gt; 00:22:34,140</code>
+Att vi</p>
+<p><code>793 00:22:34,140 --&gt; 00:22:37,300</code>
+Slår ner</p>
+<p><code>794 00:22:37,300 --&gt; 00:22:37,900</code>
+Rickard</p>
+<p><code>795 00:22:37,900 --&gt; 00:22:38,840</code>
+Snoran sticka</p>
+<p><code>796 00:22:38,840 --&gt; 00:22:39,920</code>
+Och så av någon anledning</p>
+<p><code>797 00:22:39,920 --&gt; 00:22:40,740</code>
+Så ber vi inte honom</p>
+<p><code>798 00:22:40,740 --&gt; 00:22:41,180</code>
+Och koden</p>
+<p><code>799 00:22:41,180 --&gt; 00:22:42,200</code>
+Utan vi bara snor stickan</p>
+<p><code>800 00:22:42,200 --&gt; 00:22:43,060</code>
+Och så försöker vi</p>
+<p><code>801 00:22:43,060 --&gt; 00:22:44,040</code>
+Bryta det med lite</p>
+<p><code>802 00:22:44,040 --&gt; 00:22:44,560</code>
+Krypto-attack</p>
+<p><code>803 00:22:44,560 --&gt; 00:22:45,080</code>
+Eller någonting</p>
+<p><code>804 00:22:45,080 --&gt; 00:22:46,180</code>
+Det hade gått fortare</p>
+<p><code>805 00:22:46,180 --&gt; 00:22:46,840</code>
+Och slå mig under fotståndet</p>
+<p><code>806 00:22:47,020 --&gt; 00:22:48,280</code>
+Sulen än med en gummistång</p>
+<p><code>807 00:22:48,280 --&gt; 00:22:51,700</code>
+Eller låna mitt finger</p>
+<p><code>808 00:22:51,700 --&gt; 00:22:54,780</code>
+Så att det här funkar ju</p>
+<p><code>809 00:22:54,780 --&gt; 00:22:56,260</code>
+I en riktad attack</p>
+<p><code>810 00:22:56,260 --&gt; 00:22:57,000</code>
+Där du är beredd</p>
+<p><code>811 00:22:57,000 --&gt; 00:22:57,960</code>
+Att pröjsa mycket</p>
+<p><code>812 00:22:57,960 --&gt; 00:22:59,380</code>
+Och du har rätt personal</p>
+<p><code>813 00:22:59,380 --&gt; 00:23:00,560</code>
+Men det är ju inte</p>
+<p><code>814 00:23:00,560 --&gt; 00:23:01,600</code>
+En skalbar attack</p>
+<p><code>815 00:23:01,600 --&gt; 00:23:02,000</code>
+Om du vill</p>
+<p><code>816 00:23:02,000 --&gt; 00:23:04,260</code>
+Angripa hela systemet</p>
+<p><code>817 00:23:04,260 --&gt; 00:23:05,180</code>
+Som kör jubikri</p>
+<p><code>818 00:23:05,180 --&gt; 00:23:07,720</code>
+Och så var jag inne på tidigare</p>
+<p><code>819 00:23:07,720 --&gt; 00:23:09,700</code>
+Där hotet</p>
+<p><code>820 00:23:09,700 --&gt; 00:23:11,360</code>
+Alltså såhär</p>
+<p><code>821 00:23:11,360 --&gt; 00:23:13,180</code>
+Exakt hur den här attacken</p>
+<p><code>822 00:23:13,180 --&gt; 00:23:14,180</code>
+Som är det man går till</p>
+<p><code>823 00:23:14,180 --&gt; 00:23:15,600</code>
+Exakt den</p>
+<p><code>824 00:23:15,600 --&gt; 00:23:16,340</code>
+Kanske inte var med</p>
+<p><code>825 00:23:16,340 --&gt; 00:23:16,740</code>
+I din hot</p>
+<p><code>826 00:23:16,740 --&gt; 00:23:17,000</code>
+Och så</p>
+<p><code>827 00:23:17,020 --&gt; 00:23:17,600</code>
+Men</p>
+<p><code>828 00:23:17,600 --&gt; 00:23:18,960</code>
+Generellt sett</p>
+<p><code>829 00:23:18,960 --&gt; 00:23:20,240</code>
+Att de här attackerna finns</p>
+<p><code>830 00:23:20,240 --&gt; 00:23:22,280</code>
+Finns ju hotmodellen</p>
+<p><code>831 00:23:22,280 --&gt; 00:23:23,420</code>
+Som alla</p>
+<p><code>832 00:23:23,420 --&gt; 00:23:26,840</code>
+Normalkunniga människor</p>
+<p><code>833 00:23:26,840 --&gt; 00:23:27,960</code>
+Har runt ur</p>
+<p><code>834 00:23:27,960 --&gt; 00:23:30,460</code>
+Men man får väl det säga</p>
+<p><code>835 00:23:30,460 --&gt; 00:23:31,480</code>
+Du får ju typ ha</p>
+<p><code>836 00:23:31,480 --&gt; 00:23:32,240</code>
+Nation state</p>
+<p><code>837 00:23:32,240 --&gt; 00:23:33,540</code>
+Som potentiell threat actor</p>
+<p><code>838 00:23:33,540 --&gt; 00:23:33,920</code>
+Mot dig</p>
+<p><code>839 00:23:33,920 --&gt; 00:23:35,040</code>
+I din hotmodell</p>
+<p><code>840 00:23:35,040 --&gt; 00:23:36,400</code>
+Om det här ska vara ett problem</p>
+<p><code>841 00:23:36,400 --&gt; 00:23:37,880</code>
+Ja men om det kostar</p>
+<p><code>842 00:23:37,880 --&gt; 00:23:38,860</code>
+Några hundratusen</p>
+<p><code>843 00:23:38,860 --&gt; 00:23:39,140</code>
+Och så</p>
+<p><code>844 00:23:39,140 --&gt; 00:23:40,020</code>
+Så är det ju fortfarande</p>
+<p><code>845 00:23:40,020 --&gt; 00:23:43,200</code>
+Då funkar det ju</p>
+<p><code>846 00:23:43,200 --&gt; 00:23:44,220</code>
+Att du är</p>
+<p><code>847 00:23:44,220 --&gt; 00:23:46,500</code>
+Stort crime gang</p>
+<p><code>848 00:23:46,500 --&gt; 00:23:47,000</code>
+Med</p>
+<p><code>849 00:23:47,020 --&gt; 00:23:47,960</code>
+Som</p>
+<p><code>850 00:23:47,960 --&gt; 00:23:49,160</code>
+Som siktar in sig</p>
+<p><code>851 00:23:49,160 --&gt; 00:23:50,120</code>
+På vissa</p>
+<p><code>852 00:23:50,120 --&gt; 00:23:51,000</code>
+Väldigt specifika</p>
+<p><code>853 00:23:51,000 --&gt; 00:23:51,640</code>
+Use case</p>
+<p><code>854 00:23:51,640 --&gt; 00:23:52,180</code>
+Ja</p>
+<p><code>855 00:23:52,180 --&gt; 00:23:53,100</code>
+Men det är fortfarande</p>
+<p><code>856 00:23:53,100 --&gt; 00:23:54,060</code>
+Väldigt targeted</p>
+<p><code>857 00:23:54,060 --&gt; 00:23:55,180</code>
+Och det är någon som är</p>
+<p><code>858 00:23:55,180 --&gt; 00:23:56,080</code>
+Otroligt motiverad</p>
+<p><code>859 00:23:56,080 --&gt; 00:23:57,760</code>
+Generell användare</p>
+<p><code>860 00:23:57,760 --&gt; 00:23:58,560</code>
+Av en jubikri</p>
+<p><code>861 00:23:58,560 --&gt; 00:23:59,320</code>
+Är ju inte</p>
+<p><code>862 00:23:59,320 --&gt; 00:24:00,480</code>
+I målgruppen</p>
+<p><code>863 00:24:00,480 --&gt; 00:24:00,920</code>
+För det här</p>
+<p><code>864 00:24:00,920 --&gt; 00:24:01,300</code>
+Liksom</p>
+<p><code>865 00:24:01,300 --&gt; 00:24:01,580</code>
+Nej</p>
+<p><code>866 00:24:01,580 --&gt; 00:24:06,040</code>
+Nu vet jag inte</p>
+<p><code>867 00:24:06,040 --&gt; 00:24:06,400</code>
+Om det finns</p>
+<p><code>868 00:24:06,400 --&gt; 00:24:07,200</code>
+Någon som helst</p>
+<p><code>869 00:24:07,200 --&gt; 00:24:07,800</code>
+Koppling</p>
+<p><code>870 00:24:07,800 --&gt; 00:24:09,280</code>
+Men det kom också</p>
+<p><code>871 00:24:09,280 --&gt; 00:24:10,000</code>
+En attack som hette</p>
+<p><code>872 00:24:10,000 --&gt; 00:24:10,720</code>
+Rambo</p>
+<p><code>873 00:24:10,720 --&gt; 00:24:12,180</code>
+Som</p>
+<p><code>874 00:24:12,180 --&gt; 00:24:14,320</code>
+Var typ</p>
+<p><code>875 00:24:14,320 --&gt; 00:24:15,320</code>
+På det hållet</p>
+<p><code>876 00:24:15,320 --&gt; 00:24:16,740</code>
+Men helt tvärtom</p>
+<p><code>877 00:24:16,740 --&gt; 00:24:18,060</code>
+Det var någon</p>
+<p><code>878 00:24:18,060 --&gt; 00:24:18,440</code>
+Sån här</p>
+<p><code>879 00:24:18,440 --&gt; 00:24:19,960</code>
+Rolig israeler</p>
+<p><code>880 00:24:19,960 --&gt; 00:24:20,340</code>
+Som</p>
+<p><code>881 00:24:20,340 --&gt; 00:24:22,260</code>
+Specialiserar på</p>
+<p><code>882 00:24:22,260 --&gt; 00:24:24,160</code>
+Airgapping</p>
+<p><code>883 00:24:24,160 --&gt; 00:24:25,480</code>
+Jag tror</p>
+<p><code>884 00:24:25,480 --&gt; 00:24:26,400</code>
+Vi har pratat om</p>
+<p><code>885 00:24:26,400 --&gt; 00:24:27,880</code>
+Samma forskningsteam</p>
+<p><code>886 00:24:27,880 --&gt; 00:24:28,260</code>
+Typ</p>
+<p><code>887 00:24:28,260 --&gt; 00:24:30,880</code>
+Minst en gång</p>
+<p><code>888 00:24:30,880 --&gt; 00:24:31,440</code>
+Per år</p>
+<p><code>889 00:24:31,440 --&gt; 00:24:32,420</code>
+På någon podcast</p>
+<p><code>890 00:24:32,420 --&gt; 00:24:32,740</code>
+Tror jag</p>
+<p><code>891 00:24:32,740 --&gt; 00:24:33,940</code>
+De kommer alltid på</p>
+<p><code>892 00:24:33,940 --&gt; 00:24:34,660</code>
+Med något roligt</p>
+<p><code>893 00:24:34,660 --&gt; 00:24:34,940</code>
+Men</p>
+<p><code>894 00:24:34,940 --&gt; 00:24:36,860</code>
+Lasor och sånt där</p>
+<p><code>895 00:24:36,860 --&gt; 00:24:37,280</code>
+Ja</p>
+<p><code>896 00:24:37,280 --&gt; 00:24:37,800</code>
+Typ</p>
+<p><code>897 00:24:37,800 --&gt; 00:24:38,660</code>
+Ja</p>
+<p><code>898 00:24:38,660 --&gt; 00:24:40,440</code>
+Rikta</p>
+<p><code>899 00:24:40,440 --&gt; 00:24:41,080</code>
+Kamera</p>
+<p><code>900 00:24:41,080 --&gt; 00:24:42,280</code>
+Mot en chipspåse</p>
+<p><code>901 00:24:42,280 --&gt; 00:24:43,660</code>
+Och såna här dumheter</p>
+<p><code>902 00:24:43,660 --&gt; 00:24:45,120</code>
+Men</p>
+<p><code>903 00:24:45,120 --&gt; 00:24:46,100</code>
+Men de</p>
+<p><code>904 00:24:46,100 --&gt; 00:24:46,720</code>
+De</p>
+<p><code>905 00:24:47,260 --&gt; 00:24:48,740</code>
+Kom fram till att</p>
+<p><code>906 00:24:48,740 --&gt; 00:24:52,460</code>
+Flera datorer</p>
+<p><code>907 00:24:52,460 --&gt; 00:24:52,760</code>
+Så</p>
+<p><code>908 00:24:52,760 --&gt; 00:24:53,340</code>
+Så</p>
+<p><code>909 00:24:53,340 --&gt; 00:24:54,340</code>
+Signalerar du på</p>
+<p><code>910 00:24:54,340 --&gt; 00:24:55,160</code>
+Radiobandet</p>
+<p><code>911 00:24:55,160 --&gt; 00:24:55,820</code>
+När du skriver</p>
+<p><code>912 00:24:55,820 --&gt; 00:24:56,320</code>
+Till</p>
+<p><code>913 00:24:56,320 --&gt; 00:24:57,480</code>
+Ramminne</p>
+<p><code>914 00:24:57,480 --&gt; 00:24:58,760</code>
+Så nu tror jag</p>
+<p><code>915 00:24:58,760 --&gt; 00:24:59,540</code>
+Att deras attack som heter</p>
+<p><code>916 00:24:59,540 --&gt; 00:24:59,940</code>
+Rambo</p>
+<p><code>917 00:24:59,940 --&gt; 00:25:00,920</code>
+Den står ju förmodligen</p>
+<p><code>918 00:25:00,920 --&gt; 00:25:01,540</code>
+För något coolt</p>
+<p><code>919 00:25:01,540 --&gt; 00:25:03,460</code>
+Om man hade läst artikeln</p>
+<p><code>920 00:25:03,460 --&gt; 00:25:04,040</code>
+Ram</p>
+<p><code>921 00:25:04,040 --&gt; 00:25:05,660</code>
+Ja precis</p>
+<p><code>922 00:25:05,660 --&gt; 00:25:06,200</code>
+Men</p>
+<p><code>923 00:25:06,200 --&gt; 00:25:06,460</code>
+Men</p>
+<p><code>924 00:25:06,460 --&gt; 00:25:07,780</code>
+Grejen är att</p>
+<p><code>925 00:25:07,780 --&gt; 00:25:08,300</code>
+Om du</p>
+<p><code>926 00:25:08,300 --&gt; 00:25:09,760</code>
+Om du skriver</p>
+<p><code>927 00:25:09,760 --&gt; 00:25:10,120</code>
+Till</p>
+<p><code>928 00:25:10,120 --&gt; 00:25:11,120</code>
+Ramminnet</p>
+<p><code>929 00:25:11,120 --&gt; 00:25:11,600</code>
+Så</p>
+<p><code>930 00:25:11,600 --&gt; 00:25:13,140</code>
+Beroende på hur du skriver</p>
+<p><code>931 00:25:13,140 --&gt; 00:25:14,280</code>
+Så ger du ut en</p>
+<p><code>932 00:25:14,280 --&gt; 00:25:15,440</code>
+Signal</p>
+<p><code>933 00:25:15,440 --&gt; 00:25:16,380</code>
+Som bara strålar</p>
+<p><code>934 00:25:16,380 --&gt; 00:25:16,700</code>
+Rätt</p>
+<p><code>935 00:25:16,700 --&gt; 00:25:17,040</code>
+Ut</p>
+<p><code>936 00:25:17,040 --&gt; 00:25:17,500</code>
+Med</p>
+<p><code>937 00:25:17,500 --&gt; 00:25:18,120</code>
+Typ</p>
+<p><code>938 00:25:18,120 --&gt; 00:25:19,260</code>
+Röjande strålning</p>
+<p><code>939 00:25:19,260 --&gt; 00:25:20,160</code>
+Som sidokanal</p>
+<p><code>940 00:25:20,160 --&gt; 00:25:21,280</code>
+Så</p>
+<p><code>941 00:25:21,280 --&gt; 00:25:23,280</code>
+Så du kan alltså ha en dator</p>
+<p><code>942 00:25:23,280 --&gt; 00:25:24,060</code>
+Som står där</p>
+<p><code>943 00:25:24,060 --&gt; 00:25:24,700</code>
+Gappad</p>
+<p><code>944 00:25:24,700 --&gt; 00:25:25,820</code>
+Och så en bit bort</p>
+<p><code>945 00:25:25,820 --&gt; 00:25:27,200</code>
+Så kan du ha en radiomottagare</p>
+<p><code>946 00:25:27,200 --&gt; 00:25:28,580</code>
+Och så kan du</p>
+<p><code>947 00:25:28,580 --&gt; 00:25:29,960</code>
+Liksom höra</p>
+<p><code>948 00:25:29,960 --&gt; 00:25:30,560</code>
+Allting</p>
+<p><code>949 00:25:30,560 --&gt; 00:25:31,460</code>
+Som den datorn</p>
+<p><code>950 00:25:31,460 --&gt; 00:25:32,800</code>
+X-fyllar</p>
+<p><code>951 00:25:32,800 --&gt; 00:25:33,720</code>
+Genom att skriva</p>
+<p><code>952 00:25:33,720 --&gt; 00:25:34,700</code>
+Till Ramminnet</p>
+<p><code>953 00:25:34,700 --&gt; 00:25:35,660</code>
+För att</p>
+<p><code>954 00:25:35,660 --&gt; 00:25:37,060</code>
+Signalera</p>
+<p><code>955 00:25:37,060 --&gt; 00:25:37,480</code>
+Över</p>
+<p><code>956 00:25:37,480 --&gt; 00:25:38,880</code>
+Över luften</p>
+<p><code>957 00:25:38,880 --&gt; 00:25:39,420</code>
+Helt enkelt</p>
+<p><code>958 00:25:39,420 --&gt; 00:25:41,180</code>
+Så det</p>
+<p><code>959 00:25:41,180 --&gt; 00:25:42,700</code>
+Varför gör den på detta viset</p>
+<p><code>960 00:25:42,700 --&gt; 00:25:44,120</code>
+Så en</p>
+<p><code>961 00:25:44,120 --&gt; 00:25:45,860</code>
+Röjande strålning</p>
+<p><code>962 00:25:45,860 --&gt; 00:25:46,260</code>
+Som avcykligar</p>
+<p><code>963 00:25:46,700 --&gt; 00:25:47,340</code>
+Sidechannel</p>
+<p><code>964 00:25:47,340 --&gt; 00:25:47,900</code>
+Ja</p>
+<p><code>965 00:25:47,900 --&gt; 00:25:50,420</code>
+Tänkte jag</p>
+<p><code>966 00:25:50,420 --&gt; 00:25:51,600</code>
+Nu står inte på</p>
+<p><code>967 00:25:51,600 --&gt; 00:25:52,100</code>
+Tavlan</p>
+<p><code>968 00:25:52,100 --&gt; 00:25:52,600</code>
+Men jag tänkte</p>
+<p><code>969 00:25:52,600 --&gt; 00:25:53,260</code>
+En</p>
+<p><code>970 00:25:53,260 --&gt; 00:25:55,500</code>
+En säkerhetshändelse</p>
+<p><code>971 00:25:55,500 --&gt; 00:25:56,500</code>
+Som</p>
+<p><code>972 00:25:56,500 --&gt; 00:25:58,240</code>
+Med anledning av</p>
+<p><code>973 00:25:58,240 --&gt; 00:25:59,300</code>
+Israeler</p>
+<p><code>974 00:25:59,300 --&gt; 00:26:01,260</code>
+Det var ju några</p>
+<p><code>975 00:26:01,260 --&gt; 00:26:02,860</code>
+I</p>
+<p><code>976 00:26:02,860 --&gt; 00:26:04,440</code>
+Mellanöstern</p>
+<p><code>977 00:26:04,440 --&gt; 00:26:05,380</code>
+Som hade lite otur</p>
+<p><code>978 00:26:05,380 --&gt; 00:26:05,860</code>
+Med sin</p>
+<p><code>979 00:26:05,860 --&gt; 00:26:06,720</code>
+Supply chain</p>
+<p><code>980 00:26:06,720 --&gt; 00:26:06,980</code>
+På</p>
+<p><code>981 00:26:06,980 --&gt; 00:26:08,600</code>
+Personsökare</p>
+<p><code>982 00:26:08,600 --&gt; 00:26:09,200</code>
+Det står på tavlan</p>
+<p><code>983 00:26:09,200 --&gt; 00:26:10,260</code>
+Det står på tavlan</p>
+<p><code>984 00:26:10,260 --&gt; 00:26:11,300</code>
+Men vi kan ta den nu</p>
+<p><code>985 00:26:11,300 --&gt; 00:26:11,960</code>
+Ja okej</p>
+<p><code>986 00:26:11,960 --&gt; 00:26:12,700</code>
+Den står</p>
+<p><code>987 00:26:12,700 --&gt; 00:26:13,940</code>
+Näst längst ner</p>
+<p><code>988 00:26:13,940 --&gt; 00:26:14,700</code>
+Under rubriken</p>
+<p><code>989 00:26:14,700 --&gt; 00:26:15,720</code>
+Oh my fucking god</p>
+<p><code>990 00:26:15,720 --&gt; 00:26:16,680</code>
+Men prata vidare nu</p>
+<p><code>991 00:26:16,700 --&gt; 00:26:17,120</code>
+Ja</p>
+<p><code>992 00:26:17,120 --&gt; 00:26:17,940</code>
+Nej men jag tänkte</p>
+<p><code>993 00:26:17,940 --&gt; 00:26:18,980</code>
+Den är ju</p>
+<p><code>994 00:26:18,980 --&gt; 00:26:20,200</code>
+Lite rolig</p>
+<p><code>995 00:26:20,200 --&gt; 00:26:22,760</code>
+Både och va</p>
+<p><code>996 00:26:22,760 --&gt; 00:26:23,100</code>
+Ja</p>
+<p><code>997 00:26:23,100 --&gt; 00:26:24,200</code>
+Jo det</p>
+<p><code>998 00:26:24,200 --&gt; 00:26:25,300</code>
+Tragiskt att</p>
+<p><code>999 00:26:25,300 --&gt; 00:26:27,240</code>
+Det är</p>
+<p><code>1000 00:26:27,240 --&gt; 00:26:27,640</code>
+På temat</p>
+<p><code>1001 00:26:27,640 --&gt; 00:26:29,180</code>
+Vad är din hotmodell</p>
+<p><code>1002 00:26:29,180 --&gt; 00:26:29,840</code>
+Ja precis</p>
+<p><code>1003 00:26:29,840 --&gt; 00:26:30,740</code>
+Tragiskt att</p>
+<p><code>1004 00:26:30,740 --&gt; 00:26:32,000</code>
+Civila offer</p>
+<p><code>1005 00:26:32,000 --&gt; 00:26:33,560</code>
+Föll</p>
+<p><code>1006 00:26:33,560 --&gt; 00:26:34,280</code>
+Föll för</p>
+<p><code>1007 00:26:34,280 --&gt; 00:26:35,520</code>
+Den här attacken</p>
+<p><code>1008 00:26:35,520 --&gt; 00:26:36,160</code>
+Men jag tycker</p>
+<p><code>1009 00:26:36,160 --&gt; 00:26:37,260</code>
+Den är intressant</p>
+<p><code>1010 00:26:37,260 --&gt; 00:26:37,800</code>
+Ur ett</p>
+<p><code>1011 00:26:37,800 --&gt; 00:26:39,500</code>
+Supply chain</p>
+<p><code>1012 00:26:39,500 --&gt; 00:26:40,600</code>
+Perspektiv</p>
+<p><code>1013 00:26:40,600 --&gt; 00:26:41,580</code>
+Är det klarlagt</p>
+<p><code>1014 00:26:41,580 --&gt; 00:26:42,000</code>
+Exakt</p>
+<p><code>1015 00:26:42,000 --&gt; 00:26:42,500</code>
+Hur</p>
+<p><code>1016 00:26:42,500 --&gt; 00:26:43,800</code>
+Hur det var det gick till</p>
+<p><code>1017 00:26:43,800 --&gt; 00:26:44,660</code>
+Det är minst</p>
+<p><code>1018 00:26:44,660 --&gt; 00:26:45,580</code>
+Motsägelse</p>
+<p><code>1019 00:26:45,580 --&gt; 00:26:46,540</code>
+Fulla uppgifter</p>
+<p><code>1020 00:26:46,700 --&gt; 00:26:47,140</code>
+Här</p>
+<p><code>1021 00:26:47,140 --&gt; 00:26:47,520</code>
+För att</p>
+<p><code>1022 00:26:47,520 --&gt; 00:26:48,880</code>
+Ett antal</p>
+<p><code>1023 00:26:48,880 --&gt; 00:26:49,540</code>
+Pratar om</p>
+<p><code>1024 00:26:49,540 --&gt; 00:26:50,160</code>
+Att det skulle</p>
+<p><code>1025 00:26:50,160 --&gt; 00:26:50,660</code>
+Finna</p>
+<p><code>1026 00:26:50,660 --&gt; 00:26:51,420</code>
+Snögram</p>
+<p><code>1027 00:26:51,420 --&gt; 00:26:52,840</code>
+Sprängämnen</p>
+<p><code>1028 00:26:52,840 --&gt; 00:26:53,240</code>
+I dem</p>
+<p><code>1029 00:26:53,240 --&gt; 00:26:55,260</code>
+Jag har hört</p>
+<p><code>1030 00:26:55,260 --&gt; 00:26:56,640</code>
+Folk ifrågasätta</p>
+<p><code>1031 00:26:56,640 --&gt; 00:26:58,380</code>
+Vad är sannolikheten</p>
+<p><code>1032 00:26:58,380 --&gt; 00:26:59,500</code>
+Att du skulle ha det</p>
+<p><code>1033 00:26:59,500 --&gt; 00:27:00,760</code>
+Skulle inte</p>
+<p><code>1034 00:27:00,760 --&gt; 00:27:02,280</code>
+Skulle inte</p>
+<p><code>1035 00:27:02,280 --&gt; 00:27:02,580</code>
+Alltså</p>
+<p><code>1036 00:27:02,580 --&gt; 00:27:03,320</code>
+Den typen</p>
+<p><code>1037 00:27:03,320 --&gt; 00:27:03,860</code>
+Av ämnen</p>
+<p><code>1038 00:27:03,860 --&gt; 00:27:04,480</code>
+Och riskat</p>
+<p><code>1039 00:27:04,480 --&gt; 00:27:05,020</code>
+I upptäck</p>
+<p><code>1040 00:27:05,020 --&gt; 00:27:05,460</code>
+Som de här</p>
+<p><code>1041 00:27:05,460 --&gt; 00:27:05,860</code>
+Människorna</p>
+<p><code>1042 00:27:05,860 --&gt; 00:27:06,380</code>
+Passerar genom</p>
+<p><code>1043 00:27:06,380 --&gt; 00:27:07,160</code>
+Flygplatser</p>
+<p><code>1044 00:27:07,160 --&gt; 00:27:07,600</code>
+Och sånt</p>
+<p><code>1045 00:27:07,600 --&gt; 00:27:08,720</code>
+Jag har ett argument</p>
+<p><code>1046 00:27:08,720 --&gt; 00:27:09,680</code>
+Föremot</p>
+<p><code>1047 00:27:09,680 --&gt; 00:27:11,760</code>
+Jag har ett uppgift</p>
+<p><code>1048 00:27:11,760 --&gt; 00:27:12,480</code>
+I dem att</p>
+<p><code>1049 00:27:12,480 --&gt; 00:27:13,960</code>
+Eftersom</p>
+<p><code>1050 00:27:13,960 --&gt; 00:27:14,600</code>
+Ett par</p>
+<p><code>1051 00:27:14,600 --&gt; 00:27:15,040</code>
+Av dem</p>
+<p><code>1052 00:27:15,040 --&gt; 00:27:15,880</code>
+Så är explosionen</p>
+<p><code>1053 00:27:15,880 --&gt; 00:27:16,160</code>
+Vart</p>
+<p><code>1054 00:27:16,160 --&gt; 00:27:16,980</code>
+Precis runt</p>
+<p><code>1055 00:27:16,980 --&gt; 00:27:17,740</code>
+Batteriet</p>
+<p><code>1056 00:27:17,740 --&gt; 00:27:18,060</code>
+Det är</p>
+<p><code>1057 00:27:18,060 --&gt; 00:27:18,440</code>
+Att</p>
+<p><code>1058 00:27:18,440 --&gt; 00:27:19,080</code>
+Det var inte</p>
+<p><code>1059 00:27:19,080 --&gt; 00:27:20,540</code>
+Teorin som jag läste</p>
+<p><code>1060 00:27:20,540 --&gt; 00:27:21,260</code>
+Att de hade</p>
+<p><code>1061 00:27:21,260 --&gt; 00:27:21,880</code>
+Just lagt</p>
+<p><code>1062 00:27:21,880 --&gt; 00:27:22,420</code>
+Sprängämnen</p>
+<p><code>1063 00:27:22,420 --&gt; 00:27:23,680</code>
+I batteriet</p>
+<p><code>1064 00:27:23,680 --&gt; 00:27:24,860</code>
+Ja</p>
+<p><code>1065 00:27:24,860 --&gt; 00:27:25,620</code>
+För några</p>
+<p><code>1066 00:27:25,620 --&gt; 00:27:26,460</code>
+Av pagerna</p>
+<p><code>1067 00:27:26,460 --&gt; 00:27:27,280</code>
+Så är det ju</p>
+<p><code>1068 00:27:27,280 --&gt; 00:27:28,020</code>
+Är det ju</p>
+<p><code>1069 00:27:28,020 --&gt; 00:27:29,460</code>
+Alltså</p>
+<p><code>1070 00:27:29,460 --&gt; 00:27:30,060</code>
+Så är det ju</p>
+<p><code>1071 00:27:30,060 --&gt; 00:27:30,860</code>
+Väldigt konstigt</p>
+<p><code>1072 00:27:30,860 --&gt; 00:27:31,320</code>
+För att</p>
+<p><code>1073 00:27:31,320 --&gt; 00:27:32,940</code>
+En berörd</p>
+<p><code>1074 00:27:32,940 --&gt; 00:27:33,500</code>
+Kategori</p>
+<p><code>1075 00:27:33,500 --&gt; 00:27:35,140</code>
+I sådana</p>
+<p><code>1076 00:27:35,140 --&gt; 00:27:36,080</code>
+Pager som har</p>
+<p><code>1077 00:27:36,080 --&gt; 00:27:36,760</code>
+Typ ett</p>
+<p><code>1078 00:27:36,760 --&gt; 00:27:37,740</code>
+Dubbel</p>
+<p><code>1079 00:27:37,740 --&gt; 00:27:38,320</code>
+Av batteri</p>
+<p><code>1080 00:27:38,320 --&gt; 00:27:38,420</code>
+Ja precis</p>
+<p><code>1081 00:27:38,420 --&gt; 00:27:39,320</code>
+Av batteri</p>
+<p><code>1082 00:27:39,320 --&gt; 00:27:39,840</code>
+Med</p>
+<p><code>1083 00:27:39,840 --&gt; 00:27:41,260</code>
+Vanligt</p>
+<p><code>1084 00:27:41,260 --&gt; 00:27:42,180</code>
+Alkaline</p>
+<p><code>1085 00:27:42,180 --&gt; 00:27:42,840</code>
+Så det</p>
+<p><code>1086 00:27:42,840 --&gt; 00:27:44,480</code>
+Det finns</p>
+<p><code>1087 00:27:44,480 --&gt; 00:27:45,800</code>
+Motsägelse</p>
+<p><code>1088 00:27:45,800 --&gt; 00:27:46,100</code>
+Fulla</p>
+<p><code>1089 00:27:46,100 --&gt; 00:27:46,560</code>
+Uppgifter</p>
+<p><code>1090 00:27:46,560 --&gt; 00:27:48,380</code>
+Det var ju</p>
+<p><code>1091 00:27:48,380 --&gt; 00:27:49,040</code>
+Walkie talkie</p>
+<p><code>1092 00:27:49,040 --&gt; 00:27:49,740</code>
+Som exploderade</p>
+<p><code>1093 00:27:49,740 --&gt; 00:27:50,040</code>
+Också</p>
+<p><code>1094 00:27:50,040 --&gt; 00:27:50,640</code>
+Och där</p>
+<p><code>1095 00:27:50,640 --&gt; 00:27:51,640</code>
+Visade ju</p>
+<p><code>1096 00:27:51,640 --&gt; 00:27:53,060</code>
+Det japanska</p>
+<p><code>1097 00:27:53,060 --&gt; 00:27:53,700</code>
+Bolaget</p>
+<p><code>1098 00:27:53,700 --&gt; 00:27:54,300</code>
+Som har tillverkat</p>
+<p><code>1099 00:27:54,300 --&gt; 00:27:54,760</code>
+En av dem</p>
+<p><code>1100 00:27:54,760 --&gt; 00:27:55,280</code>
+För de har ju</p>
+<p><code>1101 00:27:55,280 --&gt; 00:27:55,840</code>
+Fått in</p>
+<p><code>1102 00:27:55,840 --&gt; 00:27:57,440</code>
+Jag vet inte</p>
+<p><code>1103 00:27:57,440 --&gt; 00:27:57,900</code>
+Om de fick</p>
+<p><code>1104 00:27:57,900 --&gt; 00:27:58,380</code>
+RMA</p>
+<p><code>1105 00:27:58,380 --&gt; 00:27:59,120</code>
+Från</p>
+<p><code>1106 00:27:59,120 --&gt; 00:28:00,500</code>
+Sprängterrorist</p>
+<p><code>1107 00:28:00,500 --&gt; 00:28:01,120</code>
+Eller om det var</p>
+<p><code>1108 00:28:01,120 --&gt; 00:28:01,980</code>
+Undrätt tjänster</p>
+<p><code>1109 00:28:01,980 --&gt; 00:28:02,600</code>
+Som hade lämnat</p>
+<p><code>1110 00:28:02,600 --&gt; 00:28:03,060</code>
+Över till dem</p>
+<p><code>1111 00:28:03,060 --&gt; 00:28:03,340</code>
+Men de</p>
+<p><code>1112 00:28:03,340 --&gt; 00:28:04,180</code>
+Men de har ju</p>
+<p><code>1113 00:28:04,180 --&gt; 00:28:04,420</code>
+Fått</p>
+<p><code>1114 00:28:04,420 --&gt; 00:28:05,520</code>
+Fått en</p>
+<p><code>1115 00:28:05,520 --&gt; 00:28:05,920</code>
+Av</p>
+<p><code>1116 00:28:05,920 --&gt; 00:28:07,320</code>
+De detonerade</p>
+<p><code>1117 00:28:07,320 --&gt; 00:28:07,560</code>
+Då</p>
+<p><code>1118 00:28:07,560 --&gt; 00:28:09,320</code>
+Och då ser du</p>
+<p><code>1119 00:28:09,320 --&gt; 00:28:09,720</code>
+Att</p>
+<p><code>1120 00:28:09,720 --&gt; 00:28:12,200</code>
+För han visar ju då</p>
+<p><code>1121 00:28:12,200 --&gt; 00:28:13,100</code>
+Dels så ser du ju att</p>
+<p><code>1122 00:28:13,100 --&gt; 00:28:14,340</code>
+Det mesta</p>
+<p><code>1123 00:28:14,340 --&gt; 00:28:14,760</code>
+Av</p>
+<p><code>1124 00:28:14,760 --&gt; 00:28:15,780</code>
+Walkie talkie</p>
+<p><code>1125 00:28:15,780 --&gt; 00:28:16,060</code>
+Är ju</p>
+<p><code>1126 00:28:16,100 --&gt; 00:28:16,900</code>
+Väldigt</p>
+<p><code>1127 00:28:16,900 --&gt; 00:28:18,540</code>
+I ett väldigt gott skick</p>
+<p><code>1128 00:28:18,540 --&gt; 00:28:19,620</code>
+För att ha exploderat</p>
+<p><code>1129 00:28:19,620 --&gt; 00:28:21,640</code>
+Så att</p>
+<p><code>1130 00:28:21,640 --&gt; 00:28:22,260</code>
+Det kan ju inte</p>
+<p><code>1131 00:28:22,260 --&gt; 00:28:23,040</code>
+Vart den värsta</p>
+<p><code>1132 00:28:23,040 --&gt; 00:28:24,080</code>
+Sprängladdningen</p>
+<p><code>1133 00:28:24,080 --&gt; 00:28:24,740</code>
+I universum</p>
+<p><code>1134 00:28:24,740 --&gt; 00:28:26,920</code>
+Och</p>
+<p><code>1135 00:28:26,920 --&gt; 00:28:28,500</code>
+Då var det ju</p>
+<p><code>1136 00:28:28,500 --&gt; 00:28:29,280</code>
+Just batteriet</p>
+<p><code>1137 00:28:29,280 --&gt; 00:28:30,080</code>
+På walkie talkie</p>
+<p><code>1138 00:28:30,080 --&gt; 00:28:30,480</code>
+Som är</p>
+<p><code>1139 00:28:30,480 --&gt; 00:28:30,980</code>
+Helt</p>
+<p><code>1140 00:28:30,980 --&gt; 00:28:32,140</code>
+Borta från den</p>
+<p><code>1141 00:28:32,140 --&gt; 00:28:33,480</code>
+Och det som var</p>
+<p><code>1142 00:28:33,480 --&gt; 00:28:34,060</code>
+Intressant</p>
+<p><code>1143 00:28:34,060 --&gt; 00:28:35,060</code>
+Var att</p>
+<p><code>1144 00:28:35,060 --&gt; 00:28:37,180</code>
+För</p>
+<p><code>1145 00:28:37,180 --&gt; 00:28:37,500</code>
+För</p>
+<p><code>1146 00:28:37,500 --&gt; 00:28:38,360</code>
+För vad de</p>
+<p><code>1147 00:28:38,360 --&gt; 00:28:39,520</code>
+Ville visa</p>
+<p><code>1148 00:28:39,520 --&gt; 00:28:40,240</code>
+Som var viktigt</p>
+<p><code>1149 00:28:40,240 --&gt; 00:28:40,880</code>
+För dem var</p>
+<p><code>1150 00:28:40,880 --&gt; 00:28:41,980</code>
+Att</p>
+<p><code>1151 00:28:41,980 --&gt; 00:28:43,500</code>
+Inga</p>
+<p><code>1152 00:28:43,500 --&gt; 00:28:44,220</code>
+Av deras</p>
+<p><code>1153 00:28:44,220 --&gt; 00:28:45,140</code>
+QA stickers</p>
+<p><code>1154 00:28:45,140 --&gt; 00:28:46,080</code>
+De har visat</p>
+<p><code>1155 00:28:46,100 --&gt; 00:28:47,980</code>
+Tre olika skillnader</p>
+<p><code>1156 00:28:47,980 --&gt; 00:28:49,380</code>
+Som</p>
+<p><code>1157 00:28:49,380 --&gt; 00:28:50,660</code>
+Såhär</p>
+<p><code>1158 00:28:50,660 --&gt; 00:28:51,520</code>
+Ser det inte ut</p>
+<p><code>1159 00:28:51,520 --&gt; 00:28:52,400</code>
+När de har lämnat</p>
+<p><code>1160 00:28:52,400 --&gt; 00:28:53,320</code>
+Våran</p>
+<p><code>1161 00:28:53,320 --&gt; 00:28:55,520</code>
+Tillverkning</p>
+<p><code>1162 00:28:55,520 --&gt; 00:28:56,040</code>
+Just det</p>
+<p><code>1163 00:28:56,040 --&gt; 00:28:56,320</code>
+Så</p>
+<p><code>1164 00:28:56,320 --&gt; 00:28:59,140</code>
+De som har</p>
+<p><code>1165 00:28:59,140 --&gt; 00:28:59,720</code>
+Roat sig</p>
+<p><code>1166 00:28:59,720 --&gt; 00:29:00,380</code>
+Med det här då</p>
+<p><code>1167 00:29:00,380 --&gt; 00:29:01,000</code>
+De som har gjort</p>
+<p><code>1168 00:29:01,000 --&gt; 00:29:01,620</code>
+Den här grejen</p>
+<p><code>1169 00:29:01,620 --&gt; 00:29:03,440</code>
+Har ju uppenbarligen</p>
+<p><code>1170 00:29:03,440 --&gt; 00:29:03,900</code>
+Fått</p>
+<p><code>1171 00:29:03,900 --&gt; 00:29:04,380</code>
+Till</p>
+<p><code>1172 00:29:04,380 --&gt; 00:29:06,080</code>
+De har på något sätt</p>
+<p><code>1173 00:29:06,080 --&gt; 00:29:06,680</code>
+Fått</p>
+<p><code>1174 00:29:06,680 --&gt; 00:29:07,500</code>
+Tag på</p>
+<p><code>1175 00:29:07,500 --&gt; 00:29:08,220</code>
+Alla delarna</p>
+<p><code>1176 00:29:08,220 --&gt; 00:29:08,740</code>
+För att bygga</p>
+<p><code>1177 00:29:08,740 --&gt; 00:29:09,760</code>
+De här walkie talkiesarna</p>
+<p><code>1178 00:29:09,760 --&gt; 00:29:12,300</code>
+Tidigare</p>
+<p><code>1179 00:29:12,300 --&gt; 00:29:13,400</code>
+I supply chainen</p>
+<p><code>1180 00:29:13,400 --&gt; 00:29:15,080</code>
+Gjort</p>
+<p><code>1181 00:29:15,080 --&gt; 00:29:15,720</code>
+Den här</p>
+<p><code>1182 00:29:15,720 --&gt; 00:29:16,500</code>
+Adapteringen</p>
+<p><code>1183 00:29:16,500 --&gt; 00:29:17,460</code>
+Och sen då</p>
+<p><code>1184 00:29:17,460 --&gt; 00:29:19,260</code>
+Fått dem till</p>
+<p><code>1185 00:29:19,260 --&gt; 00:29:20,920</code>
+Rätt personer</p>
+<p><code>1186 00:29:20,920 --&gt; 00:29:22,300</code>
+Så att</p>
+<p><code>1187 00:29:22,300 --&gt; 00:29:23,120</code>
+De har</p>
+<p><code>1188 00:29:23,120 --&gt; 00:29:24,160</code>
+De har liksom</p>
+<p><code>1189 00:29:24,160 --&gt; 00:29:24,960</code>
+Inte bakdörat</p>
+<p><code>1190 00:29:24,960 --&gt; 00:29:26,760</code>
+Det normala</p>
+<p><code>1191 00:29:26,760 --&gt; 00:29:27,720</code>
+Flödet</p>
+<p><code>1192 00:29:27,720 --&gt; 00:29:28,140</code>
+Utan</p>
+<p><code>1193 00:29:28,140 --&gt; 00:29:29,100</code>
+Utan de är inte ens</p>
+<p><code>1194 00:29:29,100 --&gt; 00:29:30,360</code>
+Tillverkade på rätt ställe</p>
+<p><code>1195 00:29:30,360 --&gt; 00:29:31,080</code>
+Nej just det</p>
+<p><code>1196 00:29:31,080 --&gt; 00:29:32,000</code>
+Så det är ju en</p>
+<p><code>1197 00:29:32,000 --&gt; 00:29:32,880</code>
+Mycket intressant</p>
+<p><code>1198 00:29:32,880 --&gt; 00:29:33,200</code>
+Att du</p>
+<p><code>1199 00:29:33,200 --&gt; 00:29:35,160</code>
+Precis</p>
+<p><code>1200 00:29:35,160 --&gt; 00:29:35,500</code>
+Det</p>
+<p><code>1201 00:29:35,500 --&gt; 00:29:37,040</code>
+Jag har hört spekulation</p>
+<p><code>1202 00:29:37,040 --&gt; 00:29:38,120</code>
+Att det skulle kunna vara</p>
+<p><code>1203 00:29:38,120 --&gt; 00:29:38,820</code>
+Det här</p>
+<p><code>1204 00:29:38,820 --&gt; 00:29:40,360</code>
+Rugged pager</p>
+<p><code>1205 00:29:40,360 --&gt; 00:29:42,600</code>
+AR924</p>
+<p><code>1206 00:29:42,600 --&gt; 00:29:43,700</code>
+Från Apollo Gold</p>
+<p><code>1207 00:29:43,700 --&gt; 00:29:44,800</code>
+Det är en</p>
+<p><code>1208 00:29:44,800 --&gt; 00:29:45,540</code>
+Som har nämnts</p>
+<p><code>1209 00:29:45,540 --&gt; 00:29:45,680</code>
+Ja</p>
+<p><code>1210 00:29:45,680 --&gt; 00:29:46,060</code>
+Precis</p>
+<p><code>1211 00:29:46,060 --&gt; 00:29:48,500</code>
+Och den tror jag har</p>
+<p><code>1212 00:29:48,500 --&gt; 00:29:52,660</code>
+Inbyggt litiumbatteri</p>
+<p><code>1213 00:29:52,660 --&gt; 00:29:54,500</code>
+Så då skulle det ju kunna vara</p>
+<p><code>1214 00:29:54,500 --&gt; 00:29:55,520</code>
+Manipulerat här</p>
+<p><code>1215 00:29:55,520 --&gt; 00:29:55,740</code>
+Men</p>
+<p><code>1216 00:29:55,740 --&gt; 00:29:56,140</code>
+Men</p>
+<p><code>1217 00:29:56,140 --&gt; 00:29:57,720</code>
+För det var ju</p>
+<p><code>1218 00:29:57,720 --&gt; 00:29:58,880</code>
+Vanliga AP900</p>
+<p><code>1219 00:29:58,880 --&gt; 00:29:59,600</code>
+Den kör ju på vanliga</p>
+<p><code>1220 00:29:59,600 --&gt; 00:30:00,560</code>
+AAA-batterier</p>
+<p><code>1221 00:30:00,560 --&gt; 00:30:02,120</code>
+Först var det ju folk som spekulerade</p>
+<p><code>1222 00:30:02,120 --&gt; 00:30:02,780</code>
+Ja har de</p>
+<p><code>1223 00:30:02,780 --&gt; 00:30:04,640</code>
+Typ programmatiskt</p>
+<p><code>1224 00:30:04,640 --&gt; 00:30:04,960</code>
+På något sätt</p>
+<p><code>1225 00:30:04,960 --&gt; 00:30:05,940</code>
+Överbelastat litium</p>
+<p><code>1226 00:30:05,940 --&gt; 00:30:06,100</code>
+Jo</p>
+<p><code>1227 00:30:06,100 --&gt; 00:30:07,960</code>
+Så du får inte</p>
+<p><code>1228 00:30:07,960 --&gt; 00:30:09,380</code>
+Den explosionskraften</p>
+<p><code>1229 00:30:09,380 --&gt; 00:30:10,200</code>
+På det sättet</p>
+<p><code>1230 00:30:10,200 --&gt; 00:30:10,560</code>
+Nej</p>
+<p><code>1231 00:30:10,560 --&gt; 00:30:11,260</code>
+Utan</p>
+<p><code>1232 00:30:11,260 --&gt; 00:30:12,920</code>
+De måste ha varit</p>
+<p><code>1233 00:30:12,920 --&gt; 00:30:13,900</code>
+RDX</p>
+<p><code>1234 00:30:13,900 --&gt; 00:30:14,540</code>
+Eller någonting</p>
+<p><code>1235 00:30:14,540 --&gt; 00:30:15,300</code>
+Liknande</p>
+<p><code>1236 00:30:15,300 --&gt; 00:30:15,520</code>
+I</p>
+<p><code>1237 00:30:15,520 --&gt; 00:30:15,660</code>
+I</p>
+<p><code>1238 00:30:15,680 --&gt; 00:30:16,040</code>
+I dem</p>
+<p><code>1239 00:30:16,040 --&gt; 00:30:16,200</code>
+Ja</p>
+<p><code>1240 00:30:16,200 --&gt; 00:30:16,980</code>
+Och det som</p>
+<p><code>1241 00:30:16,980 --&gt; 00:30:19,200</code>
+Det som bidrar till funderingen här</p>
+<p><code>1242 00:30:19,200 --&gt; 00:30:20,620</code>
+Är ju att det är förmodligen så</p>
+<p><code>1243 00:30:20,620 --&gt; 00:30:21,420</code>
+Att</p>
+<p><code>1244 00:30:21,420 --&gt; 00:30:24,580</code>
+Det är mer än en grej</p>
+<p><code>1245 00:30:24,580 --&gt; 00:30:25,160</code>
+Som har hänt</p>
+<p><code>1246 00:30:25,160 --&gt; 00:30:26,960</code>
+För några rapporterade ju</p>
+<p><code>1247 00:30:26,960 --&gt; 00:30:27,920</code>
+Om att enheterna hade</p>
+<p><code>1248 00:30:27,920 --&gt; 00:30:29,440</code>
+De hade känt att den blev varmare</p>
+<p><code>1249 00:30:29,440 --&gt; 00:30:29,840</code>
+Och varmare</p>
+<p><code>1250 00:30:29,840 --&gt; 00:30:30,940</code>
+Så att de kastade bort sig</p>
+<p><code>1251 00:30:30,940 --&gt; 00:30:31,620</code>
+Och sen hade de</p>
+<p><code>1252 00:30:31,620 --&gt; 00:30:33,000</code>
+Typ mindre explosion</p>
+<p><code>1253 00:30:33,000 --&gt; 00:30:33,380</code>
+Mm</p>
+<p><code>1254 00:30:33,380 --&gt; 00:30:35,260</code>
+Medan</p>
+<p><code>1255 00:30:35,260 --&gt; 00:30:36,560</code>
+Det rapporteras om att andra</p>
+<p><code>1256 00:30:36,560 --&gt; 00:30:37,100</code>
+Bara skulle</p>
+<p><code>1257 00:30:37,100 --&gt; 00:30:38,160</code>
+Pambom</p>
+<p><code>1258 00:30:38,160 --&gt; 00:30:38,880</code>
+Exploderat</p>
+<p><code>1259 00:30:38,880 --&gt; 00:30:40,420</code>
+Och då låter det som att</p>
+<p><code>1260 00:30:40,420 --&gt; 00:30:42,420</code>
+Det är</p>
+<p><code>1261 00:30:42,420 --&gt; 00:30:43,360</code>
+Två olika</p>
+<p><code>1262 00:30:43,360 --&gt; 00:30:44,120</code>
+Mekanismer</p>
+<p><code>1263 00:30:44,120 --&gt; 00:30:45,440</code>
+För att åstadkomma samma sak</p>
+<p><code>1264 00:30:45,440 --&gt; 00:30:45,520</code>
+Mm</p>
+<p><code>1265 00:30:45,520 --&gt; 00:30:46,700</code>
+Ja</p>
+<p><code>1266 00:30:46,700 --&gt; 00:30:47,680</code>
+Och förutsatt</p>
+<p><code>1267 00:30:47,680 --&gt; 00:30:48,500</code>
+Att det inte bara är så</p>
+<p><code>1268 00:30:48,500 --&gt; 00:30:49,240</code>
+Helt absurd</p>
+<p><code>1269 00:30:49,240 --&gt; 00:30:49,620</code>
+Och tur</p>
+<p><code>1270 00:30:49,620 --&gt; 00:30:50,360</code>
+Att några</p>
+<p><code>1271 00:30:50,360 --&gt; 00:30:52,100</code>
+Några</p>
+<p><code>1272 00:30:52,100 --&gt; 00:30:53,500</code>
+Bara valde att själv dö</p>
+<p><code>1273 00:30:53,500 --&gt; 00:30:54,620</code>
+I ungefär</p>
+<p><code>1274 00:30:54,620 --&gt; 00:30:55,660</code>
+Samma härad</p>
+<p><code>1275 00:30:55,660 --&gt; 00:30:56,040</code>
+Som</p>
+<p><code>1276 00:30:56,040 --&gt; 00:30:57,160</code>
+Ja</p>
+<p><code>1277 00:30:57,160 --&gt; 00:30:57,800</code>
+Exklusiva</p>
+<p><code>1278 00:30:57,800 --&gt; 00:30:58,540</code>
+Attacken hände</p>
+<p><code>1279 00:30:58,540 --&gt; 00:31:00,260</code>
+Sen är det väl</p>
+<p><code>1280 00:31:00,260 --&gt; 00:31:01,000</code>
+Hur</p>
+<p><code>1281 00:31:01,000 --&gt; 00:31:02,960</code>
+Den här</p>
+<p><code>1282 00:31:02,960 --&gt; 00:31:04,060</code>
+För de smällde ju på</p>
+<p><code>1283 00:31:04,060 --&gt; 00:31:05,100</code>
+Ungefär samma tillfälle</p>
+<p><code>1284 00:31:05,100 --&gt; 00:31:05,460</code>
+Allihopa</p>
+<p><code>1285 00:31:05,460 --&gt; 00:31:05,760</code>
+Mm</p>
+<p><code>1286 00:31:05,760 --&gt; 00:31:06,780</code>
+Så</p>
+<p><code>1287 00:31:06,780 --&gt; 00:31:08,340</code>
+På något sätt har man ju</p>
+<p><code>1288 00:31:08,340 --&gt; 00:31:09,480</code>
+Dessutom kunnat kommunicera</p>
+<p><code>1289 00:31:09,480 --&gt; 00:31:10,340</code>
+Med dem med</p>
+<p><code>1290 00:31:10,340 --&gt; 00:31:11,420</code>
+En trigger</p>
+<p><code>1291 00:31:11,420 --&gt; 00:31:12,480</code>
+Ja precis</p>
+<p><code>1292 00:31:12,480 --&gt; 00:31:13,760</code>
+Ja det skulle ju kunna vara</p>
+<p><code>1293 00:31:13,760 --&gt; 00:31:14,680</code>
+Tidsinstans i och för sig</p>
+<p><code>1294 00:31:14,680 --&gt; 00:31:14,860</code>
+Men</p>
+<p><code>1295 00:31:14,860 --&gt; 00:31:15,480</code>
+Pitchen</p>
+<p><code>1296 00:31:15,480 --&gt; 00:31:16,720</code>
+Finns ju en väldigt enkel</p>
+<p><code>1297 00:31:16,720 --&gt; 00:31:17,220</code>
+Förklaring</p>
+<p><code>1298 00:31:17,220 --&gt; 00:31:18,080</code>
+Ja absolut</p>
+<p><code>1299 00:31:18,080 --&gt; 00:31:19,200</code>
+Men det är ju</p>
+<p><code>1300 00:31:19,200 --&gt; 00:31:20,180</code>
+Utöver att du har en</p>
+<p><code>1301 00:31:20,180 --&gt; 00:31:21,740</code>
+Mekanisk sprängladdning då</p>
+<p><code>1302 00:31:21,740 --&gt; 00:31:22,820</code>
+Så har du ju dessutom</p>
+<p><code>1303 00:31:22,820 --&gt; 00:31:23,600</code>
+Tagit in och</p>
+<p><code>1304 00:31:23,600 --&gt; 00:31:24,600</code>
+Ja du måste</p>
+<p><code>1305 00:31:24,600 --&gt; 00:31:25,320</code>
+Ja precis</p>
+<p><code>1306 00:31:25,320 --&gt; 00:31:26,820</code>
+Har den löst det via</p>
+<p><code>1307 00:31:26,820 --&gt; 00:31:27,280</code>
+Pitchen</p>
+<p><code>1308 00:31:27,280 --&gt; 00:31:28,740</code>
+Så måste den även ha</p>
+<p><code>1309 00:31:28,740 --&gt; 00:31:29,980</code>
+Måste ha haft en trigger</p>
+<p><code>1310 00:31:29,980 --&gt; 00:31:30,240</code>
+Ja</p>
+<p><code>1311 00:31:30,240 --&gt; 00:31:30,520</code>
+Precis</p>
+<p><code>1312 00:31:30,520 --&gt; 00:31:31,200</code>
+Som säger</p>
+<p><code>1313 00:31:31,200 --&gt; 00:31:32,160</code>
+Nu ska vi sprängas</p>
+<p><code>1314 00:31:32,160 --&gt; 00:31:33,360</code>
+Ja om det inte bara var</p>
+<p><code>1315 00:31:33,360 --&gt; 00:31:35,120</code>
+En tidsinställd</p>
+<p><code>1316 00:31:35,120 --&gt; 00:31:35,800</code>
+Det skulle</p>
+<p><code>1317 00:31:35,800 --&gt; 00:31:36,480</code>
+Det kunde vara</p>
+<p><code>1318 00:31:36,480 --&gt; 00:31:38,340</code>
+Men tveksamt</p>
+<p><code>1319 00:31:38,340 --&gt; 00:31:38,540</code>
+Mm</p>
+<p><code>1320 00:31:38,540 --&gt; 00:31:39,120</code>
+Ja</p>
+<p><code>1321 00:31:39,120 --&gt; 00:31:40,140</code>
+Lättare men</p>
+<p><code>1322 00:31:40,140 --&gt; 00:31:41,480</code>
+Men det</p>
+<p><code>1323 00:31:41,480 --&gt; 00:31:43,720</code>
+Vad jag förstod</p>
+<p><code>1324 00:31:43,720 --&gt; 00:31:44,700</code>
+Så har</p>
+<p><code>1325 00:31:44,700 --&gt; 00:31:45,620</code>
+Hamas</p>
+<p><code>1326 00:31:45,620 --&gt; 00:31:46,840</code>
+Sitt eget</p>
+<p><code>1327 00:31:46,840 --&gt; 00:31:48,080</code>
+Nätverk</p>
+<p><code>1328 00:31:48,080 --&gt; 00:31:48,800</code>
+Hishbala</p>
+<p><code>1329 00:31:48,800 --&gt; 00:31:49,180</code>
+Hish</p>
+<p><code>1330 00:31:49,180 --&gt; 00:31:49,660</code>
+Förlåt</p>
+<p><code>1331 00:31:49,660 --&gt; 00:31:50,740</code>
+Hishbala</p>
+<p><code>1332 00:31:50,740 --&gt; 00:31:52,920</code>
+Sitt eget nätverk</p>
+<p><code>1333 00:31:52,920 --&gt; 00:31:54,900</code>
+För</p>
+<p><code>1334 00:31:54,900 --&gt; 00:31:55,840</code>
+För de här</p>
+<p><code>1335 00:31:55,840 --&gt; 00:31:56,840</code>
+Pagerna</p>
+<p><code>1336 00:31:56,840 --&gt; 00:31:57,320</code>
+För de</p>
+<p><code>1337 00:31:57,320 --&gt; 00:31:58,580</code>
+De är ju gjorda för</p>
+<p><code>1338 00:31:58,580 --&gt; 00:32:00,780</code>
+Det är inte</p>
+<p><code>1339 00:32:00,780 --&gt; 00:32:01,940</code>
+Det är inte publik telekom</p>
+<p><code>1340 00:32:01,940 --&gt; 00:32:02,400</code>
+Och det är väl det</p>
+<p><code>1341 00:32:02,400 --&gt; 00:32:03,260</code>
+De vill undvika</p>
+<p><code>1342 00:32:03,260 --&gt; 00:32:04,100</code>
+För att de vill inte</p>
+<p><code>1343 00:32:04,100 --&gt; 00:32:04,820</code>
+Ja det var väl det</p>
+<p><code>1344 00:32:04,820 --&gt; 00:32:05,860</code>
+Som hade övergått till dem där</p>
+<p><code>1345 00:32:05,860 --&gt; 00:32:06,940</code>
+För att de inte ville vara på</p>
+<p><code>1346 00:32:06,940 --&gt; 00:32:07,480</code>
+Exakt</p>
+<p><code>1347 00:32:07,480 --&gt; 00:32:08,600</code>
+Ja de vill inte ha</p>
+<p><code>1348 00:32:08,600 --&gt; 00:32:09,500</code>
+Cellphones</p>
+<p><code>1349 00:32:09,500 --&gt; 00:32:10,580</code>
+För de kan de spåra</p>
+<p><code>1350 00:32:10,580 --&gt; 00:32:10,920</code>
+Och så</p>
+<p><code>1351 00:32:10,920 --&gt; 00:32:12,180</code>
+Har ju Israel</p>
+<p><code>1352 00:32:12,180 --&gt; 00:32:13,100</code>
+Sprängt någon med</p>
+<p><code>1353 00:32:13,100 --&gt; 00:32:13,700</code>
+Via en</p>
+<p><code>1354 00:32:13,700 --&gt; 00:32:14,640</code>
+Cellphone också</p>
+<p><code>1355 00:32:14,640 --&gt; 00:32:14,960</code>
+Så att</p>
+<p><code>1356 00:32:14,960 --&gt; 00:32:16,060</code>
+Men en pager</p>
+<p><code>1357 00:32:16,060 --&gt; 00:32:16,740</code>
+Så är ju liksom</p>
+<p><code>1358 00:32:16,740 --&gt; 00:32:17,460</code>
+Det är ju en teknik</p>
+<p><code>1359 00:32:17,460 --&gt; 00:32:18,600</code>
+Som det är ju</p>
+<p><code>1360 00:32:18,600 --&gt; 00:32:19,480</code>
+Finns här också</p>
+<p><code>1361 00:32:19,480 --&gt; 00:32:20,480</code>
+Jättegammal</p>
+<p><code>1362 00:32:20,480 --&gt; 00:32:21,320</code>
+Radio</p>
+<p><code>1363 00:32:21,320 --&gt; 00:32:22,780</code>
+Radiobaserad</p>
+<p><code>1364 00:32:22,780 --&gt; 00:32:23,160</code>
+Helt enkelt</p>
+<p><code>1365 00:32:23,160 --&gt; 00:32:23,440</code>
+Precis</p>
+<p><code>1366 00:32:23,440 --&gt; 00:32:25,580</code>
+Men</p>
+<p><code>1367 00:32:25,580 --&gt; 00:32:25,960</code>
+Men</p>
+<p><code>1368 00:32:25,960 --&gt; 00:32:27,120</code>
+Jag tänker</p>
+<p><code>1369 00:32:27,120 --&gt; 00:32:27,880</code>
+Walkie talkies</p>
+<p><code>1370 00:32:27,880 --&gt; 00:32:29,020</code>
+Har ju inte samma räckvidd</p>
+<p><code>1371 00:32:29,020 --&gt; 00:32:29,900</code>
+Så då måste du nästan</p>
+<p><code>1372 00:32:29,900 --&gt; 00:32:30,540</code>
+In i</p>
+<p><code>1373 00:32:30,540 --&gt; 00:32:33,040</code>
+Ja och vara ganska nära</p>
+<p><code>1374 00:32:33,040 --&gt; 00:32:33,240</code>
+Mm</p>
+<p><code>1375 00:32:33,240 --&gt; 00:32:33,520</code>
+Sant</p>
+<p><code>1376 00:32:33,520 --&gt; 00:32:35,700</code>
+Ja eller att du flyger</p>
+<p><code>1377 00:32:35,700 --&gt; 00:32:36,560</code>
+På lite högre höjd</p>
+<p><code>1378 00:32:36,560 --&gt; 00:32:37,560</code>
+Och brastar på rejält</p>
+<p><code>1379 00:32:37,560 --&gt; 00:32:38,020</code>
+I sändningen</p>
+<p><code>1380 00:32:38,020 --&gt; 00:32:39,260</code>
+Just det</p>
+<p><code>1381 00:32:39,260 --&gt; 00:32:39,880</code>
+Sant</p>
+<p><code>1382 00:32:39,880 --&gt; 00:32:40,780</code>
+True that</p>
+<p><code>1383 00:32:40,780 --&gt; 00:32:41,000</code>
+Men</p>
+<p><code>1384 00:32:41,000 --&gt; 00:32:42,760</code>
+Men det är ju en jävla</p>
+<p><code>1385 00:32:42,760 --&gt; 00:32:43,860</code>
+Alltså så här</p>
+<p><code>1386 00:32:43,860 --&gt; 00:32:44,620</code>
+Om vi pratar</p>
+<p><code>1387 00:32:44,640 --&gt; 00:32:44,980</code>
+Om</p>
+<p><code>1388 00:32:44,980 --&gt; 00:32:46,740</code>
+Supply chain</p>
+<p><code>1389 00:32:46,740 --&gt; 00:32:47,940</code>
+Vad är din hotmodell</p>
+<p><code>1390 00:32:47,940 --&gt; 00:32:49,120</code>
+Och så här</p>
+<p><code>1391 00:32:49,120 --&gt; 00:32:49,580</code>
+Liksom</p>
+<p><code>1392 00:32:49,580 --&gt; 00:32:50,980</code>
+Det gäller mycket jobb</p>
+<p><code>1393 00:32:50,980 --&gt; 00:32:52,380</code>
+För ändå inte så</p>
+<p><code>1394 00:32:52,380 --&gt; 00:32:53,400</code>
+Mycket payoff</p>
+<p><code>1395 00:32:53,400 --&gt; 00:32:54,040</code>
+Ja</p>
+<p><code>1396 00:32:54,040 --&gt; 00:32:54,800</code>
+Antar jag</p>
+<p><code>1397 00:32:54,800 --&gt; 00:32:55,560</code>
+Sen kan ju</p>
+<p><code>1398 00:32:55,560 --&gt; 00:32:56,280</code>
+Någon effekter</p>
+<p><code>1399 00:32:56,280 --&gt; 00:32:56,660</code>
+Var stora</p>
+<p><code>1400 00:32:56,660 --&gt; 00:32:57,480</code>
+Men det var ju inte så många</p>
+<p><code>1401 00:32:57,480 --&gt; 00:32:58,120</code>
+Som strök med</p>
+<p><code>1402 00:32:58,120 --&gt; 00:32:58,720</code>
+Nej</p>
+<p><code>1403 00:32:58,720 --&gt; 00:33:00,800</code>
+Inte av den target audience</p>
+<p><code>1404 00:33:00,800 --&gt; 00:33:01,460</code>
+Som man hade</p>
+<p><code>1405 00:33:01,460 --&gt; 00:33:02,680</code>
+Men jag tänker att man</p>
+<p><code>1406 00:33:02,680 --&gt; 00:33:03,880</code>
+Man kanske</p>
+<p><code>1407 00:33:03,880 --&gt; 00:33:05,260</code>
+Men</p>
+<p><code>1408 00:33:05,260 --&gt; 00:33:06,500</code>
+När man designade</p>
+<p><code>1409 00:33:06,500 --&gt; 00:33:07,000</code>
+Attacken</p>
+<p><code>1410 00:33:07,000 --&gt; 00:33:08,220</code>
+Du får ju också</p>
+<p><code>1411 00:33:08,220 --&gt; 00:33:09,060</code>
+Tänka på att</p>
+<p><code>1412 00:33:09,060 --&gt; 00:33:09,800</code>
+Men det är klart</p>
+<p><code>1413 00:33:09,800 --&gt; 00:33:10,560</code>
+Du ska ju fokusera</p>
+<p><code>1414 00:33:10,560 --&gt; 00:33:11,360</code>
+På infrastrukturen</p>
+<p><code>1415 00:33:11,360 --&gt; 00:33:12,780</code>
+Ja målbilden kan ju vara så enkel</p>
+<p><code>1416 00:33:12,780 --&gt; 00:33:13,400</code>
+Att du vill</p>
+<p><code>1417 00:33:13,400 --&gt; 00:33:14,340</code>
+Tvinga folk</p>
+<p><code>1418 00:33:14,340 --&gt; 00:33:15,640</code>
+Bli rädda för pictures</p>
+<p><code>1419 00:33:15,640 --&gt; 00:33:16,420</code>
+Och börja använda</p>
+<p><code>1420 00:33:16,420 --&gt; 00:33:17,360</code>
+Mobiltelefoner</p>
+<p><code>1421 00:33:17,360 --&gt; 00:33:18,520</code>
+Så är det ju såklart</p>
+<p><code>1422 00:33:18,520 --&gt; 00:33:20,980</code>
+Och jag tänker att</p>
+<p><code>1423 00:33:20,980 --&gt; 00:33:22,980</code>
+Alltså</p>
+<p><code>1424 00:33:22,980 --&gt; 00:33:24,600</code>
+Man kan ju ha haft</p>
+<p><code>1425 00:33:24,600 --&gt; 00:33:25,120</code>
+En annan</p>
+<p><code>1426 00:33:25,120 --&gt; 00:33:27,440</code>
+Bild framför sig</p>
+<p><code>1427 00:33:27,440 --&gt; 00:33:28,000</code>
+När man såg</p>
+<p><code>1428 00:33:28,000 --&gt; 00:33:29,460</code>
+Hur det här skulle gå</p>
+<p><code>1429 00:33:29,460 --&gt; 00:33:30,000</code>
+Liksom att</p>
+<p><code>1430 00:33:30,000 --&gt; 00:33:30,460</code>
+Ja men</p>
+<p><code>1431 00:33:30,460 --&gt; 00:33:32,240</code>
+Kommer någon signal</p>
+<p><code>1432 00:33:32,240 --&gt; 00:33:32,820</code>
+Och då kommer</p>
+<p><code>1433 00:33:32,820 --&gt; 00:33:33,780</code>
+Våra</p>
+<p><code>1434 00:33:33,780 --&gt; 00:33:35,680</code>
+Våra tilltänkta mål</p>
+<p><code>1435 00:33:35,680 --&gt; 00:33:36,320</code>
+Att plocka upp</p>
+<p><code>1436 00:33:36,320 --&gt; 00:33:37,420</code>
+Den här hållaren i handen</p>
+<p><code>1437 00:33:37,420 --&gt; 00:33:38,580</code>
+Och läsa på den</p>
+<p><code>1438 00:33:38,580 --&gt; 00:33:39,500</code>
+Nära ansiktet</p>
+<p><code>1439 00:33:39,500 --&gt; 00:33:39,860</code>
+Liksom</p>
+<p><code>1440 00:33:39,860 --&gt; 00:33:40,880</code>
+Och sen så</p>
+<p><code>1441 00:33:40,880 --&gt; 00:33:41,740</code>
+Vart det inte så</p>
+<p><code>1442 00:33:41,740 --&gt; 00:33:42,860</code>
+Utan många kittade</p>
+<p><code>1443 00:33:42,860 --&gt; 00:33:43,840</code>
+När den låg på</p>
+<p><code>1444 00:33:43,840 --&gt; 00:33:44,700</code>
+Nattduksbordet</p>
+<p><code>1445 00:33:44,700 --&gt; 00:33:45,120</code>
+Och small</p>
+<p><code>1446 00:33:45,120 --&gt; 00:33:45,520</code>
+Ja</p>
+<p><code>1447 00:33:45,520 --&gt; 00:33:46,100</code>
+Och sen</p>
+<p><code>1448 00:33:46,100 --&gt; 00:33:47,740</code>
+I tv och så</p>
+<p><code>1449 00:33:47,740 --&gt; 00:33:48,420</code>
+Så har det ju varit</p>
+<p><code>1450 00:33:48,420 --&gt; 00:33:50,480</code>
+Fruar tillberörda</p>
+<p><code>1451 00:33:50,480 --&gt; 00:33:51,200</code>
+Och annat som</p>
+<p><code>1452 00:33:51,200 --&gt; 00:33:52,020</code>
+Drabbats</p>
+<p><code>1453 00:33:52,020 --&gt; 00:33:52,260</code>
+Men</p>
+<p><code>1454 00:33:52,260 --&gt; 00:33:53,620</code>
+Men</p>
+<p><code>1455 00:33:53,620 --&gt; 00:33:54,780</code>
+Det är ju ingen av oss</p>
+<p><code>1456 00:33:54,780 --&gt; 00:33:55,620</code>
+Som har</p>
+<p><code>1457 00:33:55,620 --&gt; 00:33:58,080</code>
+Bra uppgifter</p>
+<p><code>1458 00:33:58,080 --&gt; 00:33:59,960</code>
+På effektiviteten</p>
+<p><code>1459 00:33:59,960 --&gt; 00:34:00,780</code>
+Och liksom</p>
+<p><code>1460 00:34:00,780 --&gt; 00:34:01,100</code>
+Hur</p>
+<p><code>1461 00:34:01,100 --&gt; 00:34:02,500</code>
+Hur många</p>
+<p><code>1462 00:34:02,500 --&gt; 00:34:03,500</code>
+Bara</p>
+<p><code>1463 00:34:03,500 --&gt; 00:34:05,260</code>
+Och sen</p>
+<p><code>1464 00:34:05,260 --&gt; 00:34:05,660</code>
+Ja men</p>
+<p><code>1465 00:34:05,660 --&gt; 00:34:06,260</code>
+Och sen också</p>
+<p><code>1466 00:34:06,260 --&gt; 00:34:07,060</code>
+Får man ju ha med sig</p>
+<p><code>1467 00:34:07,060 --&gt; 00:34:08,060</code>
+Det gäller ju samma</p>
+<p><code>1468 00:34:08,060 --&gt; 00:34:09,700</code>
+I den här konflikten</p>
+<p><code>1469 00:34:09,700 --&gt; 00:34:10,140</code>
+Som det gäller</p>
+<p><code>1470 00:34:10,140 --&gt; 00:34:11,220</code>
+I Ukraina-kriget</p>
+<p><code>1471 00:34:11,220 --&gt; 00:34:11,640</code>
+Liksom att</p>
+<p><code>1472 00:34:11,640 --&gt; 00:34:13,140</code>
+Man måste ju sovra</p>
+<p><code>1473 00:34:13,140 --&gt; 00:34:14,160</code>
+Informationen</p>
+<p><code>1474 00:34:14,160 --&gt; 00:34:14,800</code>
+För all</p>
+<p><code>1475 00:34:14,800 --&gt; 00:34:15,780</code>
+All information</p>
+<p><code>1476 00:34:15,780 --&gt; 00:34:17,420</code>
+Är ju propagandakrig</p>
+<p><code>1477 00:34:17,420 --&gt; 00:34:19,280</code>
+Så att</p>
+<p><code>1478 00:34:19,280 --&gt; 00:34:20,940</code>
+Det är klart att</p>
+<p><code>1479 00:34:20,940 --&gt; 00:34:22,700</code>
+Båda</p>
+<p><code>1480 00:34:22,700 --&gt; 00:34:24,280</code>
+Båda sidor</p>
+<p><code>1481 00:34:24,280 --&gt; 00:34:25,600</code>
+Kommer att vinkla</p>
+<p><code>1482 00:34:25,600 --&gt; 00:34:26,220</code>
+Informationen</p>
+<p><code>1483 00:34:26,220 --&gt; 00:34:26,840</code>
+För att</p>
+<p><code>1484 00:34:26,840 --&gt; 00:34:27,840</code>
+Framstå</p>
+<p><code>1485 00:34:27,840 --&gt; 00:34:28,880</code>
+I god dag</p>
+<p><code>1486 00:34:28,880 --&gt; 00:34:30,060</code>
+Så är det</p>
+<p><code>1487 00:34:30,060 --&gt; 00:34:31,080</code>
+Men om vi nu</p>
+<p><code>1488 00:34:31,080 --&gt; 00:34:32,000</code>
+Inte litar på</p>
+<p><code>1489 00:34:32,000 --&gt; 00:34:32,340</code>
+Våra</p>
+<p><code>1490 00:34:32,340 --&gt; 00:34:32,980</code>
+Pätskörs</p>
+<p><code>1491 00:34:32,980 --&gt; 00:34:33,380</code>
+För att om man</p>
+<p><code>1492 00:34:33,380 --&gt; 00:34:34,220</code>
+Exploderar</p>
+<p><code>1493 00:34:34,220 --&gt; 00:34:35,060</code>
+I örat på oss</p>
+<p><code>1494 00:34:35,060 --&gt; 00:34:36,360</code>
+Ja det kanske man</p>
+<p><code>1495 00:34:36,360 --&gt; 00:34:36,960</code>
+Inte har</p>
+<p><code>1496 00:34:36,960 --&gt; 00:34:37,240</code>
+Men</p>
+<p><code>1497 00:34:37,240 --&gt; 00:34:38,100</code>
+Men</p>
+<p><code>1498 00:34:38,100 --&gt; 00:34:39,960</code>
+Precis</p>
+<p><code>1499 00:34:39,960 --&gt; 00:34:41,580</code>
+Jag tänker på en sån här</p>
+<p><code>1500 00:34:41,580 --&gt; 00:34:42,240</code>
+Riktigt</p>
+<p><code>1501 00:34:42,240 --&gt; 00:34:43,720</code>
+Riktad</p>
+<p><code>1502 00:34:43,720 --&gt; 00:34:44,060</code>
+Attack</p>
+<p><code>1503 00:34:44,060 --&gt; 00:34:45,060</code>
+Mot podcasten</p>
+<p><code>1504 00:34:45,060 --&gt; 00:34:45,640</code>
+Om man har lagt in</p>
+<p><code>1505 00:34:45,640 --&gt; 00:34:47,040</code>
+RDX i våra lurar</p>
+<p><code>1506 00:34:47,040 --&gt; 00:34:48,180</code>
+Eller i våra mikrofoner</p>
+<p><code>1507 00:34:48,180 --&gt; 00:34:48,840</code>
+Men vi</p>
+<p><code>1508 00:34:48,840 --&gt; 00:34:50,780</code>
+Vi kan ju</p>
+<p><code>1509 00:34:50,780 --&gt; 00:34:51,660</code>
+Annars köra lite</p>
+<p><code>1510 00:34:51,660 --&gt; 00:34:52,800</code>
+Nätverksutrustning</p>
+<p><code>1511 00:34:52,800 --&gt; 00:34:53,600</code>
+Och ha lite</p>
+<p><code>1512 00:34:53,600 --&gt; 00:34:54,580</code>
+Media tech</p>
+<p><code>1513 00:34:54,580 --&gt; 00:34:55,420</code>
+Vapp D</p>
+<p><code>1514 00:34:55,420 --&gt; 00:34:57,100</code>
+Kod i våra saker</p>
+<p><code>1515 00:34:57,100 --&gt; 00:34:57,860</code>
+Vapp</p>
+<p><code>1516 00:34:57,860 --&gt; 00:34:58,520</code>
+Vappt</p>
+<p><code>1517 00:34:58,520 --&gt; 00:34:59,040</code>
+Ja</p>
+<p><code>1518 00:34:59,040 --&gt; 00:35:00,640</code>
+Vapp här</p>
+<p><code>1519 00:35:00,640 --&gt; 00:35:01,400</code>
+Har inte</p>
+<p><code>1520 00:35:01,400 --&gt; 00:35:02,420</code>
+Med det där vappet</p>
+<p><code>1521 00:35:02,420 --&gt; 00:35:03,360</code>
+Som fanns</p>
+<p><code>1522 00:35:03,360 --&gt; 00:35:04,680</code>
+Var det precis runt 00</p>
+<p><code>1523 00:35:04,680 --&gt; 00:35:05,420</code>
+Eller var det</p>
+<p><code>1524 00:35:05,420 --&gt; 00:35:06,360</code>
+Eller var det före</p>
+<p><code>1525 00:35:06,360 --&gt; 00:35:07,300</code>
+På 90-talet</p>
+<p><code>1526 00:35:07,300 --&gt; 00:35:08,980</code>
+När var vapp egentligen</p>
+<p><code>1527 00:35:08,980 --&gt; 00:35:09,480</code>
+Runt med</p>
+<p><code>1528 00:35:09,480 --&gt; 00:35:10,280</code>
+Länningsskiftet här</p>
+<p><code>1529 00:35:10,280 --&gt; 00:35:11,280</code>
+Men det är viktigt</p>
+<p><code>1530 00:35:11,280 --&gt; 00:35:12,140</code>
+Att ni installerar</p>
+<p><code>1531 00:35:12,140 --&gt; 00:35:13,060</code>
+Vappsövare nu</p>
+<p><code>1532 00:35:13,060 --&gt; 00:35:14,200</code>
+För det är ju framtiden</p>
+<p><code>1533 00:35:14,200 --&gt; 00:35:15,180</code>
+Vi måste tänka</p>
+<p><code>1534 00:35:15,180 --&gt; 00:35:16,220</code>
+På digitaliseringen</p>
+<p><code>1535 00:35:16,220 --&gt; 00:35:17,420</code>
+Och börja bygga vapp nu</p>
+<p><code>1536 00:35:17,420 --&gt; 00:35:17,800</code>
+Ja</p>
+<p><code>1537 00:35:17,800 --&gt; 00:35:19,380</code>
+Vapp</p>
+<p><code>1538 00:35:19,380 --&gt; 00:35:19,700</code>
+Det är</p>
+<p><code>1539 00:35:19,700 --&gt; 00:35:22,520</code>
+Jag har faktiskt ingen aning</p>
+<p><code>1540 00:35:22,520 --&gt; 00:35:23,340</code>
+Om vad det egentligen är</p>
+<p><code>1541 00:35:23,340 --&gt; 00:35:23,720</code>
+För något</p>
+<p><code>1542 00:35:23,720 --&gt; 00:35:24,100</code>
+Men</p>
+<p><code>1543 00:35:24,100 --&gt; 00:35:24,900</code>
+Men det är tydligen</p>
+<p><code>1544 00:35:24,900 --&gt; 00:35:25,940</code>
+Jävligt low level</p>
+<p><code>1545 00:35:25,940 --&gt; 00:35:26,520</code>
+Grunka</p>
+<p><code>1546 00:35:26,520 --&gt; 00:35:28,500</code>
+Så en massa</p>
+<p><code>1547 00:35:28,500 --&gt; 00:35:30,800</code>
+En massa</p>
+<p><code>1548 00:35:30,800 --&gt; 00:35:31,700</code>
+Routers</p>
+<p><code>1549 00:35:31,700 --&gt; 00:35:32,920</code>
+Och viffutrustning</p>
+<p><code>1550 00:35:32,920 --&gt; 00:35:33,480</code>
+Och sånt</p>
+<p><code>1551 00:35:33,480 --&gt; 00:35:34,780</code>
+Hade</p>
+<p><code>1552 00:35:34,780 --&gt; 00:35:35,760</code>
+Hade det här</p>
+<p><code>1553 00:35:35,760 --&gt; 00:35:36,880</code>
+Och behöver uppdatera</p>
+<p><code>1554 00:35:36,880 --&gt; 00:35:37,660</code>
+Sina förmåns nu</p>
+<p><code>1555 00:35:37,660 --&gt; 00:35:38,100</code>
+För att</p>
+<p><code>1556 00:35:38,100 --&gt; 00:35:39,940</code>
+Det fanns typ</p>
+<p><code>1557 00:35:39,940 --&gt; 00:35:40,620</code>
+Jag vet inte om</p>
+<p><code>1558 00:35:40,620 --&gt; 00:35:41,220</code>
+Buffro</p>
+<p><code>1559 00:35:41,220 --&gt; 00:35:41,920</code>
+Eller vad</p>
+<p><code>1560 00:35:41,920 --&gt; 00:35:42,120</code>
+Det var</p>
+<p><code>1561 00:35:42,120 --&gt; 00:35:43,680</code>
+Men de hade en sårbarhet</p>
+<p><code>1562 00:35:43,680 --&gt; 00:35:44,480</code>
+Som var liksom</p>
+<p><code>1563 00:35:44,480 --&gt; 00:35:46,700</code>
+This is fucking low level</p>
+<p><code>1564 00:35:46,700 --&gt; 00:35:47,560</code>
+Det är liksom</p>
+<p><code>1565 00:35:47,560 --&gt; 00:35:48,700</code>
+Nere i</p>
+<p><code>1566 00:35:48,700 --&gt; 00:35:49,560</code>
+I chippen</p>
+<p><code>1567 00:35:49,560 --&gt; 00:35:50,620</code>
+Du implementerar</p>
+<p><code>1568 00:35:50,620 --&gt; 00:35:51,460</code>
+Grejerna med</p>
+<p><code>1569 00:35:51,460 --&gt; 00:35:52,560</code>
+Så det är ju</p>
+<p><code>1570 00:35:52,560 --&gt; 00:35:52,960</code>
+Såhär</p>
+<p><code>1571 00:35:52,960 --&gt; 00:35:53,280</code>
+Din</p>
+<p><code>1572 00:35:53,280 --&gt; 00:35:54,920</code>
+Det är liksom</p>
+<p><code>1573 00:35:54,920 --&gt; 00:35:55,280</code>
+Såhär</p>
+<p><code>1574 00:35:55,280 --&gt; 00:35:56,220</code>
+Din OS-nivå</p>
+<p><code>1575 00:35:56,220 --&gt; 00:35:56,720</code>
+Och sånt</p>
+<p><code>1576 00:35:56,720 --&gt; 00:35:57,620</code>
+Eller din driver</p>
+<p><code>1577 00:35:57,620 --&gt; 00:35:58,440</code>
+Det är inget problem</p>
+<p><code>1578 00:35:58,440 --&gt; 00:36:00,460</code>
+Problemet ligger lite längre ner</p>
+<p><code>1579 00:36:00,460 --&gt; 00:36:01,300</code>
+Jag tänkte</p>
+<p><code>1580 00:36:01,300 --&gt; 00:36:02,260</code>
+Nu ska vi se här</p>
+<p><code>1581 00:36:02,260 --&gt; 00:36:03,180</code>
+Nu försöker jag komma ihåg</p>
+<p><code>1582 00:36:03,180 --&gt; 00:36:04,440</code>
+Back in the day</p>
+<p><code>1583 00:36:04,440 --&gt; 00:36:04,780</code>
+När man hade</p>
+<p><code>1584 00:36:04,780 --&gt; 00:36:05,200</code>
+Wi-Fi</p>
+<p><code>1585 00:36:05,200 --&gt; 00:36:06,100</code>
+Innan man började använda</p>
+<p><code>1586 00:36:06,100 --&gt; 00:36:06,520</code>
+VPA</p>
+<p><code>1587 00:36:06,520 --&gt; 00:36:06,880</code>
+Så hade man</p>
+<p><code>1588 00:36:06,880 --&gt; 00:36:07,800</code>
+VPA 2</p>
+<p><code>1589 00:36:07,800 --&gt; 00:36:09,240</code>
+Hette det inte va?</p>
+<p><code>1590 00:36:09,400 --&gt; 00:36:09,840</code>
+Wep</p>
+<p><code>1591 00:36:09,840 --&gt; 00:36:10,800</code>
+Wep hette det fan</p>
+<p><code>1592 00:36:10,800 --&gt; 00:36:11,600</code>
+Ja</p>
+<p><code>1593 00:36:11,600 --&gt; 00:36:11,900</code>
+Så var det</p>
+<p><code>1594 00:36:11,900 --&gt; 00:36:12,240</code>
+Nej</p>
+<p><code>1595 00:36:12,240 --&gt; 00:36:12,880</code>
+Vapp var</p>
+<p><code>1596 00:36:12,880 --&gt; 00:36:14,620</code>
+Vapp var mobiltelefoner</p>
+<p><code>1597 00:36:14,620 --&gt; 00:36:15,440</code>
+Jo det vet jag</p>
+<p><code>1598 00:36:15,440 --&gt; 00:36:16,240</code>
+Men jag tänkte på</p>
+<p><code>1599 00:36:16,240 --&gt; 00:36:16,920</code>
+Vapp gav oss</p>
+<p><code>1600 00:36:16,920 --&gt; 00:36:17,600</code>
+Web-sidor</p>
+<p><code>1601 00:36:17,600 --&gt; 00:36:18,140</code>
+På internet</p>
+<p><code>1602 00:36:18,140 --&gt; 00:36:18,980</code>
+Jo det vet jag</p>
+<p><code>1603 00:36:18,980 --&gt; 00:36:19,600</code>
+Nej</p>
+<p><code>1604 00:36:19,600 --&gt; 00:36:20,700</code>
+Wep var det jag tänkte på</p>
+<p><code>1605 00:36:20,700 --&gt; 00:36:21,660</code>
+Nåväl</p>
+<p><code>1606 00:36:21,660 --&gt; 00:36:22,440</code>
+Det var inte det heller</p>
+<p><code>1607 00:36:22,440 --&gt; 00:36:23,860</code>
+Det är en lågleveln</p>
+<p><code>1608 00:36:23,860 --&gt; 00:36:24,300</code>
+Grej</p>
+<p><code>1609 00:36:24,300 --&gt; 00:36:25,120</code>
+Som dåligt</p>
+<p><code>1610 00:36:25,120 --&gt; 00:36:26,680</code>
+Med Wi-Fi</p>
+<p><code>1611 00:36:26,680 --&gt; 00:36:26,960</code>
+Mm</p>
+<p><code>1612 00:36:26,960 --&gt; 00:36:28,020</code>
+Ja</p>
+<p><code>1613 00:36:28,020 --&gt; 00:36:29,220</code>
+Stäng av</p>
+<p><code>1614 00:36:29,220 --&gt; 00:36:31,940</code>
+Eller uppgradera</p>
+<p><code>1615 00:36:31,940 --&gt; 00:36:33,060</code>
+Om du kan uppgradera</p>
+<p><code>1616 00:36:33,060 --&gt; 00:36:33,440</code>
+Nyssigt</p>
+<p><code>1617 00:36:33,440 --&gt; 00:36:34,500</code>
+Stäng av</p>
+<p><code>1618 00:36:34,500 --&gt; 00:36:35,340</code>
+Vad</p>
+<p><code>1619 00:36:35,340 --&gt; 00:36:36,020</code>
+Vi</p>
+<p><code>1620 00:36:36,020 --&gt; 00:36:37,920</code>
+Vi har tagit ett steg</p>
+<p><code>1621 00:36:37,920 --&gt; 00:36:38,320</code>
+Närmare</p>
+<p><code>1622 00:36:38,320 --&gt; 00:36:39,280</code>
+Massövervakning</p>
+<p><code>1623 00:36:39,280 --&gt; 00:36:39,800</code>
+Inom Europa</p>
+<p><code>1624 00:36:39,800 --&gt; 00:36:40,600</code>
+Ja</p>
+<p><code>1625 00:36:40,600 --&gt; 00:36:41,840</code>
+Det är otäckt</p>
+<p><code>1626 00:36:41,840 --&gt; 00:36:43,660</code>
+Det är hemskt</p>
+<p><code>1627 00:36:43,660 --&gt; 00:36:47,280</code>
+Justitieutskottet</p>
+<p><code>1628 00:36:47,280 --&gt; 00:36:47,940</code>
+Röstade</p>
+<p><code>1629 00:36:47,940 --&gt; 00:36:49,360</code>
+Fel</p>
+<p><code>1630 00:36:49,360 --&gt; 00:36:50,100</code>
+Och fel</p>
+<p><code>1631 00:36:50,100 --&gt; 00:36:50,780</code>
+Ja precis</p>
+<p><code>1632 00:36:50,780 --&gt; 00:36:52,820</code>
+Och det här är ju</p>
+<p><code>1633 00:36:52,820 --&gt; 00:36:53,820</code>
+En styggelse</p>
+<p><code>1634 00:36:53,820 --&gt; 00:36:54,500</code>
+Av rang</p>
+<p><code>1635 00:36:54,500 --&gt; 00:36:55,920</code>
+Det är så</p>
+<p><code>1636 00:36:55,920 --&gt; 00:36:56,700</code>
+Chat-control</p>
+<p><code>1637 00:36:56,700 --&gt; 00:36:57,560</code>
+Som vi pratar om</p>
+<p><code>1638 00:36:57,560 --&gt; 00:36:57,900</code>
+Precis</p>
+<p><code>1639 00:36:57,900 --&gt; 00:36:58,480</code>
+Återigen</p>
+<p><code>1640 00:36:58,480 --&gt; 00:36:58,900</code>
+Om vi säger att</p>
+<p><code>1641 00:36:58,900 --&gt; 00:37:00,020</code>
+Någon röstade fel</p>
+<p><code>1642 00:37:00,020 --&gt; 00:37:02,100</code>
+Bara för att vara</p>
+<p><code>1643 00:37:02,100 --&gt; 00:37:03,020</code>
+Vår</p>
+<p><code>1644 00:37:03,020 --&gt; 00:37:03,960</code>
+Gävlesadvokat</p>
+<p><code>1645 00:37:03,960 --&gt; 00:37:04,340</code>
+Eller någonting</p>
+<p><code>1646 00:37:04,340 --&gt; 00:37:05,620</code>
+Vad exakt</p>
+<p><code>1647 00:37:05,620 --&gt; 00:37:06,720</code>
+Var det de röstade</p>
+<p><code>1648 00:37:06,720 --&gt; 00:37:07,220</code>
+Om</p>
+<p><code>1649 00:37:07,220 --&gt; 00:37:08,840</code>
+Chat-control</p>
+<p><code>1650 00:37:08,840 --&gt; 00:37:09,660</code>
+2.0</p>
+<p><code>1651 00:37:09,660 --&gt; 00:37:10,540</code>
+Där reviderade</p>
+<p><code>1652 00:37:10,540 --&gt; 00:37:11,500</code>
+För</p>
+<p><code>1653 00:37:11,840 --&gt; 00:37:13,440</code>
+Förslaget på</p>
+<p><code>1654 00:37:13,440 --&gt; 00:37:14,600</code>
+CISAM</p>
+<p><code>1655 00:37:14,600 --&gt; 00:37:15,400</code>
+Scanning</p>
+<p><code>1656 00:37:15,400 --&gt; 00:37:15,960</code>
+I</p>
+<p><code>1657 00:37:15,960 --&gt; 00:37:17,760</code>
+Olika</p>
+<p><code>1658 00:37:17,760 --&gt; 00:37:18,920</code>
+Chat</p>
+<p><code>1659 00:37:18,920 --&gt; 00:37:19,420</code>
+Program</p>
+<p><code>1660 00:37:19,420 --&gt; 00:37:20,140</code>
+Och funktioner</p>
+<p><code>1661 00:37:20,140 --&gt; 00:37:20,680</code>
+Det vill säga</p>
+<p><code>1662 00:37:20,680 --&gt; 00:37:21,220</code>
+Att man vill</p>
+<p><code>1663 00:37:21,220 --&gt; 00:37:22,400</code>
+Bryta krypteringen</p>
+<p><code>1664 00:37:22,400 --&gt; 00:37:22,860</code>
+Och</p>
+<p><code>1665 00:37:22,860 --&gt; 00:37:23,860</code>
+Övervaka</p>
+<p><code>1666 00:37:23,860 --&gt; 00:37:25,580</code>
+Massövervaka</p>
+<p><code>1667 00:37:25,580 --&gt; 00:37:26,080</code>
+Samtliga</p>
+<p><code>1668 00:37:26,080 --&gt; 00:37:26,940</code>
+Samtliga</p>
+<p><code>1669 00:37:26,940 --&gt; 00:37:27,720</code>
+Meddelandetjänster</p>
+<p><code>1670 00:37:27,720 --&gt; 00:37:28,260</code>
+En</p>
+<p><code>1671 00:37:28,260 --&gt; 00:37:28,860</code>
+Potentiell</p>
+<p><code>1672 00:37:28,860 --&gt; 00:37:29,560</code>
+Bakdörr</p>
+<p><code>1673 00:37:29,560 --&gt; 00:37:30,060</code>
+För att</p>
+<p><code>1674 00:37:30,060 --&gt; 00:37:31,020</code>
+Förbjuda</p>
+<p><code>1675 00:37:31,020 --&gt; 00:37:31,560</code>
+Alla</p>
+<p><code>1676 00:37:31,560 --&gt; 00:37:32,060</code>
+Formar</p>
+<p><code>1677 00:37:32,060 --&gt; 00:37:32,560</code>
+Of privacy</p>
+<p><code>1678 00:37:32,560 --&gt; 00:37:33,340</code>
+Kommunikationer</p>
+<p><code>1679 00:37:33,340 --&gt; 00:37:33,840</code>
+Ja</p>
+<p><code>1680 00:37:33,840 --&gt; 00:37:34,340</code>
+Precis</p>
+<p><code>1681 00:37:34,340 --&gt; 00:37:34,640</code>
+Man</p>
+<p><code>1682 00:37:34,640 --&gt; 00:37:35,140</code>
+Man vill</p>
+<p><code>1683 00:37:35,140 --&gt; 00:37:35,640</code>
+Helt enkelt</p>
+<p><code>1684 00:37:35,640 --&gt; 00:37:36,180</code>
+Att folket</p>
+<p><code>1685 00:37:36,180 --&gt; 00:37:36,680</code>
+Ska inte</p>
+<p><code>1686 00:37:36,680 --&gt; 00:37:37,960</code>
+Kunna</p>
+<p><code>1687 00:37:37,960 --&gt; 00:37:38,800</code>
+Var privata</p>
+<p><code>1688 00:37:38,800 --&gt; 00:37:39,760</code>
+I sina</p>
+<p><code>1689 00:37:39,760 --&gt; 00:37:41,200</code>
+Online forum</p>
+<p><code>1690 00:37:41,200 --&gt; 00:37:41,760</code>
+Exakt</p>
+<p><code>1691 00:37:41,840 --&gt; 00:37:42,320</code>
+Och</p>
+<p><code>1692 00:37:42,320 --&gt; 00:37:43,620</code>
+Argumentet</p>
+<p><code>1693 00:37:43,620 --&gt; 00:37:44,320</code>
+Man använder</p>
+<p><code>1694 00:37:44,320 --&gt; 00:37:44,980</code>
+För att driva</p>
+<p><code>1695 00:37:44,980 --&gt; 00:37:45,540</code>
+Genom det här</p>
+<p><code>1696 00:37:45,540 --&gt; 00:37:45,880</code>
+Det är ju</p>
+<p><code>1697 00:37:45,880 --&gt; 00:37:46,420</code>
+Att man vill</p>
+<p><code>1698 00:37:46,420 --&gt; 00:37:47,220</code>
+Skydda barn</p>
+<p><code>1699 00:37:47,220 --&gt; 00:37:48,080</code>
+Mot grooming</p>
+<p><code>1700 00:37:48,080 --&gt; 00:37:49,680</code>
+Och spridandet</p>
+<p><code>1701 00:37:49,680 --&gt; 00:37:50,720</code>
+Av sexuella</p>
+<p><code>1702 00:37:50,720 --&gt; 00:37:51,540</code>
+Vi har ju ett avsnitt</p>
+<p><code>1703 00:37:51,540 --&gt; 00:37:52,140</code>
+Om det här</p>
+<p><code>1704 00:37:52,140 --&gt; 00:37:52,740</code>
+Tidigare</p>
+<p><code>1705 00:37:52,740 --&gt; 00:37:53,140</code>
+Men</p>
+<p><code>1706 00:37:53,140 --&gt; 00:37:56,060</code>
+Jag kanske vill</p>
+<p><code>1707 00:37:56,060 --&gt; 00:37:57,160</code>
+Skydda mänskligheten</p>
+<p><code>1708 00:37:57,160 --&gt; 00:37:57,900</code>
+Mot knark</p>
+<p><code>1709 00:37:57,900 --&gt; 00:37:59,500</code>
+Jag kanske vill</p>
+<p><code>1710 00:37:59,500 --&gt; 00:38:00,280</code>
+Skydda folk</p>
+<p><code>1711 00:38:00,280 --&gt; 00:38:01,380</code>
+Mot ekonomiska</p>
+<p><code>1712 00:38:01,380 --&gt; 00:38:02,120</code>
+Brott</p>
+<p><code>1713 00:38:02,120 --&gt; 00:38:02,620</code>
+Exakt</p>
+<p><code>1714 00:38:02,620 --&gt; 00:38:03,120</code>
+Eller</p>
+<p><code>1715 00:38:03,120 --&gt; 00:38:03,860</code>
+Fel åsikter</p>
+<p><code>1716 00:38:03,860 --&gt; 00:38:04,760</code>
+Fel åsikter</p>
+<p><code>1717 00:38:04,760 --&gt; 00:38:05,100</code>
+Eller</p>
+<p><code>1718 00:38:05,100 --&gt; 00:38:06,800</code>
+Det är många saker</p>
+<p><code>1719 00:38:06,800 --&gt; 00:38:07,340</code>
+Vi kan bygga med</p>
+<p><code>1720 00:38:07,340 --&gt; 00:38:08,080</code>
+Men</p>
+<p><code>1721 00:38:08,080 --&gt; 00:38:09,740</code>
+De röstade för</p>
+<p><code>1722 00:38:09,740 --&gt; 00:38:10,760</code>
+Den här lagstiftningen</p>
+<p><code>1723 00:38:10,760 --&gt; 00:38:11,080</code>
+Så de</p>
+<p><code>1724 00:38:11,080 --&gt; 00:38:11,720</code>
+Det var</p>
+<p><code>1725 00:38:11,720 --&gt; 00:38:12,920</code>
+Inte en omröstning</p>
+<p><code>1726 00:38:12,920 --&gt; 00:38:13,400</code>
+Om hurvida</p>
+<p><code>1727 00:38:13,400 --&gt; 00:38:14,880</code>
+Det var demokratiskt</p>
+<p><code>1728 00:38:14,880 --&gt; 00:38:15,260</code>
+Eller</p>
+<p><code>1729 00:38:15,260 --&gt; 00:38:16,260</code>
+Utan det var</p>
+<p><code>1730 00:38:16,260 --&gt; 00:38:17,020</code>
+Pangbom</p>
+<p><code>1731 00:38:17,020 --&gt; 00:38:18,140</code>
+Om man var för</p>
+<p><code>1732 00:38:18,140 --&gt; 00:38:18,860</code>
+Eller mot det här</p>
+<p><code>1733 00:38:18,860 --&gt; 00:38:19,520</code>
+Ja</p>
+<p><code>1734 00:38:19,520 --&gt; 00:38:19,920</code>
+Alltså</p>
+<p><code>1735 00:38:19,920 --&gt; 00:38:20,400</code>
+Det var</p>
+<p><code>1736 00:38:20,400 --&gt; 00:38:21,880</code>
+Det här ska ju</p>
+<p><code>1737 00:38:21,880 --&gt; 00:38:24,000</code>
+Beredas</p>
+<p><code>1738 00:38:24,000 --&gt; 00:38:25,700</code>
+Och det ska ju röstas</p>
+<p><code>1739 00:38:25,700 --&gt; 00:38:26,040</code>
+Om det är</p>
+<p><code>1740 00:38:26,040 --&gt; 00:38:27,180</code>
+Ministerrådet</p>
+<p><code>1741 00:38:27,180 --&gt; 00:38:27,940</code>
+Och såna här saker</p>
+<p><code>1742 00:38:27,940 --&gt; 00:38:28,600</code>
+Och tidigare</p>
+<p><code>1743 00:38:28,600 --&gt; 00:38:29,920</code>
+Så blev den ju utkastad</p>
+<p><code>1744 00:38:29,920 --&gt; 00:38:31,200</code>
+Thank god</p>
+<p><code>1745 00:38:31,200 --&gt; 00:38:32,140</code>
+I ministerrådet</p>
+<p><code>1746 00:38:32,140 --&gt; 00:38:32,860</code>
+I ministerrådet</p>
+<p><code>1747 00:38:32,860 --&gt; 00:38:33,840</code>
+Men förr</p>
+<p><code>1748 00:38:33,840 --&gt; 00:38:34,360</code>
+Så hade vi något</p>
+<p><code>1749 00:38:34,360 --&gt; 00:38:34,600</code>
+Som hette</p>
+<p><code>1750 00:38:34,600 --&gt; 00:38:35,700</code>
+Lagrådet</p>
+<p><code>1751 00:38:35,700 --&gt; 00:38:36,040</code>
+Som</p>
+<p><code>1752 00:38:36,040 --&gt; 00:38:37,900</code>
+Sa om en lagförslag</p>
+<p><code>1753 00:38:37,900 --&gt; 00:38:38,600</code>
+Var bra eller dåligt</p>
+<p><code>1754 00:38:38,600 --&gt; 00:38:39,160</code>
+Nu lät det som</p>
+<p><code>1755 00:38:39,160 --&gt; 00:38:39,800</code>
+Att det var någon annan</p>
+<p><code>1756 00:38:39,800 --&gt; 00:38:40,900</code>
+Instans som hade uthört sig</p>
+<p><code>1757 00:38:40,900 --&gt; 00:38:41,600</code>
+Ja det är justitieutståndet</p>
+<p><code>1758 00:38:41,720 --&gt; 00:38:42,980</code>
+Där det sitter en massa</p>
+<p><code>1759 00:38:42,980 --&gt; 00:38:44,040</code>
+Politiker</p>
+<p><code>1760 00:38:44,040 --&gt; 00:38:44,960</code>
+Som inte förstår</p>
+<p><code>1761 00:38:44,960 --&gt; 00:38:46,400</code>
+Vad det är de röstar om</p>
+<p><code>1762 00:38:46,400 --&gt; 00:38:47,780</code>
+Ja</p>
+<p><code>1763 00:38:47,780 --&gt; 00:38:49,400</code>
+Och det är</p>
+<p><code>1764 00:38:49,400 --&gt; 00:38:49,780</code>
+Typ bara</p>
+<p><code>1765 00:38:49,780 --&gt; 00:38:50,780</code>
+Ett namn på gamla</p>
+<p><code>1766 00:38:50,780 --&gt; 00:38:51,460</code>
+Lagrådet</p>
+<p><code>1767 00:38:51,460 --&gt; 00:38:51,800</code>
+Nej</p>
+<p><code>1768 00:38:51,800 --&gt; 00:38:53,640</code>
+Lagrådet är en annan sak</p>
+<p><code>1769 00:38:53,640 --&gt; 00:38:54,900</code>
+Men det är de som</p>
+<p><code>1770 00:38:54,900 --&gt; 00:38:55,480</code>
+Tittar på</p>
+<p><code>1771 00:38:55,480 --&gt; 00:38:56,960</code>
+Om man ska stifta lagar</p>
+<p><code>1772 00:38:56,960 --&gt; 00:38:57,820</code>
+Så ska ju de göra</p>
+<p><code>1773 00:38:57,820 --&gt; 00:38:59,040</code>
+En lagrådsremiss</p>
+<p><code>1774 00:38:59,040 --&gt; 00:39:00,300</code>
+Och titta på det</p>
+<p><code>1775 00:39:00,300 --&gt; 00:39:00,780</code>
+Okej</p>
+<p><code>1776 00:39:00,780 --&gt; 00:39:01,980</code>
+Men jag är inte säker på</p>
+<p><code>1777 00:39:01,980 --&gt; 00:39:02,640</code>
+Att lagrådet</p>
+<p><code>1778 00:39:02,640 --&gt; 00:39:03,600</code>
+Har varit inblandad här</p>
+<p><code>1779 00:39:03,600 --&gt; 00:39:04,620</code>
+Det är inte en svensk lag</p>
+<p><code>1780 00:39:04,620 --&gt; 00:39:05,180</code>
+Nej</p>
+<p><code>1781 00:39:05,180 --&gt; 00:39:05,840</code>
+Det här är ju</p>
+<p><code>1782 00:39:05,840 --&gt; 00:39:08,380</code>
+EU-grejer vet du</p>
+<p><code>1783 00:39:08,380 --&gt; 00:39:08,800</code>
+Ja</p>
+<p><code>1784 00:39:08,800 --&gt; 00:39:09,920</code>
+Men hur har EU</p>
+<p><code>1785 00:39:09,920 --&gt; 00:39:10,840</code>
+Antagit det</p>
+<p><code>1786 00:39:10,840 --&gt; 00:39:11,700</code>
+På EU-nivån</p>
+<p><code>1787 00:39:11,700 --&gt; 00:39:12,180</code>
+Nej</p>
+<p><code>1788 00:39:12,180 --&gt; 00:39:13,280</code>
+Det var ju det man inte har</p>
+<p><code>1789 00:39:13,280 --&gt; 00:39:14,320</code>
+Det här</p>
+<p><code>1790 00:39:14,320 --&gt; 00:39:15,140</code>
+Nu röstar ju då</p>
+<p><code>1791 00:39:15,140 --&gt; 00:39:16,480</code>
+Medlemsstaterna</p>
+<p><code>1792 00:39:16,480 --&gt; 00:39:18,120</code>
+Och sedan så ska detta</p>
+<p><code>1793 00:39:18,120 --&gt; 00:39:19,320</code>
+Upp då till ministerrådet</p>
+<p><code>1794 00:39:19,320 --&gt; 00:39:19,800</code>
+I EU</p>
+<p><code>1795 00:39:19,800 --&gt; 00:39:20,560</code>
+För omröstning</p>
+<p><code>1796 00:39:20,560 --&gt; 00:39:21,340</code>
+Det var där det fälldes</p>
+<p><code>1797 00:39:21,340 --&gt; 00:39:22,480</code>
+Förra gången</p>
+<p><code>1798 00:39:22,480 --&gt; 00:39:24,400</code>
+Men nu är det</p>
+<p><code>1799 00:39:24,400 --&gt; 00:39:25,400</code>
+Tillbaka igen alltså</p>
+<p><code>1800 00:39:25,400 --&gt; 00:39:25,700</code>
+Ja</p>
+<p><code>1801 00:39:25,700 --&gt; 00:39:26,660</code>
+Nu är det tillbaka igen</p>
+<p><code>1802 00:39:26,660 --&gt; 00:39:28,600</code>
+I en ny kostym</p>
+<p><code>1803 00:39:28,600 --&gt; 00:39:29,600</code>
+Och man ska</p>
+<p><code>1804 00:39:29,600 --&gt; 00:39:30,480</code>
+Komma runt</p>
+<p><code>1805 00:39:30,480 --&gt; 00:39:31,600</code>
+Privacy-frågan</p>
+<p><code>1806 00:39:31,600 --&gt; 00:39:32,520</code>
+Genom att man ska</p>
+<p><code>1807 00:39:32,520 --&gt; 00:39:33,740</code>
+Kräva samtycke</p>
+<p><code>1808 00:39:33,740 --&gt; 00:39:34,500</code>
+Till det här</p>
+<p><code>1809 00:39:34,500 --&gt; 00:39:35,460</code>
+Men om man inte</p>
+<p><code>1810 00:39:35,460 --&gt; 00:39:36,300</code>
+Samtycker så</p>
+<p><code>1811 00:39:36,300 --&gt; 00:39:37,460</code>
+Får man inte använda appen</p>
+<p><code>1812 00:39:37,460 --&gt; 00:39:37,940</code>
+Så att</p>
+<p><code>1813 00:39:37,940 --&gt; 00:39:39,900</code>
+Samtycke</p>
+<p><code>1814 00:39:39,900 --&gt; 00:39:41,120</code>
+Och så kan man</p>
+<p><code>1815 00:39:41,120 --&gt; 00:39:41,520</code>
+Diskutera</p>
+<p><code>1816 00:39:41,520 --&gt; 00:39:41,660</code>
+Det är väl en stor</p>
+<p><code>1817 00:39:41,660 --&gt; 00:39:41,680</code>
+Appen</p>
+<p><code>1818 00:39:41,700 --&gt; 00:39:42,260</code>
+Och den problemen</p>
+<p><code>1819 00:39:42,260 --&gt; 00:39:42,980</code>
+Var väl hur som helst</p>
+<p><code>1820 00:39:42,980 --&gt; 00:39:43,420</code>
+Att det skulle vara</p>
+<p><code>1821 00:39:43,420 --&gt; 00:39:44,720</code>
+Tvingande för leverantören</p>
+<p><code>1822 00:39:44,720 --&gt; 00:39:44,980</code>
+Ja</p>
+<p><code>1823 00:39:44,980 --&gt; 00:39:45,900</code>
+Så att samtycke</p>
+<p><code>1824 00:39:45,900 --&gt; 00:39:46,400</code>
+Spelar ingen roll</p>
+<p><code>1825 00:39:46,400 --&gt; 00:39:47,320</code>
+Samtycke spelar ingen roll</p>
+<p><code>1826 00:39:47,320 --&gt; 00:39:48,500</code>
+Och om jag upplever</p>
+<p><code>1827 00:39:48,500 --&gt; 00:39:49,460</code>
+Att det finns en risk</p>
+<p><code>1828 00:39:49,460 --&gt; 00:39:51,340</code>
+Att mitt media</p>
+<p><code>1829 00:39:51,340 --&gt; 00:39:52,140</code>
+På något sätt</p>
+<p><code>1830 00:39:52,140 --&gt; 00:39:53,040</code>
+Skulle kunna användas</p>
+<p><code>1831 00:39:53,040 --&gt; 00:39:54,380</code>
+För någon form av brottslighet</p>
+<p><code>1832 00:39:54,380 --&gt; 00:39:55,580</code>
+Så måste jag implementera</p>
+<p><code>1833 00:39:55,580 --&gt; 00:39:57,360</code>
+Skyddsmekanismen</p>
+<p><code>1834 00:39:57,360 --&gt; 00:39:58,240</code>
+Det var väl där någonstans</p>
+<p><code>1835 00:39:58,240 --&gt; 00:39:58,840</code>
+Bakdörrar</p>
+<p><code>1836 00:39:58,840 --&gt; 00:39:59,420</code>
+Ja precis</p>
+<p><code>1837 00:39:59,420 --&gt; 00:40:01,080</code>
+Så då kan det inte vara</p>
+<p><code>1838 00:40:01,080 --&gt; 00:40:01,880</code>
+Entry-enkryptering</p>
+<p><code>1839 00:40:01,880 --&gt; 00:40:03,360</code>
+Totalsträckskryptering</p>
+<p><code>1840 00:40:03,360 --&gt; 00:40:04,360</code>
+Kommer inte finnas</p>
+<p><code>1841 00:40:04,360 --&gt; 00:40:05,860</code>
+Eller så måste jag</p>
+<p><code>1842 00:40:05,860 --&gt; 00:40:07,040</code>
+Bygga in</p>
+<p><code>1843 00:40:07,040 --&gt; 00:40:08,000</code>
+Onda</p>
+<p><code>1844 00:40:08,000 --&gt; 00:40:08,560</code>
+Eller ja</p>
+<p><code>1845 00:40:08,560 --&gt; 00:40:09,620</code>
+Agenter</p>
+<p><code>1846 00:40:09,620 --&gt; 00:40:10,480</code>
+Måste byggas in</p>
+<p><code>1847 00:40:10,480 --&gt; 00:40:11,520</code>
+I alla</p>
+<p><code>1848 00:40:11,520 --&gt; 00:40:12,720</code>
+Klient-sidor då</p>
+<p><code>1849 00:40:12,720 --&gt; 00:40:14,460</code>
+Och de</p>
+<p><code>1850 00:40:14,460 --&gt; 00:40:15,620</code>
+De kommer ju inte gå</p>
+<p><code>1851 00:40:15,620 --&gt; 00:40:16,780</code>
+Att exploatera</p>
+<p><code>1852 00:40:16,780 --&gt; 00:40:18,100</code>
+Eller missbruka</p>
+<p><code>1853 00:40:18,100 --&gt; 00:40:18,500</code>
+På något sätt</p>
+<p><code>1854 00:40:18,500 --&gt; 00:40:19,160</code>
+Vi spelar inte vi</p>
+<p><code>1855 00:40:19,160 --&gt; 00:40:20,460</code>
+Precis in ett avsnitt</p>
+<p><code>1856 00:40:20,460 --&gt; 00:40:21,060</code>
+Om AI</p>
+<p><code>1857 00:40:21,060 --&gt; 00:40:21,980</code>
+Och attacker</p>
+<p><code>1858 00:40:21,980 --&gt; 00:40:22,820</code>
+Mot agenter</p>
+<p><code>1859 00:40:22,820 --&gt; 00:40:23,380</code>
+Exakt</p>
+<p><code>1860 00:40:23,380 --&gt; 00:40:23,700</code>
+Ja</p>
+<p><code>1861 00:40:23,700 --&gt; 00:40:25,320</code>
+Det kommer nog några veckor</p>
+<p><code>1862 00:40:25,320 --&gt; 00:40:26,280</code>
+Okej</p>
+<p><code>1863 00:40:26,280 --&gt; 00:40:27,480</code>
+Ja men det är dåligt</p>
+<p><code>1864 00:40:27,480 --&gt; 00:40:28,400</code>
+Men vi får hoppas att</p>
+<p><code>1865 00:40:28,400 --&gt; 00:40:29,480</code>
+Tyskland tar oss ur</p>
+<p><code>1866 00:40:29,480 --&gt; 00:40:31,080</code>
+Även denna kris</p>
+<p><code>1867 00:40:31,080 --&gt; 00:40:32,640</code>
+Det som jag</p>
+<p><code>1868 00:40:32,640 --&gt; 00:40:33,760</code>
+Kräks mest över</p>
+<p><code>1869 00:40:33,760 --&gt; 00:40:34,480</code>
+Det är hur</p>
+<p><code>1870 00:40:34,480 --&gt; 00:40:35,240</code>
+Ett parti</p>
+<p><code>1871 00:40:35,240 --&gt; 00:40:35,860</code>
+Som kallar sig</p>
+<p><code>1872 00:40:35,860 --&gt; 00:40:36,620</code>
+Liberala</p>
+<p><code>1873 00:40:36,620 --&gt; 00:40:37,460</code>
+Kan rösta för</p>
+<p><code>1874 00:40:37,460 --&gt; 00:40:38,620</code>
+En massövervakningslag</p>
+<p><code>1875 00:40:38,620 --&gt; 00:40:39,720</code>
+Men de har ju</p>
+<p><code>1876 00:40:39,720 --&gt; 00:40:40,620</code>
+Varit liberala i namn</p>
+<p><code>1877 00:40:40,620 --&gt; 00:40:41,480</code>
+Enbart väldigt länge</p>
+<p><code>1878 00:40:41,480 --&gt; 00:40:41,500</code>
+Ja</p>
+<p><code>1879 00:40:41,520 --&gt; 00:40:43,920</code>
+, det är</p>
+<p><code>1880 00:40:43,920 --&gt; 00:40:45,020</code>
+Problemen</p>
+<p><code>1881 00:40:45,020 --&gt; 00:40:45,740</code>
+Alltså nu ska vi inte vara</p>
+<p><code>1882 00:40:45,740 --&gt; 00:40:46,480</code>
+Allt för politiska</p>
+<p><code>1883 00:40:46,480 --&gt; 00:40:47,480</code>
+Men att liberalerna</p>
+<p><code>1884 00:40:47,480 --&gt; 00:40:48,480</code>
+Inte är liberala</p>
+<p><code>1885 00:40:48,480 --&gt; 00:40:49,760</code>
+Det är väl ett problem som</p>
+<p><code>1886 00:40:49,760 --&gt; 00:40:51,700</code>
+Är det 10 eller 20 år</p>
+<p><code>1887 00:40:51,700 --&gt; 00:40:52,280</code>
+Gammalt</p>
+<p><code>1888 00:40:52,280 --&gt; 00:40:53,420</code>
+Att de inte är liberala</p>
+<p><code>1889 00:40:53,420 --&gt; 00:40:53,720</code>
+Men de</p>
+<p><code>1890 00:40:53,720 --&gt; 00:40:54,760</code>
+De ska ha kvar</p>
+<p><code>1891 00:40:54,760 --&gt; 00:40:55,940</code>
+Det här ället ändå</p>
+<p><code>1892 00:40:55,940 --&gt; 00:40:56,380</code>
+Liksom</p>
+<p><code>1893 00:40:56,380 --&gt; 00:40:56,940</code>
+Ja</p>
+<p><code>1894 00:40:56,940 --&gt; 00:40:58,440</code>
+Jag tycker de borde</p>
+<p><code>1895 00:40:58,440 --&gt; 00:40:59,400</code>
+Bli av med det</p>
+<p><code>1896 00:40:59,400 --&gt; 00:40:59,940</code>
+Men</p>
+<p><code>1897 00:40:59,940 --&gt; 00:41:01,040</code>
+Kalla det folkpartiet</p>
+<p><code>1898 00:41:01,040 --&gt; 00:41:05,040</code>
+Okej</p>
+<p><code>1899 00:41:05,040 --&gt; 00:41:06,340</code>
+Nu</p>
+<p><code>1900 00:41:06,340 --&gt; 00:41:06,940</code>
+Nu</p>
+<p><code>1901 00:41:06,940 --&gt; 00:41:08,040</code>
+Då kanske de ska</p>
+<p><code>1902 00:41:08,040 --&gt; 00:41:09,100</code>
+Tänka på folket</p>
+<p><code>1903 00:41:09,100 --&gt; 00:41:10,420</code>
+Den folkpartiet</p>
+<p><code>1904 00:41:10,420 --&gt; 00:41:11,000</code>
+Nu duckar vi</p>
+<p><code>1905 00:41:11,000 --&gt; 00:41:11,480</code>
+De här</p>
+<p><code>1906 00:41:11,480 --&gt; 00:41:12,900</code>
+Ska jag dra den sista</p>
+<p><code>1907 00:41:12,900 --&gt; 00:41:13,420</code>
+Nyheten</p>
+<p><code>1908 00:41:13,420 --&gt; 00:41:13,860</code>
+Vi har</p>
+<p><code>1909 00:41:13,860 --&gt; 00:41:14,840</code>
+Innan vi blir alldeles</p>
+<p><code>1910 00:41:14,840 --&gt; 00:41:15,420</code>
+För politiska</p>
+<p><code>1911 00:41:15,420 --&gt; 00:41:15,880</code>
+Do it</p>
+<p><code>1912 00:41:15,880 --&gt; 00:41:17,600</code>
+Android</p>
+<p><code>1913 00:41:17,600 --&gt; 00:41:19,040</code>
+Har släppt</p>
+<p><code>1914 00:41:19,040 --&gt; 00:41:20,840</code>
+En artikel</p>
+<p><code>1915 00:41:20,840 --&gt; 00:41:21,600</code>
+Om att</p>
+<p><code>1916 00:41:21,600 --&gt; 00:41:24,040</code>
+Livet har blivit</p>
+<p><code>1917 00:41:24,040 --&gt; 00:41:25,140</code>
+Så mycket bättre</p>
+<p><code>1918 00:41:25,140 --&gt; 00:41:25,960</code>
+Efter att de</p>
+<p><code>1919 00:41:25,960 --&gt; 00:41:26,460</code>
+Började</p>
+<p><code>1920 00:41:26,460 --&gt; 00:41:27,960</code>
+Köra mer</p>
+<p><code>1921 00:41:27,960 --&gt; 00:41:28,620</code>
+Kotlin</p>
+<p><code>1922 00:41:28,620 --&gt; 00:41:29,440</code>
+Och framförallt</p>
+<p><code>1923 00:41:29,440 --&gt; 00:41:30,540</code>
+Mer rust</p>
+<p><code>1924 00:41:30,540 --&gt; 00:41:31,940</code>
+Det tycker inte jag</p>
+<p><code>1925 00:41:31,940 --&gt; 00:41:33,340</code>
+Jag håller inte med dem</p>
+<p><code>1926 00:41:33,340 --&gt; 00:41:35,500</code>
+Vilken basis</p>
+<p><code>1927 00:41:35,500 --&gt; 00:41:36,660</code>
+Jag har inte</p>
+<p><code>1928 00:41:36,660 --&gt; 00:41:37,400</code>
+Mitt liv har inte</p>
+<p><code>1929 00:41:37,400 --&gt; 00:41:38,100</code>
+Blivit det minsta</p>
+<p><code>1930 00:41:38,100 --&gt; 00:41:38,400</code>
+Bättre</p>
+<p><code>1931 00:41:38,400 --&gt; 00:41:38,660</code>
+Nej</p>
+<p><code>1932 00:41:38,660 --&gt; 00:41:39,720</code>
+Okej</p>
+<p><code>1933 00:41:39,720 --&gt; 00:41:41,440</code>
+Jag inser</p>
+<p><code>1934 00:41:41,440 --&gt; 00:41:42,640</code>
+Att jag formulerade mig</p>
+<p><code>1935 00:41:42,640 --&gt; 00:41:43,380</code>
+Dåligt</p>
+<p><code>1936 00:41:43,380 --&gt; 00:41:44,960</code>
+Ja det är tvärtom</p>
+<p><code>1937 00:41:44,960 --&gt; 00:41:45,940</code>
+Allting har inte blivit</p>
+<p><code>1938 00:41:45,940 --&gt; 00:41:46,420</code>
+Så mycket bättre</p>
+<p><code>1939 00:41:46,420 --&gt; 00:41:47,260</code>
+Däremot så</p>
+<p><code>1940 00:41:47,260 --&gt; 00:41:49,520</code>
+De gör</p>
+<p><code>1941 00:41:49,520 --&gt; 00:41:51,700</code>
+De har en högre grad</p>
+<p><code>1942 00:41:51,700 --&gt; 00:41:52,360</code>
+Av</p>
+<p><code>1943 00:41:52,360 --&gt; 00:41:54,400</code>
+Förändring</p>
+<p><code>1944 00:41:54,400 --&gt; 00:41:54,980</code>
+I</p>
+<p><code>1945 00:41:54,980 --&gt; 00:41:55,760</code>
+Android</p>
+<p><code>1946 00:41:55,760 --&gt; 00:41:57,200</code>
+Utan</p>
+<p><code>1947 00:41:57,200 --&gt; 00:41:57,940</code>
+Att de har fått</p>
+<p><code>1948 00:41:57,940 --&gt; 00:41:58,900</code>
+En högre grad</p>
+<p><code>1949 00:41:58,900 --&gt; 00:41:59,300</code>
+Av</p>
+<p><code>1950 00:41:59,300 --&gt; 00:42:00,820</code>
+Buggar</p>
+<p><code>1951 00:42:00,820 --&gt; 00:42:01,860</code>
+Och</p>
+<p><code>1952 00:42:01,860 --&gt; 00:42:03,520</code>
+Det de framförallt</p>
+<p><code>1953 00:42:03,520 --&gt; 00:42:03,900</code>
+Har</p>
+<p><code>1954 00:42:03,900 --&gt; 00:42:04,900</code>
+Det är nog konstigt</p>
+<p><code>1955 00:42:04,900 --&gt; 00:42:05,060</code>
+Att</p>
+<p><code>1956 00:42:05,060 --&gt; 00:42:06,800</code>
+Gammal</p>
+<p><code>1957 00:42:06,800 --&gt; 00:42:09,000</code>
+CC++</p>
+<p><code>1958 00:42:09,000 --&gt; 00:42:09,380</code>
+Kod</p>
+<p><code>1959 00:42:09,380 --&gt; 00:42:09,820</code>
+Som är väldigt</p>
+<p><code>1960 00:42:09,820 --&gt; 00:42:10,600</code>
+Vältestad</p>
+<p><code>1961 00:42:10,600 --&gt; 00:42:11,400</code>
+Tenderar att ha</p>
+<p><code>1962 00:42:11,400 --&gt; 00:42:11,840</code>
+Få</p>
+<p><code>1963 00:42:11,840 --&gt; 00:42:13,040</code>
+Buggar</p>
+<p><code>1964 00:42:13,040 --&gt; 00:42:14,420</code>
+Så att de menar på</p>
+<p><code>1965 00:42:14,420 --&gt; 00:42:16,320</code>
+Att ha gamla grejer</p>
+<p><code>1966 00:42:16,320 --&gt; 00:42:16,940</code>
+Som är gjorda i</p>
+<p><code>1967 00:42:16,940 --&gt; 00:42:17,660</code>
+CC++</p>
+<p><code>1968 00:42:17,660 --&gt; 00:42:18,300</code>
+Egentligen</p>
+<p><code>1969 00:42:18,300 --&gt; 00:42:20,020</code>
+Generellt sett</p>
+<p><code>1970 00:42:20,020 --&gt; 00:42:20,980</code>
+Inte jättefarligt</p>
+<p><code>1971 00:42:20,980 --&gt; 00:42:22,180</code>
+För välbeprävad kod</p>
+<p><code>1972 00:42:22,180 --&gt; 00:42:23,160</code>
+Brukar ha blivit av</p>
+<p><code>1973 00:42:23,160 --&gt; 00:42:24,340</code>
+Med de flesta buggarna</p>
+<p><code>1974 00:42:24,340 --&gt; 00:42:25,440</code>
+Däremot</p>
+<p><code>1975 00:42:25,440 --&gt; 00:42:26,860</code>
+Nyutveckling</p>
+<p><code>1976 00:42:26,860 --&gt; 00:42:29,040</code>
+Försöker de då</p>
+<p><code>1977 00:42:29,040 --&gt; 00:42:30,240</code>
+På low level</p>
+<p><code>1978 00:42:30,240 --&gt; 00:42:30,560</code>
+Sidan</p>
+<p><code>1979 00:42:30,560 --&gt; 00:42:31,200</code>
+Försöker de göra det</p>
+<p><code>1980 00:42:31,200 --&gt; 00:42:31,620</code>
+Rust</p>
+<p><code>1981 00:42:31,620 --&gt; 00:42:32,940</code>
+Och på lite mer</p>
+<p><code>1982 00:42:32,940 --&gt; 00:42:33,480</code>
+High level</p>
+<p><code>1983 00:42:33,480 --&gt; 00:42:34,280</code>
+Försöker de göra mer</p>
+<p><code>1984 00:42:34,280 --&gt; 00:42:34,900</code>
+Kotlin</p>
+<p><code>1985 00:42:34,900 --&gt; 00:42:36,040</code>
+Och</p>
+<p><code>1986 00:42:36,040 --&gt; 00:42:37,640</code>
+Rust</p>
+<p><code>1987 00:42:37,640 --&gt; 00:42:38,700</code>
+Har resulterat</p>
+<p><code>1988 00:42:38,700 --&gt; 00:42:39,720</code>
+I en mycket</p>
+<p><code>1989 00:42:39,720 --&gt; 00:42:40,220</code>
+Mycket</p>
+<p><code>1990 00:42:40,220 --&gt; 00:42:40,460</code>
+Mycket</p>
+<p><code>1991 00:42:40,460 --&gt; 00:42:40,920</code>
+Mycket</p>
+<p><code>1992 00:42:40,920 --&gt; 00:42:41,380</code>
+Mycket</p>
+<p><code>1993 00:42:41,400 --&gt; 00:42:41,640</code>
+Alltså</p>
+<p><code>1994 00:42:41,640 --&gt; 00:42:44,120</code>
+Förväntningen</p>
+<p><code>1995 00:42:44,120 --&gt; 00:42:44,780</code>
+Med den mängden</p>
+<p><code>1996 00:42:44,780 --&gt; 00:42:45,220</code>
+Ändringar</p>
+<p><code>1997 00:42:45,220 --&gt; 00:42:45,680</code>
+De gör</p>
+<p><code>1998 00:42:45,680 --&gt; 00:42:46,540</code>
+Borde de få</p>
+<p><code>1999 00:42:46,540 --&gt; 00:42:48,020</code>
+Jättemycket</p>
+<p><code>2000 00:42:48,020 --&gt; 00:42:49,340</code>
+Minnessäkerhetshål</p>
+<p><code>2001 00:42:49,340 --&gt; 00:42:49,940</code>
+Och sånt där</p>
+<p><code>2002 00:42:49,940 --&gt; 00:42:50,640</code>
+Men det är ju</p>
+<p><code>2003 00:42:50,640 --&gt; 00:42:51,700</code>
+Inte svårt att tänka sig</p>
+<p><code>2004 00:42:51,700 --&gt; 00:42:53,040</code>
+Med tanke på hur</p>
+<p><code>2005 00:42:53,040 --&gt; 00:42:53,880</code>
+Rust är byggt</p>
+<p><code>2006 00:42:53,880 --&gt; 00:42:55,240</code>
+Ja så Rust levererar</p>
+<p><code>2007 00:42:55,240 --&gt; 00:42:56,160</code>
+På det det är tänkt</p>
+<p><code>2008 00:42:56,160 --&gt; 00:42:56,520</code>
+Och</p>
+<p><code>2009 00:42:56,520 --&gt; 00:42:58,280</code>
+Strategin</p>
+<p><code>2010 00:42:58,280 --&gt; 00:42:58,900</code>
+Att</p>
+<p><code>2011 00:42:58,900 --&gt; 00:43:00,540</code>
+Bara använda</p>
+<p><code>2012 00:43:00,540 --&gt; 00:43:01,080</code>
+Rust</p>
+<p><code>2013 00:43:01,080 --&gt; 00:43:02,580</code>
+Till nya grejer</p>
+<p><code>2014 00:43:02,580 --&gt; 00:43:05,520</code>
+I deras tes</p>
+<p><code>2015 00:43:05,520 --&gt; 00:43:06,600</code>
+Är att den funkar bra</p>
+<p><code>2016 00:43:06,600 --&gt; 00:43:07,400</code>
+För att säkra</p>
+<p><code>2017 00:43:07,400 --&gt; 00:43:08,620</code>
+Bra för dem</p>
+<p><code>2018 00:43:08,620 --&gt; 00:43:10,360</code>
+Jag gillar inte Kotlin</p>
+<p><code>2019 00:43:10,360 --&gt; 00:43:10,920</code>
+Men</p>
+<p><code>2020 00:43:10,920 --&gt; 00:43:12,160</code>
+Jag tycker</p>
+<p><code>2021 00:43:12,160 --&gt; 00:43:13,260</code>
+Det är ett tråkigt språk</p>
+<p><code>2022 00:43:13,260 --&gt; 00:43:13,640</code>
+Att granska</p>
+<p><code>2023 00:43:13,640 --&gt; 00:43:15,800</code>
+Och jag har sett</p>
+<p><code>2024 00:43:15,800 --&gt; 00:43:16,580</code>
+Alldeles för lite</p>
+<p><code>2025 00:43:16,580 --&gt; 00:43:16,920</code>
+Av det</p>
+<p><code>2026 00:43:16,920 --&gt; 00:43:18,040</code>
+Men alltså</p>
+<p><code>2027 00:43:18,040 --&gt; 00:43:18,560</code>
+Mycket</p>
+<p><code>2028 00:43:18,560 --&gt; 00:43:20,300</code>
+Skalakod</p>
+<p><code>2029 00:43:20,300 --&gt; 00:43:21,400</code>
+Som ser hemskt ut</p>
+<p><code>2030 00:43:21,400 --&gt; 00:43:23,580</code>
+Liksom såhär</p>
+<p><code>2031 00:43:23,580 --&gt; 00:43:24,960</code>
+Men</p>
+<p><code>2032 00:43:24,960 --&gt; 00:43:25,920</code>
+Kotlin</p>
+<p><code>2033 00:43:25,920 --&gt; 00:43:27,740</code>
+Ge mig en</p>
+<p><code>2034 00:43:27,740 --&gt; 00:43:29,880</code>
+Ett specifikt</p>
+<p><code>2035 00:43:29,880 --&gt; 00:43:30,780</code>
+Hatargument</p>
+<p><code>2036 00:43:30,780 --&gt; 00:43:31,500</code>
+Mot Kotlin</p>
+<p><code>2037 00:43:31,500 --&gt; 00:43:33,780</code>
+Jag har inte det framför mig nu</p>
+<p><code>2038 00:43:33,780 --&gt; 00:43:35,600</code>
+Jag vet bara</p>
+<p><code>2039 00:43:35,600 --&gt; 00:43:36,340</code>
+Instinktivt</p>
+<p><code>2040 00:43:36,340 --&gt; 00:43:36,820</code>
+Att när jag</p>
+<p><code>2041 00:43:36,820 --&gt; 00:43:37,600</code>
+Börjar göra</p>
+<p><code>2042 00:43:37,600 --&gt; 00:43:38,600</code>
+Android-appgranskningar</p>
+<p><code>2043 00:43:38,600 --&gt; 00:43:39,160</code>
+I Kotlin</p>
+<p><code>2044 00:43:39,160 --&gt; 00:43:39,400</code>
+Så</p>
+<p><code>2045 00:43:39,400 --&gt; 00:43:40,440</code>
+Tar det emot</p>
+<p><code>2046 00:43:40,920 --&gt; 00:43:41,420</code>
+Ja</p>
+<p><code>2047 00:43:41,420 --&gt; 00:43:42,940</code>
+Jag vet inte riktigt</p>
+<p><code>2048 00:43:42,940 --&gt; 00:43:44,060</code>
+Vad det är med det</p>
+<p><code>2049 00:43:44,060 --&gt; 00:43:44,840</code>
+Som jag stör mig på</p>
+<p><code>2050 00:43:44,840 --&gt; 00:43:46,160</code>
+Men det är någonting i</p>
+<p><code>2051 00:43:46,160 --&gt; 00:43:48,260</code>
+Jag har lite svårt ibland</p>
+<p><code>2052 00:43:48,260 --&gt; 00:43:48,640</code>
+Att veta</p>
+<p><code>2053 00:43:48,640 --&gt; 00:43:49,680</code>
+Hur mycket det är</p>
+<p><code>2054 00:43:49,680 --&gt; 00:43:50,140</code>
+Att</p>
+<p><code>2055 00:43:50,140 --&gt; 00:43:51,940</code>
+Vissa utvecklare</p>
+<p><code>2056 00:43:51,940 --&gt; 00:43:52,600</code>
+Tycker om</p>
+<p><code>2057 00:43:52,600 --&gt; 00:43:53,460</code>
+Att använda features</p>
+<p><code>2058 00:43:53,460 --&gt; 00:43:54,380</code>
+Som gör det</p>
+<p><code>2059 00:43:54,380 --&gt; 00:43:56,540</code>
+Så oläsligt</p>
+<p><code>2060 00:43:56,540 --&gt; 00:43:57,380</code>
+Som möjligt</p>
+<p><code>2061 00:43:57,380 --&gt; 00:43:58,200</code>
+Versus</p>
+<p><code>2062 00:43:58,200 --&gt; 00:43:59,600</code>
+Hur någonting</p>
+<p><code>2063 00:43:59,600 --&gt; 00:44:00,000</code>
+Verkligen</p>
+<p><code>2064 00:44:00,000 --&gt; 00:44:00,680</code>
+Artefakt</p>
+<p><code>2065 00:44:00,680 --&gt; 00:44:01,020</code>
+Av</p>
+<p><code>2066 00:44:01,020 --&gt; 00:44:02,120</code>
+Språken</p>
+<p><code>2067 00:44:02,120 --&gt; 00:44:02,580</code>
+Som sådant</p>
+<p><code>2068 00:44:02,580 --&gt; 00:44:03,120</code>
+Men jag</p>
+<p><code>2069 00:44:03,120 --&gt; 00:44:04,520</code>
+Utan att ha sett</p>
+<p><code>2070 00:44:04,520 --&gt; 00:44:05,260</code>
+En massa Kotlin</p>
+<p><code>2071 00:44:05,260 --&gt; 00:44:05,640</code>
+Kan jag säga</p>
+<p><code>2072 00:44:05,640 --&gt; 00:44:06,820</code>
+Att jag känner igen mig</p>
+<p><code>2073 00:44:06,820 --&gt; 00:44:07,500</code>
+I en del</p>
+<p><code>2074 00:44:07,500 --&gt; 00:44:09,240</code>
+Hypsterkodande</p>
+<p><code>2075 00:44:09,240 --&gt; 00:44:10,040</code>
+Där folk</p>
+<p><code>2076 00:44:10,040 --&gt; 00:44:10,820</code>
+Verkligen har gjort</p>
+<p><code>2077 00:44:10,820 --&gt; 00:44:11,280</code>
+Det såhär</p>
+<p><code>2078 00:44:11,280 --&gt; 00:44:12,780</code>
+Ja ni</p>
+<p><code>2079 00:44:12,780 --&gt; 00:44:13,660</code>
+Kunde gjort det här</p>
+<p><code>2080 00:44:13,660 --&gt; 00:44:14,560</code>
+Läsligt också</p>
+<p><code>2081 00:44:14,560 --&gt; 00:44:15,400</code>
+Lite så</p>
+<p><code>2082 00:44:15,400 --&gt; 00:44:16,300</code>
+Lite så</p>
+<p><code>2083 00:44:16,300 --&gt; 00:44:16,700</code>
+Är det</p>
+<p><code>2084 00:44:16,700 --&gt; 00:44:18,740</code>
+Nåväl</p>
+<p><code>2085 00:44:18,740 --&gt; 00:44:19,700</code>
+Jag känner inte</p>
+<p><code>2086 00:44:19,700 --&gt; 00:44:20,760</code>
+Att jag har det problemet</p>
+<p><code>2087 00:44:20,760 --&gt; 00:44:21,380</code>
+På dagarna</p>
+<p><code>2088 00:44:21,380 --&gt; 00:44:22,020</code>
+Nej</p>
+<p><code>2089 00:44:22,020 --&gt; 00:44:22,660</code>
+Jag är glad för det</p>
+<p><code>2090 00:44:22,660 --&gt; 00:44:22,940</code>
+Ja</p>
+<p><code>2091 00:44:22,940 --&gt; 00:44:26,220</code>
+Jag läser</p>
+<p><code>2092 00:44:26,220 --&gt; 00:44:27,060</code>
+Jag läser inte så mycket</p>
+<p><code>2093 00:44:27,060 --&gt; 00:44:27,600</code>
+Rost</p>
+<p><code>2094 00:44:27,600 --&gt; 00:44:28,640</code>
+Nej</p>
+<p><code>2095 00:44:28,640 --&gt; 00:44:29,660</code>
+Och inte Kotlin heller</p>
+<p><code>2096 00:44:29,660 --&gt; 00:44:30,540</code>
+Ja</p>
+<p><code>2097 00:44:30,540 --&gt; 00:44:31,760</code>
+Vi pratade om</p>
+<p><code>2098 00:44:31,760 --&gt; 00:44:33,060</code>
+Rost</p>
+<p><code>2099 00:44:33,060 --&gt; 00:44:34,620</code>
+Rösterisk</p>
+<p><code>2100 00:44:34,620 --&gt; 00:44:36,000</code>
+Rösterisk</p>
+<p><code>2101 00:44:36,000 --&gt; 00:44:36,780</code>
+Nu pratade vi</p>
+<p><code>2102 00:44:36,780 --&gt; 00:44:37,340</code>
+Om inlämn</p>
+<p><code>2103 00:44:37,340 --&gt; 00:44:38,160</code>
+Rost är</p>
+<p><code>2104 00:44:38,160 --&gt; 00:44:39,420</code>
+Den kallaste elden</p>
+<p><code>2105 00:44:39,420 --&gt; 00:44:40,460</code>
+Vi hade en lång diskussion</p>
+<p><code>2106 00:44:40,460 --&gt; 00:44:40,660</code>
+Ja</p>
+<p><code>2107 00:44:40,660 --&gt; 00:44:41,380</code>
+Exakt</p>
+<p><code>2108 00:44:41,380 --&gt; 00:44:42,220</code>
+Och hur man dör</p>
+<p><code>2109 00:44:42,220 --&gt; 00:44:43,300</code>
+Om man går in i</p>
+<p><code>2110 00:44:43,300 --&gt; 00:44:45,340</code>
+Ejventilerade rum</p>
+<p><code>2111 00:44:45,340 --&gt; 00:44:45,840</code>
+Som är</p>
+<p><code>2112 00:44:45,840 --&gt; 00:44:46,840</code>
+Av stål</p>
+<p><code>2113 00:44:46,840 --&gt; 00:44:47,100</code>
+Ja</p>
+<p><code>2114 00:44:47,100 --&gt; 00:44:48,660</code>
+Om det inte är rostfint</p>
+<p><code>2115 00:44:48,660 --&gt; 00:44:49,940</code>
+Ja just det</p>
+<p><code>2116 00:44:49,940 --&gt; 00:44:52,060</code>
+Eller rosttrögt</p>
+<p><code>2117 00:44:52,060 --&gt; 00:44:53,200</code>
+Ska vi</p>
+<p><code>2118 00:44:53,200 --&gt; 00:44:54,600</code>
+Jag tror vi tar</p>
+<p><code>2119 00:44:54,600 --&gt; 00:44:55,460</code>
+Och rundar av där</p>
+<p><code>2120 00:44:55,460 --&gt; 00:44:55,940</code>
+Det känns så</p>
+<p><code>2121 00:44:55,940 --&gt; 00:44:57,820</code>
+Men om någon lyssnare vet</p>
+<p><code>2122 00:44:57,820 --&gt; 00:44:59,700</code>
+Vad som definierar</p>
+<p><code>2123 00:44:59,700 --&gt; 00:45:00,180</code>
+Eld</p>
+<p><code>2124 00:45:00,180 --&gt; 00:45:01,500</code>
+Eld</p>
+<p><code>2125 00:45:01,500 --&gt; 00:45:02,900</code>
+Vi satt och spånade på</p>
+<p><code>2126 00:45:02,900 --&gt; 00:45:04,100</code>
+Om det var oxidationen</p>
+<p><code>2127 00:45:04,100 --&gt; 00:45:04,660</code>
+Eller oxidation</p>
+<p><code>2128 00:45:04,660 --&gt; 00:45:05,320</code>
+I kombination</p>
+<p><code>2129 00:45:05,320 --&gt; 00:45:07,160</code>
+Med en exotermreaktion</p>
+<p><code>2130 00:45:07,160 --&gt; 00:45:07,700</code>
+Jag tror det var det</p>
+<p><code>2131 00:45:07,700 --&gt; 00:45:08,200</code>
+Vi kom fram till</p>
+<p><code>2132 00:45:08,200 --&gt; 00:45:09,180</code>
+Jag tror det var så</p>
+<p><code>2133 00:45:09,180 --&gt; 00:45:09,560</code>
+Men</p>
+<p><code>2134 00:45:09,560 --&gt; 00:45:10,300</code>
+Och om</p>
+<p><code>2135 00:45:10,300 --&gt; 00:45:12,700</code>
+Om solnämsfunktion</p>
+<p><code>2136 00:45:12,700 --&gt; 00:45:13,720</code>
+Uppfyller definitionen</p>
+<p><code>2137 00:45:13,720 --&gt; 00:45:14,060</code>
+På eld</p>
+<p><code>2138 00:45:14,060 --&gt; 00:45:15,020</code>
+Diskuterade vi också</p>
+<p><code>2139 00:45:15,020 --&gt; 00:45:15,660</code>
+Ja</p>
+<p><code>2140 00:45:15,660 --&gt; 00:45:18,420</code>
+Viktiga saker</p>
+<p><code>2141 00:45:18,420 --&gt; 00:45:19,160</code>
+Som vi inte träffar</p>
+<p><code>2142 00:45:19,160 --&gt; 00:45:20,460</code>
+Innan säkerhetspodcasten</p>
+<p><code>2143 00:45:20,460 --&gt; 00:45:21,040</code>
+Och inspelningen</p>
+<p><code>2144 00:45:21,040 --&gt; 00:45:21,500</code>
+Precis</p>
+<p><code>2145 00:45:21,500 --&gt; 00:45:23,260</code>
+Men har ni en bra definition</p>
+<p><code>2146 00:45:23,260 --&gt; 00:45:24,180</code>
+På vad är</p>
+<p><code>2147 00:45:24,180 --&gt; 00:45:25,400</code>
+Förbränning</p>
+<p><code>2148 00:45:25,400 --&gt; 00:45:26,660</code>
+Då kan ni höra av oss</p>
+<p><code>2149 00:45:26,660 --&gt; 00:45:27,360</code>
+Höra av er</p>
+<p><code>2150 00:45:27,360 --&gt; 00:45:28,100</code>
+Till oss</p>
+<p><code>2151 00:45:28,100 --&gt; 00:45:29,320</code>
+På kontakt</p>
+<p><code>2152 00:45:29,320 --&gt; 00:45:30,160</code>
+Säkerhetspodcasten</p>
+<p><code>2153 00:45:30,160 --&gt; 00:45:31,640</code>
+Man kanske kan fråga</p>
+<p><code>2154 00:45:31,640 --&gt; 00:45:32,360</code>
+Chattgrippet till</p>
+<p><code>2155 00:45:32,360 --&gt; 00:45:32,960</code>
+Ja det kan man göra</p>
+<p><code>2156 00:45:32,960 --&gt; 00:45:34,020</code>
+Ni kan även mejla</p>
+<p><code>2157 00:45:34,020 --&gt; 00:45:34,820</code>
+Om ni har förslag</p>
+<p><code>2158 00:45:34,820 --&gt; 00:45:36,000</code>
+På temaavsnitt</p>
+<p><code>2159 00:45:36,000 --&gt; 00:45:37,820</code>
+Eller nyheter</p>
+<p><code>2160 00:45:37,820 --&gt; 00:45:38,180</code>
+Och sånt</p>
+<p><code>2161 00:45:38,180 --&gt; 00:45:38,420</code>
+Ni vet</p>
+<p><code>2162 00:45:38,420 --&gt; 00:45:40,120</code>
+Vi läser allt</p>
+<p><code>2163 00:45:40,120 --&gt; 00:45:40,280</code>
+Som kommer</p>
+<p><code>2164 00:45:40,280 --&gt; 00:45:42,360</code>
+Och svarar ofta</p>
+<p><code>2165 00:45:42,360 --&gt; 00:45:43,040</code>
+Peter</p>
+<p><code>2166 00:45:43,040 --&gt; 00:45:43,420</code>
+Varmt</p>
+<p><code>2167 00:45:43,420 --&gt; 00:45:44,200</code>
+Ibland</p>
+<p><code>2168 00:45:44,200 --&gt; 00:45:45,400</code>
+Nåväl</p>
+<p><code>2169 00:45:45,400 --&gt; 00:45:47,080</code>
+Tack för oss den här gången</p>
+<p><code>2170 00:45:47,080 --&gt; 00:45:47,840</code>
+Jag som pratade</p>
+<p><code>2171 00:45:47,840 --&gt; 00:45:48,740</code>
+Hette Johan Rybämöller</p>
+<p><code>2172 00:45:48,740 --&gt; 00:45:49,320</code>
+Med mig hade jag</p>
+<p><code>2173 00:45:49,320 --&gt; 00:45:50,000</code>
+Peter Magnusson</p>
+<p><code>2174 00:45:50,000 --&gt; 00:45:51,680</code>
+Som lite rost</p>
+<p><code>2175 00:45:51,680 --&gt; 00:45:52,580</code>
+I din köl</p>
+<p><code>2176 00:45:52,580 --&gt; 00:45:54,200</code>
+Och Rickard Bortman</p>
+<p><code>2177 00:45:54,200 --&gt; 00:45:55,040</code>
+Utan rost</p>
+<p><code>2178 00:45:55,040 --&gt; 00:45:55,780</code>
+I kalsongerna</p>
+<p><code>2179 00:45:55,780 --&gt; 00:45:56,280</code>
+Tja då</p>
+<p><code>2180 00:45:56,280 --&gt; 00:45:59,340</code>
+Ambo</p>
+<p><code>2181 00:45:59,340 --&gt; 00:46:00,380</code>
+Amstein</p>
+<p><code>2182 00:46:00,380 --&gt; 00:46:03,700</code>
+Spelar vi in</p>
+<p><code>2183 00:46:03,700 --&gt; 00:46:04,740</code>
+Japp</p>
+<p><code>2184 00:46:04,740 --&gt; 00:46:05,280</code>
+Yes</p>
+<p><code>2185 00:46:05,920 --&gt; 00:46:06,760</code>
+Vi har</p>
+<p><code>2186 00:46:06,760 --&gt; 00:46:07,280</code>
+Tre visokanaler</p>
+<p><code>2187 00:46:07,860 --&gt; 00:46:09,060</code>
+Som lyser rött</p>
+<p><code>2188 00:46:09,060 --&gt; 00:46:09,560</code>
+Vi har</p>
+<p><code>2189 00:46:09,560 --&gt; 00:46:10,020</code>
+En</p>
+<p><code>2190 00:46:10,020 --&gt; 00:46:11,460</code>
+Mastusen lyser rött</p>
+<p><code>2191 00:46:11,460 --&gt; 00:46:12,400</code>
+Och vi har räknat upp</p>
+<p><code>2192 00:46:12,400 --&gt; 00:46:13,860</code>
+Och vi är på</p>
+<p><code>2193 00:46:13,860 --&gt; 00:46:15,260</code>
+Femton sekunder nu</p>
+<p><code>2194 00:46:15,260 --&gt; 00:46:15,900</code>
+Sweet</p>
+<p><code>2195 00:46:15,900 --&gt; 00:46:16,640</code>
+Kött</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -252,8 +4645,8 @@ ministerråd inte har antagit en officiell hållning.</p>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/sakerhetspodcasten_266_nar_sakerhet_gar_for_langt/" class="prev" rel="prev" title="Säkerhetspodcasten #266 - När säkerhet går för långt"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Säkerhetspodcasten #266 - När säkerhet går för långt</a>
-            <a href="/posts/sakerhetspodcasten_268_artificiell_intelligens/" class="next" rel="next" title="Säkerhetspodcasten #268 - Artificiell Intelligens">Säkerhetspodcasten #268 - Artificiell Intelligens<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/s_xe4_kerhetspodcasten_267_ostrukturerat_v_41/" class="prev" rel="prev" title="S&amp;#xe4;kerhetspodcasten #267 - Ostrukturerat V.41"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>S&#xe4;kerhetspodcasten #267 - Ostrukturerat V.41</a>
+            <a href="/posts/s_xe4_kerhetspodcasten_268_artificiell_intelligens/" class="next" rel="next" title="S&amp;#xe4;kerhetspodcasten #268 - Artificiell Intelligens">S&#xe4;kerhetspodcasten #268 - Artificiell Intelligens<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main></div>
