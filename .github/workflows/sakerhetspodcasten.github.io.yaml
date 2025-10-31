@@ -1,8 +1,6 @@
 name: hugo at sakerhetspodcasten.github.io
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "37 13 28 * *" # 13:37; At 01:37 PM, on day 28 of the month
 
 permissions:
   contents: write
@@ -27,9 +25,6 @@ jobs:
       -  name: Clone www-migrate
          run: git clone https://github.com/sakerhetspodcasten/www-migrate.git
       -  name: migrate latest from lib-syn
-         run: |
-            pip3 install -r www-migrate/rss/requirements.txt
-            python3 www-migrate/rss/import.rss.py --dir www-hugo/content/posts --url https://sakerhetspodcasten.libsyn.com/rss
       -  name: Download Hugo
          run: wget https://github.com/gohugoio/hugo/releases/download/v${{env.HUGO_VERSION}}/hugo_extended_${{env.HUGO_VERSION}}_linux-amd64.deb
       -  name: Verify hugo
