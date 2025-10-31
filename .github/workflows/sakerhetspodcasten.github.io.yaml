@@ -24,7 +24,6 @@ jobs:
          run: mkdir -p www-hugo/themes; git clone https://github.com/sakerhetspodcasten/www-hugo-theme-LoveIt.git www-hugo/themes/LoveIt
       -  name: Clone www-migrate
          run: git clone https://github.com/sakerhetspodcasten/www-migrate.git
-      -  name: migrate latest from lib-syn
       -  name: Download Hugo
          run: wget https://github.com/gohugoio/hugo/releases/download/v${{env.HUGO_VERSION}}/hugo_extended_${{env.HUGO_VERSION}}_linux-amd64.deb
       -  name: Verify hugo
