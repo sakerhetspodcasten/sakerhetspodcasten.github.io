@@ -14,6 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      -  name: Debug weird workflow issue 1
+         run: find . -type f $PWD
       -  name: Clone myself into self
          uses: actions/checkout@v4
          with:
@@ -34,8 +36,12 @@ jobs:
          run: sha256sum -c self/.github/workflows/sha256sum.txt
       -  name: install hugo
          run: sudo apt install ./hugo_extended_${{env.HUGO_VERSION}}_linux-amd64.deb
+      -  name: Debug weird workflow issue 2
+         run: find . -type f
       -  name: run hugo
          run: cd www-hugo; hugo
+      -  name: Debug weird workflow issue 3
+         run: find . -type f
       -  name: Commit and push
          run: |
             set -e
