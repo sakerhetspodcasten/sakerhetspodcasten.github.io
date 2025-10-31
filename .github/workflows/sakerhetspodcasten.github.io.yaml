@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -  name: Debug weird workflow issue 1
-         run: find . -type f $PWD
+         run: find . -type f
       -  name: Clone myself into self
          uses: actions/checkout@v4
          with:
