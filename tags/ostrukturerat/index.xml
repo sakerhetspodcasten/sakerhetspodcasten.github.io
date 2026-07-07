@@ -3,7 +3,17 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2026 09:11:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #306 - Ostrukturerat V.28</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</link>
+    <pubDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</guid>
+    <description><![CDATA[Github actions/checkout, Hacker äger FIFA, Dataöverförings lagkaos, Windows (massa), Acer Wave&rsquo;s feta CVEs, Apple A12/A13 bootsäkerhet knäckt!
+Lyssna mp3, längd: 41:00 Github actions/checkout: stoppar vissa typer av Pipeline Poisoning attacker Stoppa vissa typer av attacker mot Github CI Workflows via kontroller i actions/checkout:
+TL;DR; This PR adds a check that refuses to check out fork pull request code when the workflow trigger is either pull_request_target or workflow_run, unless the workflow author explicitly opts in via a new input allow-unsafe-pr-checkout: true.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #305 - Ostrukturerat V.25</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_305_ostrukturerat_v_25/</link>
     <pubDate>Wed, 17 Jun 2026 09:11:00 &#43;0000</pubDate>
@@ -94,17 +104,6 @@ Stötte på en sak häromveckan som jag började fundera lite på. Skickar med e
     <description><![CDATA[SEC-T. Självrefererande Git. NPM: S1ngularity, och Shai-Hulud. Massa randomware och läckor: Miljödata, Jaguar LandRover (JLR), Collins, Kinesiska Muren (GFwC). Minnesskydd. Kassa kassaskåp! WhatsApp/iOS/DNG attack. Hotaktör säkrar dina server. Steam-malware.
 Lyssna mp3, längd: 01:16:09 Plugs Vi promotar random kul vagt relaterat till säkerhet:
 Security Fest: WWWInterpub Friday, November 7, 2025 blaufish.github.io: Self Referential Git Peter har gjort en git commit be31337 som i en länk refererar till sig själv på github. Antar du vår utmaning?]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #287 - Ostrukturerat V.34</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</link>
-    <pubDate>Mon, 18 Aug 2025 13:24:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_287_ostrukturerat_v_34/</guid>
-    <description><![CDATA[Sommar, AI utbrytning, Proven shimming, HTTP/1.1 måste dö, Solar Supplychain, Areoflot hackat, Minions!
-Lyssna mp3, längd: 01:00:13 Plugs Building Secure AI, Stockholm, 23-24 September 2025 Bli Säker podden massa spännande i sommras 00:11:54 Konkurrentanalys!
-Bli Säker med Karl Emil Nikka har släppt bra avsnitt i sommar om bland annat:
-UK lag: ID-verifiering för att få nå porr och annat upprörande Tea läckte chat-loggar, ID-handlingar, foton på användare Dataläcka med svenska medborgares personuppgifter AI-chatläckor Fyndiq falska minneskort, USB-stickor, m.]]></description>
 </item>
 </channel>
 </rss>

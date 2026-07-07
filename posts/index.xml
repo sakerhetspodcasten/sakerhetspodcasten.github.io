@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2026 09:11:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #306 - Ostrukturerat V.28</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</link>
+    <pubDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</guid>
+    <description><![CDATA[Github actions/checkout, Hacker äger FIFA, Dataöverförings lagkaos, Windows (massa), Acer Wave&rsquo;s feta CVEs, Apple A12/A13 bootsäkerhet knäckt!
+Lyssna mp3, längd: 41:00 Github actions/checkout: stoppar vissa typer av Pipeline Poisoning attacker Stoppa vissa typer av attacker mot Github CI Workflows via kontroller i actions/checkout:
+TL;DR; This PR adds a check that refuses to check out fork pull request code when the workflow trigger is either pull_request_target or workflow_run, unless the workflow author explicitly opts in via a new input allow-unsafe-pr-checkout: true.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #305 - Ostrukturerat V.25</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_305_ostrukturerat_v_25/</link>
     <pubDate>Wed, 17 Jun 2026 09:11:00 &#43;0000</pubDate>
@@ -92,17 +102,6 @@ Lyssna mp3, längd: 01:16:57 Intro Rickard frånvarande, mår inte hundra. Doner
 Mattias presenterar regelverket, konceptet, för spanandet.
 Plugs Foss-North 2026 27-28 april 2026, Chalmers CfP, Call For Papers: öppet t.om. 15 februari From: Albin Otterhäll
 Subject: Foss-North CfP öppen fram till 15 februari 2026]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #296 - Ostrukturerat V.5</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_296_ostrukturerat_v_5/</link>
-    <pubDate>Mon, 26 Jan 2026 09:09:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_296_ostrukturerat_v_5/</guid>
-    <description><![CDATA[AWS regexp fail, Sjölogistik hade alla säkerhetshål, MongoBleed, Pre-boot attack mot UEFI, och Powershell XSS!
-Lyssna mp3, längd: 50:42 AWS hackat via regexp bug AWS CodeBuild kasst regexp lämnade viktiga repon vidöppna för konton med snarlika ID!
-Länkar:
-wiz.io/ Yuval Avrahami, Nir Ohfeld: CodeBreach - Supply Chain Vuln &amp; AWS CodeBuild Misconfig | Wiz Blog - Wiz Research discovered CodeBreach, a critical vulnerability that risked the AWS Console supply chain. Learn how to secure your AWS CodeBuild pipelines.]]></description>
 </item>
 </channel>
 </rss>
