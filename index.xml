@@ -3,17 +3,26 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #307 - Sommar 2026</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_307_sommar_2026/</link>
+    <pubDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_307_sommar_2026/</guid>
+    <description><![CDATA[Podden snackar sommar 2026! Ett rörigt samtal om GPS störsändare, semester, pipeline-scanners, workflows, Hugo-ändringar, radioamatörer, DevOps, påven, SSPX, cellgifter, off-the-grid, 10 gigabit&hellip;
+Lyssna mp3, längd: 49:12 Plugs OWASP Gotheburg: BBQ with friends - Post summer kickoff Wednesday 26/8 - 17:00 BSides Göteborg Conference Date: 23th October Call For Paper: 4th July - 10th September AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:03,040 Hej och välkommen till Säkerhetspodcasten.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #306 - Ostrukturerat V.28</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</link>
     <pubDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</pubDate>
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</guid>
     <description><![CDATA[Github actions/checkout, Hacker äger FIFA, Dataöverförings lagkaos, Windows (massa), Acer Wave&rsquo;s feta CVEs, Apple A12/A13 bootsäkerhet knäckt!
-Lyssna mp3, längd: 41:00 Github actions/checkout: stoppar vissa typer av Pipeline Poisoning attacker Stoppa vissa typer av attacker mot Github CI Workflows via kontroller i actions/checkout:
-TL;DR; This PR adds a check that refuses to check out fork pull request code when the workflow trigger is either pull_request_target or workflow_run, unless the workflow author explicitly opts in via a new input allow-unsafe-pr-checkout: true.]]></description>
+Lyssna mp3, längd: 41:00 Plugs OWASP Gotheburg: BBQ with friends - Post summer kickoff Wednesday 26/8 - 17:00 BSides Göteborg Conference Date: 23th October Call For Paper: 4th July - 10th September Github actions/checkout: stoppar vissa typer av Pipeline Poisoning attacker Stoppa vissa typer av attacker mot Github CI Workflows via kontroller i actions/checkout:]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #305 - Ostrukturerat V.25</title>
@@ -92,18 +101,6 @@ Lyssna mp3, längd: 01:00:58 Plugs Informell afterwork, spelat in 300 avsnitt fi
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_298_ostrukturerat_v_9/</guid>
     <description><![CDATA[Notepad bug, Notepad++ APT/malware, AI Skills, Rent A Human, Kubernetes Nodes/Proxy, 2038, Curl AI-Slop Spam, Microsoft gav FBI BitLocker nycklar!
 Lyssna mp3, längd: 01:05:31 Plugs Foss-North, 27-28 april 2026, Chalmers. Notepad Security Update Guide - Microsoft Security Response Center cve.org: CVE-2026-20841 Improper neutralization of special elements used in a command (&lsquo;command injection&rsquo;) in Windows Notepad App allows an unauthorized attacker to execute code locally. CyberNews/Ernestas Naprys: Critical Notepad vulnerability reignites criticism of Microsoft’s forced AI features Notepad++ Notepad++ update servern bakdörrad, och selektivt skickade bakdörrar till intressanta mål.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #297 - Nyår 2025</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_297_nyar_2025/</link>
-    <pubDate>Mon, 09 Feb 2026 08:57:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_297_nyar_2025/</guid>
-    <description><![CDATA[Säkerhetspodcasten snackar om vad hur vi spådde 2025, hur rätt och fel vi fick, och hur vi spår 2026.
-Lyssna mp3, längd: 01:16:57 Intro Rickard frånvarande, mår inte hundra. Donera till cancerfonden om du vill stödja framtida cancersjuka!
-Mattias presenterar regelverket, konceptet, för spanandet.
-Plugs Foss-North 2026 27-28 april 2026, Chalmers CfP, Call For Papers: öppet t.om. 15 februari From: Albin Otterhäll
-Subject: Foss-North CfP öppen fram till 15 februari 2026]]></description>
 </item>
 </channel>
 </rss>

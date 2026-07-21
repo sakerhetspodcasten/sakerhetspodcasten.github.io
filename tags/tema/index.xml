@@ -3,7 +3,17 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Jun 2026 07:55:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #307 - Sommar 2026</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_307_sommar_2026/</link>
+    <pubDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_307_sommar_2026/</guid>
+    <description><![CDATA[Podden snackar sommar 2026! Ett rörigt samtal om GPS störsändare, semester, pipeline-scanners, workflows, Hugo-ändringar, radioamatörer, DevOps, påven, SSPX, cellgifter, off-the-grid, 10 gigabit&hellip;
+Lyssna mp3, längd: 49:12 Plugs OWASP Gotheburg: BBQ with friends - Post summer kickoff Wednesday 26/8 - 17:00 BSides Göteborg Conference Date: 23th October Call For Paper: 4th July - 10th September AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,000 --&gt; 00:00:03,040 Hej och välkommen till Säkerhetspodcasten.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #304 - Udda attacker</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_304_udda_attacker/</link>
     <pubDate>Mon, 08 Jun 2026 07:55:00 &#43;0000</pubDate>
@@ -96,21 +106,6 @@ BSides Ume recap. Security Fest recap. Planer för SEC-T, BlackHat, Defcon. Andr
 Lyssna mp3, längd: 49:36 BSides Ume 2025 Länkar:
 BSides Ume 2025 (10-11 June 2025): Overview · Indico blaufish.github.io: BSides Ume 2025 Konferens video Peter om hur filma, strömma, editera konferensvideo för Security Fest:
 blaufish.github.io: Capturing and streaming conferences - audio, video and more blaufish.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #284 - Attack Paths</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</link>
-    <pubDate>Mon, 16 Jun 2025 10:55:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_284_attack_paths/</guid>
-    <description><![CDATA[Attack Paths och verktyg för att jobba med dem!
-Lyssna mp3, längd: 01:02:17 Attack Path Vad är &ldquo;Attack Path&rdquo;?
-Primärt:
-Resan från Initial Access (TTP) Till att hela företaget står och brinner, t.ex. Impact (TTP) eller Exfiltration (TTP). Sekundärt:
-Kanske även förberedelser, recon. Vad är fördelarna, tanken med att tänka i termer av Attack Paths?
-Attack Path verktyg, termer och metoder Verktyg/metodstöd.
-Kärt barn har många namn:
-Attack Exposure Scoring (AES) värdera risken kopplad till en Attack Path Attack Path Analysis (APA) Attack Path Management (APM) Attack Path Simulation (APS) Attack Path Visualization (APV) visa attack paths Olika fokus i APx verktyg:]]></description>
 </item>
 </channel>
 </rss>

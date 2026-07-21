@@ -10,8 +10,7 @@
     <author>Author</author>
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</guid>
     <description><![CDATA[Github actions/checkout, Hacker äger FIFA, Dataöverförings lagkaos, Windows (massa), Acer Wave&rsquo;s feta CVEs, Apple A12/A13 bootsäkerhet knäckt!
-Lyssna mp3, längd: 41:00 Github actions/checkout: stoppar vissa typer av Pipeline Poisoning attacker Stoppa vissa typer av attacker mot Github CI Workflows via kontroller i actions/checkout:
-TL;DR; This PR adds a check that refuses to check out fork pull request code when the workflow trigger is either pull_request_target or workflow_run, unless the workflow author explicitly opts in via a new input allow-unsafe-pr-checkout: true.]]></description>
+Lyssna mp3, längd: 41:00 Plugs OWASP Gotheburg: BBQ with friends - Post summer kickoff Wednesday 26/8 - 17:00 BSides Göteborg Conference Date: 23th October Call For Paper: 4th July - 10th September Github actions/checkout: stoppar vissa typer av Pipeline Poisoning attacker Stoppa vissa typer av attacker mot Github CI Workflows via kontroller i actions/checkout:]]></description>
 </item>
 <item>
     <title>Säkerhetspodcasten #305 - Ostrukturerat V.25</title>
