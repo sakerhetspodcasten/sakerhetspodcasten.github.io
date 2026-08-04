@@ -3,7 +3,17 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 01:42:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #308 - AI, prompt eller pwn?</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_308_ai_prompt_eller_pwn/</link>
+    <pubDate>Mon, 03 Aug 2026 01:42:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_308_ai_prompt_eller_pwn/</guid>
+    <description><![CDATA[Podden snackar om AI, prompt attacker, skydd och lite där omkring!
+Lyssna mp3, längd: 01:02:39 Länkar Inför avsnittet grävde vi upp en massa hyffsat aktuella länkar om ämnet:
+YouTube/ NDC Conferences: Attacking AI - Jason Haddix - NDC Security 2026 video YouTube/ Bug Bounty DEFCON: KEYNOTE - Attacking AI by Jason Haddix | Bug Bounty Village, DEF CON 33 video Arcanum PI Taxonomy - Prompt Injection Attack Classification GitHub - Arcanum-Sec/P4RS3LT0NGV3: Parseltongue 3.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #307 - Sommar 2026</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_307_sommar_2026/</link>
     <pubDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</pubDate>
@@ -94,18 +104,6 @@ Security Fest: WWWInterpub Friday, November 7, 2025 Primer/intro Vad är CSI, CN
 Lyssna mp3, längd: 35:32 Plugs Building Secure AI, Stockholm, 23-24 September 2025 Lyssnarbrev om galen JSON (Google transkribering av ljudfil, samt mindre manuella ändringar)
 Hej säkerhets podcasten mitt namn är Kalle och det här är min sommar anekdot
 Nej skämtade jag tänkte så här nya efterfrågat anekdotter min anekdoter mer av ett mysterium inom servar och webbutveckling inte direkt säkerhet i sig men ni verkar det inte fått in så många anekdoter]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #286 - Sommar 2025</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</link>
-    <pubDate>Thu, 10 Jul 2025 06:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_286_sommar_2025/</guid>
-    <description><![CDATA[Sommar 2025 inleds med champagne!
-BSides Ume recap. Security Fest recap. Planer för SEC-T, BlackHat, Defcon. Andra sommar planer? Lite kul ISC^2 CPE diskussioner också, hett ämne i sommarsolen!
-Lyssna mp3, längd: 49:36 BSides Ume 2025 Länkar:
-BSides Ume 2025 (10-11 June 2025): Overview · Indico blaufish.github.io: BSides Ume 2025 Konferens video Peter om hur filma, strömma, editera konferensvideo för Security Fest:
-blaufish.github.io: Capturing and streaming conferences - audio, video and more blaufish.]]></description>
 </item>
 </channel>
 </rss>

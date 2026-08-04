@@ -3,9 +3,19 @@
         <title>Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/</link>
         <description>Säkerhetspodcasten - Sveriges första? podcast om IT-säkerhet</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 01:42:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sakerhetspodcasten.se/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Säkerhetspodcasten #308 - AI, prompt eller pwn?</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_308_ai_prompt_eller_pwn/</link>
+    <pubDate>Mon, 03 Aug 2026 01:42:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_308_ai_prompt_eller_pwn/</guid>
+    <description><![CDATA[Podden snackar om AI, prompt attacker, skydd och lite där omkring!
+Lyssna mp3, längd: 01:02:39 Länkar Inför avsnittet grävde vi upp en massa hyffsat aktuella länkar om ämnet:
+YouTube/ NDC Conferences: Attacking AI - Jason Haddix - NDC Security 2026 video YouTube/ Bug Bounty DEFCON: KEYNOTE - Attacking AI by Jason Haddix | Bug Bounty Village, DEF CON 33 video Arcanum PI Taxonomy - Prompt Injection Attack Classification GitHub - Arcanum-Sec/P4RS3LT0NGV3: Parseltongue 3.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #307 - Sommar 2026</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_307_sommar_2026/</link>
     <pubDate>Mon, 20 Jul 2026 14:33:00 &#43;0000</pubDate>
@@ -92,15 +102,6 @@ Lyssna mp3, längd: 01:04:31 AI transkribering AI försöker förstå oss&hellip
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_299_rollspel/</guid>
     <description><![CDATA[Game Master Jesper leder podden in i ett rollspel / äventyr (AI genererat) äventyr om en krypto-myntstöld. Podden försöker utifrån gamla citat med mera gissa sig fram till vad som kan ha hänt, hur man skulle skydda sig, med mera.
 Lyssna mp3, längd: 01:00:58 Plugs Informell afterwork, spelat in 300 avsnitt firande: 24 Mars 2026 18:00, på Bishops Arms Park Avenue (på Avenyn). Finns inga reservationer eller dylikt, vi är bara där och tar någon öl, kika efter oss.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #298 - Ostrukturerat V.9</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_298_ostrukturerat_v_9/</link>
-    <pubDate>Mon, 23 Feb 2026 07:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_298_ostrukturerat_v_9/</guid>
-    <description><![CDATA[Notepad bug, Notepad++ APT/malware, AI Skills, Rent A Human, Kubernetes Nodes/Proxy, 2038, Curl AI-Slop Spam, Microsoft gav FBI BitLocker nycklar!
-Lyssna mp3, längd: 01:05:31 Plugs Foss-North, 27-28 april 2026, Chalmers. Notepad Security Update Guide - Microsoft Security Response Center cve.org: CVE-2026-20841 Improper neutralization of special elements used in a command (&lsquo;command injection&rsquo;) in Windows Notepad App allows an unauthorized attacker to execute code locally. CyberNews/Ernestas Naprys: Critical Notepad vulnerability reignites criticism of Microsoft’s forced AI features Notepad++ Notepad++ update servern bakdörrad, och selektivt skickade bakdörrar till intressanta mål.]]></description>
 </item>
 </channel>
 </rss>
