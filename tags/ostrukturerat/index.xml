@@ -3,7 +3,16 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2026 17:36:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #309 - Ostrukturerat V.39</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_309_ostrukturerat_v_39/</link>
+    <pubDate>Mon, 21 Sep 2026 17:36:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_309_ostrukturerat_v_39/</guid>
+    <description><![CDATA[Papercut hackat med AI-accelererad exploit framtagning, Göra öppna modeller onda, OpenAI Hackar Huggingface, ChatGPT exfilterering, LG hör dig, HBO Maxx malware PasteSwitch, Kittys lever livet med allow remote control oh yes!, US Army fruktar reklam, Rust Supply Chain attack, TeamPCP/Shai-Hulud avmaskerade!
+Lyssna mp3, längd: 52:04 Plugs OWASP Gotheburg: Livepodd med Säkerhetspodcasten SCADA &amp; OT-säkerhet 2026 tror det var det eventet Rickard pratade om&hellip; Papercut Papercut installationer angrips av an hotaktör med AI-framtagna &ldquo;Zero-Days&rdquo;.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #306 - Ostrukturerat V.28</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_306_ostrukturerat_v_28/</link>
     <pubDate>Tue, 07 Jul 2026 15:56:00 &#43;0200</pubDate>
@@ -93,16 +102,6 @@ Security Fest: WWWInterpub Friday, November 7, 2025 Lyssnarfråga Ida: e-identit
 Länkar:
 Svensk e-identitet: Driftinformation Ida:
 Stötte på en sak häromveckan som jag började fundera lite på. Skickar med en skärmdump.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #289 - Ostrukturerat V.41</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</link>
-    <pubDate>Mon, 06 Oct 2025 08:05:00 &#43;0200</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_289_ostrukturerat_v_41/</guid>
-    <description><![CDATA[SEC-T. Självrefererande Git. NPM: S1ngularity, och Shai-Hulud. Massa randomware och läckor: Miljödata, Jaguar LandRover (JLR), Collins, Kinesiska Muren (GFwC). Minnesskydd. Kassa kassaskåp! WhatsApp/iOS/DNG attack. Hotaktör säkrar dina server. Steam-malware.
-Lyssna mp3, längd: 01:16:09 Plugs Vi promotar random kul vagt relaterat till säkerhet:
-Security Fest: WWWInterpub Friday, November 7, 2025 blaufish.github.io: Self Referential Git Peter har gjort en git commit be31337 som i en länk refererar till sig själv på github. Antar du vår utmaning?]]></description>
 </item>
 </channel>
 </rss>
