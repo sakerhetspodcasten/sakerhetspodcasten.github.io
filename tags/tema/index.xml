@@ -3,7 +3,17 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 01:42:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Oct 2026 11:52:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #310 - Vad händer efter root?</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_310_vad_hander_efter_root/</link>
+    <pubDate>Mon, 12 Oct 2026 11:52:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_310_vad_hander_efter_root/</guid>
+    <description><![CDATA[För 14 dagar sen blev en av dina viktiga utvecklare hackad av en motiverad och kompetent angripare. Inget larm gick, eller ni missade alla de första larmen. Du blev precis medveten om det, och du har skäl att tro att att gjort flera saker du missat. Vad gör du nu?
+Ett förvirrat snack om ett scenario allt fler kanske möter och skall hantera i en modern utvecklingsmiljö.
+Lyssna mp3, längd: 52:00 AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #308 - AI, prompt eller pwn?</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_308_ai_prompt_eller_pwn/</link>
     <pubDate>Mon, 03 Aug 2026 01:42:00 &#43;0000</pubDate>
@@ -93,17 +103,6 @@ Lyssna mp3, längd: 54:07 AWS brinner: US-EAST-1 har fallit DynamoDB Service Dis
 Varför kräver vissa typer av tjänster höjda privilegier?
 Lyssna mp3, längd: 01:07:56 Plugs Vi promotar random kul vagt relaterat till säkerhet:
 Security Fest: WWWInterpub Friday, November 7, 2025 Primer/intro Vad är CSI, CNI, CRI – och varför de är kritiska för klustret.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #288 - Era Anekdoter</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</link>
-    <pubDate>Mon, 01 Sep 2025 09:44:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_288_era_anekdoter/</guid>
-    <description><![CDATA[Lyssnarna hör av sig om befängda API-servers, och skolan som ger elever för mycket rättigeter.
-Lyssna mp3, längd: 35:32 Plugs Building Secure AI, Stockholm, 23-24 September 2025 Lyssnarbrev om galen JSON (Google transkribering av ljudfil, samt mindre manuella ändringar)
-Hej säkerhets podcasten mitt namn är Kalle och det här är min sommar anekdot
-Nej skämtade jag tänkte så här nya efterfrågat anekdotter min anekdoter mer av ett mysterium inom servar och webbutveckling inte direkt säkerhet i sig men ni verkar det inte fått in så många anekdoter]]></description>
 </item>
 </channel>
 </rss>

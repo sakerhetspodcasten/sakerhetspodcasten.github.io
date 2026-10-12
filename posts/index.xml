@@ -3,7 +3,17 @@
         <title>All Posts - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/posts/</link>
         <description>All Posts | Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2026 17:36:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Oct 2026 11:52:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #310 - Vad händer efter root?</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_310_vad_hander_efter_root/</link>
+    <pubDate>Mon, 12 Oct 2026 11:52:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_310_vad_hander_efter_root/</guid>
+    <description><![CDATA[För 14 dagar sen blev en av dina viktiga utvecklare hackad av en motiverad och kompetent angripare. Inget larm gick, eller ni missade alla de första larmen. Du blev precis medveten om det, och du har skäl att tro att att gjort flera saker du missat. Vad gör du nu?
+Ett förvirrat snack om ett scenario allt fler kanske möter och skall hantera i en modern utvecklingsmiljö.
+Lyssna mp3, längd: 52:00 AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #309 - Ostrukturerat V.39</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_309_ostrukturerat_v_39/</link>
     <pubDate>Mon, 21 Sep 2026 17:36:00 &#43;0000</pubDate>
@@ -88,18 +98,6 @@ Lyssna mp3, längd: 53:33 EU&rsquo;s lösning för åldersverifiering EU vill ru
     <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_301_ostrukturerat_v_17/</guid>
     <description><![CDATA[Karl Emil Nikka får pris, Apple Notifications läcker Signal-meddelanden till forensiker, Bedrägare har verifierade profiler trotts falska foton, Claude Vim/Emacs, Opus 4.7, Mythos/Glasswing, Allt brinner i Supply Chain Hell, Windows Malware, CGI hackat, IT-säkerhet via mjölk, HTTP Terminator!
 Lyssna mp3, längd: 01:07:23 Plugs Security Fest - IT Security Conference, Gothenburg, Sweden finns fortfarande trainings till salu! HackGBGay 30:e Maj 2026, Regnbågshuset Göteborg. Queer IT-Security konferens. Cybersecurity för LGBTQ+. Registrera plats! blaufish.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #300 - Jubileum!</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_300_jubileum/</link>
-    <pubDate>Mon, 30 Mar 2026 10:16:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_300_jubileum/</guid>
-    <description><![CDATA[Podden firar 300 avsnitt och snackar igenom bästa / värsta gamla minnen, avsnitten och ögonblicken som formade oss och vår podd!
-Lyssna mp3, längd: 01:04:31 AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
-1 00:00:00,000 --&gt; 00:00:02,520 Hej och välkomna till Säkerhetspodcasten.
-2 00:00:02,640 --&gt; 00:00:05,160 Jag som pratar heter Johan Ryberg Möller, med mig har jag Jesper Larsson.
-3 00:00:05,200 --&gt; 00:00:06,140 Det kan ni fet haja.]]></description>
 </item>
 </channel>
 </rss>
