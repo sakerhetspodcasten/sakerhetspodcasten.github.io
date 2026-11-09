@@ -3,7 +3,19 @@
         <title>ostrukturerat - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/ostrukturerat/</link>
         <description>ostrukturerat - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2026 17:36:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 08 Nov 2026 23:20:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/ostrukturerat/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #311 - Ostrukturerat V.45</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_311_ostrukturerat_v_45/</link>
+    <pubDate>Sun, 08 Nov 2026 23:20:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_311_ostrukturerat_v_45/</guid>
+    <description><![CDATA[Maten och blodet kokar. CA nyckeln är siffran 4. Din &ldquo;offline&rdquo; plånbok modemar iväg dina pengar. Allt har sårbarheter. OpenCode massangrips.
+Lyssna mp3, längd: 01:10:25 Food-Gate! Maten kokar!
+Flera Ica-butiker hackade
+Flera Ica-butiker i Sverige misstänks ha utsatts för en hackerattack under måndagen. Bland annat Ica-butiken i Sjöbo i Skåne, vars personal upptäckte att deras kylar och frysar ställts om till över 50 plusgrader på morgonen.
+Vi kan inte justera temperaturerna, vi kan inte ändra dem.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #309 - Ostrukturerat V.39</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_309_ostrukturerat_v_39/</link>
     <pubDate>Mon, 21 Sep 2026 17:36:00 &#43;0000</pubDate>
@@ -89,19 +101,6 @@ Lyssna mp3, längd: 01:13:21 Försnack Rickard pratar om varför han varit borta
 Mus avlyssnar dig Möss med hög uppdateringsfrekvens kan avlyssna rum via sin fotosensor.
 Länkar:
 Mic-E-Mouse Invisible Ears at Your Fingertips: Acoustic Eavesdropping via Mouse Sensors pdf Mohamad Habib Fakih, Rahul Dharmaji, Youssef Mahmoud, Halima Bouzidi, Mohammad Abdullah Al Faruque, Dept.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #290 - Ostrukturerat V.42</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_290_ostrukturerat_v_42/</link>
-    <pubDate>Mon, 13 Oct 2025 15:32:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_290_ostrukturerat_v_42/</guid>
-    <description><![CDATA[VPN med e-identitet/BankID. RedHat, Discord läckor. DrayTek och CISCO hål. Audacity, Qualcomm, Arduino - off-topic!
-Lyssna mp3, längd: 52:28 Plugs Vi promotar random kul vagt relaterat till säkerhet:
-Security Fest: WWWInterpub Friday, November 7, 2025 Lyssnarfråga Ida: e-identitet.se BankID-tjänst stoppar VPN Ida undrar vad vi tycker om att e-identitet.se stoppar BankID användning via VPN.
-Länkar:
-Svensk e-identitet: Driftinformation Ida:
-Stötte på en sak häromveckan som jag började fundera lite på. Skickar med en skärmdump.]]></description>
 </item>
 </channel>
 </rss>
