@@ -3,7 +3,18 @@
         <title>tema - Tag - Säkerhetspodcasten</title>
         <link>https://sakerhetspodcasten.se/tags/tema/</link>
         <description>tema - Tag - Säkerhetspodcasten</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Oct 2026 11:52:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Nov 2026 12:50:00 &#43;0000</lastBuildDate><atom:link href="https://sakerhetspodcasten.se/tags/tema/" rel="self" type="application/rss+xml" /><item>
+    <title>Säkerhetspodcasten #312 - Vulnpocalypse Now</title>
+    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_312_vulnpocalypse_now/</link>
+    <pubDate>Mon, 23 Nov 2026 12:50:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_312_vulnpocalypse_now/</guid>
+    <description><![CDATA[Sårbarheternas tid är här! Vad gör man nu när det är för många CVE:er? Härda? Patcha snabbare? Mer mitigerande åtgärder? Bättre fixande av sin kod och konfiguration? AI i skydden? Acceptera nertid?
+Lyssna mp3, längd: 40:37 AI transkribering AI försöker förstå oss&hellip; Ha överseende med galna feltranskriberingar.
+1 00:00:00,160 --&gt; 00:00:03,920 Hej och välkommen till Säkerhetspodcasten. Jag som pratar heter Johan Ryberg Möller.
+2 00:00:04,020 --&gt; 00:00:05,260 Med mig har jag Jesper Larsson.]]></description>
+</item>
+<item>
     <title>Säkerhetspodcasten #310 - Vad händer efter root?</title>
     <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_310_vad_hander_efter_root/</link>
     <pubDate>Mon, 12 Oct 2026 11:52:00 &#43;0000</pubDate>
@@ -92,17 +103,6 @@ Lyssna mp3, längd: 43:03 Innehåll &lt;NAMN&gt; heter jag och är CTO för ett 
     <description><![CDATA[Molnet har fallit. Två stora hyperscalers har gått ner. AWS står och brinner. Zombies vandrar runt i Azure&rsquo;s datahallar. Säkerhetspodcasten försöker leda dig genom den post-apokalyps vi nu lever i, tiden efter att molnet gick ner.
 Körde du EKG över AWS? Styrde du sängvärmen via AWS? Kunde du inte hämta ut dina barn för att Azure vägrade dig checka ut dem från kommunens system?
 Lyssna mp3, längd: 54:07 AWS brinner: US-EAST-1 har fallit DynamoDB Service Disruption.]]></description>
-</item>
-<item>
-    <title>Säkerhetspodcasten #291 - Kubernetes Drivers</title>
-    <link>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_291_kubernetes_drivers/</link>
-    <pubDate>Mon, 27 Oct 2025 13:32:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://sakerhetspodcasten.se/posts/sakerhetspodcasten_291_kubernetes_drivers/</guid>
-    <description><![CDATA[Kubernetes och CSI/CNI/&hellip; driver-infrastrukturen, Priviligerade tjänster (DaemonSet) - vilka hål kan det finns det där? Hur illa kan det gå om det är dåligt konf&rsquo;at eller om ondingar kan pilla på konfigurationen?
-Varför kräver vissa typer av tjänster höjda privilegier?
-Lyssna mp3, längd: 01:07:56 Plugs Vi promotar random kul vagt relaterat till säkerhet:
-Security Fest: WWWInterpub Friday, November 7, 2025 Primer/intro Vad är CSI, CNI, CRI – och varför de är kritiska för klustret.]]></description>
 </item>
 </channel>
 </rss>
